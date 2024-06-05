@@ -1,0 +1,144 @@
+{
+	"teams": [
+		{
+			"name": "BSOD",
+			"id": "9938",
+			"players": [
+				"Jarrett"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "RHC",
+			"id": "14166",
+			"players": [
+				"Malikai"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Real Bacon",
+			"id": "3877",
+			"players": [
+				"JP"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Cyber Puck",
+			"id": "14170",
+			"players": [
+				"Marty",
+				"Malikai"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Rainier Reindeers HC-9",
+			"id": "11256",
+			"players": [
+				"Kirsten",
+				"John"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Flying Monkeys",
+			"id": "4674",
+			"players": [
+				"Andy"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Coyotes",
+			"id": "8116",
+			"players": [
+				"Blair"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Toe Dragons",
+			"id": "11801",
+			"players": [
+				"Pat"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Rainier Reindeers HC-5D",
+			"id": "10159",
+			"players": [
+				"Jazz"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Not Sure 6D",
+			"id": "13343",
+			"players": [
+				"Phantasia"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Pussycats",
+			"id": "1357",
+			"players": [
+				"Phantasia"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Black Sheesh",
+			"id": "15302",
+			"players": [
+				"Phantasia"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Hooligans Classic",
+			"id": "10190",
+			"players": [
+				"Robee"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "LKI 7",
+			"id": "5119",
+			"players": [
+				"David"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Seattle Supernova",
+			"id": "13345",
+			"players": [
+				"Frankie"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Wolves",
+			"id": "495",
+			"players": [
+				"Robee"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Midnight Twist",
+			"id": "9573",
+			"players": [
+				"Robee"
+			],
+			"league": "KHL"
+		}
+	],
+
+	"season": "9938"
+}

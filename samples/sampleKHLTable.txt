@@ -1,0 +1,28 @@
+<table class="display table table-striped border-bottom text-muted table-fixed">
+<thead class="bg-color-secondary text-light">
+<tr>
+<th style="text-align: center; vertical-align: middle;">#</th>
+<th style="vertical-align: middle;">Date</th>
+<th style="vertical-align: middle;">Time</th>
+<th style="vertical-align: middle;">Arena</th>
+<th class="tt" data-color="secondary" data-placement="top" data-toggle="tooltip" style="text-align: center; vertical-align: middle;" title="Home/Away">H/A</th>
+<th>Opponent</th>
+<th style="text-align: center; vertical-align: middle;">Result</th>
+<th style="text-align: center; vertical-align: middle;">Score</th>
+<th style="text-align: center; vertical-align: middle;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap="nowrap" style="text-align: center; width:5%; vertical-align: middle;">3</td>
+<td nowrap="nowrap" style="width:15%; vertical-align: middle;">Mon, Jun 3</td>
+<td nowrap="nowrap" style="width:10%; vertical-align: middle;">10:15 PM</td>
+<td nowrap="nowrap" style="vertical-align: middle;"><a href="/arena/28">KCI Star</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;">HOME</td>
+<td nowrap="nowrap" style="width:20%; vertical-align: middle;"><a href="/team/9278/home/?season=2118">Renegades</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;"></td>
+<td style="text-align: center; vertical-align: middle;"></td>
+<td style="text-align: center; width:10%; vertical-align: middle;"><a href="/game/48745/preview">Preview</a></td>
+</tr>
+</tbody>
+</table>

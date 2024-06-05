@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JDZPPRM5J1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JDZPPRM5J1');
+        </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var bottomData = document.querySelector("#bottomData");
+      var topData = document.querySelector("#topData");
+      topData.textContent = bottomData.textContent;
+    });
+  </script>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>Kraken Hockey League</title>
+<meta content="Kraken Hockey League, Seattle, Seattle Kraken, GSHL, Greater Seattle Hockey League, Seattle Hockey, Everett Hockey, Washington Hockey, gsockey.com, gshockey" name="keywords">
+<meta content="Kraken Hockey League is an adult (18+), all levels, co-ed recreational hockey league. Formerly the Greater Seattle Hockey League (GSHL)." name="description"/>
+<base href="https://krakenhockeyleague.com/hlm/"/>
+<!-- Favicon -->
+<link href="https://krakenhockeyleague.com/assets/9941/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="https://krakenhockeyleague.com/assets/9941/apple-touch-icon.png" rel="apple-touch-icon"/>
+<!-- Mobile Metas -->
+<meta content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" name="viewport" user-scalable='no"'/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="../../fontawesome/css/fontawesome.css" rel="stylesheet"/>
+<link href="../../fontawesome/css/fontawesome.css" rel="stylesheet"/>
+<link href="../../fontawesome/css/brands.css" rel="stylesheet"/>
+<link href="../../fontawesome/css/solid.css" rel="stylesheet"/>
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"/>
+<link href="vendor/animate/animate.min.css" rel="stylesheet"/>
+<link href="vendor/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet"/>
+<link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+<link href="vendor/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet"/>
+<link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet"/>
+<link href="css/datatables2.css" rel="stylesheet"/>
+<link href="https://cdn.datatables.net/fixedcolumns/3.3.3/css/fixedColumns.dataTables.min.css" rel="stylesheet"/>
+<link href="https://datatables.net/release-datatables/extensions/FixedColumns/css/fixedColumns.bootstrap4.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+<!-- This Page CSS -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		
+		<!-- Theme CSS -->
+<link href="css/theme.css?v=1.5" rel="stylesheet"/>
+<link href="css/theme-elements.css" rel="stylesheet"/>
+<!-- Skin CSS -->
+<link href="https://krakenhockeyleague.com/assets/9941/default.css?v=1.5" rel="stylesheet"/>
+<!-- Head Libs -->
+<!-- Current Page CSS -->
+<link href="vendor/rs-plugin/css/settings.css" rel="stylesheet"/>
+<link href="vendor/rs-plugin/css/layers.css" rel="stylesheet"/>
+<link href="vendor/rs-plugin/css/navigation.css" rel="stylesheet"/>
+<!-- Theme Custom CSS -->
+<link href="https://krakenhockeyleague.com/assets/9941/custom.css?v=2.3" rel="stylesheet"/>
+<!-- Head Libs -->
+<script src="vendor/modernizr/modernizr.min.js"></script>
+<link href="css/daterangepicker.css" rel="stylesheet" type="text/css">
+</link></meta></head>
+<body class="loading-overlay-showing" data-loading-overlay="" data-plugin-options="{'hideDelay': 500, 'effect': 'default'}">
+<div class="loading-overlay">
+<div class="bounce-loader">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</div>
+<div class="body">
+<div id="fb-root"></div>
+<script async="" crossorigin="anonymous" defer="" nonce="h2eELAkX" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v12.0&amp;appId=125293550904959&amp;autoLogAppEvents=1"></script>
+<header class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}" id="header">
+<div class="header-body border-top-0 bg-primary">
+<div class="col_4">
+<div class="header-top mx-0" style="height:90px;">
+<div class="container-fluid bg-light px-2">
+<div class="header-top" style="width:15px; height:90px; position:absolute;left:48px; background-image: url(images/left_shadow.png); z-index: 5;"></div>
+<div class="header-top" style="width:15px; height:90px; position:absolute;right:48px; background-image: url(images/right_shadow.png); z-index: 5;"></div>
+<div class="bg-light owl-carousel mb-0 pb-0 owl-theme stage-margin nav-style-1" data-plugin-options="{'loop': true, 'nav': true, 'dots': false, 'autoWidth': true, 'stagePadding': 0, 'animateOut': true, 'animateIn': true, 'margin':0}">
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br/>3</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Voodoo Rangers</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>7:30 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Roughnecks - Game Theory</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48740/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/not_sure_ico_s23_away.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Not Sure 5C</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>8:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/FossilsLogo.tif" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Fossils</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48742/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/winkingPussy(1).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">PussyCats</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>8:45 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Honey Badgers</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48741/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/icemen_logo 2(3).gif" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Moose Knuckle</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>9:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/hooligans-logo-512-bg.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Hooligans Classic</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48746/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Reapers_White_Jersey_Logo.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Reapers</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>9:25 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/icemen_logo 2(1).gif" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Icemen</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48739/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/yetis.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Yetis</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>10:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/2020-Piranhas-logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Piranhas</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48737/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Highlanders(1).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Highlanders</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>10:10 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/DeadRabbitsLogo.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Dead Rabbits</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48744/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Renegades</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>10:15 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/BSOD(2).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">BSOD</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48745/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/black_katz.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Black Katz</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>10:15 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Trash Pandas Logo FINAL.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Trash Pandas 5D</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48738/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Kokanees (revised 6-3-2011)(1).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Kokanees </td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">TONIGHT<br/>10:30 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/monarchs(1).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Monarchs 5D</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48743/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br/>4</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">The Amigos</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">Jun 4<br/>7:55 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Hosers</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48750/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Seagulls2new1.jpeg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Seagulls</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">Jun 4<br/>8:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/hellfish(1).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">DevilFish</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48749/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Resized_IMG_6879 Bloobies.jpeg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Blue Footed Bloobies</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">Jun 4<br/>8:05 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Black Sheesh(1).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Black Sheesh</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48546/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Dumpster Fire.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Dumpster Fire</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">Jun 4<br/>8:20 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Ice-O-Topes Team Logo.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">Ice-O-Topes</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48748/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/40SkyBlue2(7).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">40+ Advanced Sky Blue</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">Jun 4<br/>8:45 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/40orange(4).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase text-4">40+ Advanced Orange</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48589/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br/>2</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Seattle Dogs.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Seattle Dogs</td>
+<td class="p1 text-4 text-primary text-center">7</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/RoyalPainsLogo.PNG" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Royal Pains</td>
+<td class="p1 text-4 text-primary text-center">7</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48715/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/roughnecks-logo(2).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">RHC</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Rainiers(1).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Rainiers</td>
+<td class="p1 text-4 text-primary text-center">0</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48716/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/mudflaps.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Mudflaps</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/flying_monkeys.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Flying Monkeys </td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48726/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Iced awsome (2).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Iced Awesome</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Puckaneers Main Logo.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Puckaneers</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48725/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/coyotes_1.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Coyotes</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/monarchs6(1).png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Monarchs 6D</td>
+<td class="p1 text-4 text-primary text-center">0</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48723/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/HamptonWestLogo_BLUE.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Hampton West Hockey Club</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/F77A7485-A776-42E0-B4EA-18E6F6BA400B.jpeg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Fighting Mongooses</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48721/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">SnoHawks</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/hklogo2.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">All Blacks/Blu Bombers</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48724/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/jokres_square_1.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Jokres</td>
+<td class="p1 text-4 text-primary text-center">6</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/rainier reindeer badge.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Rainier Reindeer HC-5D</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48722/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Sea Cucumbers.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">SEA Cucumbers</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Orcas-Logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Orcas</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48731/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/squids.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Squids</td>
+<td class="p1 text-4 text-primary text-center">9</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Trash Pandas Logo FINAL(3).jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Trash Pandas 6B Landis</td>
+<td class="p1 text-4 text-primary text-center">0</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48729/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/roughnecks-logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Roughnecks</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/freeze.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Seattle Freeze</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48730/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Birrds.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Birrds</td>
+<td class="p1 text-4 text-primary text-center">8</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/not_sure_ico_s23-o_home.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Not Sure 6D</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48728/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/5DE41E30-2385-4450-9992-9C6D0ED8BF64.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Greenhorns</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Hacker patch.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Hackers</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48734/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9941/team_logo.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Alpuckas</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Whats Kraken Logo.jpg" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">What''s Kraken?</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48735/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+<div>
+<div class="parent">
+<div class="default">
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+<table class="py-0 my-0" width="100%">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/real_bacon.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Real Bacon</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+<td class="text-center text-4 text-uppercase p2" rowspan="2">FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/red_raiders.png" style="height:32px; width:32px; object-fit:contain;"/></td>
+<td class="p2 text-uppercase">Raiders</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="hover">
+<a href="/game/48733/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-container container">
+<div class="header-row">
+<div class="header-column">
+<div class="header-row">
+<div class="site-logo">
+<a href="https://krakenhockeyleague.com"><img alt="Kraken Hockey League" src="https://krakenhockeyleague.com/assets/9941/top_league_logo.png"/></a>
+</div>
+</div>
+</div>
+<div class="header-column justify-content-end">
+<div class="header-row">
+<div class="header-nav header-nav-line header-nav-bottom-line header-nav-light-text header-nav-bottom-line-effect-2">
+<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+<nav class="collapse">
+<ul class="nav nav-pills" id="mainNav">
+<li class="dropdown"><a class="dropdown-item" href="https://krakenhockeyleague.com/" target="">Home</a></li>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" target="">League</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/suspensions" target="">Suspensions</a></li>
+<li><a class="dropdown-item" href="/page/observed-holidays" target="">Observed Holidays</a></li>
+<li><a class="dropdown-item" href="/uploads/9941/files/KrakenLeagueGuidelinesandRules_v5.6.2022 (3).pdf" target="">Rules &amp; Guidelines</a></li>
+<li><a class="dropdown-item" href="/alltime/pts" target="">All-Time Stat Leaders</a></li>
+<li><a class="dropdown-item" href="/player-search" target="">Player Search</a></li>
+</ul></li>
+</ul>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="/teams">Teams</a>
+<ul class="dropdown-menu">
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">40+ Advanced Summer 2024</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/15288/home">40+ Advanced Black</a></li>
+<li><a class="dropdown-item" href="/team/15290/home">40+ Advanced Orange</a></li>
+<li><a class="dropdown-item" href="/team/15287/home">40+ Advanced Sky Blue</a></li>
+<li><a class="dropdown-item" href="/team/15289/home">40+ Advanced White</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">40+ Summer 2024</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/15293/home">40+ Grey</a></li>
+<li><a class="dropdown-item" href="/team/15295/home">40+ Navy</a></li>
+<li><a class="dropdown-item" href="/team/15297/home">40+ Orange</a></li>
+<li><a class="dropdown-item" href="/team/15298/home">40+ Red</a></li>
+<li><a class="dropdown-item" href="/team/15300/home">40+ Royal</a></li>
+<li><a class="dropdown-item" href="/team/15296/home">40+ Sky Blue</a></li>
+<li><a class="dropdown-item" href="/team/15299/home">40+ White</a></li>
+<li><a class="dropdown-item" href="/team/15294/home">40+ Yellow</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Women's Division Summer 2024</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/15302/home">Black Sheesh</a></li>
+<li><a class="dropdown-item" href="/team/15304/home">Blue Footed Bloobies</a></li>
+<li><a class="dropdown-item" href="/team/15305/home">Grey Dust Bunnies</a></li>
+<li><a class="dropdown-item" href="/team/15306/home">Pineapple Express</a></li>
+<li><a class="dropdown-item" href="/team/15301/home">Red Hots</a></li>
+<li><a class="dropdown-item" href="/team/15303/home">White Yetis</a></li>
+<li><a class="dropdown-item" href="/team/16813/home">Women's Purple</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 1</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/3435/home">ESB</a></li>
+<li><a class="dropdown-item" href="/team/13346/home">Falcons</a></li>
+<li><a class="dropdown-item" href="/team/1882/home">Mustangs</a></li>
+<li><a class="dropdown-item" href="/team/11260/home">Northwest Crabs</a></li>
+<li><a class="dropdown-item" href="/team/3436/home">NW Stars</a></li>
+<li><a class="dropdown-item" href="/team/13345/home">Seattle Supernova</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 2</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9277/home">Fighting Narwhals</a></li>
+<li><a class="dropdown-item" href="/team/269/home">Mavericks</a></li>
+<li><a class="dropdown-item" href="/team/4536/home">Mighty Geoducks</a></li>
+<li><a class="dropdown-item" href="/team/10598/home">Pheasants</a></li>
+<li><a class="dropdown-item" href="/team/11261/home">Red Dog</a></li>
+<li><a class="dropdown-item" href="/team/696/home">Seattle Buzzsaw</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 3A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9275/home">Chiefs</a></li>
+<li><a class="dropdown-item" href="/team/474/home">MMHC</a></li>
+<li><a class="dropdown-item" href="/team/246/home">Puck Buddies</a></li>
+<li><a class="dropdown-item" href="/team/9935/home">Puget Sound Pigeons</a></li>
+<li><a class="dropdown-item" href="/team/695/home">Rhinos</a></li>
+<li><a class="dropdown-item" href="/team/303/home">The Herd</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 3B</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/13349/home">Booze Hounds</a></li>
+<li><a class="dropdown-item" href="/team/3428/home">Chinooks</a></li>
+<li><a class="dropdown-item" href="/team/259/home">Sabercats</a></li>
+<li><a class="dropdown-item" href="/team/13344/home">Screaming Eagles</a></li>
+<li><a class="dropdown-item" href="/team/1358/home">Shockers</a></li>
+<li><a class="dropdown-item" href="/team/11263/home">Skateful Dead</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 4A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/11262/home">Coconut Corgis</a></li>
+<li><a class="dropdown-item" href="/team/306/home">Greasy Weasels</a></li>
+<li><a class="dropdown-item" href="/team/4531/home">Growlers</a></li>
+<li><a class="dropdown-item" href="/team/9937/home">Mighty Mallards</a></li>
+<li><a class="dropdown-item" href="/team/11266/home">Sasquatch</a></li>
+<li><a class="dropdown-item" href="/team/490/home">Steelheads</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 4B</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9946/home">Kraken Up</a></li>
+<li><a class="dropdown-item" href="/team/250/home">LLUA</a></li>
+<li><a class="dropdown-item" href="/team/279/home">Maple Bars</a></li>
+<li><a class="dropdown-item" href="/team/2378/home">Night Owls</a></li>
+<li><a class="dropdown-item" href="/team/9576/home">Skeletons</a></li>
+<li><a class="dropdown-item" href="/team/495/home">Wolves </a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 4C</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9945/home">Blue Void</a></li>
+<li><a class="dropdown-item" href="/team/9273/home">Dead Rabbits</a></li>
+<li><a class="dropdown-item" href="/team/16809/home">Hosers</a></li>
+<li><a class="dropdown-item" href="/team/14168/home">Schilling Cider</a></li>
+<li><a class="dropdown-item" href="/team/11264/home">Seagulls</a></li>
+<li><a class="dropdown-item" href="/team/16810/home">The Amigos</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 4D</a>
+<ul class="dropdown-menu">
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 5A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/3452/home">Bullets</a></li>
+<li><a class="dropdown-item" href="/team/275/home">DevilFish</a></li>
+<li><a class="dropdown-item" href="/team/9940/home">Dumpster Fire</a></li>
+<li><a class="dropdown-item" href="/team/16807/home">Hockeywolf</a></li>
+<li><a class="dropdown-item" href="/team/9278/home">Renegades</a></li>
+<li><a class="dropdown-item" href="/team/13342/home">Sockeyes </a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 5B</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9938/home">BSOD</a></li>
+<li><a class="dropdown-item" href="/team/265/home">Fossils</a></li>
+<li><a class="dropdown-item" href="/team/477/home">Highlanders</a></li>
+<li><a class="dropdown-item" href="/team/3878/home">Ice-O-Topes</a></li>
+<li><a class="dropdown-item" href="/team/1351/home">Moose Knuckle</a></li>
+<li><a class="dropdown-item" href="/team/9279/home">Voodoo Rangers</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 5C</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/10190/home">Hooligans Classic</a></li>
+<li><a class="dropdown-item" href="/team/484/home">Kokanees </a></li>
+<li><a class="dropdown-item" href="/team/9572/home">Not Sure 5C</a></li>
+<li><a class="dropdown-item" href="/team/694/home">Piranhas</a></li>
+<li><a class="dropdown-item" href="/team/16811/home">Roughnecks - Game Theory</a></li>
+<li><a class="dropdown-item" href="/team/8115/home">Yetis</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 5D</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/273/home">Black Katz</a></li>
+<li><a class="dropdown-item" href="/team/14169/home">Little Birds</a></li>
+<li><a class="dropdown-item" href="/team/3427/home">Monarchs 5D</a></li>
+<li><a class="dropdown-item" href="/team/10159/home">Rainier Reindeer HC-5D</a></li>
+<li><a class="dropdown-item" href="/team/487/home">Reapers</a></li>
+<li><a class="dropdown-item" href="/team/5115/home">Trash Pandas 5D</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 6A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/9944/home">Honey Badgers</a></li>
+<li><a class="dropdown-item" href="/team/478/home">Icemen</a></li>
+<li><a class="dropdown-item" href="/team/290/home">Jokres</a></li>
+<li><a class="dropdown-item" href="/team/1357/home">PussyCats</a></li>
+<li><a class="dropdown-item" href="/team/9943/home">Seals</a></li>
+<li><a class="dropdown-item" href="/team/671/home">Stingers</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 6B</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/8113/home">Greenhorns</a></li>
+<li><a class="dropdown-item" href="/team/286/home">Hackers</a></li>
+<li><a class="dropdown-item" href="/team/9573/home">Midnight Twist</a></li>
+<li><a class="dropdown-item" href="/team/3877/home">Real Bacon</a></li>
+<li><a class="dropdown-item" href="/team/489/home">Squids</a></li>
+<li><a class="dropdown-item" href="/team/7794/home">Trash Pandas 6B Landis</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 6C</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/16812/home">Alpuckas</a></li>
+<li><a class="dropdown-item" href="/team/8116/home">Coyotes</a></li>
+<li><a class="dropdown-item" href="/team/4674/home">Flying Monkeys </a></li>
+<li><a class="dropdown-item" href="/team/288/home">Mudflaps</a></li>
+<li><a class="dropdown-item" href="/team/296/home">Raiders</a></li>
+<li><a class="dropdown-item" href="/team/674/home">What's Kraken?</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 6D</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/276/home">Birrds</a></li>
+<li><a class="dropdown-item" href="/team/3424/home">Monarchs 6D</a></li>
+<li><a class="dropdown-item" href="/team/13343/home">Not Sure 6D</a></li>
+<li><a class="dropdown-item" href="/team/11531/home">Roughnecks</a></li>
+<li><a class="dropdown-item" href="/team/11258/home">Seattle Dogs</a></li>
+<li><a class="dropdown-item" href="/team/8124/home">Seattle Freeze</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 7A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/469/home">All Blacks/Blu Bombers</a></li>
+<li><a class="dropdown-item" href="/team/10156/home">Blades</a></li>
+<li><a class="dropdown-item" href="/team/7793/home">Fighting Mongooses</a></li>
+<li><a class="dropdown-item" href="/team/10185/home">Hampton West Hockey Club</a></li>
+<li><a class="dropdown-item" href="/team/5119/home">LKI 7</a></li>
+<li><a class="dropdown-item" href="/team/10188/home">Royal Pains</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 8A</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/10187/home">Fighting Clams</a></li>
+<li><a class="dropdown-item" href="/team/677/home">Iced Awesome</a></li>
+<li><a class="dropdown-item" href="/team/10602/home">Puckaneers</a></li>
+<li><a class="dropdown-item" href="/team/14167/home">Seals Lower</a></li>
+<li><a class="dropdown-item" href="/team/16808/home">SnoHawks</a></li>
+<li><a class="dropdown-item" href="/team/9942/home">Sock Puckets</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 8B</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/11257/home">Arctic Foxes</a></li>
+<li><a class="dropdown-item" href="/team/11800/home">Golden Gobies</a></li>
+<li><a class="dropdown-item" href="/team/11530/home">Los Tigres</a></li>
+<li><a class="dropdown-item" href="/team/11532/home">Mothercluckers</a></li>
+<li><a class="dropdown-item" href="/team/14164/home">Rainiers</a></li>
+<li><a class="dropdown-item" href="/team/14166/home">RHC</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 9</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/14170/home">Cyber Puck</a></li>
+<li><a class="dropdown-item" href="/team/9597/home">Khaos</a></li>
+<li><a class="dropdown-item" href="/team/14171/home">Mid-Ice Crisis</a></li>
+<li><a class="dropdown-item" href="/team/11803/home">Purple Reign</a></li>
+<li><a class="dropdown-item" href="/team/11256/home">Rainier Reindeers HC-9</a></li>
+<li><a class="dropdown-item" href="/team/13347/home">Seal Team Sticks</a></li>
+<li><a class="dropdown-item" href="/team/14165/home">Spittin' Llamas</a></li>
+<li><a class="dropdown-item" href="/team/11801/home">Toe Dragons</a></li>
+<li><a class="dropdown-item" href="/team/13348/home">Yacht Flippers</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Division 10</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/16804/home">Division 10 Black</a></li>
+<li><a class="dropdown-item" href="/team/15310/home">Division 10 Orange</a></li>
+<li><a class="dropdown-item" href="/team/16805/home">Division 10 White</a></li>
+<li><a class="dropdown-item" href="/team/15308/home">Division 10 Yellow</a></li>
+<li><a class="dropdown-item" href="/team/15309/home">Orcas</a></li>
+<li><a class="dropdown-item" href="/team/16806/home">SEA Cucumbers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown"><a class="dropdown-item" href="/standings" target="">Standings</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/schedule" target="">Schedule</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/scoreboard" target="">Scoreboard</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/leaders" target="">League Leaders</a></li>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" target="">2024 Winter Playoffs</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/4927/?season=2115" target="">40+ Advanced</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/4978/?season=2115" target="">40+ Gold</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/4979/?season=2115" target="">40+ Silver</a></li>
+<li><a class="dropdown-item" href="/playoffs/4929/?season=2115" target="">Womens</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/2288/?season=2115" target="">Division 1</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/99/?season=2115" target="">Division 2</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/100/?season=2115" target="">Division 3A</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/581/?season=2115" target="">Division 3B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/41/?season=2115" target="">Division 4A</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/42/?season=2115" target="">Division 4B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/116/?season=2115" target="">Division 4C</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/103/?season=2115" target="">Division 5A</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/44/?season=2115" target="">Division 5B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/246/?season=2115" target="">Division 5C</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/2598/?season=2115" target="">Division 5D</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/247/?season=2115" target="">Division 6A</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/46/?season=2115" target="">Division 6B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/47/?season=2115" target="">Division 6C</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/1776/?season=2115" target="">Division 6D</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/396/?season=2115" target="">Division 7A</a></li>
+<li><a class="dropdown-item" href="/playoffs/2597/?season=2115" target="">Division 7B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/49/?season=2115" target="">Division 8A</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/2596/?season=2115" target="">Division 8B</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/2417/?season=2115" target="">Division 9</a></li>
+<li><a class="dropdown-item" href="https://krakenhockeyleague.com/playoffs/2421/?season=2115" target="">Division 10A</a></li>
+</ul></li>
+
+</nav>
+</div>
+
+</div>
+<button class="btn header-btn-collapse-nav" data-target=".header-nav-main nav" data-toggle="collapse">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header></div>
+
+<div class="main" role="main">
+<section class="page-header page-header-modern page-header-background-md page-header-md">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="text-center lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+<h1 class="text-uppercase text-color-light text-11 p1">Team schedule</h1>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="container">
+<div class="row">
+<div class="col-lg-1 col-md-2 col_1">
+<div class="text-left divider-right-border"><img class="float-left" src="../hockey/images/teamlogos100/BSOD(2).png"/></div>
+</div>
+<div class="col my-auto float-left divider-left-border ml-5 col_1">
+<h1 class="text-uppercase text-color-primary text-12 p1 mb-1 ml-2">BSOD</h1>
+<div class="text-uppercase text-8 p3 ml-2">Division 5B</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-2 col_2">
+<img class="float-left" src="../hockey/images/teamlogos100/BSOD(2).png"/>
+</div>
+<div class="col my-auto col_2 text-left ml-5">
+<h1 class="text-uppercase text-color-primary text-10 p1 mb-1 ml-2">BSOD</h1>
+<div class="text-uppercase text-5 p3 ml-2">Division 5B</div>
+</div>
+</div>
+<hr class="mb-3"/>
+</div>
+<div class="col_2" style="overflow: auto; white-space: nowrap;">
+<div class="container py-2">
+<div class="teamnav text-uppercase p2 text-5 col_2">
+<a class="mr-2" href="/team/9938/home/?season=2118">Home</a>
+<a class="mr-2" href="/team/9938/roster/?season=2118">Roster</a>
+<a class="mr-2" href="/team/9938/stats/?season=2118">Stats</a>
+<a class="active mr-2" href="/team/9938/schedule/?season=2118">Schedule</a>
+<a class="mr-2 text-nowrap" href="/team/9938/staff/?season=2118">Staff</a>
+<a class="" href="/team/9938/login/?season=2118">Login</a>
+</div>
+<hr class="mt-3"/>
+</div>
+</div>
+<div class="col_1">
+<div class="container">
+<div class="row">
+<div class="col-lg-10 col-md-10 col-12">
+<div class="teamnav text-uppercase p2 text-6 col_1">
+<a class="mr-4" href="/team/9938/home/?season=2118">Home</a>
+<a class="mr-4" href="/team/9938/roster/?season=2118">Roster</a>
+<a class="mr-4" href="/team/9938/stats/?season=2118">Stats</a>
+<a class="active mr-4" href="/team/9938/schedule/?season=2118">Schedule</a>
+<a class="mr-4" href="/team/9938/staff/?season=2118">Team Staff</a>
+<a class="mr-4" href="/team/9938/login/?season=2118">Team Login</a>
+</div>
+</div>
+<div class="text-right col_1">
+<a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle p2 text-6 text-uppercase text-primary text-hover-secondary text-hover-decoration-none" data-toggle="dropdown" style="cursor:pointer;">Jump to Team</a>
+<ul class="dropdown-menu scrollable-menu" role="menu">
+<li><a class="dropdown-item text-2" href="/team/8109/schedule/?season=2118">#1 Goonshine</a></li>
+<li><a class="dropdown-item text-2" href="/team/8110/schedule/?season=2118">#2 Trash Monkeys</a></li>
+<li><a class="dropdown-item text-2" href="/team/8111/schedule/?season=2118">#3 Iceholes</a></li>
+<li><a class="dropdown-item text-2" href="/team/8112/schedule/?season=2118">#4 Four Play</a></li>
+<li><a class="dropdown-item text-2" href="/team/9577/schedule/?season=2118">11 Dead Rabbits</a></li>
+<li><a class="dropdown-item text-2" href="/team/9948/schedule/?season=2118">32's</a></li>
+<li><a class="dropdown-item text-2" href="/team/11798/schedule/?season=2118">40+ Advanced Black</a></li>
+<li><a class="dropdown-item text-2" href="/team/15288/schedule/?season=2118">40+ Advanced Black</a></li>
+<li><a class="dropdown-item text-2" href="/team/14162/schedule/?season=2118">40+ Advanced Green</a></li>
+<li><a class="dropdown-item text-2" href="/team/15292/schedule/?season=2118">40+ Advanced Green</a></li>
+<li><a class="dropdown-item text-2" href="/team/11790/schedule/?season=2118">40+ Advanced Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/15290/schedule/?season=2118">40+ Advanced Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/14163/schedule/?season=2118">40+ Advanced Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/15287/schedule/?season=2118">40+ Advanced Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/11791/schedule/?season=2118">40+ Advanced Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/15291/schedule/?season=2118">40+ Advanced Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/11799/schedule/?season=2118">40+ Advanced White </a></li>
+<li><a class="dropdown-item text-2" href="/team/15289/schedule/?season=2118">40+ Advanced White</a></li>
+<li><a class="dropdown-item text-2" href="/team/7826/schedule/?season=2118">40+ Black </a></li>
+<li><a class="dropdown-item text-2" href="/team/11255/schedule/?season=2118">40+ Black</a></li>
+<li><a class="dropdown-item text-2" href="/team/7831/schedule/?season=2118">40+ Gray</a></li>
+<li><a class="dropdown-item text-2" href="/team/8784/schedule/?season=2118">40+ Green</a></li>
+<li><a class="dropdown-item text-2" href="/team/10183/schedule/?season=2118">40+ Green </a></li>
+<li><a class="dropdown-item text-2" href="/team/10181/schedule/?season=2118">40+ Grey</a></li>
+<li><a class="dropdown-item text-2" href="/team/11796/schedule/?season=2118">40+ Grey</a></li>
+<li><a class="dropdown-item text-2" href="/team/15293/schedule/?season=2118">40+ Grey</a></li>
+<li><a class="dropdown-item text-2" href="/team/15295/schedule/?season=2118">40+ Navy</a></li>
+<li><a class="dropdown-item text-2" href="/team/11797/schedule/?season=2118">40+ Navy</a></li>
+<li><a class="dropdown-item text-2" href="/team/11254/schedule/?season=2118">40+ Navy</a></li>
+<li><a class="dropdown-item text-2" href="/team/7827/schedule/?season=2118">40+ Navy</a></li>
+<li><a class="dropdown-item text-2" href="/team/10175/schedule/?season=2118">40+ Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/11789/schedule/?season=2118">40+ Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/15297/schedule/?season=2118">40+ Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/15298/schedule/?season=2118">40+ Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/11795/schedule/?season=2118">40+ Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/10176/schedule/?season=2118">40+ Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/8785/schedule/?season=2118">40+ Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/7828/schedule/?season=2118">40+ Royal </a></li>
+<li><a class="dropdown-item text-2" href="/team/10182/schedule/?season=2118">40+ Royal</a></li>
+<li><a class="dropdown-item text-2" href="/team/11788/schedule/?season=2118">40+ Royal</a></li>
+<li><a class="dropdown-item text-2" href="/team/15300/schedule/?season=2118">40+ Royal</a></li>
+<li><a class="dropdown-item text-2" href="/team/15296/schedule/?season=2118">40+ Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/11793/schedule/?season=2118">40+ Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/10178/schedule/?season=2118">40+ Sky Blue</a></li>
+<li><a class="dropdown-item text-2" href="/team/10177/schedule/?season=2118">40+ White</a></li>
+<li><a class="dropdown-item text-2" href="/team/11792/schedule/?season=2118">40+ White</a></li>
+<li><a class="dropdown-item text-2" href="/team/8787/schedule/?season=2118">40+ White</a></li>
+<li><a class="dropdown-item text-2" href="/team/15299/schedule/?season=2118">40+ White</a></li>
+<li><a class="dropdown-item text-2" href="/team/15294/schedule/?season=2118">40+ Yellow</a></li>
+<li><a class="dropdown-item text-2" href="/team/8419/schedule/?season=2118">40+ Yellow</a></li>
+<li><a class="dropdown-item text-2" href="/team/11794/schedule/?season=2118">40+ Yellow</a></li>
+<li><a class="dropdown-item text-2" href="/team/10180/schedule/?season=2118">40+ Yellow </a></li>
+<li><a class="dropdown-item text-2" href="/team/7829/schedule/?season=2118">40+Green</a></li>
+<li><a class="dropdown-item text-2" href="/team/8420/schedule/?season=2118">40+Red</a></li>
+<li><a class="dropdown-item text-2" href="/team/7830/schedule/?season=2118">40+White</a></li>
+<li><a class="dropdown-item text-2" href="/team/8424/schedule/?season=2118">Adult Learn to Play </a></li>
+<li><a class="dropdown-item text-2" href="/team/4537/schedule/?season=2118">Adult Practice</a></li>
+<li><a class="dropdown-item text-2" href="/team/469/schedule/?season=2118">All Blacks/Blu Bombers</a></li>
+<li><a class="dropdown-item text-2" href="/team/16812/schedule/?season=2118">Alpuckas</a></li>
+<li><a class="dropdown-item text-2" href="/team/15307/schedule/?season=2118">ALTP Purple</a></li>
+<li><a class="dropdown-item text-2" href="/team/10609/schedule/?season=2118">Anchor Management</a></li>
+<li><a class="dropdown-item text-2" href="/team/3437/schedule/?season=2118">APL (Inactive)</a></li>
+<li><a class="dropdown-item text-2" href="/team/11257/schedule/?season=2118">Arctic Foxes</a></li>
+<li><a class="dropdown-item text-2" href="/team/11802/schedule/?season=2118">Berserkers</a></li>
+<li><a class="dropdown-item text-2" href="/team/276/schedule/?season=2118">Birrds</a></li>
+<li><a class="dropdown-item text-2" href="/team/273/schedule/?season=2118">Black Katz</a></li>
+<li><a class="dropdown-item text-2" href="/team/3448/schedule/?season=2118">Black Sheep-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/10604/schedule/?season=2118">Black Sheesh</a></li>
+<li><a class="dropdown-item text-2" href="/team/11781/schedule/?season=2118">Black Sheesh</a></li>
+<li><a class="dropdown-item text-2" href="/team/15302/schedule/?season=2118">Black Sheesh</a></li>
+<li><a class="dropdown-item text-2" href="/team/10156/schedule/?season=2118">Blades</a></li>
+<li><a class="dropdown-item text-2" href="/team/471/schedule/?season=2118">BLU Bombers</a></li>
+<li><a class="dropdown-item text-2" href="/team/10606/schedule/?season=2118">Blue Footed Bloobies</a></li>
+<li><a class="dropdown-item text-2" href="/team/11783/schedule/?season=2118">Blue Footed Bloobies</a></li>
+<li><a class="dropdown-item text-2" href="/team/15304/schedule/?season=2118">Blue Footed Bloobies</a></li>
+<li><a class="dropdown-item text-2" href="/team/9945/schedule/?season=2118">Blue Void</a></li>
+<li><a class="dropdown-item text-2" href="/team/10186/schedule/?season=2118">Bobcats</a></li>
+<li><a class="dropdown-item text-2" href="/team/249/schedule/?season=2118">Bombers</a></li>
+<li><a class="dropdown-item text-2" href="/team/13349/schedule/?season=2118">Booze Hounds</a></li>
+<li><a class="dropdown-item text-2" href="/team/7664/schedule/?season=2118">Breakers</a></li>
+<li><a class="dropdown-item text-2" href="/team/9276/schedule/?season=2118">Brigade</a></li>
+<li><a class="dropdown-item text-2" href="/team/9938/schedule/?season=2118">BSOD</a></li>
+<li><a class="dropdown-item text-2" href="/team/3452/schedule/?season=2118">Bullets</a></li>
+<li><a class="dropdown-item text-2" href="/team/4230/schedule/?season=2118">Captains Div 1 -4a  Away</a></li>
+<li><a class="dropdown-item text-2" href="/team/4229/schedule/?season=2118">Captains Div 1-4a Home</a></li>
+<li><a class="dropdown-item text-2" href="/team/4232/schedule/?season=2118">Captains Div 4b-6a,40+Away</a></li>
+<li><a class="dropdown-item text-2" href="/team/4231/schedule/?season=2118">Captains Div 4b-6a,40+Home</a></li>
+<li><a class="dropdown-item text-2" href="/team/4234/schedule/?season=2118">Captains Div 6b-8 Away</a></li>
+<li><a class="dropdown-item text-2" href="/team/4233/schedule/?season=2118">Captains Div 6b-8 Home </a></li>
+<li><a class="dropdown-item text-2" href="/team/3441/schedule/?season=2118">Cascade Lumberjacks-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/3432/schedule/?season=2118">Cascade Shockers-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/10157/schedule/?season=2118">Cascadians HC</a></li>
+<li><a class="dropdown-item text-2" href="/team/9275/schedule/?season=2118">Chiefs</a></li>
+<li><a class="dropdown-item text-2" href="/team/3440/schedule/?season=2118">Chiefs-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/3428/schedule/?season=2118">Chinooks</a></li>
+<li><a class="dropdown-item text-2" href="/team/3879/schedule/?season=2118">CHL Team to be named later</a></li>
+<li><a class="dropdown-item text-2" href="/team/11262/schedule/?season=2118">Coconut Corgis</a></li>
+<li><a class="dropdown-item text-2" href="/team/10160/schedule/?season=2118">Cold Blooded Krillers</a></li>
+<li><a class="dropdown-item text-2" href="/team/3451/schedule/?season=2118">Coppernails-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/8116/schedule/?season=2118">Coyotes</a></li>
+<li><a class="dropdown-item text-2" href="/team/3445/schedule/?season=2118">Crazy Horse-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/14170/schedule/?season=2118">Cyber Puck</a></li>
+<li><a class="dropdown-item text-2" href="/team/9273/schedule/?season=2118">Dead Rabbits</a></li>
+<li><a class="dropdown-item text-2" href="/team/275/schedule/?season=2118">DevilFish</a></li>
+<li><a class="dropdown-item text-2" href="/team/16804/schedule/?season=2118">Division 10 Black</a></li>
+<li><a class="dropdown-item text-2" href="/team/15310/schedule/?season=2118">Division 10 Orange</a></li>
+<li><a class="dropdown-item text-2" href="/team/13894/schedule/?season=2118">Division 10 Scrimmage</a></li>
+<li><a class="dropdown-item text-2" href="/team/16805/schedule/?season=2118">Division 10 White</a></li>
+<li><a class="dropdown-item text-2" href="/team/15308/schedule/?season=2118">Division 10 Yellow</a></li>
+<li><a class="dropdown-item text-2" href="/team/7825/schedule/?season=2118">Dragons RHL</a></li>
+<li><a class="dropdown-item text-2" href="/team/7665/schedule/?season=2118">Dumb Pucks</a></li>
+<li><a class="dropdown-item text-2" href="/team/9940/schedule/?season=2118">Dumpster Fire</a></li>
+<li><a class="dropdown-item text-2" href="/team/3439/schedule/?season=2118">Eagle Hill-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/3435/schedule/?season=2118">ESB</a></li>
+<li><a class="dropdown-item text-2" href="/team/8271/schedule/?season=2118">Evaluation Skate</a></li>
+<li><a class="dropdown-item text-2" href="/team/13346/schedule/?season=2118">Falcons</a></li>
+<li><a class="dropdown-item text-2" href="/team/10187/schedule/?season=2118">Fighting Clams</a></li>
+<li><a class="dropdown-item text-2" href="/team/7793/schedule/?season=2118">Fighting Mongooses</a></li>
+<li><a class="dropdown-item text-2" href="/team/9277/schedule/?season=2118">Fighting Narwhals</a></li>
+<li><a class="dropdown-item text-2" href="/team/3450/schedule/?season=2118">Fighting Saints-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/4674/schedule/?season=2118">Flying Monkeys </a></li>
+<li><a class="dropdown-item text-2" href="/team/9766/schedule/?season=2118">Forfeit Loss</a></li>
+<li><a class="dropdown-item text-2" href="/team/265/schedule/?season=2118">Fossils</a></li>
+<li><a class="dropdown-item text-2" href="/team/7795/schedule/?season=2118">Gamblers</a></li>
+<li><a class="dropdown-item text-2" href="/team/476/schedule/?season=2118">Ghostriders</a></li>
+<li><a class="dropdown-item text-2" href="/team/8123/schedule/?season=2118">Goalie Clinic</a></li>
+<li><a class="dropdown-item text-2" href="/team/11800/schedule/?season=2118">Golden Gobies</a></li>
+<li><a class="dropdown-item text-2" href="/team/306/schedule/?season=2118">Greasy Weasels</a></li>
+<li><a class="dropdown-item text-2" href="/team/8113/schedule/?season=2118">Greenhorns</a></li>
+<li><a class="dropdown-item text-2" href="/team/14161/schedule/?season=2118">Grey Dust Bunnies</a></li>
+<li><a class="dropdown-item text-2" href="/team/15305/schedule/?season=2118">Grey Dust Bunnies</a></li>
+<li><a class="dropdown-item text-2" href="/team/3442/schedule/?season=2118">Grizzlies-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/4531/schedule/?season=2118">Growlers</a></li>
+<li><a class="dropdown-item text-2" href="/team/286/schedule/?season=2118">Hackers</a></li>
+<li><a class="dropdown-item text-2" href="/team/10185/schedule/?season=2118">Hampton West Hockey Club</a></li>
+<li><a class="dropdown-item text-2" href="/team/477/schedule/?season=2118">Highlanders</a></li>
+<li><a class="dropdown-item text-2" href="/team/16807/schedule/?season=2118">Hockeywolf</a></li>
+<li><a class="dropdown-item text-2" href="/team/9944/schedule/?season=2118">Honey Badgers</a></li>
+<li><a class="dropdown-item text-2" href="/team/10190/schedule/?season=2118">Hooligans Classic</a></li>
+<li><a class="dropdown-item text-2" href="/team/11259/schedule/?season=2118">Hooligans Xtreme 7A</a></li>
+<li><a class="dropdown-item text-2" href="/team/8742/schedule/?season=2118">Hop Kings-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/16809/schedule/?season=2118">Hosers</a></li>
+<li><a class="dropdown-item text-2" href="/team/11785/schedule/?season=2118">Hounds-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/9274/schedule/?season=2118">House 3</a></li>
+<li><a class="dropdown-item text-2" href="/team/10601/schedule/?season=2118">Hungry Hatchlings</a></li>
+<li><a class="dropdown-item text-2" href="/team/677/schedule/?season=2118">Iced Awesome</a></li>
+<li><a class="dropdown-item text-2" href="/team/8114/schedule/?season=2118">IceHawks</a></li>
+<li><a class="dropdown-item text-2" href="/team/679/schedule/?season=2118">IceLagers</a></li>
+<li><a class="dropdown-item text-2" href="/team/478/schedule/?season=2118">Icemen</a></li>
+<li><a class="dropdown-item text-2" href="/team/3878/schedule/?season=2118">Ice-O-Topes</a></li>
+<li><a class="dropdown-item text-2" href="/team/7663/schedule/?season=2118">Inactive Growlers 6D</a></li>
+<li><a class="dropdown-item text-2" href="/team/3446/schedule/?season=2118">Indians-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/683/schedule/?season=2118">Ironmen </a></li>
+<li><a class="dropdown-item text-2" href="/team/3431/schedule/?season=2118">Isotopes-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/3876/schedule/?season=2118">Jackals</a></li>
+<li><a class="dropdown-item text-2" href="/team/290/schedule/?season=2118">Jokres</a></li>
+<li><a class="dropdown-item text-2" href="/team/3449/schedule/?season=2118">Kelly Days-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/9597/schedule/?season=2118">Khaos</a></li>
+<li><a class="dropdown-item text-2" href="/team/9941/schedule/?season=2118">Klucken</a></li>
+<li><a class="dropdown-item text-2" href="/team/484/schedule/?season=2118">Kokanees </a></li>
+<li><a class="dropdown-item text-2" href="/team/9946/schedule/?season=2118">Kraken Up</a></li>
+<li><a class="dropdown-item text-2" href="/team/1886/schedule/?season=2118">Leftover Beaver</a></li>
+<li><a class="dropdown-item text-2" href="/team/4530/schedule/?season=2118">Letterkenny Irish Upper</a></li>
+<li><a class="dropdown-item text-2" href="/team/14169/schedule/?season=2118">Little Birds</a></li>
+<li><a class="dropdown-item text-2" href="/team/5119/schedule/?season=2118">LKI 7</a></li>
+<li><a class="dropdown-item text-2" href="/team/250/schedule/?season=2118">LLUA</a></li>
+<li><a class="dropdown-item text-2" href="/team/11530/schedule/?season=2118">Los Tigres</a></li>
+<li><a class="dropdown-item text-2" href="/team/1890/schedule/?season=2118">Lumberjacks</a></li>
+<li><a class="dropdown-item text-2" href="/team/279/schedule/?season=2118">Maple Bars</a></li>
+<li><a class="dropdown-item text-2" href="/team/269/schedule/?season=2118">Mavericks</a></li>
+<li><a class="dropdown-item text-2" href="/team/14171/schedule/?season=2118">Mid-Ice Crisis</a></li>
+<li><a class="dropdown-item text-2" href="/team/9573/schedule/?season=2118">Midnight Twist</a></li>
+<li><a class="dropdown-item text-2" href="/team/1879/schedule/?season=2118">Mighty Boosh</a></li>
+<li><a class="dropdown-item text-2" href="/team/4536/schedule/?season=2118">Mighty Geoducks</a></li>
+<li><a class="dropdown-item text-2" href="/team/9937/schedule/?season=2118">Mighty Mallards</a></li>
+<li><a class="dropdown-item text-2" href="/team/474/schedule/?season=2118">MMHC</a></li>
+<li><a class="dropdown-item text-2" href="/team/3427/schedule/?season=2118">Monarchs 5D</a></li>
+<li><a class="dropdown-item text-2" href="/team/3424/schedule/?season=2118">Monarchs 6D</a></li>
+<li><a class="dropdown-item text-2" href="/team/284/schedule/?season=2118">Monarchs 8</a></li>
+<li><a class="dropdown-item text-2" href="/team/3438/schedule/?season=2118">Moonshine</a></li>
+<li><a class="dropdown-item text-2" href="/team/3447/schedule/?season=2118">Moorningwood Academy-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/1351/schedule/?season=2118">Moose Knuckle</a></li>
+<li><a class="dropdown-item text-2" href="/team/11532/schedule/?season=2118">Mothercluckers</a></li>
+<li><a class="dropdown-item text-2" href="/team/6115/schedule/?season=2118">Mud &amp; Jokes</a></li>
+<li><a class="dropdown-item text-2" href="/team/288/schedule/?season=2118">Mudflaps</a></li>
+<li><a class="dropdown-item text-2" href="/team/1882/schedule/?season=2118">Mustangs</a></li>
+<li><a class="dropdown-item text-2" href="/team/688/schedule/?season=2118">Mustangs 2</a></li>
+<li><a class="dropdown-item text-2" href="/team/10599/schedule/?season=2118">New Div 4A Team</a></li>
+<li><a class="dropdown-item text-2" href="/team/10600/schedule/?season=2118">New Div 6 Team</a></li>
+<li><a class="dropdown-item text-2" href="/team/2378/schedule/?season=2118">Night Owls</a></li>
+<li><a class="dropdown-item text-2" href="/team/11260/schedule/?season=2118">Northwest Crabs</a></li>
+<li><a class="dropdown-item text-2" href="/team/9572/schedule/?season=2118">Not Sure 5C</a></li>
+<li><a class="dropdown-item text-2" href="/team/13343/schedule/?season=2118">Not Sure 6D</a></li>
+<li><a class="dropdown-item text-2" href="/team/3436/schedule/?season=2118">NW Stars</a></li>
+<li><a class="dropdown-item text-2" href="/team/15309/schedule/?season=2118">Orcas</a></li>
+<li><a class="dropdown-item text-2" href="/team/10162/schedule/?season=2118">Phantoms</a></li>
+<li><a class="dropdown-item text-2" href="/team/10598/schedule/?season=2118">Pheasants</a></li>
+<li><a class="dropdown-item text-2" href="/team/14160/schedule/?season=2118">Pineapple Express</a></li>
+<li><a class="dropdown-item text-2" href="/team/15306/schedule/?season=2118">Pineapple Express</a></li>
+<li><a class="dropdown-item text-2" href="/team/694/schedule/?season=2118">Piranhas</a></li>
+<li><a class="dropdown-item text-2" href="/team/246/schedule/?season=2118">Puck Buddies</a></li>
+<li><a class="dropdown-item text-2" href="/team/10603/schedule/?season=2118">Puck Hounds</a></li>
+<li><a class="dropdown-item text-2" href="/team/10602/schedule/?season=2118">Puckaneers</a></li>
+<li><a class="dropdown-item text-2" href="/team/9935/schedule/?season=2118">Puget Sound Pigeons</a></li>
+<li><a class="dropdown-item text-2" href="/team/11803/schedule/?season=2118">Purple Reign</a></li>
+<li><a class="dropdown-item text-2" href="/team/1357/schedule/?season=2118">PussyCats</a></li>
+<li><a class="dropdown-item text-2" href="/team/296/schedule/?season=2118">Raiders</a></li>
+<li><a class="dropdown-item text-2" href="/team/10159/schedule/?season=2118">Rainier Reindeer HC-5D</a></li>
+<li><a class="dropdown-item text-2" href="/team/11256/schedule/?season=2118">Rainier Reindeers HC-9</a></li>
+<li><a class="dropdown-item text-2" href="/team/14164/schedule/?season=2118">Rainiers</a></li>
+<li><a class="dropdown-item text-2" href="/team/9132/schedule/?season=2118">Rangers</a></li>
+<li><a class="dropdown-item text-2" href="/team/10161/schedule/?season=2118">Razor Clams - Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/3877/schedule/?season=2118">Real Bacon</a></li>
+<li><a class="dropdown-item text-2" href="/team/487/schedule/?season=2118">Reapers</a></li>
+<li><a class="dropdown-item text-2" href="/team/11261/schedule/?season=2118">Red Dog</a></li>
+<li><a class="dropdown-item text-2" href="/team/10605/schedule/?season=2118">Red Hots</a></li>
+<li><a class="dropdown-item text-2" href="/team/11782/schedule/?season=2118">Red Hots</a></li>
+<li><a class="dropdown-item text-2" href="/team/15301/schedule/?season=2118">Red Hots</a></li>
+<li><a class="dropdown-item text-2" href="/team/9278/schedule/?season=2118">Renegades</a></li>
+<li><a class="dropdown-item text-2" href="/team/14166/schedule/?season=2118">RHC</a></li>
+<li><a class="dropdown-item text-2" href="/team/695/schedule/?season=2118">Rhinos</a></li>
+<li><a class="dropdown-item text-2" href="/team/7832/schedule/?season=2118">RHL Team to be named later</a></li>
+<li><a class="dropdown-item text-2" href="/team/11531/schedule/?season=2118">Roughnecks</a></li>
+<li><a class="dropdown-item text-2" href="/team/16811/schedule/?season=2118">Roughnecks - Game Theory</a></li>
+<li><a class="dropdown-item text-2" href="/team/10188/schedule/?season=2118">Royal Pains</a></li>
+<li><a class="dropdown-item text-2" href="/team/5122/schedule/?season=2118">Rusty Blades</a></li>
+<li><a class="dropdown-item text-2" href="/team/259/schedule/?season=2118">Sabercats</a></li>
+<li><a class="dropdown-item text-2" href="/team/11266/schedule/?season=2118">Sasquatch</a></li>
+<li><a class="dropdown-item text-2" href="/team/14168/schedule/?season=2118">Schilling Cider</a></li>
+<li><a class="dropdown-item text-2" href="/team/13344/schedule/?season=2118">Screaming Eagles</a></li>
+<li><a class="dropdown-item text-2" href="/team/7796/schedule/?season=2118">Screwed-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/9939/schedule/?season=2118">Scrooge McPuck</a></li>
+<li><a class="dropdown-item text-2" href="/team/16806/schedule/?season=2118">SEA Cucumbers</a></li>
+<li><a class="dropdown-item text-2" href="/team/11264/schedule/?season=2118">Seagulls</a></li>
+<li><a class="dropdown-item text-2" href="/team/13347/schedule/?season=2118">Seal Team Sticks</a></li>
+<li><a class="dropdown-item text-2" href="/team/9943/schedule/?season=2118">Seals</a></li>
+<li><a class="dropdown-item text-2" href="/team/14167/schedule/?season=2118">Seals Lower</a></li>
+<li><a class="dropdown-item text-2" href="/team/696/schedule/?season=2118">Seattle Buzzsaw</a></li>
+<li><a class="dropdown-item text-2" href="/team/8117/schedule/?season=2118">Seattle Chiefs</a></li>
+<li><a class="dropdown-item text-2" href="/team/11258/schedule/?season=2118">Seattle Dogs</a></li>
+<li><a class="dropdown-item text-2" href="/team/8124/schedule/?season=2118">Seattle Freeze</a></li>
+<li><a class="dropdown-item text-2" href="/team/13345/schedule/?season=2118">Seattle Supernova</a></li>
+<li><a class="dropdown-item text-2" href="/team/8426/schedule/?season=2118">Shingletown-2 (folded)</a></li>
+<li><a class="dropdown-item text-2" href="/team/11265/schedule/?season=2118">Shingletown-4 (folded)</a></li>
+<li><a class="dropdown-item text-2" href="/team/1358/schedule/?season=2118">Shockers</a></li>
+<li><a class="dropdown-item text-2" href="/team/11263/schedule/?season=2118">Skateful Dead</a></li>
+<li><a class="dropdown-item text-2" href="/team/9576/schedule/?season=2118">Skeletons</a></li>
+<li><a class="dropdown-item text-2" href="/team/4528/schedule/?season=2118">Slashers</a></li>
+<li><a class="dropdown-item text-2" href="/team/8421/schedule/?season=2118">Slewfoot</a></li>
+<li><a class="dropdown-item text-2" href="/team/16808/schedule/?season=2118">SnoHawks</a></li>
+<li><a class="dropdown-item text-2" href="/team/9942/schedule/?season=2118">Sock Puckets</a></li>
+<li><a class="dropdown-item text-2" href="/team/13342/schedule/?season=2118">Sockeyes </a></li>
+<li><a class="dropdown-item text-2" href="/team/9936/schedule/?season=2118">Spare Parts</a></li>
+<li><a class="dropdown-item text-2" href="/team/14165/schedule/?season=2118">Spittin' Llamas</a></li>
+<li><a class="dropdown-item text-2" href="/team/8792/schedule/?season=2118">Sprinker Black Spring 2021</a></li>
+<li><a class="dropdown-item text-2" href="/team/8428/schedule/?season=2118">Sprinker Black Summer 2021</a></li>
+<li><a class="dropdown-item text-2" href="/team/9134/schedule/?season=2118">Sprinker Blue Exhibition</a></li>
+<li><a class="dropdown-item text-2" href="/team/8429/schedule/?season=2118">Sprinker Blue Fall 2019</a></li>
+<li><a class="dropdown-item text-2" href="/team/8795/schedule/?season=2118">Sprinker Blue Summer 2021</a></li>
+<li><a class="dropdown-item text-2" href="/team/8430/schedule/?season=2118">Sprinker Red Fall 2019</a></li>
+<li><a class="dropdown-item text-2" href="/team/8794/schedule/?season=2118">Sprinker Red Summer 2021</a></li>
+<li><a class="dropdown-item text-2" href="/team/9133/schedule/?season=2118">Sprinker White Exhibition</a></li>
+<li><a class="dropdown-item text-2" href="/team/8427/schedule/?season=2118">Sprinker White Fall 2019</a></li>
+<li><a class="dropdown-item text-2" href="/team/8793/schedule/?season=2118">Sprinker White Summer 2021</a></li>
+<li><a class="dropdown-item text-2" href="/team/489/schedule/?season=2118">Squids</a></li>
+<li><a class="dropdown-item text-2" href="/team/490/schedule/?season=2118">Steelheads</a></li>
+<li><a class="dropdown-item text-2" href="/team/671/schedule/?season=2118">Stingers</a></li>
+<li><a class="dropdown-item text-2" href="/team/3443/schedule/?season=2118">Swarm-2-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/7833/schedule/?season=2118">Tacoma Mavericks</a></li>
+<li><a class="dropdown-item text-2" href="/team/9589/schedule/?season=2118">TBA</a></li>
+<li><a class="dropdown-item text-2" href="/team/4701/schedule/?season=2118">Team Forfeit</a></li>
+<li><a class="dropdown-item text-2" href="/team/8783/schedule/?season=2118">The 32's</a></li>
+<li><a class="dropdown-item text-2" href="/team/16810/schedule/?season=2118">The Amigos</a></li>
+<li><a class="dropdown-item text-2" href="/team/9947/schedule/?season=2118">The Griz (Inactive)</a></li>
+<li><a class="dropdown-item text-2" href="/team/303/schedule/?season=2118">The Herd</a></li>
+<li><a class="dropdown-item text-2" href="/team/9582/schedule/?season=2118">The Wolfpack</a></li>
+<li><a class="dropdown-item text-2" href="/team/3874/schedule/?season=2118">Thrashers</a></li>
+<li><a class="dropdown-item text-2" href="/team/3444/schedule/?season=2118">Tigers-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/10608/schedule/?season=2118">Tipsy Crows</a></li>
+<li><a class="dropdown-item text-2" href="/team/11801/schedule/?season=2118">Toe Dragons</a></li>
+<li><a class="dropdown-item text-2" href="/team/2381/schedule/?season=2118">Tornados-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/5115/schedule/?season=2118">Trash Pandas 5D</a></li>
+<li><a class="dropdown-item text-2" href="/team/7794/schedule/?season=2118">Trash Pandas 6B Landis</a></li>
+<li><a class="dropdown-item text-2" href="/team/4535/schedule/?season=2118">Trash Pandas 6D Garbage Legacy</a></li>
+<li><a class="dropdown-item text-2" href="/team/9934/schedule/?season=2118">Trash Pandas 7A South</a></li>
+<li><a class="dropdown-item text-2" href="/team/8431/schedule/?season=2118">Tsunami</a></li>
+<li><a class="dropdown-item text-2" href="/team/3429/schedule/?season=2118">United-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/492/schedule/?season=2118">Vandals 3B</a></li>
+<li><a class="dropdown-item text-2" href="/team/308/schedule/?season=2118">Vandals 7</a></li>
+<li><a class="dropdown-item text-2" href="/team/684/schedule/?season=2118">Vikings</a></li>
+<li><a class="dropdown-item text-2" href="/team/9279/schedule/?season=2118">Voodoo Rangers</a></li>
+<li><a class="dropdown-item text-2" href="/team/11787/schedule/?season=2118">Warriors - Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/494/schedule/?season=2118">Warriors HC</a></li>
+<li><a class="dropdown-item text-2" href="/team/8741/schedule/?season=2118">Warriors-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/9272/schedule/?season=2118">Whatevers</a></li>
+<li><a class="dropdown-item text-2" href="/team/674/schedule/?season=2118">What's Kraken?</a></li>
+<li><a class="dropdown-item text-2" href="/team/11784/schedule/?season=2118">White Yetis</a></li>
+<li><a class="dropdown-item text-2" href="/team/10607/schedule/?season=2118">White Yetis</a></li>
+<li><a class="dropdown-item text-2" href="/team/15303/schedule/?season=2118">White Yetis</a></li>
+<li><a class="dropdown-item text-2" href="/team/10158/schedule/?season=2118">Wolfpack HC</a></li>
+<li><a class="dropdown-item text-2" href="/team/3434/schedule/?season=2118">Wolverines-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/495/schedule/?season=2118">Wolves </a></li>
+<li><a class="dropdown-item text-2" href="/team/11786/schedule/?season=2118">Wolves-Cascade</a></li>
+<li><a class="dropdown-item text-2" href="/team/10604/schedule/?season=2118">Women's Black</a></li>
+<li><a class="dropdown-item text-2" href="/team/16813/schedule/?season=2118">Women's Purple</a></li>
+<li><a class="dropdown-item text-2" href="/team/13348/schedule/?season=2118">Yacht Flippers</a></li>
+<li><a class="dropdown-item text-2" href="/team/8115/schedule/?season=2118">Yetis</a></li>
+<li><a class="dropdown-item text-2" href="/team/9599/schedule/?season=2118">Young Guns</a></li>
+</ul>
+</div>
+</div>
+<hr class="mt-2"/>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col">
+<div class="row">
+<div class="col">
+<div class="btn-group" role="group">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn btn-outline btn-xl btn-tertiary dropdown-toggle p2 text-5 text-uppercase" data-toggle="dropdown" id="btnGroupDrop1" type="button">Summer 2024</button>
+<ul class="dropdown-menu scrollable-menu" role="menu">
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=2118">Summer 2024</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=2115">Winter Playoffs 2023/2024</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=1108">Kraken Hockey League Fall/Winter 23/24</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=1107">Summer Playoffs 2023</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=1104">Summer 2023</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=1102">Winter Playoffs 2022/2023</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=100">40+ Fall 2022 Playoffs</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=96">Kraken Hockey League Fall/Winter 22-23</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=95">Summer Playoffs 2022</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=94">Lost Anchor Tournament July 2022</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=93">Kraken Hockey League Summer 2022</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=92">Winter Playoffs 2021/2022</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=90">40+ Fall 2021 Playoffs</a></li>
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=87">Kraken Hockey League Fall/Winter 2021</a></li>
+</ul>
+</div>
+<div class="btn-group" role="group">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn btn-outline btn-xl btn-tertiary dropdown-toggle p2 text-5 ml-2 text-uppercase" data-toggle="dropdown" id="btnGroupDrop1" type="button">Home &amp; Away</button>
+<ul class="dropdown-menu scrollable-menu" role="menu">
+<li><a class="dropdown-item" href="/team/9938/schedule/?season=2118&amp;location=home">Home</a></li><li><a class="dropdown-item" href="/team/9938/schedule/?season=2118&amp;location=away">Away</a></li>
+</ul>
+</div>
+<a class="mt-1 mb-1 me-1 popup-with-zoom-anim text-10 float-right" href="#calendar"><i class="far fa-calendar-plus"></i></a>
+</div>
+</div>
+<hr/>
+<div class="dialog dialog-sm zoom-anim-dialog mfp-hide p-4" id="calendar" style="overflow:hidden;">
+<iframe allowtransparency="false" frameborder="0" height="540px" marginheight="10px" marginwidth="10px" scrolling="no" src="/cal-subscription/9938" style="border:0px #ffffff none; width: 350px; height: 540; overflow: show;" width="350px"></iframe>
+</div>
+
+
+<h1 class="text-primary p2 text-uppercase mb-3 mt-4">May 2024</h1>
+<table class="display table table-striped border-bottom text-muted table-fixed">
+<thead class="bg-color-secondary text-light">
+<tr>
+<th style="text-align: center; vertical-align: middle;">#</th>
+<th style="vertical-align: middle;">Date</th>
+<th style="vertical-align: middle;">Time</th>
+<th style="vertical-align: middle;">Arena</th>
+<th class="tt" data-color="secondary" data-placement="top" data-toggle="tooltip" style="text-align: center; vertical-align: middle;" title="Home/Away">H/A</th>
+<th>Opponent</th>
+<th style="text-align: center; vertical-align: middle;">Result</th>
+<th style="text-align: center; vertical-align: middle;">Score</th>
+<th style="text-align: center; vertical-align: middle;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap="nowrap" style="text-align: center; width:5%; vertical-align: middle;">1</td>
+<td nowrap="nowrap" style="width:15%; vertical-align: middle;">Tue, May 14</td>
+<td nowrap="nowrap" style="width:10%; vertical-align: middle;">9:20 PM</td>
+<td nowrap="nowrap" style="vertical-align: middle;"><a href="/arena/30">KCI VMFH</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;">AWAY</td>
+<td nowrap="nowrap" style="width:20%; vertical-align: middle;"><a href="/team/3427/home/?season=2118">Monarchs 5D</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;"><span class="badge badge-primary badge-md" style="width: auto;
+min-width: 60px; paddding: 2px;">W</span></td>
+<td style="text-align: center; vertical-align: middle;">9 - 1</td>
+<td style="text-align: center; width:10%; vertical-align: middle;"><a href="/game/48469/summary">Final</a></td>
+</tr>
+<tr>
+<td nowrap="nowrap" style="text-align: center; width:5%; vertical-align: middle;">2</td>
+<td nowrap="nowrap" style="width:15%; vertical-align: middle;">Mon, May 20</td>
+<td nowrap="nowrap" style="width:10%; vertical-align: middle;">10:25 PM</td>
+<td nowrap="nowrap" style="vertical-align: middle;"><a href="/arena/28">KCI Star</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;">AWAY</td>
+<td nowrap="nowrap" style="width:20%; vertical-align: middle;"><a href="/team/9279/home/?season=2118">Voodoo Rangers</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;"><span class="badge badge-light bg-color-light-scale-2 text-color-primary badge-md" style="width: auto;
+min-width: 60px; paddding: 2px;">L</span></td>
+<td style="text-align: center; vertical-align: middle;">5 - 4</td>
+<td style="text-align: center; width:10%; vertical-align: middle;"><a href="/game/48605/summary">Final</a></td>
+</tr>
+</tbody>
+</table>
+<h1 class="text-primary p2 text-uppercase mb-3 mt-4">June 2024</h1>
+<table class="display table table-striped border-bottom text-muted table-fixed">
+<thead class="bg-color-secondary text-light">
+<tr>
+<th style="text-align: center; vertical-align: middle;">#</th>
+<th style="vertical-align: middle;">Date</th>
+<th style="vertical-align: middle;">Time</th>
+<th style="vertical-align: middle;">Arena</th>
+<th class="tt" data-color="secondary" data-placement="top" data-toggle="tooltip" style="text-align: center; vertical-align: middle;" title="Home/Away">H/A</th>
+<th>Opponent</th>
+<th style="text-align: center; vertical-align: middle;">Result</th>
+<th style="text-align: center; vertical-align: middle;">Score</th>
+<th style="text-align: center; vertical-align: middle;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap="nowrap" style="text-align: center; width:5%; vertical-align: middle;">3</td>
+<td nowrap="nowrap" style="width:15%; vertical-align: middle;">Mon, Jun 3</td>
+<td nowrap="nowrap" style="width:10%; vertical-align: middle;">10:15 PM</td>
+<td nowrap="nowrap" style="vertical-align: middle;"><a href="/arena/28">KCI Star</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;">HOME</td>
+<td nowrap="nowrap" style="width:20%; vertical-align: middle;"><a href="/team/9278/home/?season=2118">Renegades</a></td>
+<td nowrap="nowrap" style="text-align: center; vertical-align: middle;"></td>
+<td style="text-align: center; vertical-align: middle;"></td>
+<td style="text-align: center; width:10%; vertical-align: middle;"><a href="/game/48745/preview">Preview</a></td>
+</tr>
+</tbody>
+</table>
+<script>document.title = "BSOD - Schedule | Kraken Hockey League";</script>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer">
+<div class="container">
+<div class="footer-ribbon bg-color-tertiary">
+<div class="text-white text-uppercase text-6 p2 mb-1">Get in Touch</div>
+</div>
+<div class="row py-5 my-4">
+<div class="col-md-6 col-lg-2 mb-4 mb-lg-0"><a class="logo pr-0 pr-lg-3" href="&lt;%=logolink%&gt;" target="_blank"><img alt="&lt;%=leaguename%&gt;" height="140" src="https://gshockey.com/assets/9941/league_logo.png"> </img></a></div>
+<div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+<div class="contact-details">
+<h5 class="text-8 mb-3 p2 text-color-secondary">KRAKEN HOCKEY LEAGUE</h5>
+<ul class="list list-icons list-icons-lg">
+<li class="mb-1"><i class="far fa-dot-circle text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="https://goo.gl/maps/DMWuNnpqrQ4Wji2i9" target="_blank">10601 5th Ave NE Seattle, WA 98125 </a></p>
+</li>
+<li class="mb-1"><i class="fab fa-whatsapp text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="tel:2062797770">(206) 279-7770</a></p>
+</li>
+<li class="mb-1"><i class="far fa-envelope text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/cdn-cgi/l/email-protection#a1c0c5d4cdd5cdc4c0c6d4c4e1d2c4c0d5d5cdc4cad3c0cac4cf8fc2cecc"><span class="__cf_email__" data-cfemail="3a5b5e4f564e565f5b5d4f5f7a495f5b4e4e565f51485b515f5414595557">[email protected]</span></a></p>
+</li>
+<li class="mb-1"><i class="fas fa-external-link-alt text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="https://www.krakencommunityiceplex.com/" target="_blank">Kraken Community Iceplex</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 col-lg-3 mb-4 mb-md-0 col_1">
+<div class="contact-details">
+<ul class="list list-icons list-icons-lg">
+<li class="mb-1"><i class="fas fa-arrow-circle-right text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/schedule">Schedule</a></p>
+</li>
+<li class="mb-1"><i class="fas fa-arrow-circle-right text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/teams">Teams</a></p>
+</li>
+<li class="mb-1"><i class="fas fa-arrow-circle-right text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/scoreboard">Scoreboard</a></p>
+</li>
+<li class="mb-1"><i class="fas fa-arrow-circle-right text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/standings">Standings</a></p>
+</li>
+<li class="mb-1"><i class="fas fa-arrow-circle-right text-color-secondary"></i>
+<p class="m-0"><a class="text-color-light" href="/leaders">League Leaders</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 col-lg-2">
+<h5 class="text-8 mb-3 p2 text-color-secondary">FOLLOW US</h5>
+<ul class="social-icons">
+<li class="social-icons-facebook"><a href="https://www.facebook.com/KrakenIceplex" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+<li class="social-icons-twitter"><a href="https://twitter.com/KrakenIceplex" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+<li class="social-icons-instagram"><a href="https://www.instagram.com/krakeniceplex/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i> </a></li>
+<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCxspiBq2xf5pLjz9_NMjoyw" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright text-color-light">
+<div class="container py-2">
+<div class="row py-4">
+<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+<a class="logo pr-0 pr-lg-3" href="https://krakenhockeyleague.com">
+<img alt="Kraken Hockey League" class="opacity-5" height="33" src="https://krakenhockeyleague.com/assets/9941/top_league_logo.png"/>
+</a>
+</div>
+<div class="col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+<p>© Copyright 2024. All Rights Reserved.</p>
+</div>
+<div class="col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-end">
+<nav id="sub-menu">
+<ul>
+<li><i class="fas fa-angle-right"></i><a class="ml-1 text-decoration-none" href="/admin" target="_blank"> Admin Login</a></li>
+<li><i class="fas fa-angle-right"></i><a class="ml-1 text-decoration-none" href="/zone/admin" target="_blank"> Stats Admin Login</a></li>
+<li><i class="fas fa-angle-right"></i><a class="ml-1 text-decoration-none" href="/live" target="_blank"> Sportzone Live</a></li>
+<li><a href="https://sportzone.ca"><img src="img/sz_new.png" title="Powered By Sportzone Internet Services"/></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll > 50) {
+        $(".header-row").addClass("scrolled");
+    } else {
+        $(".header-row").removeClass("scrolled");
+    }
+});
+</script>
+<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+<script src="vendor/popper/umd/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/common/common.min.js"></script>
+<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+<script src="vendor/isotope/jquery.isotope.min.js"></script>
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="vendor/vide/jquery.vide.min.js"></script>
+<script src="vendor/vivus/vivus.min.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/theme.init.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/examples/examples.lightboxes.js"></script>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'88e3248c3b78c3b6',t:'MTcxNzQ1Mzk4NS40OTgwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+<!-- This is data table -->
+<script src="admin/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/fixedcolumns/3.3.3/js/dataTables.fixedColumns.min.js"></script>
+<script>
+(function( $ ) {
+
+	'use strict';
+	$('.popup-with-zoom-anim').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: true,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+
+}).apply( this, [ jQuery ]);
+
+</script>
+<script>
+
+	
+$(document).ready(function() {
+    $('table.display').DataTable( {
+        "columnDefs": [ {
+            "searchable": false,
+            "orderable": false,
+            "targets": 0
+        },
+		{ "width": "0px", "targets": [0] }
+	
+		],
+		"paging":   false,
+
+	
+        scrollX:        true,
+        scrollCollapse: true,
+		"searching": false,
+		responsive: false,
+		"info":false,
+		"ordering": false,
+
+		"fixedColumns":   {
+            "leftColumns": 3
+        }
+    } );
+	
+
+} );		
+	
+	
+		
+$(document).ready(function() {
+    var t = $('#myTable3').DataTable( {
+        "columnDefs": [ {
+            "searchable": false,
+            "orderable": false,
+            "targets": 0		
+
+        },
+		{targets: 0, orderSequence: ['asc']},
+        {targets: 1, orderSequence: ['asc','desc']},
+        {targets: 2, orderSequence: ['desc','desc']},
+        {targets: 3, orderSequence: ['desc','asc']},
+        {targets: 4, orderSequence: ['desc','asc']},
+        {targets: 5, orderSequence: ['desc','asc']},  
+		{targets: 6, orderSequence: ['desc','asc']},
+        {targets: 7, orderSequence: ['desc','asc']},
+        {targets: 8, orderSequence: ['desc','asc']},  
+
+		{ "width": "0px", "targets": [0] }
+	
+		],
+        "order": [[ 5, 'desc' ]],		
+        scrollX: true,
+        scrollCollapse: true,
+		"searching": false,
+		"paging":false,
+		responsive: false,
+		"fixedColumns":   {
+            "leftColumns": 2
+        }
+    } );
+	
+    t.on( 'order.dt search.dt', function () {
+        t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            cell.innerHTML = i+1;
+        } );
+    } ).draw();
+} );
+    </script>

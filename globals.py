@@ -1,0 +1,2 @@
+TEST_MODE = False
+RATE_LIMITED = False
