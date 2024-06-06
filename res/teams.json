@@ -146,6 +146,23 @@
 				"Jazz"
 			],
 			"league": "SD"
+		},
+		{
+			"name": "SPHL Hustle",
+			"id": "410",
+			"players": [
+				"Malikai",
+				"Jazz"
+			],
+			"league": "Pride"
+		},
+		{
+			"name": "SPHL Heart",
+			"id": "411",
+			"players": [
+				"Blair"
+			],
+			"league": "Pride"
 		}
 	],
 
