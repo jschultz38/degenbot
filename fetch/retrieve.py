@@ -1,7 +1,8 @@
+import datetime
+
 from fetch.khl import fetchKHLGames
 from fetch.stackeddeck import fetchSDGames
 from globals import RATE_LIMITED
-import datetime
 
 def retrieveAllGames(teams, player, onlyUpcoming, onlySoon):
     games = []
