@@ -20,10 +20,11 @@ test_token = 'test_token_here'
 
 # Features to add
 1. Add support for other websites
-	- stacked deck
 	- pride tourney
 	- pride league
 2. Improve cache
 	- Add periodic cache invalidation with fuzzy number
 	- Make it persistent
 4. fuck marry kill command
+5. Add a way to retrieve the livebarn feed
+6. Add a filter to commands for things such as location
