@@ -22,8 +22,7 @@ test_token = 'test_token_here'
 
 # TODO
 1. Reorganize imports
-2. KHL URL defaults to latest season, remove it from everything
-3. Figure out if there is a scraper friendly version of KHL: https://github.com/snoking-to-benchapp-csv/snoking-to-benchapp-csv.github.io/wiki
+2. Figure out if there is a scraper friendly version of KHL: https://github.com/snoking-to-benchapp-csv/snoking-to-benchapp-csv.github.io/wiki
 
 # Features to add
 1. Add support for other websites
@@ -33,5 +32,9 @@ test_token = 'test_token_here'
 	- Add periodic cache invalidation with fuzzy number
 	- Make it persistent
 5. Add a way to retrieve the livebarn feed
-6. Add a filter to commands for things such as location
+6. Add a filter to commands for things such as location, time
 7. Use https://krakenhockeyleague.com/schedule to figure out KHL seasons dynamically
+8. Add this and TODO into github
+9. Move creation of HockeyGame string into HockeyGame class
+10. Help list sort by meme
+11. Add integration to discord events for games we want to attend
