@@ -1,8 +1,10 @@
 import requests
 import datetime
+from bs4 import BeautifulSoup
+
 from game import HockeyGame
 from globals import RATE_LIMITED
-from bs4 import BeautifulSoup
+
 
 def fetchKHLGames(team):
     page = None

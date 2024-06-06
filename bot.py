@@ -1,8 +1,9 @@
 import discord
 from discord.ext import commands
+import random
+
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
-import random
 
 def createBasicBot(teams):
     intents = discord.Intents.default()
