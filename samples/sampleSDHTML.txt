@@ -1,0 +1,1720 @@
+
+SEPARATOR 0
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_0">
+   Thursday April 25, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 1
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_1">
+   <a href="javascript:game_score_hockey(1511790)">
+    7:30 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  <strong>
+   4
+  </strong>
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <strong>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+    </div>
+    <div style="display:inline-block;padding:0 10px 0 0;">
+     Diamonds (Swisstack)
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 2
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_2">
+   <a href="javascript:game_score_hockey(1511791)">
+    9:00 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Hearts (Peterson)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   5
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 3
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_3">
+   Thursday May 9, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 4
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_4">
+   <a href="javascript:game_score_hockey(1511792)">
+    7:30 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Spades (Jamora)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   9
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 5
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_5">
+   <a href="javascript:game_score_hockey(1511793)">
+    9:00 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Diamonds (Swisstack)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   6
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 6
+<tr class="dontprint">
+ <td class="text-center" colspan="8">
+  <!-- /61787584/MSO_SCHEDULE_2019 -->
+  <div id="div-gpt-ad-MSO_SCHEDULE_2019">
+   <script type="text/javascript">
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-MSO_SCHEDULE_2019'); });
+   </script>
+  </div>
+ </td>
+</tr>
+
+SEPARATOR 7
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_7">
+   Thursday May 16, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 8
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_8">
+   <a href="javascript:game_score_hockey(1511794)">
+    7:30 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Diamonds (Swisstack)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   4
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed_recap.gif" title="Completed&lt;br /&gt;Game recap : 3rd period Tim time due to late start because of traffic issurs"/>
+ </td>
+</tr>
+
+SEPARATOR 9
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_9">
+   <a href="javascript:game_score_hockey(1511795)">
+    9:00 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Spades (Jamora)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   8
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  6
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 10
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_10">
+   Thursday May 23, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 11
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_11">
+   <a href="javascript:game_score_hockey(1511796)">
+    7:30 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  6
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  <strong>
+   7
+  </strong>
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <strong>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+    </div>
+    <div style="display:inline-block;padding:0 10px 0 0;">
+     Diamonds (Swisstack)
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 12
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_12">
+   <a href="javascript:game_score_hockey(1511797)">
+    9:00 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Hearts (Peterson)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   6
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  5
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 13
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_13">
+   Thursday May 30, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 14
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_14">
+   <a href="javascript:game_score_hockey(1511798)">
+    7:30 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  1
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  <strong>
+   4
+  </strong>
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <strong>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+    </div>
+    <div style="display:inline-block;padding:0 10px 0 0;">
+     Clubs (Carlson)
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 15
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_15">
+   <a href="javascript:game_score_hockey(1511799)">
+    9:00 PM
+    <i class="fa fa-newspaper-o">
+    </i>
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <strong>
+    <div style="display:inline-block;padding:0 0 0 10px;">
+     Spades (Jamora)
+    </div>
+    <div style="display:inline-block;">
+     <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+    </div>
+   </strong>
+  </a>
+ </td>
+ <td class="text-center">
+  <strong>
+   3
+  </strong>
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  2
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_completed.gif" title="Completed"/>
+ </td>
+</tr>
+
+SEPARATOR 16
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_16">
+   Thursday June 6, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 17
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_17">
+   <a href="javascript:game_score_hockey(1511800)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 18
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_18">
+   <a href="javascript:game_score_hockey(1511801)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 19
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_19">
+   Thursday June 13, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 20
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_20">
+   <a href="javascript:game_score_hockey(1511802)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Hearts (Peterson)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 21
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_21">
+   <a href="javascript:game_score_hockey(1511803)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Diamonds (Swisstack)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 22
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_22">
+   Thursday June 20, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 23
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_23">
+   <a href="javascript:game_score_hockey(1511804)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 24
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_24">
+   <a href="javascript:game_score_hockey(1511805)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 25
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_25">
+   Thursday June 27, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 26
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_26">
+   <a href="javascript:game_score_hockey(1511806)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 27
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_27">
+   <a href="javascript:game_score_hockey(1511807)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 28
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_28">
+   Thursday July 11, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 29
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_29">
+   <a href="javascript:game_score_hockey(1511808)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Hearts (Peterson)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 30
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_30">
+   <a href="javascript:game_score_hockey(1511809)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Diamonds (Swisstack)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 31
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_31">
+   Thursday July 18, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 32
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_32">
+   <a href="javascript:game_score_hockey(1511810)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 33
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_33">
+   <a href="javascript:game_score_hockey(1511811)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 34
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_34">
+   Thursday July 25, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 35
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_35">
+   <a href="javascript:game_score_hockey(1511812)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 36
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_36">
+   <a href="javascript:game_score_hockey(1511813)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 37
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_37">
+   Thursday August 1, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 38
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_38">
+   <a href="javascript:game_score_hockey(1511814)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Diamonds (Swisstack)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 39
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_39">
+   <a href="javascript:game_score_hockey(1511815)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Hearts (Peterson)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 40
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_40">
+   Thursday August 8, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 41
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_41">
+   <a href="javascript:game_score_hockey(1511816)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 42
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_42">
+   <a href="javascript:game_score_hockey(1511817)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 43
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_43">
+   Thursday August 15, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 44
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_44">
+   <a href="javascript:game_score_hockey(1511818)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 45
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_45">
+   <a href="javascript:game_score_hockey(1511819)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Diamonds (Swisstack)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Hearts (Peterson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 46
+<tr class="tableScheduleSeparator">
+ <td class="text-left wrap" colspan="8">
+  <span id="maincontent_gvGameList_labDateTime_46">
+   Thursday August 22, 2024
+  </span>
+ </td>
+</tr>
+
+SEPARATOR 47
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_47">
+   <a href="javascript:game_score_hockey(1511820)">
+    7:30 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185519">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Hearts (Peterson)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185519.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=179689">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/179689.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Clubs (Carlson)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>
+
+SEPARATOR 48
+<tr>
+ <td class="text-left wrap">
+  <span id="maincontent_gvGameList_labDateTime_48">
+   <a href="javascript:game_score_hockey(1511821)">
+    9:00 PM
+   </a>
+  </span>
+ </td>
+ <td class="text-right wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=185520">
+   <div style="display:inline-block;padding:0 0 0 10px;">
+    Spades (Jamora)
+   </div>
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-left:10px;vertical-align:middle"/>
+   </div>
+  </a>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-center">
+  <i>
+  </i>
+ </td>
+ <td class="text-center">
+  -
+ </td>
+ <td class="text-left wrap">
+  <a href="../stats/team_hockey.aspx?IDLeague=64338&amp;IDSeason=98161&amp;IDTeam=151183">
+   <div style="display:inline-block;">
+    <img border="0" src="https://www.mystatsonline.com/pictures/teamlogo/64338/151183.jpg?cache=6/5/2024 9:03:31 PM" style="width:25px;height:25px;margin-right:10px;vertical-align:middle;"/>
+   </div>
+   <div style="display:inline-block;padding:0 10px 0 0;">
+    Diamonds (Swisstack)
+   </div>
+  </a>
+ </td>
+ <td class="text-left wrap">
+  Everett Community Ice
+ </td>
+ <td class="text-center">
+  <img src="../../../images/i_incomplete.gif" title="Incomplete"/>
+ </td>
+</tr>

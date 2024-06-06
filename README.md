@@ -20,5 +20,10 @@ test_token = 'test_token_here'
 
 # Features to add
 1. Add support for other websites
-2. Add daily cache invalidation
-3. Add persistent cache 
+	- stacked deck
+	- pride tourney
+	- pride league
+2. Improve cache
+	- Add periodic cache invalidation with fuzzy number
+	- Make it persistent
+4. fuck marry kill command

@@ -4,9 +4,10 @@ from game import HockeyGame
 from globals import RATE_LIMITED
 from bs4 import BeautifulSoup
 
-def fetchKHLGames(games, team, onlyUpcoming, onlySoon):
+def fetchKHLGames(team):
     page = None
     soup = None
+    games = []
 
     if 'cache' in team:
         content_cache = team['cache']
@@ -22,6 +23,7 @@ def fetchKHLGames(games, team, onlyUpcoming, onlySoon):
         team['cache'] = page.content
         soup = BeautifulSoup(page.content, "html.parser")        
     else:
+        print("rate limited, opening sample file")
         with open("samples/sampleKHLHTML.txt", 'rb') as sample_file:
             content = sample_file.read()
             team['cache'] = content
@@ -37,18 +39,7 @@ def fetchKHLGames(games, team, onlyUpcoming, onlySoon):
             cols = row.find_all('td')
 
             game = createKHLGame(cols, team)
-
-            # Append the game if it meets criteria
-            ## Need to use yesterday to make the comparison work right
-            time_now = datetime.datetime.now()
-            today = datetime.datetime(time_now.year, time_now.month, time_now.day)
-            yesterday = today - datetime.timedelta(days = 1)
-
-            if onlySoon:
-                if game.gametime > today and (game.gametime - today) < datetime.timedelta(days=7):
-                    games.append(game)
-            elif game.gametime > today or not onlyUpcoming:
-                games.append(game)
+            games.append(game)
 
     return games
 
@@ -93,7 +84,6 @@ def createKHLGame(cols, team):
     month_ret = int(month_ret)
 
     ## Get time
-    print(timeText)
     hour = timeText.split(":")[0]
     minute = timeText.split(":")[1].split(" ")[0]
     meridiem = timeText.split(":")[1].split(" ")[1]
@@ -103,4 +93,7 @@ def createKHLGame(cols, team):
 
     gametime = datetime.datetime(2024, int(month_ret), int(day_ret), hour=hour_ret, minute=minute_ret)
 
-    return HockeyGame(team, textual_rep, gametime)
+    game = HockeyGame(team, textual_rep, gametime)
+    print(game)
+
+    return game

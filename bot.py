@@ -21,8 +21,7 @@ def createBasicBot(teams):
         onlySoon = False
 
         games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
-        games_str = stringifyGames(games, player, onlySoon)
-        await ctx.send(games_str)
+        await sendGames(ctx, games, player, onlySoon)
 
     @bot.command(
         help = bot.command_prefix + "upcoming <name> - Shows all upcoming games"
@@ -36,8 +35,7 @@ def createBasicBot(teams):
         onlySoon = False
 
         games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
-        games_str = stringifyGames(games, player, onlySoon)
-        await ctx.send(games_str)
+        await sendGames(ctx, games, player, onlySoon)
 
     @bot.command(
         help = bot.command_prefix + "soon <?name?> - Shows all games for the next week"
@@ -47,8 +45,7 @@ def createBasicBot(teams):
         onlySoon = True
 
         games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
-        games_str = stringifyGames(games, player, onlySoon)
-        await ctx.send(games_str)
+        await sendGames(ctx, games, player, onlySoon)
 
     @bot.command(
         help = bot.command_prefix + "fuck <?name?>"
@@ -64,24 +61,29 @@ def createBasicBot(teams):
 
     return bot
 
-def stringifyGames(games, player, onlySoon):
-    # Return games to user
-    ret_str = ''
+async def sendGames(ctx, games, player, onlySoon):
+    print_str = ''
     if RATE_LIMITED:
-        ret_str += "Note: I've been rate limited :(\n"
+        print_str += "Note: I've been rate limited :(\n"
 
     if len(games) == 0:
-        ret_str += 'No games found'
+        print_str += 'No games found'
     else:
-        def mapGames(element):
+        for game in games:
+            game_str = game.text
             if onlySoon and player == None:
-                return element.text + ' - ' + ', '.join(element.team['players'])
-            else:
-                return element.text
-        games_str = '\n'.join(map(mapGames, games))
-        ret_str += games_str
+                game_str += ' - ' + ', '.join(game.team['players'])
 
-    return ret_str
+            # Discord has a requirement that all messages are less than 2000 characters
+            if len(print_str) + 1 + len(game_str) > 2000:
+                await ctx.send(print_str)
+                print_str = ''
+
+            if len(print_str) > 0:
+                print_str += '\n'
+            print_str += game_str
+
+    await ctx.send(print_str)
 
 class MyHelpCommand(commands.HelpCommand):
     async def send_bot_help(self, mappings):

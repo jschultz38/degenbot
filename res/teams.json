@@ -137,6 +137,15 @@
 				"Robee"
 			],
 			"league": "KHL"
+		},
+		{
+			"name": "SD Spades",
+			"id": "Spades",
+			"players": [
+				"JP",
+				"Jazz"
+			],
+			"league": "SD"
 		}
 	],
 

@@ -3,3 +3,6 @@ class HockeyGame:
         self.team = team
         self.text = textual_rep
         self.gametime = gametime
+
+    def __str__(self):
+        return self.text
