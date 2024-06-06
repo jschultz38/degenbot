@@ -7,7 +7,7 @@ Fetch game times for select degenz
 # Setup
 
 To install required modules: 
-```angular2html
+```
 pip install -r requirements.txt
 ```
 It's good practice to avoid uploading credentials to github, so I've included
