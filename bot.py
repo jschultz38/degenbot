@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
+import random
 
 def createBasicBot(teams):
     intents = discord.Intents.default()
@@ -50,7 +51,7 @@ def createBasicBot(teams):
     @bot.command(
         help = bot.command_prefix + "fuck <?name?>"
         )
-    async def fuck(ctx, person):
+    async def fuck(ctx, person=''):
         await ctx.send("fuck " + person)
 
     @bot.command(
@@ -58,6 +59,18 @@ def createBasicBot(teams):
         )
     async def updog(ctx):
         await ctx.send("what's up dog?")
+
+    @bot.command(
+        help = bot.command_prefix + "fmk <name> <name> <name>"
+        )
+    async def fmk(ctx, person1=None, person2=None, person3=None):
+        if person1 == None or person2 == None or person3 == None:
+            await ctx.send("please send 3 names")
+            return
+
+        people = [person1, person2, person3]
+        random.shuffle(people)
+        await ctx.send("fuck " + people[0] + ", marry " + people[1] + ", kill " + people[2])
 
     return bot
 

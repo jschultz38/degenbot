@@ -27,7 +27,6 @@ test_token = 'test_token_here'
 2. Improve cache
 	- Add periodic cache invalidation with fuzzy number
 	- Make it persistent
-4. fuck marry kill command
 5. Add a way to retrieve the livebarn feed
 6. Add a filter to commands for things such as location
 7. Use https://krakenhockeyleague.com/schedule to figure out KHL seasons dynamically
