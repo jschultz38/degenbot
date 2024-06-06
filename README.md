@@ -16,7 +16,9 @@ test_token = 'test_token_here'
 ```
 
 # TODO
-1. 
+1. Reorganize imports
+2. KHL URL defaults to latest season, remove it from everything
+3. Figure out if there is a scraper friendly version of KHL: https://github.com/snoking-to-benchapp-csv/snoking-to-benchapp-csv.github.io/wiki
 
 # Features to add
 1. Add support for other websites
@@ -28,3 +30,4 @@ test_token = 'test_token_here'
 4. fuck marry kill command
 5. Add a way to retrieve the livebarn feed
 6. Add a filter to commands for things such as location
+7. Use https://krakenhockeyleague.com/schedule to figure out KHL seasons dynamically
