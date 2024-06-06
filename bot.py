@@ -71,7 +71,19 @@ def createBasicBot(teams):
         people = [person1, person2, person3]
         random.shuffle(people)
         await ctx.send("fuck " + people[0] + ", marry " + people[1] + ", kill " + people[2])
+ 
+    @bot.command(
+        help = bot.command_prefix + "stepcaptain"
+    )
+    async def stepcaptain(ctx):
+        await ctx.send('https://imgur.com/VJyQs2L')
 
+    @bot.command(
+        help=bot.command_prefix + "ruf :|"
+    )
+    async def ruf(ctx):
+        await ctx.send('https://imgur.com/q4OWXNs')
+    
     return bot
 
 async def sendGames(ctx, games, player, onlySoon):
