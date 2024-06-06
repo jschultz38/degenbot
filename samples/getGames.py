@@ -31,4 +31,3 @@ for table in tables:
 
 for g in games:
     print(g)
-
