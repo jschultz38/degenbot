@@ -1,6 +1,7 @@
 import datetime
 
 from fetch.khl import fetchKHLGames
+from fetch.pridetourney import fetchPrideTourneyGames
 from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from globals import RATE_LIMITED
@@ -43,6 +44,9 @@ def addTeamGames(games, team, onlyUpcoming, onlySoon):
         case 'Pride':
             print("Pride")
             found_games = fetchPrideGames(team)
+        case 'SPC':
+            print("SPC")
+            found_games = fetchPrideTourneyGames(team)
         case _:
             print("ERROR: Could not find league <" + team['league'] + ">")
 
