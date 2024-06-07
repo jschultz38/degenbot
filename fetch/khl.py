@@ -92,6 +92,8 @@ def createKHLGame(cols, team):
     month_ret = None
 
     match month_text:
+        case 'Apr':
+            month_ret = 4
         case 'May':
             month_ret = 5
         case 'Jun':
