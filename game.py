@@ -1,24 +1,18 @@
-# previous
-# Tue, May 14, 9:20 PM, KCI VMFH, AWAY, W, 9 - 1, ^BSOD vs Monarchs 5D
-#
-# upcoming
-# Thu, Jun 13, 8:00 PM, KVIC, HOME, ^BSOD vs Highlanders
-
-# What do I need?
-# - datetime of the game, rink, teams, side of teams, side of degen
-# + (for completed games) score with side of team
-
-# - datetime of the game
-# - rink
-# - home team
-# - away team
-# - degen team
-###############
-# - home score
-# - away score
-
 class HockeyGame:
-    # Macros used for dictating which team the degen is on
+    """Structure to hold hockey games.
+
+    Attributes:
+        team (json): The degen team that is playing in the game.
+        gametime (datetime): Time of the game.
+        location (string): Name of the rink.
+        home_team (string): Name of the home team.
+        away_team (string): Name of the away team.
+        degen_team (DEGEN_MACRO): Whether the degen is away or home.
+        home_score (int): Score of the home team, if any (default None)
+        away_score (int): Score of the away team, if any (default None)
+    """
+
+    """DEGEN_MACRO: Macros used for dictating which team the degen is on."""
     DEGEN_HOME = 0
     DEGEN_AWAY = 1
 
