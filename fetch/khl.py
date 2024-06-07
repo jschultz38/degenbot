@@ -32,7 +32,6 @@ def fetchKHLGames(team):
             soup = BeautifulSoup(content, "html.parser")
     
     tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
-
     for table in tables:
         table_body = table.find('tbody')
         rows = table_body.find_all('tr')
