@@ -5,6 +5,8 @@ import random
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
 
+from res.DegenEmbed import *
+
 def createBasicBot(teams):
     intents = discord.Intents.default()
     intents.message_content = True
@@ -53,7 +55,10 @@ def createBasicBot(teams):
         help = bot.command_prefix + "fuck <?name?>"
         )
     async def fuck(ctx, person=''):
-        await ctx.send("fuck " + person)
+        fuckEmbed = DegenEmbed( title=None, description= None, color=discord.Color.red())
+        fuckEmbed.create()
+        fuckEmbed.add_field(f'Fuck {person}', f'Get Fucked {person}')
+        await ctx.send(embed = fuckEmbed)
 
     @bot.command(
         help = bot.command_prefix + "updog"
