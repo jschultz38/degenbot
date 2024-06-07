@@ -136,7 +136,8 @@ def createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, c
         string_repr += "^" + home_team + " vs " + away_team
     else:
         string_repr += "^" + away_team + " vs " + home_team
-
-    game = HockeyGame(team, string_repr, gametime)
+    #TODO:Parse out rink names and get the url formed, but no one actually cares about stacked deck.
+    gameurl = ''
+    game = HockeyGame(team, string_repr, gametime, gameurl)
 
     return game
