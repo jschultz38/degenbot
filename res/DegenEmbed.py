@@ -2,7 +2,7 @@ import discord
 
 
 class DegenEmbed:
-    def __init__(self, title, description, logo=None, color=0x1f6e9e):
+    def __init__(self, title, description, logo="https://avatars.githubusercontent.com/u/1737241?v=4", color=0x1f6e9e):
         self.embed_title = title
         self.embed_description = description
         self.embed_logo = logo
@@ -14,10 +14,12 @@ class DegenEmbed:
     def to_dict(self):
         return self.embed.to_dict()
 
-    def create(self):
-        self.embed.set_author(name=f"Get Fucked", icon_url=self.embed_logo)
-        self.embed.set_thumbnail(url="https://avatars.githubusercontent.com/u/1737241?v=4")
-        self.embed.set_footer(text="Made by ur mum")
+    def create(self, thumbnail, title=None):
+        # I don't really like the author field atm.
+        ## self.embed.set_author(name=f"Get Fucked", icon_url=self.embed_logo)
+        self.embed.set_thumbnail(url=thumbnail)
+        self.embed_title = title
+        self.embed.set_footer(text="Made by xDDYx's darkest thoughts.")
 
-    def add_field(self, name, value, inline=True):
+    def add_field(self, name, value, inline=False):
         self.embed.add_field(name=name, value=value, inline=inline)
