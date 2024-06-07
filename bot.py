@@ -96,7 +96,7 @@ async def sendGames(ctx, games, player, onlySoon):
         print_str += 'No games found'
     else:
         for game in games:
-            game_str = game.text
+            game_str = game.to_string()
             if onlySoon and player == None:
                 game_str += ' - ' + ', '.join(game.team['players'])
 

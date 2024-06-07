@@ -32,10 +32,8 @@ def fetchSDGames(team):
 
     x = 0
     dateText = None
-    cur_month_int = None
-    cur_month_descriptive = None
-    cur_day_int = None
-    cur_day_descriptive = None
+    cur_month = None
+    cur_day = None
     while x < len(rows):
         row = rows[x]
 
@@ -48,28 +46,26 @@ def fetchSDGames(team):
         if row.has_attr('class') and row['class'][0] == "tableScheduleSeparator":
             dateText = row.td.span.getText().split(" ")
 
-            cur_month_descriptive = dateText[1]
             match dateText[1]:
                 case 'April':
-                    cur_month_int = 4
+                    cur_month = 4
                 case 'May':
-                    cur_month_int = 5
+                    cur_month = 5
                 case 'June':
-                    cur_month_int = 6
+                    cur_month = 6
                 case 'July':
-                    cur_month_int = 7
+                    cur_month = 7
                 case 'August':
-                    cur_month_int = 8
+                    cur_month = 8
                 case _:
                     print("ERROR: Could not translate month in SD")
-            cur_day_int = int(dateText[2].split(",")[0])
-            cur_day_descriptive = dateText[0]
+            cur_day = int(dateText[2].split(",")[0])
 
             x += 1
             continue
 
         # Case 3: Row is a game
-        game = createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, cur_day_descriptive)
+        game = createSDGame(team, row, cur_month, cur_day)
         if game:
             print(game)
             games.append(game)
@@ -78,7 +74,7 @@ def fetchSDGames(team):
 
     return games
 
-def createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, cur_day_descriptive):
+def createSDGame(team, row, cur_month, cur_day):
     cols = row.find_all('td')
 
     ## Get teams
@@ -88,56 +84,38 @@ def createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, c
     if team['id'] != away_team and team['id'] != home_team:
         return None
 
+    ## Get Away/Home (the side of the rink)
+    side = "HOME" if team['id'] == home_team else "AWAY"
+
     ## Get game time
     hour = int(cols[0].span.a.getText().split(":")[0])
     minute_text = cols[0].span.a.getText().split(":")[1].split(" ")[0]
     meridiem = cols[0].span.a.getText().split(":")[1].split(" ")[1][:2]
-    gametime = datetime.datetime(2024, cur_month_int, cur_day_int, hour=hour if meridiem == "AM" else hour+12, minute=int(minute_text))    
+    gametime = datetime.datetime(2024, 
+                                cur_month,
+                                cur_day,
+                                hour=hour if meridiem == "AM" else hour+12,
+                                minute=int(minute_text))
 
     ## Get location
     location = cols[6].getText().strip()
 
-    ## Get Away/Home (the side of the rink)
-    side = "HOME" if team['id'] == home_team else "AWAY"
-
     ## Check if results have been posted for the game
     away_score = None
     home_score = None
-    result = None
     if '-' not in cols[2].getText():
-        ### Get score
         away_score = int(cols[2].getText())
         home_score = int(cols[4].getText())
 
-        ### Get W/L
-        if home_score == away_score:
-            result = 'T'
-        elif (side == 'HOME' and home_score > away_score) or (side == 'AWAY' and home_score < away_score):
-            result = 'W'
-        else:
-            result = 'L'
-
-
-    ## Create string repr
-    string_repr = "" + cur_day_descriptive + ", " + \
-                    cur_month_descriptive + " " + str(cur_day_int) + ", " + \
-                    str(hour) + ":" + minute_text + " " + meridiem + ", " + \
-                    location + ", " + \
-                    side + ", "
-
-    if result != None:
-        if side == 'HOME':
-            string_repr += result + ", " + \
-                            home_score + " - " + str(away_score) + ", "
-        else:
-            string_repr += result + ", " + \
-                            str(away_score) + " - " + str(home_score) + ", "
-
-    if side == 'HOME':
-        string_repr += "^" + home_team + " vs " + away_team
-    else:
-        string_repr += "^" + away_team + " vs " + home_team
-
-    game = HockeyGame(team, string_repr, gametime)
+    game = HockeyGame(
+                    team, 
+                    gametime,
+                    location,
+                    home_team,
+                    away_team,
+                    HockeyGame.DEGEN_HOME if side == "HOME" else HockeyGame.DEGEN_AWAY,
+                    home_score=home_score,
+                    away_score=away_score
+                )
 
     return game
