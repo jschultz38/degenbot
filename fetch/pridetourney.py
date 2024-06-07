@@ -28,16 +28,30 @@ def fetchPrideTourneyGames(team):
         options = webdriver.FirefoxOptions()
         # headless is necessary otherwise it will pop up in a browser window
         options.add_argument('--headless')
+        # bunch of flags to lighten the load i borrowed from here:
+        # https://stackoverflow.com/questions/55072731/selenium-using-too-much-ram-with-firefox
+        options.add_argument("--disable-extensions")
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-application-cache')
+        options.add_argument('--disable-gpu')
+        options.add_argument("--disable-dev-shm-usage")
         driver = webdriver.Firefox(options=options)
-        driver.get(URL)
-        page_html = driver.page_source
+
+        page_html = None
+        # try/finally block to make sure the driver always gets closed even after exception or interrupt
+        try:
+            # todo: we could optimize this by creating one global driver and reusing the same one for each team
+            driver.get(URL)
+            page_html = driver.page_source
+        finally:
+            # important: always quit the driver when you're done or else the invisible firefox window will persist
+            driver.quit()
 
         team['cache'] = page_html
         soup = BeautifulSoup(page_html, "html.parser")
 
     schedule = soup.find_all('li', attrs={'class': 'schedule-game clr'})
 
-    # for each game
     for g in schedule:
         games.append(createPrideTourneyGame(g, team))
 
