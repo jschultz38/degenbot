@@ -15,7 +15,7 @@ class Livebarn(Enum):
     SNOQUALMIE_B = 1532
 
 
-def gameurl(rink):
+def construct_gameurl(rink):
     baseurl = 'https://livebarn.com/en/video/'
     gameurl = ''
     match rink:
@@ -29,7 +29,7 @@ def gameurl(rink):
             gameurl = f'{baseurl}{Livebarn.STAR.value}'
         case 'OVA':
             gameurl = f'{baseurl}{Livebarn.OVA.value}'
-        case 'EVT COMM':
+        case 'EVT COMM' | 'Everett Community Ice':
             gameurl = f'{baseurl}{Livebarn.EVCOMM.value}'
         case 'LIC':
             gameurl = f'{baseurl}{Livebarn.LIC.value}'

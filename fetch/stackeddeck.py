@@ -3,6 +3,7 @@ import datetime
 from game import HockeyGame
 from globals import RATE_LIMITED
 from bs4 import BeautifulSoup
+from res.livebarn import construct_gameurl
 
 def fetchSDGames(team):
     if RATE_LIMITED:
@@ -96,6 +97,9 @@ def createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, c
     ## Get location
     location = cols[6].getText().strip()
 
+    # Create livebarn URL
+    gameurl = construct_gameurl(location)
+
     ## Get Away/Home (the side of the rink)
     side = "HOME" if team['id'] == home_team else "AWAY"
 
@@ -136,8 +140,6 @@ def createSDGame(team, row, cur_month_int, cur_month_descriptive, cur_day_int, c
         string_repr += "^" + home_team + " vs " + away_team
     else:
         string_repr += "^" + away_team + " vs " + home_team
-    #TODO:Parse out rink names and get the url formed, but no one actually cares about stacked deck.
-    gameurl = ''
     game = HockeyGame(team, string_repr, gametime, gameurl)
 
     return game

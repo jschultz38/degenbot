@@ -48,8 +48,6 @@ def createBasicBot(teams):
         games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
         await sendGames(ctx, games, player, onlySoon)
 
-
-
     @bot.command(
         help = bot.command_prefix + "fuck <?name?>"
         )

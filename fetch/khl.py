@@ -3,7 +3,7 @@ import datetime
 from game import HockeyGame
 from globals import RATE_LIMITED
 from bs4 import BeautifulSoup
-from res.livebarn import gameurl
+from res.livebarn import construct_gameurl
 
 def fetchKHLGames(team):
     page = None
@@ -97,6 +97,6 @@ def createKHLGame(cols, team):
 
     gametime = datetime.datetime(2024, int(month_ret), int(day_ret), hour=hour_ret, minute=minute_ret)
 
-    game = HockeyGame(team, textual_rep, gametime, gameurl(rink))
+    game = HockeyGame(team, textual_rep, gametime, construct_gameurl(rink))
 
     return game
