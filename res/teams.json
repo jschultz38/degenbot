@@ -163,6 +163,70 @@
 				"Blair"
 			],
 			"league": "Pride"
+		},
+		{
+			"name": "Bayard's Breakers",
+			"div": "4226312",
+			"id": "6818751",
+			"players": [
+				"Malikai",
+				"Emily"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Harvey's Heroes",
+			"div": "4226312",
+			"id": "6818754",
+			"players": [
+				"Jeremy"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Marsha's Rioters",
+			"div": "4226312",
+			"id": "6818756",
+			"players": [
+				"David"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Sylvia's Storm",
+			"div": "4226311",
+			"id": "6818746",
+			"players": [
+				"Blair"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Bird's Ballers",
+			"div": "4226311",
+			"id": "6818748",
+			"players": [
+				"Andy"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Roger's Rebels",
+			"div": "4226310",
+			"id": "6818759",
+			"players": [
+				"Jazz"
+			],
+			"league": "SPC"
+		},
+		{
+			"name": "Edie's Enforcers",
+			"div": "4226311",
+			"id": "6818745",
+			"players": [
+				"Phantasia"
+			],
+			"league": "SPC"
 		}
 	],
 

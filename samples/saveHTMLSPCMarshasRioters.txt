@@ -1,0 +1,3648 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="" class="mod_no-htmlimports mod_cors mod_no-ie8compat mod_serviceworker mod_svg mod_target mod_es5syntax mod_es6array mod_arrow mod_es6number mod_es6string mod_filereader mod_fetch mod_localstorage mod_no-framed mod_webworkers mod_cssall mod_video mod_webanimations mod_csscalc mod_cssgradients mod_opacity mod_csspositionsticky mod_preserve3d mod_dataset mod_unknownelements mod_srcset mod_inlinesvg mod_textareamaxlength mod_cssexunit mod_supports mod_es5array mod_es5date mod_es5function mod_es5object mod_strictmode mod_es5string mod_json mod_es5undefined mod_es5 mod_mediaqueries mod_no-touchevents mod_fontface mod_no-cssscrollbar mod_cssvmaxunit mod_cssvminunit mod_formvalidation mod_svgasimg mod_cssanimations mod_appearance mod_backgroundcliptext mod_csscolumns mod_csscolumns-width mod_csscolumns-span mod_csscolumns-fill mod_csscolumns-gap mod_csscolumns-rule mod_csscolumns-rulecolor mod_csscolumns-rulestyle mod_csscolumns-rulewidth mod_no-csscolumns-breakbefore mod_no-csscolumns-breakafter mod_no-csscolumns-breakinside mod_no-cssgridlegacy mod_cssgrid mod_cssfilters mod_flexbox mod_flexboxlegacy mod_no-flexboxtweener mod_flexwrap mod_no-overflowscrolling mod_cssresize mod_csstransforms mod_csstransforms3d mod_csstransitions mod_no-forcetouch mod_objectfit mod_object-fit mod_no-wrapflow mod_no-filesystem wf-aktivgrotesk-n4-active wf-aktivgroteskthin-i2-active wf-aktivgrotesk-i4-active wf-aktivgrotesk-n7-active wf-bebasneue-n4-active wf-aktivgrotesk-i7-active wf-aktivgroteskthin-n2-active wf-active" style=""><!-- PUBLIC DESKTOP FULL VERSION START --><head>
+
+			<!-- <script>alert("test for ngFEShellIframeRedirect:  ");</script> -->
+	       
+
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<title>Team Home Page for Marsha's Rioters : Queer Icons Conference - Friendly Division : Seattle Pride Hockey Association</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+
+			
+
+			<meta name="Keywords" content="">
+			<meta name="description" content="Team Home Page for Marsha's Rioters : Queer Icons Conference - Friendly Division : Seattle Pride Hockey Association">
+			<meta name="copyright" content="Copyright ©2005-2022 LeagueApps">
+			<meta name="author" content="LeagueApps.com">
+			<meta name="title" content="Team Home Page for Marsha's Rioters : Queer Icons Conference - Friendly Division : Seattle Pride Hockey Association">
+
+			<link rel="shortcut icon" type="image/ico" href="https://svite-league-apps-static.s3.amazonaws.com/_i/favicon.ico">
+			<!--
+			<link rel="image_src" href="http://svite-league-apps-static.s3.amazonaws.com/_i/favicon.ico" />
+			-->
+			
+				
+				
+					
+						
+							
+							
+								<link rel="image_src" href="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/cb7c4d5d-7be6-446a-86ee-6012d78633e9.png">
+							
+						
+					
+
+					
+
+				
+			
+
+			<link rel="stylesheet" type="text/css" href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/vendor/reset.css?v=1717775159292" media="screen">
+
+      
+      <link href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal/index.css?v=1717775159292" rel="stylesheet" type="text/css">
+
+			<!-- this is the theme css to be injected if "use default css" is set to TRUE -->
+			
+				
+					
+          <!--  #foundation3 flag - if using skin 6 and telsa turned on use the proper default.css to allow for proper theme creation  -->
+					
+					
+						<link rel="stylesheet" type="text/css" href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal-old/f3.css?v=1717775159292" media="screen" id="theme-css">
+					
+          <!-- end of foundation styles -->
+          <!-- grouped default-newreg, library, shared, webfonts, gen-1-templates.csc -->
+
+          
+						
+						
+							<script type="text/javascript" data-cfasync="false" charset="UTF-8" async="" src="https://cdn.heapanalytics.com/js/replay/libs/latest/auryc.lib.js"></script><script src="https://connect.facebook.net/en_US/all.js?hash=0b4e75ee8f63d270edb481d9cea73484" async="" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-GLS5RG9ZM4&amp;l=dataLayer&amp;cx=c"></script><script id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script><script type="text/javascript" async="" src="https://cdn.heapanalytics.com/js/heap-3732699383.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/9pvHvq7kSOTqqZusUzJ6ewaF/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-35beLYB8J+E3oW9vsZdrYlTMm/yJU76vKQNSwKHtb4Ug7VeAPwqIzHBRAOMwbzRb"></script><script async="" src="https://www.datadoghq-browser-agent.com/datadog-rum-v4.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-P0KVHGTCFC"></script><script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery-3.6.2.min.js?v=1717775159292"></script>
+							<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery-migrate-3.4.0.min.js?v=1717775159292"></script>
+							<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery-ui-1.13.2.min.js?v=1717775159292"></script>
+						
+					
+
+          <!--  this add skin0 used for f1 and f2 -->
+          
+
+          <link href="//svite-league-apps-static.s3.amazonaws.com/_c/skins/skin-six.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//svite-league-apps-static.s3.amazonaws.com/_s/vendor/owl/owl.carousel.min.css">
+
+<script src="https://use.typekit.net/ewn3fkp.js"></script>
+<style type="text/css">.tk-bebas-neue{font-family:"bebas-neue",sans-serif;}.tk-aktiv-grotesk{font-family:"aktiv-grotesk",sans-serif;}.tk-aktiv-grotesk-thin{font-family:"aktiv-grotesk-thin",sans-serif;}</style><style type="text/css">@font-face{font-family:tk-bebas-neue-n4;src:url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-n4;src:url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-i4;src:url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-n7;src:url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-i7;src:url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-thin-n2;src:url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff2"),url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff"),url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("opentype");font-weight:200;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-aktiv-grotesk-thin-i2;src:url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("woff2"),url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("woff"),url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("opentype");font-weight:200;font-style:italic;font-stretch:normal;font-display:auto;}</style><script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+					<!--  IE HANDLERS -->
+					<!--[if IE 9]>
+					<link rel="stylesheet" type="text/css" href="http://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal-old/06_utilities/default-ie9.css?v=1717775159292" media="screen" />
+					<![endif]-->
+					<!--[if lte IE 8]>
+					<link rel="stylesheet" type="text/css" href="http://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal-old/06_utilities/default-ie.css?v=1717775159292" media="screen" />
+					<![endif]-->
+					<!--[if lt IE 8]>
+					<link rel="stylesheet" type="text/css" href="http://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal-old/06_utilities/default-ie7.css?v=1717775159292" media="screen" />
+					<![endif]-->
+					<!--[if lte IE 8]>
+					<link rel="stylesheet" type="text/css" href="http://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal-old/06_utilities/shared-ie8.css?v=1717775159292" media="screen" />
+					<![endif]-->
+
+          <link rel="stylesheet" type="text/css" href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/member-portal/blur.css?v=1717775159292" media="screen">
+
+					<style type="text/css" id="wizard-css">
+						/*  ----------------------------------------------------------
+	T H E M E   E D I T O R   S T Y L E S - All Colors Must Be Separate for	multiple theme support
+-------------------------------------------------------------- */
+/* CSS variables for using theme colors outside of this file */
+:root {
+  --account-nav-background-color: #023047;
+  --alerts-color: #000000;
+  --alternate-text-color: #023047;
+  --body-text-color: #023047;
+  --button-background-color: #06d6a0;
+  --button-background-hover-color: #ffd166;
+  --button-text-color: #ffffff;
+  --button-text-hover-color: #023047;
+  --content-background-color: #ffffff;
+  --footer-background-color: #023047;
+  --footer-extra-background-color: ${footerExtraBackgroundColor};
+  --header-background-color: #3384f3;
+  --headings-color: #e5476f;
+  --links-color: #06d6a0;
+  --links-hover-color: #ffd166;
+  --logo-background-color: #ffffff;
+  --logo-color: #bbbbbb;
+  --main-nav-background-color: #ade8f4;
+  --main-nav-links-color: #023047;
+  --main-nav-links-hover-color: #e5476f;
+  --newsletter-background-color: #ffffff;
+  --newsletter-title-color: #f6f6f6;
+  --sidebar-background-color: #ffffff;
+}
+
+/* Core */
+body {
+    background-color: #023047;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #023047;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#header .wrap {
+	background-color: #3384f3;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#content .wrap {
+	background-color: #ffffff;
+}
+.aside {
+	background-color: #ffffff;
+}
+p, dt, dd, li {
+	font-size: 16px;
+}
+
+
+/* Links */
+a { color: #06d6a0; }
+a:hover { color: #ffd166; }
+.btn {
+	background-color: #06d6a0;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background-color: #ffd166;
+	color: #023047;
+}
+
+.svg-button path,
+.svg-button circle {
+	stroke: #06d6a0
+}
+
+.svg-button:hover path,
+.svg-button:hover circle {
+	stroke: #ffd166
+}
+
+
+/* Page Headings */
+#logo h1 {
+	color: #bbbbbb;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 39px;
+}
+
+#logo h1 a { color: #bbbbbb; }
+
+h1#page-title {
+	color: #e5476f;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 26px;
+}
+
+
+/* Main Nav */
+.la_global__header .la--header__banner, #nav .wrap, .la_nav {
+	background-color: #ade8f4;
+}
+#nav li {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+#nav li a, .sub-nav dd, .sub-nav dd a, .social-icons a, .la_nav li a, .la_nav li .sub-nav dd a {
+	color: #023047;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+#nav li a:hover, .sub-nav dd a:hover, .social-icons a:hover , .la_nav li a:hover, .la_nav li .sub-nav dd a:hover {
+	color: #e5476f;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+.sub-nav dt {
+	background-color: #023047;
+	color: #ade8f4
+}
+
+.la--footer .la_nav a:hover, .la--social li:hover a i {color:#023047;}
+
+/* Section Headings */
+h2, h3, h4 {
+	color: #e5476f;
+}
+h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 21px;
+}
+
+/* Alternate Text */
+.tag, .aside h2 em, .aside h3 em, dl.basic dt, em.context, #page-title em.context a, .basic-form li label em, .basic-form p.fine-print, .main h1 .site-notice, .form-steps li.off, .base-meta h2 em, .base-listing.grouped h3, .base-listing.grouped h3 a, .base-schedule em, .base-fees em, .schedule span.tbd, .schedule abbr, .schedule .game p, .schedule .game .official em, .schedule .meta .game-note, .schedule .rescheduled, .schedule .rescheduled span.tbd, .schedule .rescheduled abbr, .schedule .rescheduled .game p, .schedule .team-result, .entity-listing .entity-meta, .entity-listing .entity-details, .sublocations li em {
+	color: #023047;
+}
+
+#page-title em.context a:hover, .base-listing.grouped h3 a:hover {
+	color: #023047;
+}
+
+
+/* Alerts */
+.alert, .site-notice {
+	background-color: #000000;
+}
+
+/* Skins Support */
+#headline h1, #headline h2, #headline h3 {
+	color: #bbbbbb;
+}
+
+/* Logo Background */
+.la__logo #the-logo {
+	background-color: #ffffff;
+}
+
+/* account nav */
+.la--nav__account {
+	background-color: #023047;
+}
+
+/* Footer */
+.la--footer{
+	background-color: #023047;
+}
+#footer-extras{
+	background-color: ${footerExtraBackgroundColor};
+}
+
+/* NewsLetter Background */
+.la__newsletter{
+	background-color: #ffffff;
+}
+.la__newsletter h3, .newsletter-subscription-error-msg{
+	color: #f6f6f6 !important;
+}
+
+.reg-highlight {
+    color: #e5476f;
+}
+
+/* Dashboard Tabs :: EN-560 */
+.simple-tabs__sites li {
+    background-color: #06d6a0;
+}
+
+.simple-tabs__sites li.current {
+    background-color: #ffd166;
+}
+
+.simple-tabs__sites li.current::before {
+    border-top-color: #ffd166;
+}
+
+.simple-tabs__sites li::before {
+    border-top-color: #06d6a0;
+}
+
+.simple-tabs__sites li:hover {
+    background-color: #ffd166;
+}
+
+.simple-tabs__sites li:hover::before {
+    border-top-color: #ffd166;
+}
+
+.simple-tabs__sites a {
+    color: #ffffff;
+}
+
+.simple-tabs__sites li:hover a {
+    color: #023047;
+}
+
+					</style>
+
+					<!-- BEGIN :: Site-Wide Custom CSS-->
+					<style type="text/css" id="custom-css">
+						/*Begin  Bronx Edits*/
+
+/*Logo Size and Position*/
+.la--header__banner .la__logo img {
+    max-width: 250px;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
+
+/*Remove Logo Background and Box*/
+  .la__logo #the-logo, .la__logo:after {
+    padding: 5px;
+    background: transparent;
+    box-shadow: none;
+  }
+     
+/*Fixes Giant Paperclip*/
+  .custom-page-content-REDACTOR img {
+    width: auto;
+    max-width: 100%;
+  }
+  
+/*Hides Newsletter*/
+  .la__newsletter {
+    display: none;
+  }
+  
+/*Sets Body Font, fixes unstyled roster pages*/
+  body, html {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+/*Header Fonts and Styling*/
+  h1#page-title, h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+/*Account Navigation Fonts and Styling*/
+  .la--nav__account a, #account-nav p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+/*Button Styling (removes shadow and makes it square, you can round the edges by changing the radius from 0px to 25px)*/
+  .btn {
+    background-image: none!important;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+/*Button Font Styling*/
+  a.btn, button.btn, input.btn {
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+/*Remove Footer Clutter*/
+  .la__newsletter {
+    display: none;
+  }
+  
+  h3.la_social__title {
+    display: none;
+  }
+  
+  .la--footer .la_nav {
+    display: none;
+  }
+  
+  .la--copyright {
+    text-align: center;
+  }
+
+/*LeagueApps Link Color (Footer)*/
+.la--footer a {
+    color: #fff;
+}
+  
+ /*Navigation Menu Styling*/ 
+  .la_nav li a {
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .la_nav li a:hover {
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /*Other Page adjustments*/
+  .la_global__header .la--header__banner, #nav .wrap, .la_nav {
+    min-width: 0px!important;
+  }
+  
+  .la_global__header {
+    min-width: 0px!important;
+  }
+  
+  #account-nav .la--social {
+    float: left;
+    padding-top: 0px;
+  }
+  
+  .la_global__header .la--header__banner, #nav .wrap, .la_nav {
+    min-width: 0px!important;
+    MIN-height: 65PX;
+}
+
+.la_global__header .la--header__banner, #nav .wrap, .la_nav {
+  min-width: 0px!important;
+}
+
+.la_global__header {
+  min-width: 0px!important;
+}
+
+#account-nav .la--social {
+   float: left;
+   padding-top: 7px;
+}
+
+
+figure.effect-sadie h2 {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+   filter: drop-shadow(0px 0px 3px #222);
+}
+
+.custom-page-content-REDACTOR img {
+   width: auto;
+   max-width: 100%;
+}
+
+/*End Bronx Edits*/
+					</style>
+					<!-- END :: Site-Wide Custom CSS -->
+
+					<!-- BEGIN :: Page-Specific Custom CSS -->
+					
+					<!-- END :: Page-Specific Custom CSS -->
+				
+				
+			
+
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery.tipsy.js?v=1717775159292"></script>
+      <script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/modernizr-prod.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/sv-core.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/_site2.0/site.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/shared.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/_site2.0/theme-default.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/_site2.0/fbinitroutines.js?v=1717775159292"></script>
+			<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/generic.js?v=1717775159292"></script>
+        
+      
+        
+        <script src="https://svite-league-apps-static.s3.amazonaws.com/_s/skins/skin6.js?v=1717775159292"></script>
+      
+
+			<!--  Skin Header Meta Data, this adds alert('hi') for MP Calendar in svssc -->
+			
+
+			<!-- Google Analytics Tracking Code -->
+			
+
+
+
+
+
+<script type="text/javascript">
+  (function() {
+    var gtag = document.createElement('script'); gtag.type = 'text/javascript'; gtag.async = true;
+    gtag.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.googletagmanager.com/gtag/js?id=G-P0KVHGTCFC';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gtag, s);
+  })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-P0KVHGTCFC');
+
+  
+  gtag('config', 'G-GLS5RG9ZM4');
+  
+</script>
+
+
+
+			
+
+
+<script>
+  (function(h,o,u,n,d) {
+	h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+	d=o.createElement(u);d.async=1;d.src=n
+	n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+  })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
+  DD_RUM.onReady(function() {
+	DD_RUM.init({
+	  clientToken: 'pub4e4c2649e2f7fac776cffbc2895b0166',
+	  applicationId: '5a5ce796-c952-41d2-a29d-75096b613c07',
+	  site: 'us5.datadoghq.com',
+	  service: 'monolith',
+	  env: 'leagueapps-com',
+	  version: '9f1ecf6',
+	  sessionSampleRate: 1,
+	  premiumSampleRate: 1,
+	  trackUserInteractions: true,
+	  defaultPrivacyLevel: 'mask-user-input',
+	});
+
+	DD_RUM.startSessionReplayRecording();
+  })
+</script>
+
+			<!-- Google reCAPTCHA -->
+			<script src="https://www.google.com/recaptcha/api.js"></script>
+
+			
+
+			
+			
+			   <link href="https://fonts.googleapis.com/css?family=:400,300,700" rel="stylesheet" type="text/css">
+			
+
+      
+
+  <script type="text/javascript">
+    const skip = '/leagues/4226312/teams/6818756'.match(/\/console\/sites\/\d+\/teams/g) != null;
+    if (!skip) {
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      heap.load("3732699383");
+      heap.addUserProperties({"orgAccountId" : "31249"});
+      heap.addUserProperties({"siteId" : "48442"});
+      heap.addUserProperties({"orgAccountName" : "Seattle Pride Hockey Association"});
+      heap.addUserProperties({"siteName" : "Seattle Pride Hockey Association"});
+      heap.addUserProperties({"orgAccountStatus" : "ACTIVE"});
+      heap.addUserProperties({"siteMode" : "ADULT"});
+      heap.addUserProperties({"userEmail" : ""});
+      heap.addUserProperties({"userName" : ""});
+      heap.addUserProperties({"orgAccountRole" : ""});
+    }
+  </script>
+
+		<style type="text/css">@font-face{font-family:bebas-neue;src:url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/c080f0/0000000000000000000149c5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk;src:url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/1f3d09/00000000000000003b9adf02/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk;src:url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/235716/00000000000000003b9adefc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk;src:url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/3e6abb/00000000000000003b9adeff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk;src:url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/8eb1c2/00000000000000003b9adefb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk-thin;src:url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff2"),url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("woff"),url(https://use.typekit.net/af/266360/00000000000000003b9ae0fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3) format("opentype");font-weight:200;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:aktiv-grotesk-thin;src:url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("woff2"),url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("woff"),url(https://use.typekit.net/af/e7779d/00000000000000003b9ae0fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3) format("opentype");font-weight:200;font-style:italic;font-stretch:normal;font-display:auto;}</style><script src="https://cdn.heapanalytics.com/js/replay/11412-Main-prod-heap/container.js" data-cfasync="false" async="true" data-vendor="auryc" data-role="container" charset="utf-8"></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js"></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+
+		<body class="">
+
+    
+
+    
+				<span id="totalAmountPaid" name="totalAmountPaid" hidden="true"></span>
+				<script> var AmountPaid = ""; </script>
+			
+			<!-- custom tracking on purchase success event -->
+			
+
+			
+
+<input id="lapi-base-url" value="//my.seattlepridehockey.org" type="hidden">
+<input id="lapi-site-url" value="//my.seattlepridehockey.org/v1/sites/48442/" type="hidden">
+<input id="lapi-site-name" value="seapridehockey" type="hidden">
+<input id="lapi-site-id" value="48442" type="hidden">
+<input id="lapi-user-id" value="" type="hidden">
+
+
+
+
+			<!--[if lt IE 8]>
+			<div class="old-browsers ">
+				<p>It seems you are using an older version of Internet Explorer. While this site may work decently well, a lot of functionality might not work as expected or as well if you were using a modern browser. We suggest using <a href="https://www.google.com/intl/en/chrome/browser/" target="_blank">Google Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox</a>, or the latest version of <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> (at least version 9) available on your computer. To read more about what browsers we support, <a href="http://blog.leagueapps.com/how-we-think-about-browser-support/" target="_blank">read this blog post</a>.</p>
+				<p id="hide-old-browser-content"><a href="">Hide this notice</a></p>
+			</div>
+			<script type="text/javascript">
+			function SetCookie(cookieName,cookieValue) {
+				document.cookie = cookieName+"="+escape(cookieValue)
+				+ ";expires=Sun, 17 Jan 2038 19:14:07 GMT; path=/";
+			}
+			var $hide_old_browser = $('#hide-old-browser-content');
+			$hide_old_browser.on('click',function(){
+				SetCookie('hide-old-browser-content',1);
+				$(this).parent().hide();
+				return false;
+			});
+			</script>
+			<![endif]-->
+
+			
+				
+				
+			
+
+
+
+	
+
+
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+	function showSystemMessages(content, dur) {
+		/*if($("#sys-messages").length <= 0) {
+			$('body').append('<div id="sys-messages"></div>');
+		}
+		$("#sys-messages").html(content);*/
+		if($("#sys-messages-hide").length) {
+			$("#sys-messages-hide").remove();
+		}
+		if(content.indexOf('<p')>-1){
+			$('#sys-messages-hide').remove();
+			$('body').append('<div id="sys-messages-hide" class="la-public footer">'+content+'</div>');
+		}else{
+			$('#sys-messages-hide').remove();
+			$('body').append('<div id="sys-messages-hide">'+content+'</div>');
+		}
+		showSysMessages(dur != undefined ? dur : 5);
+	}
+
+	function showErrorMsg(content, dur) {
+        var error ="";
+        if ( Object.prototype.toString.call(content) === '[object Array]') {
+            for (var i = 0; i < content.length; ++i ) {
+                error += '<p class="sys-error">' + content[i] + '</p>'
+            }
+        }else{
+            error = '<p class="sys-error">' + content + '</p>';
+        }
+		showSystemMessages(error, dur);
+	}
+
+	function showErrorMessage(content, dur) {
+		showErrorMsg(content, dur);
+	}
+
+	function showConfirmMessage(content, dur) {
+		showSystemMessages('<p class="sys-confirm">' + content + '</p>', dur);
+	}
+
+	$(function(){
+		if(location.pathname=='/registrationSubmit'){
+			$('#sys-messages.la-public').addClass('pad-top').find('h3').hide();
+		}
+	});
+
+//--><!]]>
+</script>
+
+
+
+  
+
+
+
+
+			
+
+			
+				<input type="hidden" id="data-lainfo-twitterUsername" name="data-lainfo-twitterUsername" value="seapridehockey">
+				<input type="hidden" id="data-lainfo-instagramAccessToken" name="data-lainfo-instagramAccessToken" value="" _ar_hide_="width:0px;height:0px;margin:0px;position:static;display:none;">
+			
+
+			
+
+				<div id="fb-root" class=" fb_reset"><script type="text/javascript" src="https://connect.facebook.net/en_US/all.js" async=""></script><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+
+				<script type="text/javascript">
+				<!--//--><![CDATA[//><!--
+
+				  var fbAppID = '1597886763794892';
+				  var fbJSurl = '//connect.facebook.net/en_US/all.js';
+
+				  if(fbAppID != null && fbAppID != ''){
+				   var fbApiInit = false;
+				   window.fbAsyncInit = function() {
+					  FB.init({
+				      appId      : fbAppID,  // App ID
+				      //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+				      status     : true, // check login status
+				      cookie     : true, // enable cookies to allow the server to access the session
+				      oauth      : true, // enable OAuth 2.0
+				      xfbml      : true  // parse XFBML
+				    });
+
+
+				    // Call to additional JS routines that need to be within fbAsyncInit (vary by calling parent jsp/action)
+				    // Defined in fbinitroutines.js
+				    var fbInitFunction = 'getFBLoginStatusForPublicSite';
+				    if(fbInitFunction != ''){
+						var isLoggedIn = false;
+					 	
+
+					 	executeFBInitFunction(fbInitFunction, window, isLoggedIn);
+				    }
+
+				    fbApiInit = true; //init flag
+
+				   }; //end of window.fbAsyncInit
+
+
+				  } //end of fbAppID check
+				  else{
+					fbJSurl += '#xfbml=1&appId=259842427403814';
+				  }
+
+
+				  (function() {
+				        var e = document.createElement('script');
+				        e.type = 'text/javascript';
+				        e.src = document.location.protocol + fbJSurl; // '//connect.facebook.net/en_US/all.js#xfbml=1';
+				        e.async = true;
+				        document.getElementById('fb-root').appendChild(e);
+				    }());
+
+
+					//May 22 2012: inclusion of '#xfbml=1' on js reference above suddenly started to cause warning msg described below:
+					//http://stackoverflow.com/questions/10415884/fb-init-has-already-been-called
+
+					//Oct 2012 - JS debug/console output will appear if FB app not defined, but FB page & like buttons are
+					//https://sportsvite.lighthouseapp.com/projects/69692-core-dev-la/tickets/1292-bug-adding-fb-page-does-not-work-if-fb-app-not-enabled#ticket-1292-6
+
+
+				//--><!]]>
+				</script>
+
+			
+
+			
+
+
+
+			
+
+			
+				
+			
+
+			<!-- Header Theme -->
+			
+				
+					
+
+
+
+<script>
+//Find all YouTube videos
+var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"),
+
+// The element that is fluid width
+$fluidEl = $("body");
+
+//Figure out and save aspect ratio for each video
+$allVideos.each(function() {
+
+$(this)
+ .data('aspectRatio', this.height / this.width)
+
+ // and remove the hard coded width/height
+ .removeAttr('height')
+ .removeAttr('width');
+
+});
+
+//When the window is resized
+$(window).resize(function() {
+
+var newWidth = $fluidEl.width();
+
+// Resize all videos according to their own aspect ratio
+$allVideos.each(function() {
+
+ var $el = $(this);
+ $el
+   .width(newWidth)
+   .height(newWidth * $el.data('aspectRatio'));
+
+});
+
+//Kick off one resize to fix all videos on page load
+}).resize();
+
+/* Tweet Blockquote */
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+//Blockquote tweet this button on hover
+
+$('blockquote').hover(function() {
+
+var blockQuoteText = $(this).text();
+var currentUrl = window.location;
+
+$(this).append('<div class="tweet-quote"><a href="https://twitter.com/share" data-text="' +blockQuoteText+ '"  class="twitter-share-button" data-via="doodlemarks" data-url="' +currentUrl+ '" data-size="large" data-count="vertical">Tweet</a></div>');
+
+$('.tweet-quote').hide().fadeIn(200);
+
+twttr.widgets.load();
+
+}, function() {
+ $('.tweet-quote').remove();
+});
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 0){
+    $('.la_global__header, body').addClass("fixed");
+  }
+  else{
+    $('.la_global__header, body').removeClass("fixed");
+  }
+});
+
+$(function() {
+	var logoWidth = $(".la__logo").outerWidth();
+	$(".la--header__banner").css("padding-left", logoWidth);
+});
+</script>
+
+	<div class="la_global__header" id="la_global_header">
+		
+
+
+<div id="account-nav" class="la--nav__account"> 
+	
+
+
+
+	
+
+
+
+	
+		
+	 	
+			
+			<p>
+				<a href="/signup" data-id="signup-link">Sign Up</a>
+				<span class="dot">·</span>
+				<a href="/login?redirect_uri=http%3A%2F%2Fmy.seattlepridehockey.org%2Fleagues%2F4226312%2Fteams%2F6818756" data-id="login-link">Sign In</a>
+				  <span class="dot">·</span>
+				
+				<a href="#" onclick="cOverlay('.send-feedback'); return false;" id="feedback-link" data-id="feedback-link">Feedback</a>
+			</p>
+
+
+
+		
+	
+
+
+	
+	
+	
+		
+	
+</div> 
+
+	   	<header class="la--header__banner clr" style="padding-left: 310px;">
+	   		<!-- <div class="skewbox"></div> -->
+			<div class="navbar-header">
+				<h1 class="la__logo">
+
+
+
+
+
+	
+    
+      <a id="the-logo" href="/">
+    
+    
+			
+				
+				
+					<img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/cb7c4d5d-7be6-446a-86ee-6012d78633e9.png" title="Seattle Pride Hockey Association">
+				
+			
+		</a>
+	
+	
+</h1>
+			</div>
+			<nav class="la_nav">
+				
+
+
+
+
+	<!-- main top nav -->
+	
+		
+	
+
+
+
+	
+
+
+
+				<ul>
+					
+						
+						
+							<li>
+								<a href="/">Home</a>
+							</li>
+						
+					
+						
+							<li class="has-sub">
+								<a href="/leagues">League</a>
+								<dl class="sub-nav">
+									
+										
+											<dt>Sports</dt>
+										
+										
+									
+										
+										
+											<dd><a href="/leagues/ice-hockey">Ice Hockey</a></dd>
+										
+									
+								</dl>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/tournaments">Tournaments</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/events">Events &amp; Programs</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/bookings">Pride Tape with a Pro</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/store">Store</a>
+							</li>
+						
+					
+				</ul>
+
+<!--
+<script>
+    $(function() {
+        var menuHeight = $(".mobile_header-sticky").outerHeight();
+        var styles = {'padding-top':menuHeight};
+        var absolute = {'top':menuHeight};
+
+        $(".enhanced body").css(styles);
+        $(".enhanced .ui-page ").css(absolute);
+
+        $(".enhanced #menu .btn-slide").click(function() {
+            $(".enhanced").toggleClass("showMenu");
+        });
+    });
+</script>
+--> 
+
+			</nav>
+		</header>
+	</div>
+
+	<div class="la--container la--header">
+		<div id="header-extras">
+			
+
+
+<div class="flexslider" style="">
+  <ul class="slides" style="height: 400px;">
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;" class="flex-active-slide">
+<a href="https://my.seattlepridehockey.org/">	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/9cee52d7-2b59-4c47-8df5-4a37fb770540.jpeg" alt="Welcome to mySPHA">
+		      <div class="flex-caption gdl-slider-caption">
+<h1 class="flex_slider_title">Welcome to mySPHA</h1><p>mySPHA is your home for all things Seattle Pride Hockey Association. Register for programs &amp; tournaments through one, easy portal.</p>		      </div>
+</a>    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/d7b69fdc-a45c-45a1-8be5-649f7bf7071c.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/13cc4b13-775c-48a0-b846-fadaef0c68e8.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/3507e7b3-0324-4e6e-8c67-01becde39401.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/0fbcaabf-2bd8-4d54-9eca-83705354bc4f.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/60bc5370-a82e-4d70-b7f1-6babe310cccb.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/9f7506a1-fd06-4d2b-ace0-7b7abddf0cc3.jpeg" alt="$slide.title">
+    </li>
+    <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+	      <img src="https://svite-league-apps-content.s3.amazonaws.com/31249/48442/2df182da-a670-49d5-a2d9-83fc5d1dcbd4.jpeg" alt="$slide.title">
+    </li>
+  </ul>
+<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li><li><a>4</a></li><li><a>5</a></li><li><a>6</a></li><li><a>7</a></li><li><a>8</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div>
+ 
+		</div>
+	</div>
+
+				
+				
+			
+
+			<!--  Content/Templates -->
+			<div class="la--container">
+				
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="print" href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/print/_themes/print.css">
+
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+
+$(function(){
+	var ai = 'null';
+	if(ai != '' && ai != 'null'){
+	   $('html,body').animate({scrollTop: $("#"+ai).offset().top}, 1000);
+	}
+	$('#message-focus').click(function(){
+		$('#'+$(this).attr('src')).focus();
+	});
+});
+
+//--><!]]>
+</script>
+
+
+<div id="content">
+	<div class="wrap">
+		<div class="content-wrap">
+			<!-- Masthead (optional) -->
+			<div id="masthead"></div>
+
+			<!-- Main Content -->
+			<div class="main full block-float-layout">
+
+				
+					
+					
+					
+					
+				
+
+
+
+
+
+    
+
+
+
+ <script id="roster-management-sidenav" type="application/json">{
+    "canEditTeamProfile": "false",
+    "divisionName": "None",
+    "divisionsLabel": "Division",
+    "editProfileLink": "/leagues/4226312/editTeam?teamId=6818756",
+    "programLink": "/leagues/ice-hockey/4226307-seattle-pride-classic-2024-pres.-by-symetra",
+    "programName": "Seattle Pride Classic 2024, pres. by Symetra",
+    "scheduleLabel": "Schedule",
+    "scheduleLink": "/leagues/4226312/teams/6818756",
+    "standingsLink": "/leagues/4226312/standings",
+    "standingTies": "0",
+    "standingLosses": "0",
+    "standingWins": "0",
+    "subprogramLink": "/leagues/ice-hockey/4226312-queer-icons-conference---friendly-division",
+    "subprogramName": "Queer Icons Conference - Friendly Division",
+    "teamEmail": "@leagueapps.com",
+    "teamHeadline": "",
+    "teamLogoLink": "/leagues/4226312/teams/6818756",
+    "teamLogoURL": "https://svite-league-apps-img.s3.amazonaws.com/team-6818756-s3.jpg",
+    "teamName": "Marsha's Rioters",
+    "teamRegistrationStatus": "Complete"
+   }</script>
+
+
+
+<div id="team-card">
+	<div class="o-team--card">
+		<div class="gp-card--meta gp-card--meta__main" style="">
+			
+				<a data-id="team-img" class="program-logo team-marshasrioters-queericonsconferencefriendlydivision-icehockey" href="/leagues/4226312/teams/6818756"><img src="https://svite-league-apps-img.s3.amazonaws.com/team-6818756-s3.jpg" alt="Marsha's Rioters logo"></a>
+			
+
+			<!--  <a class="btn right" style="margin-right: 1rem;">Why Need this?</a>  -->
+
+			<h1 id="page-title" class="lg team-marshasrioters-queericonsconferencefriendlydivision-icehockey" style="margin:0; text-align: center; font-size: 20px; ">
+				Marsha's Rioters 
+			</h1>
+			0-0-0<!-- needs styling cd-3107 -->
+			<p></p>
+			
+		</div>
+
+			<div class="clr team-info">
+
+
+				<!--
+				<div class="gp-card--meta">
+					<h3>Date Created</h3>
+					<p>
+						Apr 20, '24
+					</p>
+				</div>
+				-->
+
+				
+
+
+
+				
+
+
+
+			</div>
+		<!--  <div class="" style="padding: 1rem; border-top:1px solid #eee;">
+			<a class="btn" style="display: block; margin-bottom: .5rem; text-align: center;">Message Team</a>
+			<a class="btn" style="display: block; text-align: center;">Add Player</a>
+		</div> -->
+
+		<ol class="ps-tabs__bar clr" style="margin:0 0 2rem 0">
+      <li class="current"><a id="nav-schedule" class="tab-header" data-tab-id="team-schedule" href="/leagues/4226312/teams/6818756">Schedule</a></li>
+      
+         
+      
+      
+		</ol>
+		<div class="gp-card--meta" style="font-size: 14px;">
+				<h3>Program</h3>
+				<p>
+					
+  						<a id="nav-program-homepage" href="/leagues/ice-hockey/4226307-seattle-pride-classic-2024-pres.-by-symetra">Seattle Pride Classic 2024, pres. by Symetra</a> -
+  					
+					<a href="/leagues/ice-hockey/4226312-queer-icons-conference---friendly-division">Queer Icons Conference - Friendly Division</a>
+				</p>
+
+				<p class="standings-link" style="margin: 0;">
+					
+						<a id="nav-program-schedule" href="/leagues/4226312/schedule">Schedule</a>
+					
+					
+						•&nbsp;
+						
+						
+						  <a id="nav-program-standings" href="/leagues/4226312/standings">standings</a>
+						
+					
+				</p>
+			</div>
+		
+
+	</div>
+</div>
+
+
+
+				<!-- Schedule -->
+				<div class="tab-content" data-tab-id="team-schedule" style="padding: 2rem;">
+					
+					<div class="la-team-profile">
+						<div class=" schedule" id="SCHEDULE">
+							<h2>Schedule</h2>
+							
+								
+								
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery-full/jquery-ui.min.js?v=1717775159292"></script>
+	<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/jquery.tipsy.js?v=1717775159292"></script>
+
+
+<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/loadingoverlay.min.js?v=1717775159292"></script>
+<link rel="stylesheet" href="https://svite-league-apps-static.s3.amazonaws.com/_c/prod/shared/fullcalendar.css?v=1717775159292">
+<link rel="stylesheet" href="https://svite-league-apps-static.s3.amazonaws.com/_s/vendor/chosen_1.5.1/chosen.css?v=1717775159292">
+<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/moment.min.js?v=1717775159292"></script>
+<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/fullcalendar.min.js?v=1717775159292"></script>
+<script type="text/javascript" src="https://svite-league-apps-static.s3.amazonaws.com/_s/vendor/chosen_1.5.1/chosen.jquery.min.js?v=1717775159292"></script>
+
+
+
+<style type="text/css">
+	.schedule {margin: 0;}
+
+	#content.right-col .aside {
+		margin: 0;
+		padding: 0;
+		min-height: 940px!important;
+	}
+	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+	.show {display:block;}
+
+	.btn-modal {
+		width: 100%;
+		padding: 20px;
+		display: block;
+		border: none;
+		font-size: 16px;
+	}
+
+	.btn-modal:last-child { margin-bottom: 0;}
+
+	#calendarSync {
+		clear: both;
+    margin-bottom: 16px;
+	}
+
+	#calendarSync span{
+		display: block;
+		border-top: 1px solid #ccc;
+	}
+
+	#sycnCal {display: none;}
+	#sycnCal.slideUp {
+		display: block;
+		padding: 16px;
+	}
+	#calendarExportDropdown {
+		display: flex!important;
+	}
+	#calendarExportDropdown a {
+		flex: 1;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	#calendarExportDropdown img, #calendarExportDropdown svg {
+		display:block;
+		width: 48px;
+		height: 48px;
+		margin: 0 auto 12px auto;
+	}
+
+	#appleExport img {
+		box-shadow: 0 0 10px rgba(0,0,0,.1);
+	}
+
+  #schedule-list-view-nav {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #schedule-list-view-nav label {
+    padding: 0 8px;
+  }
+
+  #schedule-list-view-nav .ctrl {
+    background: #f4f5f9;
+    border-radius: 3px;
+    padding: 0 16px;
+  }
+
+  #schedule-list-view-nav.disabled .ctrl {
+    color: #ccc;
+    background: #f4f5f9;
+    border-radius: 3px;
+    padding: 0 16px;
+    cursor: default;
+  }
+
+	
+
+    .remove-edit-button::after {
+      content:"";
+    }
+
+    .sched-info p {
+      padding: 5px 20px !important;
+    }
+
+    #close-overlay-btn {
+      margin: 6px 10px 20px 0px !important;
+    }
+
+</style>
+
+
+
+
+
+<script type="text/javascript">
+
+	$(function(){
+		renderProgramList();
+        $( "#btn-calAdd" ).click(function() {
+            $(".calAdd").addClass("slideUp");
+        });
+
+        $( "#calendarSync" ).click(function() {
+            $("#sycnCal").toggleClass("slideUp");
+        });
+	});
+
+	var calendarInitialized = false;
+
+	var publishedOnly = "site" != "console";
+	var userScope;
+	var itemType;
+	var eventType;
+	var gameType;
+	var gameState;
+	var locationId;
+	var subLocationId;
+  var filterDivisionId;
+	var teamId;
+	var mobileOverride;
+  var startsBeforeDate;
+  var startsAfterDate;
+
+	function highlightGame(gameId) {
+		$('html,body').animate({ scrollTop: $("#game-" + gameId).offset().top }, { duration: 'slow', easing: 'swing'});
+		$("#game-" + gameId).effect("pulsate", { times:3 }, 500);
+	}
+
+	function initParams() {
+		userScope = "team" == "user" ? $("#userScope").val() : null;
+		master = "team" == "master" ? "master" : null;
+        masterProgram = "false" == "true";
+        publishedOnly = $("#publishedOnly").length && $("#publishedOnly").is(':checked');
+		if ('' != '') {
+			$('#itemType').val('');
+		}
+    if ("false" === "true") {
+      if ("false" === "true") {
+        itemType = "games_only";
+      } else if ("false" === "true") {
+        itemType = "games_events";
+      } else {
+        itemType = $("#itemType").val();
+      }
+    } else {
+      itemType = $("#itemType").val();
+    }
+		eventType = itemType == "games_events" || itemType == "events_only" ? $("#eventType").val() : null;
+		gameType = itemType == "games_events" || itemType == "games_only" ? $("#gameType").val() : null;
+		gameState = itemType == "games_events" || itemType == "games_only" ? $("#gameState").val() : null;
+		locationId = $("#locationId").val();
+		subLocationId = $("#subLocationId").length > 0 ? $("#subLocationId").val() : null;
+    filterDivisionId = $("#filterDivisionId").val();
+		teamId = "team" == "team" ? "6818756" : null;
+		if (!teamId) {
+			teamId = $("#teamId").length != -1 ? $("#teamId").val() : null;
+		}
+
+    if ($("#schedule-list-view-nav").length > 0) {
+      startsAfterDate = $("#schedule-list-view-nav--date-range-label").data("date-start");
+      if (!startsAfterDate) {
+        var monthStart = moment().startOf('month');
+        startsAfterDate = monthStart.format("MM/DD/YYYY");
+        $("#schedule-list-view-nav--date-range-label").data("date-start", startsAfterDate);
+        $("#schedule-list-view-nav--date-range-label").html(monthStart.format("MMMM YYYY"));
+      }
+      startsBeforeDate = $("#schedule-list-view-nav--date-range-label").data("date-end");
+      if (!startsBeforeDate) {
+        startsBeforeDate = moment().add(1, 'M').startOf('month').format("MM/DD/YYYY");
+        $("#schedule-list-view-nav--date-range-label").data("date-end", startsBeforeDate);
+      }
+    } else {
+      var startsAfterVal = $('#startsAfterDate').val();
+      startsAfterDate = startsAfterVal != null && startsAfterVal != '' ? startsAfterVal : null;
+      var startsBeforeVal = $('#startsBeforeDate').val();
+      startsBeforeDate = startsBeforeVal != null && startsBeforeVal != '' && (master || masterProgram) ? startsBeforeVal : null;
+    }
+
+		baseEventIdsString = master
+			? $('#baseEvent-select').val()
+			: masterProgram
+				? $("#subProgram").val()
+				: null;
+		locationIdsString = master ? $('#location-select').val() : null;
+		sublocationIdsString = master && locationIdsString && locationIdsString.length == 1 ? $('#sublocation-select').val() : null;
+
+		if($('#is-mobile').length && mobileOverride == null) {
+			mobileOverride = true;
+		}
+	}
+
+	function buildFilterQuery() {
+		initParams();
+		return "origin=site&scope=team"
+		+ "&publishedOnly=" + publishedOnly
+		+ "&itemType=" + itemType
+		+ (eventType ? "&eventType=" + eventType : "")
+		+ (gameType ? "&gameType=" + gameType : "")
+		+ (gameState ? "&gameState=" + gameState : "")
+		+ (locationId ? "&locationId=" + locationId : "")
+    + (subLocationId ? "&subLocationId=" + subLocationId : "")
+		+ (locationIdsString ? "&locationIdsString=" + locationIdsString : "")
+		+ (sublocationIdsString ? "&sublocationIdsString=" + sublocationIdsString : "")
+		+ (filterDivisionId ? "&divisionId=" + filterDivisionId : "")
+		+ (teamId ? "&teamId=" + teamId : "")
+		+ (master ? "&master=" + master : "")
+		+ (userScope ? "&userScope=" + userScope : "")
+		+ (startsAfterDate ? "&startsAfterDate=" + startsAfterDate : "")
+		+ (startsBeforeDate ? "&startsBeforeDate=" + startsBeforeDate : "")
+		+ (baseEventIdsString ? "&baseEventIdsString=" + baseEventIdsString : "")
+		+ "&programId=4226312";
+	}
+
+	function loadFull() {
+		$('#startsAfterDate').val("");
+		loadScheduleView('list');
+
+		$('#upcoming-schedule-toggle').removeClass("active");
+		$('#full-schedule-toggle').addClass("active");
+	}
+
+	function loadUpcoming() {
+		var today = new Date();
+		var month = today.getMonth()+1;
+		if(month < 10) {
+			month = "0" + month;
+		}
+		var day = today.getDate();
+		if(day < 10) {
+			day = "0" + day;
+		}
+		var year = today.getFullYear();
+		$('#startsAfterDate').val(month + "/" + day + "/" + year);
+		loadScheduleView('list');
+
+		$('#upcoming-schedule-toggle').addClass("active");
+		$('#full-schedule-toggle').removeClass("active");
+	}
+
+	function listViewLoadingIndicatorShow() {
+    $("#schedule-list-view").hide();
+    $("#schedule-list-view-nav").addClass("disabled");
+    $('#load-progress-indicator').show();
+    $('#load-progress-indicator').LoadingOverlay("show");
+  }
+
+  function listViewLoadingIndicatorHide() {
+    $('#load-progress-indicator').LoadingOverlay("hide");
+    $('#load-progress-indicator').hide();
+    $("#schedule-list-view").show();
+    $("#schedule-list-view-nav").removeClass("disabled");
+  }
+
+  function loadListView() {
+    listViewLoadingIndicatorShow();
+    $("#schedule-calendar-view").fadeOut('fast', function(){
+      if ($("#schedule-list-view-nav").length > 0) {
+        $("#schedule-list-view-nav").fadeIn('fast');
+      }
+			var uri = "site" == "console" ? "/ajax/console/sites/48442/loadSchedule" : "/ajax/loadSchedule";
+      $("#schedule-list-view").html("");
+			$("#schedule-list-view").load(uri + "?" + buildFilterQuery(), function(responseText, textStatus){
+        if (textStatus == "error") {
+          listViewLoadingIndicatorHide();
+          var errDetails = $(responseText).text();
+          showErrorMsg("Failed to load schedule: " + errDetails, 3);
+          $("#schedule-list-view").html("<p class='sys-error'>Failed to load schedule: " + errDetails + "</p>");
+        } else {
+          var status = $("#status");
+          if (status.length > 0 && status.val() == "error") {
+            listViewLoadingIndicatorHide();
+            showErrorMsg("Failed to load schedule", 3);
+            $("#schedule-list-view").html('<p class="sys-error">Failed to load schedule</p>');
+          } else {
+            var extra = false;
+            if ($(".extra-schedule").length) {
+              $(".extra-schedule").each(function(){
+                if (extra == false) {
+                  $("#schedule-quick-nav").html("<span>Jump to: </span>");
+                  extra = true;
+                }
+                var id = $(this).attr('id');
+                var esName = $(this).find(".schedule-name").text();
+                $("#schedule-quick-nav").append("<a href='#" + id + "' target='_self'>" + esName + "</a> &middot; ");
+              });
+            }
+            if (extra) {
+              var $jtc = $("#jump-to-current");
+              if ($jtc.length) {
+                $jtc.html("Upcoming Dates");
+                $("#schedule-quick-nav").find('a').first().before($jtc);
+                $jtc.after(" &middot; ");
+              }
+              $("#schedule-quick-nav").show();
+            } else {
+              $("#schedule-quick-nav").hide();
+            }
+            if ($('#schedule-list-view').children().length == 0) {
+              $("#schedule-list-view").append('<span class="no-results">Nothing to display</span>');
+            }
+            $("#schedule-list-view").fadeIn('fast', function(){
+              listViewLoadingIndicatorHide();
+              if ('false' != 'true') {
+                if($("[rel=tipsy]").length) {
+                  $("[rel=tipsy]").tipsy({
+                    fade: true,
+                    gravity: "s",
+                    html: true
+                  });
+                  $("[rel=tipsy]").each(function() {
+                    $(this).css("cursor", "help");
+                  });
+                }
+                if ("site" == "console") {
+                  initIToggles($('#schedule-list-view'));
+                  initStyledInputs($('#schedule-list-view'));
+                }
+              }
+            });
+          }
+        }
+			});
+		});
+	}
+
+	function loadCalendarView() {
+		$("#schedule-quick-nav").hide();
+    if ($("#schedule-list-view-nav").length > 0) {
+      $("#schedule-list-view-nav").fadeOut('fast');
+    }
+		$("#schedule-list-view").fadeOut('fast', function(){
+			$("#schedule-calendar-view").fadeIn('fast', function(){
+				if (!calendarInitialized) {
+				$('#schedule-calendar-view').fullCalendar({
+						header: {
+							left: 'prev,next today',
+							center: 'title',
+							right: 'month,agendaWeek,agendaDay'
+						},
+          render:{
+
+          },
+						events: {
+							url: "site" == "console" ? "/ajax/console/sites/48442/calendar/json" : "/calendar/json",
+							data: function() {
+							  var view = $('#schedule-calendar-view').fullCalendar('getView');
+                var startsAfter = startsAfterDate;
+                var startsBefore = startsBeforeDate;
+
+                if(view.start){
+                  startsAfter = moment(view.start).format("MM/DD/YYYY");
+                }
+                if(view.end){
+                  startsBefore = moment(view.end).format("MM/DD/YYYY");
+                }
+
+								return {
+									origin: "site",
+									scope: "team",
+									baseEventId: "4226312",
+									itemType: itemType,
+									eventType: (eventType ? eventType : ""),
+									gameType: (gameType ? gameType : ""),
+									gameState: (gameState ? gameState : ""),
+									locationId: (locationId ? locationId : ""),
+									startsAfterDate: (startsAfter ? startsAfter : ""),
+									startsBeforeDate: (startsBefore ? startsBefore : ""),
+									baseEventIdsString: (baseEventIdsString ? baseEventIdsString.toString() : ""),
+									locationIdsString: (locationIdsString ? locationIdsString.toString() : ""),
+									sublocationIdsString: (sublocationIdsString ? sublocationIdsString.toString() : ""),
+									teamId: (teamId ? teamId : ""),
+									userScope: (userScope ? userScope : "")
+								};
+							},
+							error: function() {
+                listViewLoadingIndicatorHide();
+								showErrorMsg("Failed to load schedule", 1);
+              }
+						},
+						nextDayThreshold: '00:00:00',
+						eventRender: function(event, element) {
+							if (event.title || event.description) {
+								$(element).attr('title', (event.title ? event.title : '') + (event.description ? '&nbsp;&bull;&nbsp;' + event.description : '')
+										+ (event.entityType == 'game' && event.adjoiningBaseEventId ? ' (cross-program)' : ''));
+							}
+							if (event.entityType) {
+								$(element).addClass(event.entityType);
+							}
+							if (event.entityType == 'game') {
+								if (event.adjoiningBaseEventId) {
+									$(element).find('.fc-title').html(' <span class="icon-random" style="font-weight: bold;"></span> ' + event.title);
+								}
+								if (!event.timeDefined) {
+									$(element).find('.fc-time').text('TBD');
+								} else {
+									var timeEl = $(element).find('.fc-time span');
+									var time = timeEl.text();
+									var idx = time.indexOf(' -');
+									if (idx != -1) {
+										time = time.substring(0, idx);
+										timeEl.text(time);
+									}
+								}
+							}
+
+                            if (event.isExternalEvent) {
+                              $(element).addClass('remove-edit-button');
+                            }
+
+                            element.on('click', function(){
+                                if (event.entityType == 'event') {
+                                    if(event.isExternalEvent) {
+                                      return;
+                                    }
+                                    if (("site" == "console" || event.allowEdit) && !event.isNextGenScheduleEnabled) {
+                                        showEditScheduleEvent(event);
+                                    } else {
+                                        showCalendarEventDetails(event);
+                                    }
+                                } else { // game
+                                    if ("site" == "console") {
+                                        showScheduleGameDialog(event);
+                                    } else {
+                                        showCalendarEventDetails(event);
+                                    }
+                                }
+                            });
+                        },
+            loading: function(isLoading) {
+              $('#schedule-calendar-view').LoadingOverlay(isLoading ? "show" : "hide");
+            },
+					});
+					calendarInitialized = true;
+				} else {
+					$('#schedule-calendar-view').fullCalendar('refetchEvents');
+				}
+			});
+		});
+	}
+
+  function getMode() {
+    var $viewModeCalendar = $('#view-mode-calendar');
+    var $toggleToGridButton = $('#grid-toggle');
+    return $viewModeCalendar.hasClass("active") ||
+    $toggleToGridButton.attr('aria-pressed') === 'true' ? "calendar" : "list";
+  }
+
+    function loadScheduleView(mode) {
+		initParams();
+		if (!mode) {
+      mode = getMode()
+		}
+		if(mobileOverride) {
+			mode = "list";
+			mobileOverride = false;
+		}
+    
+
+		var dateFilterRangeValid = true;
+		if (master) {
+		  if (startsAfterDate && startsBeforeDate) {
+        var afterDateObj = new Date(startsAfterDate);
+        var beforeDateObj = new Date(startsBeforeDate);
+        var dateDiffInMilliseconds = beforeDateObj - afterDateObj;
+        if (dateDiffInMilliseconds < 0) {
+          showErrorMsg("\"To\" date must occur after \"From\" date");
+          dateFilterRangeValid = false;
+        } else if (dateDiffInMilliseconds > 2678399999) {
+          showErrorMsg("Date filter range must be no more than 31 days.");
+          dateFilterRangeValid = false;
+        }
+      } else {
+        showErrorMsg("Date filter range must be specified (and be no more than 31 days)");
+        dateFilterRangeValid = false;
+      }
+    }
+
+		if (dateFilterRangeValid) {
+			if (mode == "calendar") {
+				$(".share-export").hide();
+				loadCalendarView();
+				$("#view-mode-list").removeClass("active");
+				$("#view-mode-calendar").addClass("active");
+        $("#grid-toggle").attr('aria-pressed', 'true');
+        $("#list-toggle").attr('aria-pressed', 'false');
+			} else { // list
+				$(".share-export").show();
+				loadListView();
+				$("#view-mode-calendar").removeClass("active");
+				$("#view-mode-list").addClass("active");
+        $("#grid-toggle").attr('aria-pressed', 'false');
+        $("#list-toggle").attr('aria-pressed', 'true');
+			}
+
+			if(locationIdsString == null || locationIdsString == "" || locationIdsString.length > 1) {
+				$("#sublocation-select-div").hide();
+			} else {
+				$("#sublocation-select-div").show();
+			}
+		}
+	}
+
+	function onItemTypeSelectionChange() {
+		if ($("#itemType").val() == "games_only") {
+			$("#eventType").val($("#eventType option:first").val())
+			$("#eventType").fadeOut('fast');
+			$("#gameType").fadeIn('fast');
+			$("#gameState").fadeIn('fast');
+		} else if ($("#itemType").val() == "events_only") {
+			$("#gameState").val($("#gameState option:first").val())
+			$("#gameType").fadeOut('fast');
+			$("#gameState").fadeOut('fast');
+			$("#eventType").fadeIn('fast');
+		} else {
+			$("#eventType").fadeIn('fast');
+			$("#gameType").fadeIn('fast');
+			$("#gameState").fadeIn('fast');
+		}
+		var mode = getMode();
+		loadScheduleView(mode);
+	}
+
+    function loadDivisions(programId) {
+        $.ajax({
+            type: "POST",
+            url: "/ajax/populateDivisionsCombobox",
+            data: {"programId": programId},
+            cache: false,
+            success: function(response) {
+                $('#filterDivisionId').html(response);
+                $("#filterDivisionId").find('option').each(function(){
+                    if ($(this).attr("value") == "") {
+                        $(this).html("All Divisions");
+                        $(this).prop('selected', true);
+                    }
+                });
+                loadScheduleView();
+            },
+            error: function(request, textStatus, errorThrown) {
+                showErrorMessage(errorThrown);
+            }
+        });
+    }
+
+    function loadTeams(programId, divisionId) {
+        var url = "/ajax/prepareTeamsByEvent";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: {"baseEventId": programId ? programId : "", "divisionId": divisionId ? divisionId : ""},
+            cache: false,
+            success: function(response) {
+                $("#teamId").html(response);
+                $("#teamId").find('option').each(function(){
+                    if ($(this).attr("value") == "-2") {
+                        $(this).attr("value", "");
+                        $(this).html("All Teams");
+                        $(this).prop('selected', true);
+                    }
+                });
+                loadScheduleView();
+            },
+            error: function(request, textStatus, errorThrown) {
+                showErrorMessage(errorThrown);
+            }
+        });
+    }
+
+  function resetFilters() {
+    var $filters = $("#schedule-filters");
+    if (!$filters.length) {
+      $filters = $("#schedule-filters-alt");
+    }
+    var $selects = $filters.find("select");
+    if ($selects.length) {
+      $selects.each(function(){
+        if ($(this)[0].className !== "chosen-select") {
+          $(this).val($("#" + $(this).attr('id') + " option:first").val());
+          $(this).show();
+        } else {
+          $('.chosen-select').val('').trigger('chosen:updated');
+        }
+      });
+    }
+    var $inputs = $filters.find("input");
+    if ($inputs.length) {
+      $inputs.each(function(){
+        if ($(this).hasClass('datepicker')) {
+          var today = new Date();
+          var dateStr = (today.getMonth() + 1)  + "/" + today.getDate() + "/" + today.getFullYear();
+          $(this).val(dateStr);
+        } else {
+          $(this).val("");
+        }
+      });
+    }
+    $('select#subLocationId').remove();
+    if ($("#sub-location-option").length > 0) {
+      $("#sub-location-option").hide();
+      $("#sub-location-option").html("");
+    }
+    if (typeof resetDayPicker == 'function') {
+      resetDayPicker();
+    }
+    var mode = getMode();
+    loadScheduleView(mode);
+  }
+
+	function showAddScheduleEvent() {
+		$("#schedule-event-add-panel, #schedule-event-add-form").show();
+		$("#schedule-event-add-panel").addClass("is-visible");
+		$("#schedule-filters").removeClass("filter-is-visible");
+
+		newCalendarEventDialog();
+		$("#delete-event-button").hide();
+		$( "#schedule-event-add-panel .btn-close" ).click(function() {
+			$("#schedule-event-add-panel").removeClass("is-visible");
+		});
+	}
+
+	function showEditScheduleEvent(event) {
+		if ("site" != "console") {
+			$("#schedule-event-add-panel, #schedule-event-add-form").show();
+			$("#schedule-event-add-panel").addClass("is-visible");
+			$("#schedule-filters").removeClass("filter-is-visible");
+
+			$( "#schedule-event-add-panel .btn-close" ).click(function() {
+				$("#schedule-event-add-panel").removeClass("is-visible");
+			});
+
+			//$("#schedule-event-add-form").show();
+			//$("#schedule-event-add-panel").fadeIn('fast');
+		}
+
+		showCalendarEventDialog(event);
+		$('html,body').animate({
+			scrollTop: $('#schedule-event-add').offset().top
+		}, 150);
+	}
+
+	function filterView() {
+		$( "#filters" ).click(function() {
+			$("#schedule-filters").addClass("filter-is-visible");
+			$("#schedule-event-add-panel").removeClass("is-visible");
+		});
+
+		$( "#schedule-filters .btn-close, .btn-mobile" ).click(function() {
+			$("#schedule-filters").removeClass("filter-is-visible");
+			loadScheduleView();
+		});
+	}
+
+	function setBaseEventDetails(ce) {
+		var $link = $("a#program-name");
+
+		if (ce.baseEventId) {
+			$('.event-details hr').show();
+			$('small.bot').show();
+			$('.event-details .desc').removeClass('pad-bot');
+			$link.attr("href", ce.baseEventPublicHomeURI);
+			$link.text(ce.baseEventName);
+		} else {
+			$('.event-details hr').hide();
+			$('small.bot').hide();
+			$('.event-details .desc').addClass('pad-bot');
+			$link.empty();
+			$link.attr("href", null);
+		}
+	}
+
+	function setTeamDetails(ce) {
+		if (ce.teamId) {
+			$("#team-name").text(ce.teamName);
+			$("#team-name").attr("href", ce.teamPublicHomeURI);
+			$("#event-team").show();
+			$("#event-teams").hide();
+		} else if (ce.team1Id || ce.team2Id) {
+			if (ce.team1Id > -1) {
+				if (ce.team1External) {
+				  $("#non-clickable-team1-name").text(ce.team1Name);
+				  $("#team1-name").hide();
+				  $("#non-clickable-team1-name").show();
+				} else {
+				  $("#team1-name").text(ce.team1Name);
+				  $("#team1-name").attr("href", ce.team1PublicHomeURI);
+				  $("#team1-name").show();
+          $("#non-clickable-team1-name").hide();
+        }
+			} else {
+				$("#non-clickable-team1-name").text("TBD");
+				$("#team1-name").hide();
+        $("#non-clickable-team1-name").show();
+			}
+			if (ce.team2Id > -1) {
+				if (ce.team2External) {
+          $("#non-clickable-team2-name").text(ce.team2Name);
+          $("#team2-name").hide();
+          $("#non-clickable-team2-name").show();
+        } else {
+          $("#team2-name").text(ce.team2Name);
+          $("#team2-name").attr("href", ce.team2PublicHomeURI);
+          $("#team2-name").show();
+          $("#non-clickable-team2-name").hide();
+        }
+        if (ce.adjoiningBaseEventId) {
+          $("#cross-program-team").show();
+        } else {
+          $("#cross-program-team").hide();
+        }
+			} else {
+				$("#non-clickable-team2-name").text("TBD");
+				$("#team2-name").hide();
+        $("#non-clickable-team2-name").show();
+				$("#cross-program-team").hide();
+			}
+			$("#event-teams").show();
+			$("#event-team").hide();
+		} else {
+			$("#event-team").hide();
+			$("#event-teams").hide();
+		}
+	}
+
+	function setLocationDetails(ce) {
+		var location = "";
+		if (ce.locationId) {
+			if (ce.locationName) {
+				location += ce.locationName;
+				if (ce.sublocationName) {
+					location += ", " + ce.sublocationName;
+				}
+			}
+			$("#location-name").attr("href", "/location/" + ce.locationId);
+		}
+		if (ce.location) {
+			location += " " + ce.location;
+		}
+		if (location != "") {
+			$("#location-name").text(location);
+			$("#location").show();
+		} else {
+			$("#location").hide();
+		}
+	}
+
+	function showCalendarEventDetails(ce) {
+		$("#title").html(ce.title);
+		setBaseEventDetails(ce);
+		setTeamDetails(ce);
+		setLocationDetails(ce);
+		$("#description").html(ce.description ? ce.description : "");
+        if($('#description').is(':empty')) {
+          $("#description").hide();
+        }
+		var start = moment(ce.start);
+        var arrive = ce.arrival ? " (Arrive " + moment(ce.arrival).format("h:mm A)") : "";
+        var startDate = ce.allDay ? start.format("MMM Do YYYY") : start.format("MMM Do YYYY, h:mm A") + arrive;
+        if (ce.end) {
+          var end = moment(ce.end);
+          $("#startDate").text(startDate);
+          if (ce.allDay) {
+            $("#endDate").text(end.format("MMM Do YYYY"));
+          } else {
+            $("#endDate").text(end.format("MMM Do YYYY, h:mm A"));
+          }
+          $("#event-end-date").show();
+        } else {
+          $("#startDate").text(startDate);
+          $("#endDate").empty();
+          $("#event-end-date").hide();
+        }
+
+		if (ce.allowRsvp) {
+			$("#link-rsvp").attr("href", '/' + ce.baseEventIdURI + '/schedule/' + ce.entityType + '/' + ce.id + '#rsvp');
+			$("#rsvp").show();
+		} else {
+			$("#rsvp").hide();
+		}
+
+        if (ce.allowCheckIn) {
+            $("#link-checkin").attr("href", '/' + ce.baseEventIdURI + '/schedule/' + ce.entityType + '/' + ce.id + '/checkin');
+            $("#checkin").show();
+        } else {
+            $("#checkin").hide();
+        }
+
+		if ('false' == 'true') {
+			$('#schedule-calendar-view').fadeOut('fast', function(){
+				$('#eventDetailsDialog').css({
+					background: 'none',
+					position: 'relative'
+				});
+				$('#eventDetailsDialog').fadeIn('fast');
+			});
+		} else {
+ 			cOverlay('#eventDetailsDialog', 480);
+		}
+	}
+
+	function renderProgramList(){
+		var baseEventComboboxUrl = "/ajax/populateBaseEventsCombobox?siteId=48442&selectableMasterPrograms=true&includeSelectLabel=false";
+		if ("site" != "master") {
+			baseEventComboboxUrl = baseEventComboboxUrl + "&baseEventStates=LIVE,UPCOMING";
+		}
+    	$('#baseEvent-select').load(baseEventComboboxUrl, function() {
+    		$('.chosen-select').trigger('chosen:updated');
+    	});
+	};
+
+	function populateSublocationsCombobox() {
+    var locationIdsString = $('#location-select').val();
+    if (typeof locationIdsString !== "undefined" && locationIdsString != null && locationIdsString != "" && locationIdsString.indexOf(",") == -1) {
+      $('#sublocation-select').load('/ajax/populateSublocationsCombobox?origin=masterSchedule&locationId=' + locationIdsString, function() {
+        $('.chosen-select').trigger('chosen:updated');
+      });
+    } else {
+      $('#sublocation-select').html("");
+      $('.chosen-select').trigger('chosen:updated');
+    }
+	}
+
+    function showCommonScheduleOverlay(title, content, buttons) {
+        var overlay = $("#confirmation-overlay");
+
+        overlay.attr("title", title);
+        overlay.find("#overlay-content").text(content);
+
+        var customButtonsBox = overlay.find("#custom-buttons");
+        if (buttons) {
+            for (var i = 0; i < buttons.length; i++) {
+                var buttonObj = buttons[i];
+                var button = $("<a class='overlay-btn custom " + buttonObj.name + "'>" + buttonObj.title + "</a>");
+                customButtonsBox.prepend(button);
+                button.unbind('click');
+                button.click(buttonObj.handler);
+            }
+        }
+        overlay.bind( "dialogclose", function(event, ui) {
+            customButtonsBox.find(".overlay-btn").unbind('click').remove();
+        });
+
+        overlay.dialog("open");
+    }
+
+    function closeCommonScheduleOverlay() {
+        $("#confirmation-overlay").dialog("close");
+    }
+
+    function highlightGame(gameId) {
+        $('html,body').animate({ scrollTop: $("#game-" + gameId).offset().top }, { duration: 'slow', easing: 'swing'});
+        $("#game-" + gameId).effect("pulsate", { times:3 }, 500);
+    }
+
+    function editSchedule(id) {
+        var currName = $("#schedule-name-" + id).text();
+        var currDescription = $("#schedule-description-" + id).text();
+        editScheduleId = id;
+        scheduleName.val(currName);
+        scheduleDescription.val(currDescription);
+        $("#edit-schedule-dialog").dialog("open");
+    }
+
+    function doEditSchedule(id, name, description) {
+        var url = "/ajax/console/sites/48442/editSchedule";
+        var params = {"editScheduleId": id, "name": name, "description": description};
+        jQuery.ajax({
+            type: "POST",
+            url: url,
+            data: params,
+            cache: false,
+            success: function(content) {
+                showSystemMessages(content, 5);
+                var status = $("#status").val();
+                if (status == 'success') {
+                    $("#schedule-name-" + id).html(name);
+                    $("#schedule-description-" + id).html(description);
+                }
+            },
+            error: function(request, textStatus, errorThrown) {
+                showErrorMessage(errorThrown);
+            }
+        });
+    }
+
+    function deleteSchedule(bid, scheduleId) {
+        if (!scheduleId) {
+            return;
+        }
+        var url = "/ajax/console/sites/48442/deleteSchedule";
+        showCommonScheduleOverlay(
+            "Delete Schedule",
+            "Are you sure you want to delete this schedule?",
+            [{name: "main", title: "Delete", handler: function() {
+                    closeCommonScheduleOverlay();
+                    doDeleteSchedule(url, {"bid": bid, "scheduleId" : scheduleId}, function(msg) {
+                        window.location = '/console/sites/48442/schedule?bid=' + bid;
+                    });
+                }}]
+        );
+    }
+
+    function doDeleteSchedule(url, params, successHandler) {
+        var notify = $("#confirmation-overlay  input:checkbox[name=notify]").is(':checked');
+        params.notifyParticipants=notify ;
+        jQuery.ajax({
+            type: "POST",
+            url: url,
+            data: params,
+            cache: false,
+            success: function(msg) {
+                if (successHandler !== undefined) {
+                    successHandler(msg);
+                }
+            },
+            error: function(request, textStatus, errorThrown) {
+                showErrorMessage(errorThrown);
+            }
+        });
+    }
+
+    function validateRequired(o, n) {
+        if (o.val().trim().length == 0) {
+            o.addClass("ui-state-error");
+            updateTips(n + " is required");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function updateTips(t) {
+        tips.text(t).addClass("ui-state-highlight");
+        setTimeout(function() {
+            tips.removeClass("ui-state-highlight", 1500);
+        }, 500);
+    }
+
+  function handleLocationChange(evt) {
+    var locationId = $(evt.target).val();
+    var $subLocationMenu = $('select#subLocationId');
+    $subLocationMenu.remove();
+
+    if ($("#sub-location-option").length > 0) {
+      $('#sub-location-option').html('');
+      if (locationId) {
+        var sendProgramIdParam =
+          'false' === 'true';
+        $.ajax({
+          type: 'POST',
+          url:
+            '/ajax/populateSublocationsCombobox?locationId=' + locationId +
+            (sendProgramIdParam ? '&programId=4226312' : ''),
+          cache: false,
+          success: function (response) {
+            var $options = $('<div/>').html(response).find('select').find('option');
+            if ($options.length > 0) {
+              var $slSelect = $('<select id="subLocationId"/>');
+              $slSelect.html('');
+              $options.each(function (idx, el) {
+                var $opt = $(el);
+                if ($opt.val()) {
+                  $slSelect.append($(el));
+                } else {
+                  $slSelect.append('<option value="">Any Sub-Location</option>');
+                }
+              });
+              $slSelect.val('');
+              $slSelect.on('change', loadScheduleView);
+              $('#sub-location-option').after($slSelect);
+            }
+            loadScheduleView();
+          },
+          error: function (request, textStatus, errorThrown) {
+            showErrorMessage(errorThrown);
+          },
+        });
+      } else {
+        $('#sub-location-option').hide();
+        loadScheduleView();
+      }
+    }
+  }
+
+  $(function(){
+    editScheduleId = null;
+    scheduleName = $("#schedule-name");
+    scheduleDescription = $("#schedule-description");
+    allFields = $([]).add(scheduleName).add(scheduleDescription);
+    tips = $(".validateTips");
+
+    if ("site" == "console") {
+        $("#edit-schedule-dialog").dialog({
+            autoOpen: false,
+            height: 300,
+            width: 350,
+            modal: true,
+            buttons: {
+                "Update": function() {
+                    allFields.removeClass("ui-state-error");
+                    if (validateRequired(scheduleName, "Name")) {
+                        doEditSchedule(editScheduleId, scheduleName.val(), scheduleDescription.val());
+                        $(this).dialog("close");
+                    }
+                },
+                "Cancel": function() {
+                    $(this).dialog("close");
+                }
+            },
+            close: function() {
+                allFields.val("").removeClass("ui-state-error");
+            }
+        });
+    }
+
+    if ($("#schedule-list-view-nav").length > 0) {
+      if (!$("#schedule-list-view-nav--date-range-label").data("date-start")) {
+        var monthStart = moment().startOf('month');
+        $("#schedule-list-view-nav--date-range-label").data("date-start", monthStart.format("MM/DD/YYYY"));
+        $("#schedule-list-view-nav--date-range-label").html(monthStart.format("MMMM YYYY"));
+      }
+      if (!$("#schedule-list-view-nav--date-range-label").data("date-end")) {
+        $("#schedule-list-view-nav--date-range-label").data("date-end", moment().add(1, 'M').startOf('month').format("MM/DD/YYYY"));
+      }
+      $("#schedule-list-view-nav--prev-month").on('click', function(){
+        if (!$("#schedule-list-view-nav").hasClass("disabled")) {
+          startsAfterDate = $("#schedule-list-view-nav--date-range-label").data("date-start");
+          var startDate = moment(startsAfterDate).subtract(1, 'M');
+          startsAfterDate = startDate.format("MM/DD/YYYY");
+          $("#schedule-list-view-nav--date-range-label").data("date-start", startsAfterDate);
+          startsBeforeDate = $("#schedule-list-view-nav--date-range-label").data("date-start");
+          startsBeforeDate = moment(startsBeforeDate).add(1, 'M').format("MM/DD/YYYY");
+          $("#schedule-list-view-nav--date-range-label").data("date-end", startsBeforeDate);
+          $("#schedule-list-view-nav--date-range-label").html(startDate.format("MMMM YYYY"));
+          loadListView();
+        }
+      });
+      $("#schedule-list-view-nav--next-month").on('click', function(){
+        if (!$("#schedule-list-view-nav").hasClass("disabled")) {
+          startsAfterDate = $("#schedule-list-view-nav--date-range-label").data("date-start");
+          var startDate = moment(startsAfterDate).add(1, 'M');
+          startsAfterDate = startDate.format("MM/DD/YYYY");
+          $("#schedule-list-view-nav--date-range-label").data("date-start", startsAfterDate);
+          startsBeforeDate = $("#schedule-list-view-nav--date-range-label").data("date-start");
+          startsBeforeDate = moment(startsBeforeDate).add(1, 'M').format("MM/DD/YYYY");
+          $("#schedule-list-view-nav--date-range-label").data("date-end", startsBeforeDate);
+          $("#schedule-list-view-nav--date-range-label").html(startDate.format("MMMM YYYY"));
+          loadListView();
+        }
+      });
+    }
+
+    // do not load schedule right away on console/team-profile page b/c it is hidden on it by default,
+    // there's separate call to loadScheduleView() on teamProfile.jsp page that handles this
+    if ("site" == "site" && "team" == "team" && false) {
+      loadUpcoming();
+    } else if ("site" != "console" || "team" != "team") {
+      //CD-2280 :: Updates for MAW mode.  note:  change here account also for CD-2365
+      //We're now forcing LIST mode for both a) console and b) public site mobile
+      var mode = (("site" == "console") || ("false" == "true")) ? "list" : "listing";
+
+      loadScheduleView(mode);
+    }
+
+    filterView();
+
+    if ("false" == "true") {
+            $("#subProgram").on('change', function(){
+                var programId = $(this).val();
+                if (!programId) {
+                    programId = "4226312";
+                }
+                loadDivisions(programId);
+                loadTeams(programId);
+            });
+            loadDivisions("4226312");
+            loadTeams("4226312");
+        }
+
+        $("#filterDivisionId").on('change', function(){
+            var divisionId = $(this).val();
+            if (divisionId) {
+                loadTeams(null, divisionId);
+      } else {
+                var programId = $("#subProgram").length ? $("#subProgram").val() : null;
+                if (!programId) {
+                    programId = "4226312";
+                }
+                loadTeams(programId);
+      }
+    });
+
+    if ('false' == 'true') {
+			$('#close-overlay').hide();
+			$('#close-overlay-btn').on('click', function(){
+				$('#eventDetailsDialog').fadeOut('fast', function(){
+					$('#schedule-calendar-view').fadeIn('fast');
+				});
+			})
+		} else {
+			$('#close-overlay-btn').on('click', function(){
+				cOverlayClose('#eventDetailsDialog');
+			})
+		}
+
+		if ("site" != "console") {
+			// don't use custom domains due to lacking https
+			var siteDomain = "seapridehockey.leagueapps.com";
+
+			var exportUri = siteDomain + "/ajax/loadSchedule" + "?" + buildFilterQuery() + "&iCalExport=true";
+			if(typeof $('#lapi-user-id').val() !== "undefined") {
+				exportUri += "&userId=" + $('#lapi-user-id').val();
+			}
+
+			buildCalendarExportUrls(exportUri);
+		}
+    $("#locationId").on('change', handleLocationChange);
+	});
+
+	var track_medium = 'desktop';
+	if($('#is-mobile').length){
+		track_medium = 'mobile';
+	}
+
+	var track_source = $('#lapi-site-name').val();
+
+	function trackClick(element, name) {
+		element.click(function() {
+			console.log('trackClick ' + name);
+		});
+	}
+
+	function buildCalendarExportUrls(exportUri) {
+		var now = new Date();
+		exportUri += "&cb=" + now.getTime(); //add a cache breaker
+
+		trackClick($('#googleExport').attr("href", "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent("http://" + exportUri)), 'Cal-Sync-Google');
+		trackClick($('#copyLinkExport'), 'Cal-Sync-Copy');
+		$('#exportCalUrl').val("https://" + exportUri);
+		trackClick($('#downloadExport').attr("href", "https://" + exportUri), 'Cal-Sync-Download');
+		trackClick($('#appleExport').attr("href", "webcal://" + exportUri), 'Cal-Sync-Apple');
+		//trackClick($('#outlookExport').attr("href", "webcal://" + exportUri), 'Cal-Sync-Outlook');
+	}
+
+	function showCopyExportUrl() {
+		$('#exportCopy').show();
+		$('#exportCalUrl').select();
+	}
+
+	/* When the user clicks on the button,
+	toggle between hiding and showing the dropdown content */
+	function calendarExportClick() {
+	    document.getElementById("calendarExportDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown menu if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+	      var openDropdown = dropdowns[i];
+	      if (openDropdown.classList.contains('show')) {
+	        openDropdown.classList.remove('show');
+	      }
+	    }
+	  }
+	}
+</script>
+
+
+
+
+
+
+
+
+  <div id="schedule-controls" class="schedule-controls " style="overflow: hidden;">
+    
+    <span id="schedule-view-mode" class="mobile-nav-actions">
+      
+      
+        
+          <!-- master schedule defaults to list view; switching to calendar view is disabled; -->
+          <div role="group" class="button-group">
+            <button aria-label="Toggle to Grid" onclick="loadScheduleView('calendar');" aria-pressed="false" type="button" class="button-outlined" id="grid-toggle">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="#000000" xmlns="http://www.w3.org/2000/svg" class="grid-icon">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M 11.750015,0.73846154 C 11.750015,0.330624 11.414215,0 11.000015,0 c -0.4142,0 -0.75,0.330624 -0.75,0.73846154 V 1.2307594 H 5.7500153 V 0.73846154 C 5.7500153,0.330624 5.4142253,0 5.0000153,0 c -0.41421,0 -0.75,0.330624 -0.75,0.73846154 V 1.2307594 h -2.25002 C 0.89543026,1.2307594 0,2.1124135 0,3.1999902 V 14.030769 C 0,15.118375 0.89543026,16 1.9999953,16 H 14.000015 c 1.1046,0 2,-0.881625 2,-1.969231 V 3.1999902 c 0,-1.0875767 -0.8954,-1.9692308 -2,-1.9692308 h -2.25 z M 4.2500153,3.2 V 2.7076825 h -2.25002 c -0.27614,0 -0.5,0.220416 -0.5,0.4923077 V 5.4153945 H 14.500015 V 3.1999902 c 0,-0.2718917 -0.2239,-0.4923077 -0.5,-0.4923077 h -2.25 V 3.2 c 0,0.4078375 -0.3358,0.7384615 -0.75,0.7384615 -0.4142,0 -0.75,-0.330624 -0.75,-0.7384615 V 2.7076825 H 5.7500153 V 3.2 c 0,0.4078375 -0.33579,0.7384615 -0.75,0.7384615 -0.41421,0 -0.75,-0.330624 -0.75,-0.7384615 z M 14.500015,6.8923175 H 1.4999953 v 7.1384515 c 0,0.271853 0.22386,0.492308 0.5,0.492308 H 14.000015 c 0.2761,0 0.5,-0.220455 0.5,-0.492308 z">
+                </path>
+              </svg>
+            </button>
+            <button aria-label="Toggle to List" onclick="loadScheduleView('list');" aria-pressed="true" type="button" class="button-outlined" id="list-toggle">
+              <svg width="16" height="14" viewBox="0 0 16 14" fill="#000000" xmlns="http://www.w3.org/2000/svg" class="list-icon">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.49997 4.49994V1.49994H4.49997V4.49994H1.49997ZM-3.05176e-05 0.999939C-3.05176e-05 0.447655 0.447685 -6.10352e-05 0.999969 -6.10352e-05H4.99997C5.55225 -6.10352e-05 5.99997 0.447654 5.99997 0.999939V4.99994C5.99997 5.55222 5.55225 5.99994 4.99997 5.99994H0.999969C0.447685 5.99994 -3.05176e-05 5.55223 -3.05176e-05 4.99994V0.999939ZM16 3.74994H7.99998V2.24994H16V3.74994ZM16 11.7499H7.99998V10.2499H16V11.7499ZM7.99998 7.74997H16V6.24997H7.99998V7.74997ZM1.49997 9.49991V12.4999H4.49997V9.49991H1.49997ZM0.999969 7.99991C0.447685 7.99991 -3.05176e-05 8.44762 -3.05176e-05 8.99991V12.9999C-3.05176e-05 13.5522 0.447685 13.9999 0.999969 13.9999H4.99997C5.55225 13.9999 5.99997 13.5522 5.99997 12.9999V8.99991C5.99997 8.44762 5.55225 7.99991 4.99997 7.99991H0.999969Z">
+                </path>
+              </svg>
+            </button>
+          </div>
+        
+        
+          
+            <a id="filters" class="cd-filter-trigger">
+              <svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48"><g> <path fill="#bcbcbc" d="M16,33H8c-0.6,0-1,0.4-1,1v5H2c-0.6,0-1,0.4-1,1s0.4,1,1,1h5v5c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1V34 C17,33.4,16.6,33,16,33z"></path> <path fill="#bcbcbc" d="M46,7H21c-0.6,0-1,0.4-1,1s0.4,1,1,1h25c0.6,0,1-0.4,1-1S46.6,7,46,7z"></path> <path fill="#bcbcbc" d="M2,9h5v5c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1V2c0-0.6-0.4-1-1-1H8C7.4,1,7,1.4,7,2v5H2C1.4,7,1,7.4,1,8 S1.4,9,2,9z"></path> <path data-color="color-2" fill="#463434" d="M46,23h-5c-0.6,0-1,0.4-1,1s0.4,1,1,1h5c0.6,0,1-0.4,1-1S46.6,23,46,23z"></path> <path data-color="color-2" fill="#463434" d="M2,25h25v5c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1V18c0-0.6-0.4-1-1-1h-8c-0.6,0-1,0.4-1,1v5H2 c-0.6,0-1,0.4-1,1S1.4,25,2,25z"></path> <path fill="#bcbcbc" d="M46,39H21c-0.6,0-1,0.4-1,1s0.4,1,1,1h25c0.6,0,1-0.4,1-1S46.6,39,46,39z"></path> </g></svg>
+              <span>Filters</span>
+            </a>
+          
+        
+
+        
+                  
+      </span>
+    
+    <!-- <input type="button" id="createGameBtn" rel="tipsy" original-title="Add a Game to the Regular Schedule" class="std-btn" value="Single Game" onclick="newScheduleGameDialog();" /> -->
+
+
+    
+      <!-- <input type="button" id="generateScheduleBtn" class="std-btn" rel="tipsy" original-title="Import predefined games into a regular schedule from a CSV" value="Import Schedule" onclick="javascript: window.location='/console/sites/48442/scheduleImport';" /> -->
+    
+
+    
+  </div>
+
+  
+  
+  
+
+
+
+
+<div class="pad-20 s-program-schedule">
+  
+    
+
+    
+      <div id="schedule-filters">
+        <!-- console only -->
+        <header>
+          <h1>Filters</h1>
+          <a class="btn-close">
+            <svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48"><g> <path fill="#ffffff" d="M35.7,16.3l-4-4c-0.4-0.4-1-0.4-1.4,0L24,18.6l-6.3-6.3c-0.4-0.4-1-0.4-1.4,0l-4,4c-0.4,0.4-0.4,1,0,1.4 l6.3,6.3l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l4,4c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l4-4 c0.4-0.4,0.4-1,0-1.4L29.4,24l6.3-6.3C36.1,17.3,36.1,16.7,35.7,16.3z"></path> </g></svg>
+          </a>
+        </header>
+        <div class="filter-group">
+          
+            
+            <div class="filter_group">
+              
+              <div class="filter_group-select">
+                
+                
+                  
+                  <div class="filter-block">
+                    <div class="la-select">
+                      
+                      <select name="locationId" id="locationId">
+    <option value="">All Locations</option>
+    <option value="265630">Astra Hotel Seattle</option>
+    <option value="253672">Climate Pledge Arena</option>
+    <option value="229569">Flames Community Arenas</option>
+    <option value="206419">Kent Valley Ice Centre</option>
+    <option value="206068">Kraken Community Iceplex</option>
+    <option value="206416">Lynnwood Ice Center</option>
+    <option value="206413">Olympicview Arena</option>
+    <option value="266455">Parade Ice Garden</option>
+    <option value="251521">Rough &amp; Tumble Pub</option>
+    <option value="206425">Sno-King Ice Arenas - Kirkland</option>
+    <option value="206422">Sno-King Ice Arenas - Renton</option>
+    <option value="206428">Sno-King Ice Arenas - Snoqualmie</option>
+    <option value="253673">The Angry Beaver</option>
+
+
+</select>
+
+
+                      
+                      <span id="sub-location-option" style="display:none"></span>
+                    </div>
+                  </div>
+                
+                
+                
+                  <div class="filter-block">
+                    <div class="la-select">
+                      <select id="itemType" onchange="onItemTypeSelectionChange();">
+                        <option value="games_events">Games &amp; Events</option>
+                        <option value="games_only">Games Only</option>
+                        <option value="events_only">Events Only</option>
+                      </select>
+                    </div>
+                  </div>
+                
+                
+                  <div class="filter-block">
+                    <div class="la-select">
+                      <select name="gameType" id="gameType" onchange="loadScheduleView();">
+    <option value="">All Game Types</option>
+    <option value="REGULAR_SEASON">Regular Season</option>
+    <option value="PLAYOFF">Playoff</option>
+    <option value="CHAMPIONSHIP">Championship</option>
+    <option value="TEAM_PRACTICE">Practice</option>
+    <option value="TEAM_SCRIMMAGE">Scrimmage</option>
+    <option value="QUARTERFINAL">Quarterfinals</option>
+    <option value="SEMIFINAL">Semifinals</option>
+    <option value="FINAL">Final</option>
+    <option value="FRIENDLY">Friendly</option>
+    <option value="CONSOLATION">Consolation</option>
+    <option value="TOURNAMENT">Tournament</option>
+    <option value="LEAGUE">League</option>
+
+
+</select>
+
+
+                    </div>
+                  </div>
+                  <div class="filter-block">
+                    <div class="la-select">
+                      <select name="gameState" id="gameState" onchange="loadScheduleView();">
+    <option value="">All Game States</option>
+    <option value="SCHEDULED">Scheduled</option>
+    <option value="RESCHEDULED">Rescheduled</option>
+    <option value="CANCELED">Canceled</option>
+    <option value="PLAYED_REGULAR_TIME">Played (regular time)</option>
+    <option value="PLAYED_OVERTIME">Played (overtime)</option>
+    <option value="DEFAULT">Forfeit</option>
+    <option value="UNSCHEDULED">Unscheduled</option>
+
+
+</select>
+
+
+                    </div>
+                  </div>
+                
+                
+                  <div class="filter-block">
+                    <div class="la-select">
+                      
+                      <select id="eventType" onchange="loadScheduleView();">
+                        <option value="">All Events</option>
+                        
+                          <option value="BOOKING">Booking</option>
+                        
+                          <option value="GAME">Game</option>
+                        
+                          <option value="TOURNAMENT">Tournament</option>
+                        
+                          <option value="SCRIMMAGE">Scrimmage</option>
+                        
+                          <option value="PRACTICE">Practice</option>
+                        
+                          <option value="MEETING">Meeting</option>
+                        
+                          <option value="CLASS">Class</option>
+                        
+                          <option value="CAMP">Camp</option>
+                        
+                          <option value="LEAGUE">League</option>
+                        
+                          <option value="TRAINING">Training</option>
+                        
+                          <option value="OTHER">Other</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                
+
+                <div class="btn-wrap">
+                  <a class="btn btn-mobile">Filter</a>
+                  <span id="filters-reset">
+                    <a onclick="resetFilters();" class="btn" style="margin: 0 6px">Clear</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          
+            </div>
+      </div>
+    
+  
+
+  
+ 
+   <div id="schedule-quick-nav" class="schedule-quick-nav" style="display: none;">
+   </div>
+ 
+
+  
+  <ol id="schedule-list-view" class="schedule-list-view" style="">
+
+
+
+	
+
+
+
+
+	
+	<li>
+		
+			
+				<h4><strong class="tag" data-id="team-schedule-week">Week 1</strong> <span data-id="team-schedule-week-dates">Fri, Jun 7 - Sat, Jun 8 2024</span>
+				</h4>
+			
+		
+		
+			
+		
+
+
+
+
+<style>
+
+	.schedule-day {
+		background: #eee;
+		border-top: 1px solid #e2e2e2;
+		border-bottom: 1px solid #e2e2e2;
+		border-right: 15px solid #eee !important;
+		color: #888;
+		font-size: 11px;
+		font-weight: bold;
+		line-height: 12px;
+		text-shadow: #fff 1px 1px 0;
+		padding: 4px 0 4px 8px;
+	}
+
+</style>
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+	
+
+	
+		<!-- New Day -->
+		<ul>
+			
+				
+				
+					
+					
+					<li id="game-17751162" class="schedule-game clr  ">
+						
+							
+							
+							
+							
+							
+							
+		                    
+							
+							
+						
+						
+            
+
+
+
+<div class="meta">
+  <div class="sched-start-date">
+    <h5>Start Date 
+
+
+
+
+
+
+</h5>
+    <span class="date">Fri, Jun 7</span>
+    <abbr>@</abbr>
+    <span class="time">
+      9:45 PM
+         - 10:55 PM
+        
+      
+      
+    </span>
+  </div>
+
+  <div class="event clr">
+    
+    <span class="schedule-tag game-type">Tournament</span>
+    
+  </div>
+</div>
+
+						<div class="game clr">
+							<h3 class="event-team">
+								
+								
+									
+									vs  <a href="/leagues/4226312/teams/6818754">Harvey's Heroes</a> <strong class="tag">(A)</strong> 
+								
+							</h3>
+							<!--  LOCATION -->
+							<p class="event-details">
+								<a href="/location/206068">Kraken Community Iceplex (Starbucks)</a>
+							</p>
+							<!--  OFFICIAL -->
+							
+
+							<!-- TAGS-->
+							
+
+							
+
+							<!-- same check added to site/schedule/include/daysListView_FULL.jsp -->
+
+							
+						</div>
+					</li>
+				
+			
+		</ul>
+		<!-- /END Day -->
+	
+
+
+	
+		
+	
+
+	
+
+	
+		<!-- New Day -->
+		<ul>
+			
+				
+				
+					
+					
+					<li id="game-17751165" class="schedule-game clr  ">
+						
+							
+							
+							
+							
+							
+							
+		                    
+							
+							
+						
+						
+            
+
+
+
+<div class="meta">
+  <div class="sched-start-date">
+    <h5>Start Date 
+
+
+
+
+
+
+</h5>
+    <span class="date">Sat, Jun 8</span>
+    <abbr>@</abbr>
+    <span class="time">
+      5:30 PM
+         - 6:40 PM
+        
+      
+      
+    </span>
+  </div>
+
+  <div class="event clr">
+    
+    <span class="schedule-tag game-type">Tournament</span>
+    
+  </div>
+</div>
+
+						<div class="game clr">
+							<h3 class="event-team">
+								
+								
+									
+									vs  <a href="/leagues/4226312/teams/6818752">Matthew's Mavericks</a> <strong class="tag">(A)</strong> 
+								
+							</h3>
+							<!--  LOCATION -->
+							<p class="event-details">
+								<a href="/location/206068">Kraken Community Iceplex (Starbucks)</a>
+							</p>
+							<!--  OFFICIAL -->
+							
+
+							<!-- TAGS-->
+							
+
+							
+
+							<!-- same check added to site/schedule/include/daysListView_FULL.jsp -->
+
+							
+						</div>
+					</li>
+				
+			
+		</ul>
+		<!-- /END Day -->
+	
+		<!-- New Day -->
+		<ul>
+			
+				
+				
+					
+					
+					<li id="game-17751168" class="schedule-game clr  ">
+						
+							
+							
+							
+							
+							
+							
+		                    
+							
+							
+						
+						
+            
+
+
+
+<div class="meta">
+  <div class="sched-start-date">
+    <h5>Start Date 
+
+
+
+
+
+
+</h5>
+    <span class="date">Sat, Jun 8</span>
+    <abbr>@</abbr>
+    <span class="time">
+      10:50 PM
+         - 12:00 AM
+        
+      
+      
+    </span>
+  </div>
+
+  <div class="event clr">
+    
+    <span class="schedule-tag game-type">Tournament</span>
+    
+  </div>
+</div>
+
+						<div class="game clr">
+							<h3 class="event-team">
+								
+								
+									
+									vs  <a href="/leagues/4226312/teams/6818751">Bayards Breakers</a> <strong class="tag">(A)</strong> 
+								
+							</h3>
+							<!--  LOCATION -->
+							<p class="event-details">
+								<a href="/location/206068">Kraken Community Iceplex (VMFH)</a>
+							</p>
+							<!--  OFFICIAL -->
+							
+
+							<!-- TAGS-->
+							
+
+							
+
+							<!-- same check added to site/schedule/include/daysListView_FULL.jsp -->
+
+							
+						</div>
+					</li>
+				
+			
+		</ul>
+		<!-- /END Day -->
+	
+
+
+
+
+
+	</li>
+
+
+
+
+
+</ol>
+  <div id="schedule-calendar-view" style="display:none"></div>
+</div>
+
+
+<div id="load-progress-indicator" style="min-height: 500px; display: none;"></div>
+
+<!-- overlay container for more details -->
+<div class="mod overlay event hide" id="eventDetailsDialog">
+		<h3 id="title" style="margin: 0 0 15px !important;"></h3>
+
+		<div class="sched-info">
+            <p id="event-start-date"><strong>Start Date: </strong><span id="startDate"></span></p>
+            <p id="event-end-date"><strong>End Date: </strong><span id="endDate"></span></p>
+			<p id="description"></p>
+			<p id="location"><strong>Location: </strong><a id="location-name"></a></p>
+			<p class="event-for"><strong>Program: </strong><a id="program-name"></a></p>
+			<p id="event-team"><strong>Team: </strong><a id="team-name"></a></p>
+			<p id="event-teams">
+				<strong>Teams: </strong>
+				<span id="non-clickable-team1-name"></span>
+				<a id="team1-name"></a> vs
+				<span id="cross-program-team" class="icon-random" rel="tipsy" original-title="This is a cross-program Team" style="font-weight: bold; cursor: help;">&nbsp;</span>
+				<span id="non-clickable-team2-name"></span>
+				<a id="team2-name"></a>
+			</p>
+		</div>
+		<p class="" style="overflow: hidden !important;">
+			<a id="close-overlay-btn" class="btn" style="float:right;">Back to calendar</a>
+			<span id="rsvp" style="float:left">
+				<a id="link-rsvp" class="btn-rsvp">RSVP</a>
+			</span>
+            <span id="checkin" style="float:left">
+                <a id="link-checkin" class="btn-rsvp">Check-In</a>
+            </span>
+		</p>
+		<span id="close-overlay" class="close-overlay" onclick="cOverlayClose('#eventDetailsDialog');"></span>
+</div>
+
+<div id="edit-schedule-dialog" class="dialog edit-schedule-dialog" title="Edit" style="display: none;">
+	<p class="validateTips">Name is required.</p>
+	<form>
+		<fieldset>
+			<label for="schedule-name">Name</label>
+			<input type="text" name="schedule-name" id="schedule-name" class="textfield ui-widget-content ui-corner-all">
+			<br>
+			<label for="schedule-description">Description</label>
+			<textarea rows="8" cols="55" name="schedule-description" id="schedule-description" class="textfield schedule-description ui-widget-content ui-corner-all"></textarea>
+		</fieldset>
+	</form>
+</div>
+
+
+
+<script type="text/javascript">
+
+	function sendFeedback(scoreValues, team1, team2, date, time) {
+		var msg = "I'm disputing the recorded score of "+ scoreValues+
+				" on game played between "+team1+
+				" and "+team2+" on "+date;
+		if (time != '') { 
+			msg += " at " + time;
+		}
+		msg += ". \n\nSchedule page: http://manager.leagueapps.com/console/sites/48442/schedule?bid=4226312";
+		
+		$("#msgText").val(msg);
+		cOverlay('.send-feedback');
+	}
+
+</script>
+
+
+
+
+							
+							
+						</div>
+					</div>
+					
+				</div>
+			<!-- /END main -->
+		</div>
+	</div>
+</div>
+</div>
+<!-- /END content -->
+
+<!-- Overlays -->
+
+
+
+
+	<div class="mod overlay player-message">
+		<form id="memberMessage" class="basic-form">
+			<fieldset>
+				<h3>Send<span id="recipientName">&nbsp;</span>A Message</h3>
+				<ol>
+          <li>
+            <label>Subject:</label>
+          </li>
+					<li>
+						<span class="field"><input type="text" maxlength="100" id="subject" style="width: 100%;" value="Message from  "></span>
+					</li>
+          <li>
+					  <label>Message</label>
+          </li>
+          <li>
+            <span class="field">
+               <textarea id="message" style="width: 100%; height: 160px;"></textarea>
+            </span>
+          </li>
+					<li> 
+						<span class="field">
+							<label><input type="checkbox" id="sendCopyToSendingUser"> Also send me a copy.</label>
+						</span> 
+					</li>
+				</ol>
+			</fieldset>
+			
+			<fieldset class="form-btns"> 
+				<input type="button" onclick="sendMessage();" value="Send Message" class="btn">
+				<input type="button" onclick="cOverlayClose('.player-message')" value="Cancel" class="btn" style="float:right">
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript">
+	
+		function sendMessage() {
+			if (recipientId == 0) {
+				showErrorMessage("Unknown recipient", 3);
+				return false;
+			}
+			var subject = $("#subject").val();
+			var message = $("#message").val();
+			var sendCopyToSendingUser = $("#sendCopyToSendingUser").is(":checked");
+			if ($.trim(subject) == '' || $.trim(message) == '') {
+				showErrorMessage("Both subject and message are required");
+				return false;
+			}
+			$.ajax({
+				type: "POST",
+				url: "/ajax/messageSiteMember",
+				data: {
+					"siteId": 48442, 
+					"toUserId": recipientId, 
+					"subject": subject, 
+					"message": message, 
+					"sendCopyToSendingUser": sendCopyToSendingUser
+				},
+				cache: false,
+				success: function(msg) {
+					onMessagePlayerResponse(msg);
+				},
+				error: function(request, textStatus, errorThrown) {
+					showErrorMessage(errorThrown);
+				}
+			});
+		}
+		
+		function onMessagePlayerResponse(status) {
+			if (status == 'error') {
+				showErrorMessage("Error occured while sending message");
+			} else if (status == 'success') {
+				cOverlayClose('.player-message');
+				showConfirmMessage("Message has been successfully sent");
+				$("#subject").val("Message from  ");
+				$("#message").val("");
+			}
+		}
+		
+		function setRecipient(id, name) {
+			recipientId = id;
+			recipientName = name;
+			if (recipientName != null) {
+				$("#recipientName").html('&nbsp;'+recipientName+'&nbsp;');
+			}
+		}	
+		
+		$(function() {
+			var recipientId = 0;
+			var recipientName = null;
+		});
+		
+	</script>
+
+
+<!-- /END Overlays -->
+
+<hr>
+
+
+			</div>
+			<!--  Footer Theme -->
+			
+				
+					
+
+
+<div class="la--gallery">
+   <div id="instafeed"></div>
+ </div>
+
+
+
+
+ <footer id="footer" class="la--footer">
+    <div class="la--container">
+      	<div class="grid">
+      		<div class="col-3">
+            
+              <nav class="la_nav">
+                
+
+
+
+
+	<!-- main top nav -->
+	
+		
+	
+
+
+
+	
+
+
+
+				<ul>
+					
+						
+						
+							<li>
+								<a href="/">Home</a>
+							</li>
+						
+					
+						
+							<li class="has-sub">
+								<a href="/leagues">League</a>
+								<dl class="sub-nav">
+									
+										
+											<dt>Sports</dt>
+										
+										
+									
+										
+										
+											<dd><a href="/leagues/ice-hockey">Ice Hockey</a></dd>
+										
+									
+								</dl>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/tournaments">Tournaments</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/events">Events &amp; Programs</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/bookings">Pride Tape with a Pro</a>
+							</li>
+						
+					
+						
+						
+							<li>
+								<a href="/store">Store</a>
+							</li>
+						
+					
+				</ul>
+
+<!--
+<script>
+    $(function() {
+        var menuHeight = $(".mobile_header-sticky").outerHeight();
+        var styles = {'padding-top':menuHeight};
+        var absolute = {'top':menuHeight};
+
+        $(".enhanced body").css(styles);
+        $(".enhanced .ui-page ").css(absolute);
+
+        $(".enhanced #menu .btn-slide").click(function() {
+            $(".enhanced").toggleClass("showMenu");
+        });
+    });
+</script>
+--> 
+
+              </nav>
+            
+          </div>
+	        <div class="col-3">
+	        	<div id="twitter-timeline-container">
+	        		<h3>Twitter</h3>
+	            	<div class="twitter-timeline twitter-timeline-rendered" style="display: flex; max-width: 100%; margin-top: 0px; margin-bottom: 0px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 0px; height: 0px; display: block; flex-grow: 1;" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/seapridehockey?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideBorder=true&amp;hideFooter=true&amp;hideHeader=true&amp;hideScrollBar=false&amp;lang=en&amp;limit=1&amp;origin=https%3A%2F%2Fmy.seattlepridehockey.org%2Fleagues%2F4226312%2Fteams%2F6818756&amp;sessionId=d54aea5f9603f4406383d9d61a71c1acf897b3f5&amp;showHeader=false&amp;showReplies=false&amp;theme=dark&amp;transparent=true&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716"></iframe></div><a class="twitter-timeline" href="https://twitter.com/seapridehockey" data-tweet-limit="1" data-theme="dark" data-chrome="nofooter noborders noheader transparent" data-show-replies="false" data-twitter-extracted-i1717818469424649295="true"></a>
+	            </div>
+	            
+					
+						<div class="fb-like fb_iframe_widget" data-href="http://www.facebook.com/seapridehockey" data-send="true" data-width="500" data-show-faces="false" fb-xfbml-state="parsed" fb-iframe-plugin-query="app_id=1597886763794892&amp;container_width=255&amp;href=http%3A%2F%2Fwww.facebook.com%2Fseapridehockey&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=500"><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden;"><iframe name="f46d43c91d6d59599" width="500px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" style="border: medium; visibility: hidden;" src="https://www.facebook.com/plugins/like.php?app_id=1597886763794892&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff0af0c2f8fe87819%26domain%3Dmy.seattlepridehockey.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmy.seattlepridehockey.org%252Ffe7cdcfa8d90120e4%26relation%3Dparent.parent&amp;container_width=255&amp;href=http%3A%2F%2Fwww.facebook.com%2Fseapridehockey&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=500"></iframe></span></div>
+					
+				
+	        </div>
+          
+            <div class="col-5 col--push-1">
+               
+
+
+
+<!-- Mailing List -->
+<div class="la-widget-container" id="la-widget-mailing-list">
+	<script type="text/javascript">
+		$(function() {
+			/* Autofill form fields */
+			$(".autofill").each(function() {
+				var label = $(this).attr("title");
+				// $(this).parent().append("<label class=\"auto-label\">" + label + "</label>");
+				$(this).parent().find(".auto-label").click(function() {
+					$(this).fadeOut(210);
+					$(this).parent().find("input").focus();
+				});
+
+				if ( ($(this).val() == label) || ($(this).val() == "") ) {
+					$(this).parent().find(".auto-label").fadeIn(120);
+				}
+
+				$(this).focus(function() {
+					$(this).parent().find(".auto-label").fadeOut(210);
+				});
+				$(this).blur(function() {
+					if ( ($(this).val() == label) || ($(this).val() == "") ) {
+						$(this).val("");
+						$(this).parent().find(".auto-label").fadeIn(120);
+					}
+				});
+			});
+
+			$("#newsletter-subscription-submit").on('click', function(){
+				var email = $("#newsletter-subscription-email").val();
+				if (email) {
+					$.ajax({
+						type: "POST",
+						url: "ajax/newsletterSubscribe",
+						data: {"email": email},
+						cache: false,
+						success: function(content) {
+							var status = $(content).filter('#status')[0].value;
+							if (status == 'success') {
+								$("#newsletter-subscription-error-msg").fadeOut('fast');
+								$("#newsletter-subscription-form").fadeOut('fast', function(){
+									$("#newsletter-subscription-success-msg").html($(content).filter('.sys-confirm').text());
+									$("#newsletter-subscription-success-msg").fadeIn('fast');
+								});
+							} else {
+								$("#newsletter-subscription-error-msg").html($(content).filter('.sys-error').text());
+								$("#newsletter-subscription-error-msg").fadeIn('fast');
+							}
+						},
+						error: function(request, textStatus, errorThrown) {
+							showErrorMessage(errorThrown);
+						}
+					});
+				}
+			});
+		});
+
+	</script>
+	<div class="la__newsletter">
+       <h3 class="la_newsletter_title">Signup for Seattle Pride Hockey Association Newsletter</h3>
+       <div id="newsletter-subscription-form">
+	       <input type="text" id="newsletter-subscription-email" class="la__newsletter_text" placeholder="Add Your Email">
+	       <button id="newsletter-subscription-submit" class="la__newsletter_button">Subscribe</button>
+       </div>
+       <span id="newsletter-subscription-success-msg" style="color: yellow; display: none;"></span>
+       <span id="newsletter-subscription-error-msg" style="color: yellow; display: none;"></span>
+    </div>
+
+</div>
+
+              <h3 class="la_social__title">Follow us and be friends</h3>
+              
+
+
+
+ <ul class="la--social clear">
+ 	
+      <li>
+        <a href="https://www.facebook.com/SEAPrideHockey" class="la--social__link la--icn__facebook"><i class="fa fa-facebook"></i></a>
+      </li>
+ 	
+ 	
+      <li>
+        <a href="https://www.twitter.com/SEAPrideHockey" class="la--social__link la--icn__twitter"><i class="fa fa-twitter"></i></a>
+      </li>
+     
+ 	
+      <li>
+        <a href="https://www.instagram.com/SEAPrideHockey" class="la--social__link la--icn__instagram"><i class="fa fa-instagram"></i></a>
+      </li>
+     
+ 	
+      <li>
+        <a href="https://www.youtube.com/@SEAPrideHockey" class="la--social__link la--icn__youtube"><i class="fa fa-youtube"></i></a>
+      </li>
+     
+ </ul>
+
+
+            </div>
+          
+		</div>
+	</div>
+
+	
+    
+      <p class="la--copyright"><a href="http://leagueapps.com">League management software</a> by LeagueApps.</p>
+    
+    
+	
+</footer>
+
+
+<script src="//svite-league-apps-static.s3.amazonaws.com/_s/slider.js"></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var FLEX = {"animation":"fade","pauseOnHover":"disable","controlNav":"enable","directionNav":"enable","animationDuration":"600","slideshowSpeed":"7000","pauseOnAction":"disable","controlsContainer":".flexslider"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="//svite-league-apps-static.s3.amazonaws.com/_s/jquery-flex-slider.js"></script>
+
+				
+				
+			
+
+			
+
+			<!-- Global Sponsorship Affiliation Footer Asset -->
+			
+			
+			<!-- /END Global Sponsorship Affiliation Footer Asset -->
+
+			<!-- Feedback Form Overlay -->
+			
+
+
+
+
+
+<script type="text/javascript">
+	function siteFeedbackMessage() {
+		var message = $("#msgText").val();
+		var currentUrl = $("#url").val();
+        var email = $("#email").val();
+        var name = $("#name").val();
+
+		message = escape(jQuery.trim(message, email, name));
+		if (message == '' || email == '' || name == '') {
+			return;
+		} else {
+			$(".send-feedback .form-btns").hide();
+		}
+
+		$('#msgText').val('');
+		//var url = "/ajax/siteFeedbackMessage";
+		//other URI component handling here?
+		var url = '';
+		if (window.location.protocol == "https:"){
+			url = 'https://seapridehockey.leagueapps.com' +  "/ajax/siteFeedbackMessage";
+		}
+		else{
+			url = "/ajax/siteFeedbackMessage";
+		}
+				
+				
+	   email = encodeURIComponent(email);
+		var dataStr = "comments=" + message + "&url=" + window.document.location + "&email=" + email + "&name=" + name ;
+		//alert("dataStr: " + dataStr);
+		$.ajax({
+			type: "POST",
+			url: url,
+			data: dataStr,
+			cache: false,
+			success: function(msg) {
+				onSendSuccess(msg);
+			},
+			error: function(request, textStatus, errorThrown) {}
+		});
+		
+		function onSendSuccess(msg) {
+            if(msg.status == "ERROR"){
+                showErrorMessage(msg.messages[0]);
+                $(".send-feedback ol, .send-feedback .form-btns").show();
+            } else {
+                $(".send-feedback ol").hide();
+                $(".send-feedback").append("<div class=\"feedback-success hide\"><p><strong>Message Sent!</strong></p><p style=\"margin: 0;\">Thank you! We appreciate your feedback.</p></div>");
+                $(".send-feedback .feedback-success").fadeIn(120).delay(4000).animate({opacity: 1}, 120, function() {
+                    cOverlayClose(".send-feedback");
+                    $(".send-feedback .feedback-success").remove();
+                    $(".send-feedback ol, .send-feedback .form-btns").show();
+                    $(".send-feedback textarea").val("");
+                });
+            }
+		};
+	};
+</script>
+
+<div class="mod overlay send-feedback">
+	<form class="basic-form">
+		<fieldset>
+			<h3>Send Your Feedback</h3>
+
+			<ol>
+				<li class="">
+					<label>To</label>
+					<span class="field"><label><strong>League Organizer</strong></label></span>
+				</li>
+                
+                    <ol>
+                        <li>
+                            <label>Name <abbr title="required">*</abbr></label>
+                        <span class="field">
+                            <input id="name" type="text" name="name">
+                        </span>
+                        </li>
+
+                        <li>
+                            <label>Email <abbr title="required">*</abbr></label>
+                        <span class="field">
+                            <input id="email" type="text" name="email" class="autofill">
+                        </span>
+                        </li>
+                    </ol>
+                
+
+                <li class="">
+					<label>Message</label>
+					<span class="field">
+						<textarea cols="5" rows="55" id="msgText" name="msgText"></textarea>
+					</span>	
+				</li>
+			</ol>
+		</fieldset>
+
+		<fieldset class="form-btns"> 
+			<input type="button" onclick="siteFeedbackMessage();" value="Submit Feedback" class="btn">
+			<input type="button" onclick="cOverlayClose('.send-feedback');$('#msgText').val('')" value="Cancel" class="btn neg">
+			<input type="hidden" id="url" name="url">
+		</fieldset>
+	</form>
+</div>
+
+
+
+			<!-- TODO: Top Ad Slot -->
+			<!--
+			<div class="ad-slot" id="top-leaderboard-bottom">
+				<div class="ad-wrap">
+					<div class="ad-block">
+
+					</div>
+				</div>
+			</div>
+			-->
+
+			<!-- Tracking Code -->
+			
+
+
+
+			
+
+
+<script type="text/javascript">
+	//function instagramPhotos() {
+    	var uToken = $('#data-lainfo-instagramAccessToken').val();
+    	
+		if(typeof uToken !== "undefined" && uToken.length > 0) {
+
+			
+
+
+			$.getScript("http://svite-league-apps-static.s3.amazonaws.com/_s/instafeed.min.js", function(){
+				var splitToken = uToken.split(".");
+				var uId = splitToken[0];
+				var feed = new Instafeed({ 
+					'get': 'user', 
+					'limit': 5, 
+					'userId': uId, 
+					'accessToken': uToken, 
+					'resolution': 'standard_resolution',
+					'template': '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'	
+				});
+					feed.run();	
+			});
+		}
+	//}
+	
+	//function twitterTimeline() { 
+		var twitterUsername = $('#data-lainfo-twitterUsername').val();
+		if(twitterUsername) {
+			console.log(twitterUsername);
+			$('.twitter-timeline').attr('href','https://twitter.com/' + twitterUsername);
+			$('.twitter-timeline').attr('data-tweet-limit', '1');
+			$('.twitter-timeline').attr('data-theme', 'dark');
+			$('.twitter-timeline').attr('data-chrome', 'nofooter noborders noheader transparent');
+			$('.twitter-timeline').attr('data-show-replies', 'false');
+			$.getScript('//platform.twitter.com/widgets.js');
+		}
+		else {
+			$('#twitter-timeline-container').remove();
+		}	
+	//}
+
+
+
+	function formatDate(d) {
+		return $.datepicker.formatDate("M d, yy", d);
+	}
+
+	function formatDateMillis(ms) {
+		return formatDate(new Date(ms));
+	}
+
+
+	function renderBlogList(maxPosts, outputSelector) {
+		var url = $('#lapi-site-url').val() + "blog?limit=" + maxPosts;
+		var output = $(outputSelector);
+		$.get(url, function(data) {
+			if (data.length > 0) {
+				var tmp = '<section class="grid la_blog"><h1 class="la_title__main col-12">Latest News</h1>';
+				for (var i = 0; i < data.length; i++) {
+					var post = data[i];
+					tmp += '<div class="col-4 la--blog-post">';
+					if (post['halfImageUrl']) {
+						tmp += '<div class="blog-img"><img src="' + post['halfImageUrl'] + '" alt=""></div>';
+					}
+					tmp += '<h2>' + post['title'] + '</h2>';
+					if (post['summary']) {
+						tmp += '<p class="la_blog__des">' + post['summary'] + '</p>';
+					}
+					if (post['urlHtml']) {
+						tmp += '<a class="la_blog__btn" href="' + post['urlHtml'] + '">Read More</a>';
+					}
+					tmp += '<p class="la_blog__date">' + formatDateMillis(post['createdOn']) + '</p>'
+						+ '</div>';
+				}
+				tmp += '</section>';
+				output.html(tmp);
+			}
+		});
+
+		// TODO(jason): What should happen if this call fails?  Currently nothing.
+	}
+
+</script>
+
+
+			
+
+
+
+			<!-- NGFE: Add target="_self" to all form elements  -->
+			
+
+
+
+		<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8905e70bddefeb4f',t:'MTcxNzgxODQ2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: medium; visibility: hidden;"></iframe>
+	
+	
+
+
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2f70fb173b9000da126c79afe2098f02.html?origin=https%3A%2F%2Fmy.seattlepridehockey.org" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium;" title="Twitter analytics iframe"></iframe></body></html>
