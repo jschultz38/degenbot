@@ -21,8 +21,8 @@ def fetchPrideGames(team):
         print(URL)
         page = requests.get(URL)
         if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
-            return
+            print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+            return games
         team['cache'] = page.content
         soup = BeautifulSoup(page.content, "html.parser")
 
