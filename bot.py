@@ -30,7 +30,7 @@ def createBasicBot(teams):
         print("time to respond is: " + str(now - time_created))
 
     @bot.command(
-        help = bot.command_prefix + "schedule <name> - Shows all games"
+        help=bot.command_prefix + "schedule <name> - Shows all games"
         )
     async def schedule(ctx, player=None):
         if player == None:
@@ -42,7 +42,7 @@ def createBasicBot(teams):
         await sendGames(ctx, games, False)
 
     @bot.command(
-        help = bot.command_prefix + "upcoming <name> - Shows all upcoming games"
+        help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
         )
     async def upcoming(ctx, player=None):
         if player == None:
@@ -68,7 +68,7 @@ def createBasicBot(teams):
         await ctx.send(embed=upcomingEmbed)
 
     @bot.command(
-        help = bot.command_prefix + "soon <?name?> - Shows all games for the next week"
+        help=bot.command_prefix + "soon <?name?> - Shows all games for the next week"
         )
     async def soon(ctx, player=None):
         games = retrieveAllGames(teams, player)
@@ -84,7 +84,8 @@ def createBasicBot(teams):
         await sendGames(ctx, games, (player == None))
 
     @bot.command(
-        help = bot.command_prefix + "fuck <?name?>"
+        help=bot.command_prefix + "fuck <?name?>",
+        extras= {'meme': True}
         )
 
     async def fuck(ctx, *things):
@@ -95,13 +96,15 @@ def createBasicBot(teams):
         await ctx.send(embed = fuckEmbed)
 
     @bot.command(
-        help = bot.command_prefix + "updog"
+        help=bot.command_prefix + "updog",
+        extras= {'meme': True}
         )
     async def updog(ctx):
         await ctx.send("what's up dog?")
 
     @bot.command(
-        help = bot.command_prefix + "fmk <name> <name> <name>"
+        help=bot.command_prefix + "fmk <name> <name> <name>",
+        extras= {'meme': True}
         )
     async def fmk(ctx, person1=None, person2=None, person3=None):
         if person1 == None or person2 == None or person3 == None:
@@ -118,13 +121,15 @@ def createBasicBot(teams):
         await ctx.send(embed = fmkEmbed)
  
     @bot.command(
-        help = bot.command_prefix + "stepcaptain"
+        help=bot.command_prefix + "stepcaptain",
+        extras= {'meme': True}
     )
     async def stepcaptain(ctx):
         await ctx.send('https://imgur.com/VJyQs2L')
 
     @bot.command(
-        help=bot.command_prefix + "ruf :|"
+        help=bot.command_prefix + "ruf :|",
+        extras= {'meme': True}
     )
     async def ruf(ctx):
         await ctx.send('https://imgur.com/q4OWXNs')
@@ -157,12 +162,18 @@ async def sendGames(ctx, games, showPlayers):
 
 class MyHelpCommand(commands.HelpCommand):
     async def send_bot_help(self, mappings):
-        print_str = "<> means required, <??> means optional\n\n"
+        preamble = "<> means required, <??> means optional"
+        print_str_real = ''
+        print_str_meme = ''
+        print_str_help = ''
         for cog, cmds in mappings.items():
             cmds = await self.filter_commands(cmds, sort=True)
             for cmd in cmds:
                 if cmd.name == 'help':
-                    print_str += '!help - ' + cmd.help + "\n"
+                    print_str_help += '!help - ' + cmd.help + "\n"
+                elif 'meme' in cmd.extras and cmd.extras['meme']:
+                    print_str_meme += cmd.help + "\n"
                 else:
-                    print_str += cmd.help + "\n"
-        await self.context.send(print_str)
+                    print_str_real += cmd.help + "\n"
+
+        await self.context.send(preamble + "\n\n" + print_str_real + print_str_help + "\n" + print_str_meme)
