@@ -19,6 +19,7 @@ def fetchSDGames(team):
         soup = BeautifulSoup(content_cache, "html.parser")
     else:
         URL = 'https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/schedule.aspx?IDLeague=64338'
+        print(URL)
         page = requests.get(URL)
         if page.status_code != 200:
             print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
@@ -67,7 +68,6 @@ def fetchSDGames(team):
         # Case 3: Row is a game
         game = createSDGame(team, row, cur_month, cur_day)
         if game:
-            print(game)
             games.append(game)
 
         x += 1
