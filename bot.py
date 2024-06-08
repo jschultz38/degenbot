@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta
+
 import discord
 from discord.ext import commands
 import random
@@ -5,6 +7,8 @@ import datetime
 
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
+
+from res.DegenEmbed import *
 
 def createBasicBot(teams):
     intents = discord.Intents.default()
@@ -31,14 +35,24 @@ def createBasicBot(teams):
             await ctx.send("Please input a player name after your command")
             return
 
-        games = retrieveAllGames(teams, player)
 
+        games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
+  
         # Filter out games
         time_now = datetime.datetime.now()
         today = datetime.datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
 
-        await sendGames(ctx, games, False)
+        upcomingEmbed = DegenEmbed(title=f"Upcoming Games for {player}", description=None, color=discord.Color.red())
+        upcomingEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
+        for game in games:
+            timediff = datetime.now() - game.gametime
+            #if timedelta(seconds=0) < timediff < timedelta(hours=1):
+               # upcomingEmbed.add_field(f"{game.away_team} vs {game.home_team}", f"[{game.gametime} @ {game.location} (Watch Live)](https://livebarn.com/en/video/{game.rinkid}/live)")
+            #else:
+            upcomingEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
+
+        await ctx.send(embed=upcomingEmbed)
 
     @bot.command(
         help = bot.command_prefix + "soon <?name?> - Shows all games for the next week"
@@ -60,7 +74,10 @@ def createBasicBot(teams):
         help = bot.command_prefix + "fuck <?name?>"
         )
     async def fuck(ctx, person=''):
-        await ctx.send("fuck " + person)
+        fuckEmbed = DegenEmbed( title=None, description= None, color=discord.Color.red())
+        fuckEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
+        fuckEmbed.add_field(f'Fuck {person}', f'Get Fucked {person}')
+        await ctx.send(embed = fuckEmbed)
 
     @bot.command(
         help = bot.command_prefix + "updog"
@@ -75,10 +92,15 @@ def createBasicBot(teams):
         if person1 == None or person2 == None or person3 == None:
             await ctx.send("please send 3 names")
             return
-
         people = [person1, person2, person3]
         random.shuffle(people)
-        await ctx.send("fuck " + people[0] + ", marry " + people[1] + ", kill " + people[2])
+        fmkEmbed = DegenEmbed(title=None, description=None, color=discord.Color.pink())
+        fmkEmbed.create("https://pngimg.com/d/kim_jong_un_PNG37.png")
+        fmkEmbed.add_field(f"Fuck {people[0]} \U0001F346", f"Get Fucked, {people[0]} ")
+        fmkEmbed.add_field(f"Marry {people[1]} \U0001F48D", f"How sweet, {people[1]}")
+        fmkEmbed.add_field(f"Kill {people[2]} \U0001F52A", f"I guess you'll just die, {people[2]}")
+
+        await ctx.send(embed = fmkEmbed)
  
     @bot.command(
         help = bot.command_prefix + "stepcaptain"
