@@ -6,7 +6,7 @@ from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from globals import RATE_LIMITED
 
-def retrieveAllGames(teams, player):
+def retrieveAllGames(teams, player, sort=True):
     games = []
 
     # Obtain games
@@ -20,6 +20,9 @@ def retrieveAllGames(teams, player):
         for team in teams:
             if playerInList(player, team['players']):
                 addTeamGames(games, team)
+
+    if sort:
+        games.sort(key=lambda e: e.gametime)
 
     return games
 

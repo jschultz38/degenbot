@@ -30,6 +30,7 @@ def createBasicBot(teams):
             return
 
         games = retrieveAllGames(teams, player)
+
         await sendGames(ctx, games, False)
 
     @bot.command(
@@ -124,8 +125,6 @@ def createBasicBot(teams):
     return bot
 
 async def sendGames(ctx, games, showPlayers):
-    games.sort(key=lambda e: e.gametime)
-
     print_str = ''
     if RATE_LIMITED:
         print_str += "Note: I've been rate limited :(\n"
