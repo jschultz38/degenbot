@@ -59,8 +59,8 @@ def createBasicBot(teams):
     @bot.command(
         help = bot.command_prefix + "fuck <?name?>"
         )
-    async def fuck(ctx, person=''):
-        await ctx.send("fuck " + person)
+    async def fuck(ctx, *things):
+        await ctx.send("fuck " + ' '.join(things))
 
     @bot.command(
         help = bot.command_prefix + "updog"
