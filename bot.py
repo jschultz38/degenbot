@@ -1,9 +1,7 @@
-from datetime import datetime, timedelta
-
+from datetime import datetime, timedelta, timezone
 import discord
 from discord.ext import commands
 import random
-import datetime
 
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
@@ -20,6 +18,16 @@ def createBasicBot(teams):
         help_command=MyHelpCommand(),
         case_insensitive=True
         )
+
+    @bot.before_invoke
+    async def before_command(ctx):
+        ctx.before_time = datetime.now()
+
+    @bot.after_invoke
+    async def after_command(ctx):
+        time_created = ctx.before_time
+        now = datetime.now()
+        print("time to respond is: " + str(now - time_created))
 
     @bot.command(
         help = bot.command_prefix + "schedule <name> - Shows all games"
@@ -41,12 +49,11 @@ def createBasicBot(teams):
             await ctx.send("Please input a player name after your command")
             return
 
-
         games = retrieveAllGames(teams, player)
   
         # Filter out games
-        time_now = datetime.datetime.now()
-        today = datetime.datetime(time_now.year, time_now.month, time_now.day)
+        time_now = datetime.now()
+        today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
 
         upcomingEmbed = DegenEmbed(title=f"Upcoming Games for {player}", description=None, color=discord.Color.red())
@@ -67,12 +74,12 @@ def createBasicBot(teams):
         games = retrieveAllGames(teams, player)
 
         # Filter out games
-        time_now = datetime.datetime.now()
-        today = datetime.datetime(time_now.year, time_now.month, time_now.day)
+        time_now = datetime.now()
+        today = datetime(time_now.year, time_now.month, time_now.day)
         for game in games:
-            if not (game.gametime > today and (game.gametime - today) < datetime.timedelta(days=7)):
+            if not (game.gametime > today and (game.gametime - today) < timedelta(days=7)):
                 games.remove(game)
-        games = [game for game in games if game.gametime >= today and (game.gametime - today) < datetime.timedelta(days=7)]
+        games = [game for game in games if game.gametime >= today and (game.gametime - today) < timedelta(days=7)]
 
         await sendGames(ctx, games, (player == None))
 
