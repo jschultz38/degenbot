@@ -76,7 +76,7 @@ def createBasicBot(teams):
         # Filter out games
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
-        games = [game for game in games if game.gametime >= today and (game.gametime - today) < timedelta(days=7)]
+        games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
 
         await sendGames(ctx, games, (player == None))
 
