@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import discord
 from discord.ext import commands
 import random
+import datetime
 
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
@@ -23,11 +24,8 @@ def createBasicBot(teams):
             await ctx.send("Please input a player name after your command")
             return
 
-        onlyUpcoming = False
-        onlySoon = False
-
-        games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
-        await sendGames(ctx, games, player, onlySoon)
+        games = retrieveAllGames(teams, player)
+        await sendGames(ctx, games, False)
 
     @bot.command(
         help = bot.command_prefix + "upcoming <name> - Shows all upcoming games"
@@ -36,11 +34,14 @@ def createBasicBot(teams):
         if player == None:
             await ctx.send("Please input a player name after your command")
             return
-            
-        onlyUpcoming = True
-        onlySoon = False
+
 
         games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
+  
+        # Filter out games
+        time_now = datetime.datetime.now()
+        today = datetime.datetime(time_now.year, time_now.month, time_now.day)
+        games = [game for game in games if game.gametime >= today]
 
         upcomingEmbed = DegenEmbed(title=f"Upcoming Games for {player}", description=None, color=discord.Color.red())
         upcomingEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
@@ -50,17 +51,24 @@ def createBasicBot(teams):
                # upcomingEmbed.add_field(f"{game.away_team} vs {game.home_team}", f"[{game.gametime} @ {game.location} (Watch Live)](https://livebarn.com/en/video/{game.rinkid}/live)")
             #else:
             upcomingEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
+
         await ctx.send(embed=upcomingEmbed)
 
     @bot.command(
         help = bot.command_prefix + "soon <?name?> - Shows all games for the next week"
         )
-    async def soon(ctx, player=None):    
-        onlyUpcoming = False
-        onlySoon = True
+    async def soon(ctx, player=None):
+        games = retrieveAllGames(teams, player)
 
-        games = retrieveAllGames(teams, player, onlyUpcoming, onlySoon)
-        await sendGames(ctx, games, player, onlySoon)
+        # Filter out games
+        time_now = datetime.datetime.now()
+        today = datetime.datetime(time_now.year, time_now.month, time_now.day)
+        for game in games:
+            if not (game.gametime > today and (game.gametime - today) < datetime.timedelta(days=7)):
+                games.remove(game)
+        games = [game for game in games if game.gametime >= today and (game.gametime - today) < datetime.timedelta(days=7)]
+
+        await sendGames(ctx, games, (player == None))
 
     @bot.command(
         help = bot.command_prefix + "fuck <?name?>"
@@ -108,7 +116,9 @@ def createBasicBot(teams):
     
     return bot
 
-async def sendGames(ctx, games, player, onlySoon):
+async def sendGames(ctx, games, showPlayers):
+    games.sort(key=lambda e: e.gametime)
+
     print_str = ''
     if RATE_LIMITED:
         print_str += "Note: I've been rate limited :(\n"
@@ -118,7 +128,7 @@ async def sendGames(ctx, games, player, onlySoon):
     else:
         for game in games:
             game_str = game.to_string()
-            if onlySoon and player == None:
+            if showPlayers:
                 game_str += ' - ' + ', '.join(game.team['players'])
 
             # Discord has a requirement that all messages are less than 2000 characters
