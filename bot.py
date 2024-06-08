@@ -46,7 +46,6 @@ def createBasicBot(teams):
         upcomingEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
         for game in games:
             timediff = datetime.now() - game.gametime
-            #uncomment and fix indent was rinkIds are in
             #if timedelta(seconds=0) < timediff < timedelta(hours=1):
                # upcomingEmbed.add_field(f"{game.away_team} vs {game.home_team}", f"[{game.gametime} @ {game.location} (Watch Live)](https://livebarn.com/en/video/{game.rinkid}/live)")
             #else:
