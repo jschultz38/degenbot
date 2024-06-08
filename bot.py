@@ -10,7 +10,12 @@ def createBasicBot(teams):
     intents = discord.Intents.default()
     intents.message_content = True
 
-    bot = commands.Bot(command_prefix='!', intents=intents, help_command=MyHelpCommand())
+    bot = commands.Bot(
+        command_prefix='!',
+        intents=intents,
+        help_command=MyHelpCommand(),
+        case_insensitive=True
+        )
 
     @bot.command(
         help = bot.command_prefix + "schedule <name> - Shows all games"
