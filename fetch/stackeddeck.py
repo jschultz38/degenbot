@@ -2,7 +2,7 @@ import requests
 import datetime
 from bs4 import BeautifulSoup
 
-from game import HockeyGame
+from utils.game import HockeyGame
 from globals import RATE_LIMITED
 
 def fetchSDGames(team):

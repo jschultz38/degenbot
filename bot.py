@@ -6,7 +6,7 @@ import random
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
 
-from res.DegenEmbed import *
+from utils.DegenEmbed import *
 
 def createBasicBot(teams):
     intents = discord.Intents.default()

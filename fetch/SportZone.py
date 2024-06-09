@@ -1,5 +1,5 @@
 import datetime
-from game import HockeyGame
+from utils.game import HockeyGame
 
 def createSportZoneGame(cols, team):
     # Get the easy stuff
