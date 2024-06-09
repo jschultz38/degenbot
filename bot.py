@@ -148,6 +148,19 @@ def createBasicBot(teams):
     )
     async def ruf(ctx):
         await ctx.send('https://imgur.com/q4OWXNs')
+
+    @bot.command(
+        help=bot.command_prefix + "pat - god i miss that man",
+        extras= {'meme': True}
+    )
+    async def pat(ctx):
+        if not 'pat' in ctx.command.extras:
+            ctx.command.extras['pat'] = 0
+
+        ctx.command.extras['pat'] += 1
+
+        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
+                        ' times since this bot was started')
     
     return bot
 
