@@ -6,8 +6,126 @@ from selenium import webdriver
 from game import HockeyGame
 from globals import RATE_LIMITED
 
-# run saveHtmlSPC.py to generate the saved files needed to run this
+import requests
+from fetch.SportZone import createSportZoneGame
+
 def fetchPrideTourneyGames(team):
+    if RATE_LIMITED:
+        return []
+
+    page = None
+    soup = None
+    games = []
+
+    if 'cache' in team:
+        content_cache = team['cache']
+        print('found cache')
+        soup = BeautifulSoup(content_cache, "html.parser")
+    else:
+        URL = 'https://stats.seattlepridehockey.org/schedule'
+        print(URL)
+        page = requests.get(URL)
+        if page.status_code != 200:
+            print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+            return games
+        team['cache'] = page.content
+        soup = BeautifulSoup(page.content, "html.parser")
+
+    tables = soup.find_all('table', attrs={'class':'table text-muted mb-0'})
+
+    for table in tables:
+        rows = table.find_all('tr', attrs={'class':'d-none d-lg-block'})
+
+        for row in rows:
+            cols = row.find_all('td')
+
+            # pride league uses sz backed website
+            game = createPrideTourneyGame(cols, team)
+            if game == None:
+                continue
+            games.append(game)
+
+    return games
+
+def createPrideTourneyGame(cols, team):
+    # Get the easy stuff
+    location = cols[2].a['title']
+    degen_team = team['name']
+    home_team = cols[1].find_all('a')[0].getText()
+    print(home_team)
+    away_team = cols[3].find('a', attrs={'class':'ml-2'}).getText()
+    print(away_team)
+    print(degen_team)
+
+    if home_team != degen_team and away_team != degen_team:
+        print('skip')
+        return None
+    print('continue')
+
+    side = "HOME" if home_team == team['name'] else "AWAY"
+    is_degen_home = (side == "HOME")
+
+    # Find game time
+    dateText = cols[0].getText().split(" ")[0]
+    timeText = cols[2].getText().strip()
+    print(dateText)
+    print(timeText)
+    #print('hi')
+
+    ## Get day
+    day_ret = int(dateText.split("/")[1])
+    print(day_ret)
+
+    ## Get month
+    month_ret = int(dateText.split("/")[0])
+    print(month_ret)
+        
+    ## Get time
+    hour = timeText.split(":")[0]
+    minute = timeText.split(":")[1].split(" ")[0]
+    meridiem = timeText.split(":")[1].split(" ")[1][0:2]
+    print(meridiem)
+
+    hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
+    minute_ret = int(minute)
+
+    gametime = datetime.datetime(2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
+    
+    # Create the game
+    game = HockeyGame(
+                team,
+                gametime,
+                location,
+                home_team,
+                away_team,
+                HockeyGame.DEGEN_HOME if is_degen_home else HockeyGame.DEGEN_AWAY
+                )
+
+    return game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# run saveHtmlSPC.py to generate the saved files needed to run this
+def fetchPrideTourneyGames2(team):
     if RATE_LIMITED:
         return []
 
@@ -31,12 +149,12 @@ def fetchPrideTourneyGames(team):
     schedule = soup.find_all('li', attrs={'class': 'schedule-game clr'})
 
     for g in schedule:
-        games.append(createPrideTourneyGame(g, team))
+        games.append(createPrideTourneyGame2(g, team))
 
     return games
 
 
-def createPrideTourneyGame(game_html, team):
+def createPrideTourneyGame2(game_html, team):
     date = game_html.find('span', attrs={'class': 'date'}).getText()
     timerange = game_html.find('span', attrs={'class': 'time'}).getText()
     start = timerange.split("-")[0].strip()

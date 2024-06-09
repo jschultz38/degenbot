@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-URL = 'https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/schedule.aspx?IDLeague=64338'
+URL = 'https://stats.seattlepridehockey.org/schedule'
 page = requests.get(URL)
 
-with open("sampleHTMLSD.txt", "wb") as f:
+with open("sampleHTMLSPT.txt", "wb") as f:
 	f.write(page.content)
 print('done')
 

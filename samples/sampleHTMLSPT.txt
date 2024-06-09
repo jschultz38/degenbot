@@ -1,0 +1,2651 @@
+<!DOCTYPE html>
+
+<html>
+	<head>	
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W05PSRWPD6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-W05PSRWPD6');
+        </script>	
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var bottomData = document.querySelector("#bottomData");
+      var topData = document.querySelector("#topData");
+      topData.textContent = bottomData.textContent;
+    });
+  </script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>Seattle Pride Hockey League</title>	
+
+		<meta name="keywords" content="Seattle Pride Hockey Association" />
+		<meta name="description" content="Seattle Pride Hockey Association is committed to promoting and advocating for diversity & inclusiveness in the PNW ice hockey community.">
+		<base href="https://stats.seattlepridehockey.org/hlm/" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="https://stats.seattlepridehockey.org/assets/9737/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="https://stats.seattlepridehockey.org/assets/9737/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" user-scalable=no">
+
+     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+		
+		<link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
+		<link href="../../fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="../../fontawesome/css/brands.css" rel="stylesheet">
+        <link href="../../fontawesome/css/solid.css" rel="stylesheet">
+		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="vendor/animate/animate.min.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" href="css/datatables2.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.3.3/css/fixedColumns.dataTables.min.css">
+		<link rel="stylesheet" href="https://datatables.net/release-datatables/extensions/FixedColumns/css/fixedColumns.bootstrap4.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+		<script src="vendor/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+		
+		
+		    <!-- This Page CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css?v=1.5">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="https://stats.seattlepridehockey.org/assets/9737/default.css?v=1.5">
+		<!-- Head Libs -->	
+		
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="https://stats.seattlepridehockey.org/assets/9737/custom.css?v=2.3">		
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/daterangepicker.css" />		
+	</head>
+	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'default'}">
+<div class="loading-overlay">
+	<div class="bounce-loader">
+		<div class="bounce1"></div>
+		<div class="bounce2"></div>
+		<div class="bounce3"></div>
+	</div>
+</div>
+
+		<div class="body">
+		<div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=125293550904959&autoLogAppEvents=1" nonce="h2eELAkX"></script>
+			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+			
+            <div class="header-body border-top-0 bg-primary">
+			
+
+
+<div class="col_4">			
+<div class="header-top mx-0" style="height:90px;">
+<div class="container-fluid bg-light px-2">
+<div class="header-top" style="width:15px; height:90px; position:absolute;left:48px; background-image: url(images/left_shadow.png); z-index: 5;"></div>     
+<div class="header-top" style="width:15px; height:90px; position:absolute;right:48px; background-image: url(images/right_shadow.png); z-index: 5;"></div>   
+<div class="bg-light owl-carousel mb-0 pb-0 owl-theme stage-margin nav-style-1" data-plugin-options="{'loop': true, 'nav': true, 'dots': false, 'autoWidth': true, 'stagePadding': 0, 'animateOut': true, 'animateIn': true, 'margin':0}">
+
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br>9</div>
+</div>
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Turing's Titans</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>8:45 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">M.J.'s Magic</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4250/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Marsha''s Rioters</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>9:25 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Bayard''s Breakers</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4258/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Rogers' Rebels</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>9:45 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Billie's Aces</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4248/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Team Trans</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>10:00 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Gittings' Guardians</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4254/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Bird's Ballers</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>10:50 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Edie's Enforcers</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4251/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Clarendon''s Crushers</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>11:10 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Matthew''s Mavericks</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4249/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Prokop's Pride</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>11:35 AM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Kameny's Knights</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4253/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Baldwin's Blazers</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>12:15 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Ride's Raiders</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4255/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Trans Wave</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>1:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Sylvia's Storm</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4252/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Harvey''s Heroes</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>1:40 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Laverne''s Legends</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4256/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">New Heights</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >TODAY<br>3:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">Flying Together</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4257/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br>15</div>
+</div>
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Heart icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Heart</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >Jun 15<br>6:45 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Speed icon(1).png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Speed</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4198/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Passion icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Passion</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >Jun 15<br>8:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Hustle icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Hustle</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4199/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br>22</div>
+</div>
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Hustle icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Hustle</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >Jun 22<br>6:45 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Heart icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Heart</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4200/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+<div>
+
+<div class="parent">								
+<div class="default">
+
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px; border-bottom; border-width: 10px; border-color:#CC0000;">
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Speed icon(1).png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Speed</td>
+
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >Jun 22<br>8:00 PM</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../hockey/images/teamlogos100/Passion icon.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase text-4">SPHL Passion</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div class="hover">
+<a href="/game/4201/preview"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">PREVIEW <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+
+</div>								
+</div>
+
+
+<div>
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="height:90px; background-color:#EEE;">
+<div class="p2 text-4 text-center text-uppercase">Jun<br>8</div>
+</div>
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Gittings' Guardians</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Ride's Raiders</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4230/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Trans Wave</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Edie's Enforcers</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4231/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Laverne's Legends</td>
+<td class="p1 text-4 text-primary text-center">7</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Bayard's Breakers</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4232/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Sylvia's Storm</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">M.J.'s Magic</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4233/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Matthew's Mavericks</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Marsha's Rioters</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4234/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Kameny's Knights</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Rogers' Rebels</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4246/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Team Trans</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Gittings' Guardians</td>
+<td class="p1 text-4 text-primary text-center">6</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4235/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Trans Wave</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Bird's Ballers</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4236/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Laverne's Legends</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Harvey's Heroes</td>
+<td class="p1 text-4 text-primary text-center">2</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4237/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Billie's Aces</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Prokop's Pride</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4238/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Baldwin's Blazers</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Ride's Raiders</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4239/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Sylvia's Storm</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Turing's Titans</td>
+<td class="p1 text-4 text-primary text-center">1</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4240/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Matthew's Mavericks</td>
+<td class="p1 text-4 text-primary text-center">0</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Clarendon's Crushers</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4241/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Edie's Enforcers</td>
+<td class="p1 text-4 text-primary text-center">7</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">M.J.'s Magic</td>
+<td class="p1 text-4 text-primary text-center">3</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4242/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+<div>
+<div class="parent">								
+<div class="default">								
+<div class="p-2 border-right border-bottom-0 border-top-0 d-flex align-items-center justify-content-center" style="width:240px; height:90px;">
+
+<table width="100%" class="py-0 my-0">
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Bayard's Breakers</td>
+<td class="p1 text-4 text-primary text-center">5</td>
+<td rowspan="2" class="text-center text-4 text-uppercase p2" >FINAL</td>
+</tr>
+<tr class="border-0">
+<td style="width:40px;"><img src="../../assets/9737/team_logo.png" style="height:32px; width:32px; object-fit:contain;"></img></td>
+<td class="p2 text-uppercase">Marsha's Rioters</td>
+<td class="p1 text-4 text-primary text-center">4</td>
+</tr>
+</table>
+
+
+</div>
+</div> 
+<div class="hover">								
+<a href="/game/4243/summary"><div class="p-2 border-right border-bottom border-top-0 bg-primary text-light d-flex align-items-center justify-content-center text-primary text-6 p2" style="width:240px; height:90px; ">SUMMARY <i class="fas fa-angle-right ml-2 pt-1"></i></div></a>
+</div> 
+</div>								
+</div>
+
+
+</div>			
+</div>					
+</div>
+</div>
+ 			
+                    <div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+                                  <div class="site-logo">
+                                      <a href="https://stats.seattlepridehockey.org"><img src="https://stats.seattlepridehockey.org/assets/9737/sphl_main_logo.png" alt="Seattle Pride Hockey League"></a>
+                                  </div>
+								</div>
+							</div>							
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<div class="header-nav ">
+										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+<li class="dropdown"><a class="dropdown-item" href="/home" target="" >Home</a></li>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="https://www.seattlepridehockey.org/league/" target="">About</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="https://shorturl.at/4HE4L" target="_blank">League Guidelines & Supplemental Rules</a></li>
+<li><a class="dropdown-item" href="/page/league-holidays" target="">League Holidays</a></li>
+<li><a class="dropdown-item" href="https://shorturl.at/5bOy9" target="_blank">Player Discipline Guidance</a></li>
+<li><a class="dropdown-item" href="https://www.usahockeyrulebook.com/" target="_blank">USA Hockey Official Rules of Ice Hockey</a></li>
+</li>
+</ul>
+<li class="dropdown"><a class="dropdown-item" href="https://my.seattlepridehockey.org/leagues/ice-hockey/4174924-seattle-pride-hockey-league---springsummer-draft" target="_blank" >New Players</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/news" target="" >News</a></li>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="/teams">Teams</a>
+<ul class="dropdown-menu">
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">All Stars of Pride</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/455/home">Flying Together</a></li>
+<li><a class="dropdown-item" href="/team/456/home">New Heights</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Competitive II</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/432/home">Baldwin's Blazers</a></li>
+<li><a class="dropdown-item" href="/team/431/home">Gittings' Guardians</a></li>
+<li><a class="dropdown-item" href="/team/433/home">Ride's Raiders</a></li>
+<li><a class="dropdown-item" href="/team/434/home">Team Trans</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Friendly</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/414/home">Bayard's Breakers</a></li>
+<li><a class="dropdown-item" href="/team/416/home">Clarendon's Crushers</a></li>
+<li><a class="dropdown-item" href="/team/417/home">Harvey's Heroes</a></li>
+<li><a class="dropdown-item" href="/team/419/home">Laverne's Legends</a></li>
+<li><a class="dropdown-item" href="/team/418/home">Marsha's Rioters</a></li>
+<li><a class="dropdown-item" href="/team/415/home">Matthew's Mavericks</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Intermediate</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/423/home">Bird's Ballers</a></li>
+<li><a class="dropdown-item" href="/team/420/home">Edie's Enforcers</a></li>
+<li><a class="dropdown-item" href="/team/424/home">M.J.'s Magic</a></li>
+<li><a class="dropdown-item" href="/team/421/home">Sylvia's Storm</a></li>
+<li><a class="dropdown-item" href="/team/425/home">Trans Wave</a></li>
+<li><a class="dropdown-item" href="/team/422/home">Turing's Titans</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item" href="#">Competitive I</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/team/427/home">Billie's Aces</a></li>
+<li><a class="dropdown-item" href="/team/430/home">Kameny's Knights</a></li>
+<li><a class="dropdown-item" href="/team/428/home">Prokop's Pride</a></li>
+<li><a class="dropdown-item" href="/team/426/home">Rogers' Rebels</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown"><a class="dropdown-item" href="/standings" target="" >Standings</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/schedule" target="" >Schedule</a></li>
+<li class="dropdown"><a class="dropdown-item" href="/scoreboard" target="" >Scoreboard</a></li>
+<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="/leaders" target="">Stat Leaders</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/scoring" target="">Scoring Leaders</a></li>
+<li><a class="dropdown-item" href="/goalies" target="">Goalie Leaders</a></li>
+<li><a class="dropdown-item" href="/special-teams" target="">Special Teams</a></li>
+</li>
+</ul>
+</nav>
+</div>
+
+											</nav>
+										</div>
+                                        <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+<div role="main" class="main">
+
+		<section class="page-header page-header-modern page-header-background-md page-header-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 align-self-center p-static order-2 text-center lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+								<h1 class="p1 text-uppercase text-light text-11">League Schedule</h1>
+							</div>
+						</div>
+					</div>
+		</section>
+        
+
+
+				<div class="container py-4">
+                    
+<div class="row mb-2 align-items-center">
+    <div class="col">
+        <div class="p1 text-color-primary text-uppercase text-14" style="white-space: nowrap;">All Divisions</div>
+    </div>
+    <div class="col text-right">
+        <div role="group">
+
+                <button type="button" class="btn btn-outline btn-success p2 text-5 text-uppercase" data-toggle="modal" data-target="#download_schedule">
+                    <i class="far fa-file-excel mr-2"></i>EXPORT
+                </button>
+
+        </div>
+    </div>
+</div>
+
+	
+
+			<div class="d-none d-lg-block">						
+					<div class="row mt-3">							
+						<div class="col pb-0 mb-1">					
+							
+									<div class="btn-group pb-0 mb-0 my-auto" role="group">
+									    <button id="btnGroupDrop1" type="button" class="btn btn btn-outline btn-xl btn-tertiary dropdown-toggle p2 text-5 text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >All Seasons</button>
+									    <ul class="dropdown-menu scrollable-menu" role="menu">
+										
+<li><a class="dropdown-item" href="/schedule/?season=58">SPC24 - Consolation/Championship</a></li>
+										
+<li><a class="dropdown-item" href="/schedule/?season=57">Seattle Pride Classic 2024</a></li>
+										
+<li><a class="dropdown-item" href="/schedule/?season=56">Spring/Summer</a></li>
+
+	</ul>  
+								
+							</div>	
+							
+							
+<div class="btn-group pb-0 mb-0 my-auto" role="group">
+									    <button id="btnGroupDrop1" type="button" class="btn btn btn-outline btn-xl btn-tertiary dropdown-toggle p2 text-5 text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Divisions</button>
+									    <ul class="dropdown-menu scrollable-menu" role="menu">
+<li><a class="dropdown-item" href="/schedule/?season=57">All Divisions</a></li>											
+	
+<li><a class="dropdown-item" href="/schedule/84/">Competitive II</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/89/">All Stars of Pride</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/81/">Friendly</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/82/">Intermediate</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/83/">Competitive I</a></li>
+
+	</ul>	  
+										
+</div>	
+											
+											
+	<div class="btn-group pb-0 mb-0 my-auto mr-0" role="group">
+	<button id="btnGroupDrop1" type="button" class="btn btn btn-outline btn-xl btn-tertiary dropdown-toggle p2 text-5 text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Teams</button>
+									    <ul class="dropdown-menu scrollable-menu" role="menu">
+											
+<li><a class="dropdown-item" href="/schedule//">All Teams</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=432">Baldwin's Blazers</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=414">Bayard's Breakers</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=427">Billie's Aces</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=423">Bird's Ballers</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=416">Clarendon's Crushers</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=420">Edie's Enforcers</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=455">Flying Together</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=431">Gittings' Guardians</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=417">Harvey's Heroes</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=430">Kameny's Knights</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=419">Laverne's Legends</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=424">M.J.'s Magic</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=418">Marsha's Rioters</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=415">Matthew's Mavericks</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=456">New Heights</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=428">Prokop's Pride</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=433">Ride's Raiders</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=426">Rogers' Rebels</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=421">Sylvia's Storm</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=434">Team Trans</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=425">Trans Wave</a></li>
+	
+<li><a class="dropdown-item" href="/schedule/?team=422">Turing's Titans</a></li>
+
+	</ul>	  
+										
+</div>												
+
+						</div>
+						
+		
+	<form action="/schedule" method="get">		
+	
+					<div class="col pt-1 mb-0 text-right">
+					<div class="btn-group" role="group">
+						
+		<input type="hidden" id="from" name="from"/>
+        <input type="hidden" id="to" name="to" />
+        
+   
+		
+			
+		
+	<div id="reportrange" style="background: #fff; cursor: pointer; padding: 8px 10px; border: 1px solid #ccc; width: 100%; border-radius: 4px;" class="mb-t">
+    <i class="fa fa-calendar"></i>&nbsp;
+    <span></span> <i class="fa fa-caret-down"></i>	
+	<script type="text/javascript">
+$(function() {
+
+    var start = moment().add(0, 'days');
+    var end = moment().add(14, 'days');
+
+    function cb(start, end) {
+
+       $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+       $('#from').val(start.format('MM-DD-YYYY'));
+       $('#to').val(end.format('MM-DD-YYYY'));
+    }
+
+    $('#reportrange').daterangepicker({
+		opens: 'left',
+		showDropdowns: true,
+		autoApply: true,
+        startDate: '6/9/2024',
+        endDate: '6/23/2024',
+		
+        ranges: {
+           'Today': [moment(), moment()],
+           'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+           'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+           'This Month': [moment().startOf('month'), moment().endOf('month')],
+           'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        }
+    }, cb);
+
+    cb(start, end);
+
+});
+</script>
+</div>
+
+						</div>
+			<div class="btn-group" role="group">	
+<button type="submit" class="btn btn-modern btn-light rounded-2 px-3">GO <i class="fa fa-caret-right"></i></button>						
+			</div>	
+									
+	</div>				
+</form>
+
+					</div>
+					</div>
+					
+                           <div class="d-lg-none">
+						   Jun 9, 2024 to Jun 23, 2024	
+							<div class="row">
+							<div class="col mt-1" role="group">					
+							<button type="button" class="btn btn-outline btn-tertiary btn-l p2 text-5 text-uppercase" data-toggle="modal" data-target="#formModal"><i class="fas fa-bars"></i></button>							
+					           </div>						
+							</div>							
+					    	</div>	
+						
+						<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title p1 text-primary text-10 text-center" id="formModalLabel">SCHEDULE FILTERS</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												</div>
+												<div class="modal-body">
+<div class="row">
+
+
+	<div class="col">
+<form id="form1" name="form1" method="get" action="sched.asp">
+  <p>
+    <select class="custom-select" style="cursor:pointer;" name="season" id="season">
+		
+		
+		<option value="57" selected>All Seasons</option>			
+			
+<option value="58">SPC24 - Consolation/Championship</option><option value="57">Seattle Pride Classic 2024</option><option value="56">Spring/Summer</option>
+    </select>
+  </p>
+		  
+	  <p>
+    <select class="custom-select" style="cursor:pointer;" name="division" id="division">
+		<option value="0" selected>All Divisions</option>	
+		<option value="84">Competitive II</option><option value="89">All Stars of Pride</option><option value="81">Friendly</option><option value="82">Intermediate</option><option value="83">Competitive I</option>
+    </select>
+  </p>  
+		  
+	  <p>
+    <select class="custom-select" style="cursor:pointer;" name="team" id="team">
+		<option value="0" selected>All Teams</option>
+		<option value="432">Baldwin's Blazers</option><option value="414">Bayard's Breakers</option><option value="427">Billie's Aces</option><option value="423">Bird's Ballers</option><option value="416">Clarendon's Crushers</option><option value="420">Edie's Enforcers</option><option value="455">Flying Together</option><option value="431">Gittings' Guardians</option><option value="417">Harvey's Heroes</option><option value="430">Kameny's Knights</option><option value="419">Laverne's Legends</option><option value="424">M.J.'s Magic</option><option value="418">Marsha's Rioters</option><option value="415">Matthew's Mavericks</option><option value="456">New Heights</option><option value="428">Prokop's Pride</option><option value="433">Ride's Raiders</option><option value="426">Rogers' Rebels</option><option value="421">Sylvia's Storm</option><option value="434">Team Trans</option><option value="425">Trans Wave</option><option value="422">Turing's Titans</option>
+    </select>
+  </p>	  
+	  
+	  
+	  
+  <p>
+<input type="text" class="custom-select" style="cursor:pointer;" name="daterange" value="6/9/2024 - 6/23/2024" />
+
+<script>
+$(function() {
+    // Get the current date and extract the year
+    var currentDate = new Date();
+    var currentYear = currentDate.getFullYear();
+
+    // Set the start date for the first calendar
+    var date1 = new Date('6/9/2024');
+    var startYear = date1.getFullYear();
+
+    // Calculate the number of years to go back for the second calendar
+    var yearDifference = currentYear - startYear;
+
+    // Set the start date for the second calendar
+    var date2 = new Date('6/23/2024');
+    date2.setFullYear(date2.getFullYear() - yearDifference);
+
+    // Initialize the date range picker with the updated start and end dates
+    $('input[name="daterange"]').daterangepicker({
+        opens: 'left',
+        showDropdowns: true,
+        autoApply: true,
+        startDate: date1,
+        endDate: date2,
+        locale: {
+            format: 'MM-DD-YYYY',
+            separator: ' to '
+        }
+    });
+});
+</script>
+  </p>
+	<button type="submit" value="Submit" class="btn btn btn-outline btn-xl btn-tertiary p2 text-5 text-uppercase">SUBMIT</button>
+</form>
+	</div>
+	
+
+			</div>										
+												</div>
+
+											</div>
+										</div>
+									</div>	
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+						<div class="modal fade" id="download_schedule" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title p1 text-primary text-10 text-center" id="formModalLabel">EXPORT SCHEDULE</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												</div>
+												<div class="modal-body">
+<div class="row">
+
+
+	<div class="col">
+<form id="form2" name="form2" method="get" action="schedule_export.asp">
+  <p>
+    <select class="custom-select" style="cursor:pointer;" name="season" id="season">
+		
+		
+		<option value="57" selected>All Seasons</option>			
+			
+<option value="58">SPC24 - Consolation/Championship</option><option value="57">Seattle Pride Classic 2024</option><option value="56">Spring/Summer</option>
+    </select>
+  </p>
+		  
+	  <p>
+    <select class="custom-select" style="cursor:pointer;" name="division" id="division">
+		<option value="0" selected>All Divisions</option>	
+		<option value="84">Competitive II</option><option value="89">All Stars of Pride</option><option value="81">Friendly</option><option value="82">Intermediate</option><option value="83">Competitive I</option>
+    </select>
+  </p>  
+		  
+	  <p>
+    <select class="custom-select" style="cursor:pointer;" name="team" id="team">
+		<option value="0" selected>All Teams</option>
+		<option value="432">Baldwin's Blazers</option><option value="414">Bayard's Breakers</option><option value="427">Billie's Aces</option><option value="423">Bird's Ballers</option><option value="416">Clarendon's Crushers</option><option value="420">Edie's Enforcers</option><option value="455">Flying Together</option><option value="431">Gittings' Guardians</option><option value="417">Harvey's Heroes</option><option value="430">Kameny's Knights</option><option value="419">Laverne's Legends</option><option value="424">M.J.'s Magic</option><option value="418">Marsha's Rioters</option><option value="415">Matthew's Mavericks</option><option value="456">New Heights</option><option value="428">Prokop's Pride</option><option value="433">Ride's Raiders</option><option value="426">Rogers' Rebels</option><option value="421">Sylvia's Storm</option><option value="434">Team Trans</option><option value="425">Trans Wave</option><option value="422">Turing's Titans</option>
+    </select>
+  </p>	  
+	  
+	  
+	  
+  <p>
+    <input type="text" class="custom-select" style="cursor:pointer;" id="daterange"/>
+    <input type="hidden" name="from" id="from1" />
+    <input type="hidden" name="to" id="to1" />
+	<script type="text/javascript">
+$(function() {
+
+    var start = moment().add(0, 'days');
+    var end = moment().add(14, 'days');
+
+    function cb(start, end) {
+
+       $('#daterange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+       $('#from1').val(start.format('MM-DD-YYYY'));
+       $('#to1').val(end.format('MM-DD-YYYY'));
+    }
+
+    $('#daterange').daterangepicker({
+		opens: 'left',
+		showDropdowns: true,
+		autoApply: true,
+        startDate: '6/9/2024',
+        endDate: '6/23/2024',
+		
+        ranges: {
+           'Today': [moment(), moment()],
+           'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+           'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+           'This Month': [moment().startOf('month'), moment().endOf('month')],
+           'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        }
+    }, cb);
+
+    cb(start, end);
+
+});
+</script>
+
+
+  </p>
+	<button type="submit" value="Export" class="btn btn btn-outline btn-xl btn-success p2 text-5 text-uppercase"><i class="far fa-file-excel mr-2"></i> Export</button>
+</form>
+	</div>
+	
+
+			</div>										
+												</div>
+
+											</div>
+										</div>
+									</div>										
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								
+
+									
+										<hr class="mt-3 pt-0">
+										<div class="text-secondary p2 text-6 text-uppercase">*Home Team is listed on right</div>
+							
+
+
+<div class="container">
+<div class="row mb-2">
+<div class="col border-all-light shadow-sm py-1 my-1 rounded appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+	
+	
+
+	<h1 class="text-primary text-6 p2 text-uppercase mb-2 mt-2">Today, Jun 9</h1>
+	<table class="table text-muted mb-0">
+
+	
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 31</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/422/home" class="mr-2">Turing's Titans</a>
+		<a href="/team/422/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		8:45 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/424/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/424/home" class="ml-2">M.J.'s Magic</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4250/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4250" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>31</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Turing's Titans"><a href="/team/422/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		8:45 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="M.J.'s Magic"><a href="/team/424/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4250/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4250" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 32</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/418/home" class="mr-2">Marsha''s Rioters</a>
+		<a href="/team/418/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		9:25 AM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/414/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/414/home" class="ml-2">Bayard''s Breakers</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4258/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4258" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>32</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Marsha''s Rioters"><a href="/team/418/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		9:25 AM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Bayard''s Breakers"><a href="/team/414/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4258/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4258" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 33</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/426/home" class="mr-2">Rogers' Rebels</a>
+		<a href="/team/426/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		9:45 AM<br><a href="/arena/68" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - VMFH">VMFH</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/427/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/427/home" class="ml-2">Billie's Aces</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4248/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4248" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>33</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Rogers' Rebels"><a href="/team/426/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		9:45 AM<br><a href="/arena/68" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - VMFH">VMFH</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Billie's Aces"><a href="/team/427/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4248/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4248" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 34</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/434/home" class="mr-2">Team Trans</a>
+		<a href="/team/434/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		10:00 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/431/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/431/home" class="ml-2">Gittings' Guardians</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4254/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4254" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>34</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Team Trans"><a href="/team/434/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		10:00 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Gittings' Guardians"><a href="/team/431/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4254/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4254" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 35</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/423/home" class="mr-2">Bird's Ballers</a>
+		<a href="/team/423/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		10:50 AM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/420/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/420/home" class="ml-2">Edie's Enforcers</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4251/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4251" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>35</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Bird's Ballers"><a href="/team/423/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		10:50 AM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Edie's Enforcers"><a href="/team/420/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4251/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4251" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 36</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/416/home" class="mr-2">Clarendon''s Crushers</a>
+		<a href="/team/416/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		11:10 AM<br><a href="/arena/68" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - VMFH">VMFH</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/415/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/415/home" class="ml-2">Matthew''s Mavericks</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4249/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4249" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>36</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Clarendon''s Crushers"><a href="/team/416/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		11:10 AM<br><a href="/arena/68" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - VMFH">VMFH</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Matthew''s Mavericks"><a href="/team/415/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4249/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4249" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 37</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/428/home" class="mr-2">Prokop's Pride</a>
+		<a href="/team/428/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		11:35 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/430/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/430/home" class="ml-2">Kameny's Knights</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4253/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4253" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>37</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Prokop's Pride"><a href="/team/428/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		11:35 AM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Kameny's Knights"><a href="/team/430/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4253/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4253" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 38</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/432/home" class="mr-2">Baldwin's Blazers</a>
+		<a href="/team/432/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		12:15 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/433/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/433/home" class="ml-2">Ride's Raiders</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4255/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4255" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>38</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Baldwin's Blazers"><a href="/team/432/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		12:15 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Ride's Raiders"><a href="/team/433/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4255/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4255" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 39</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/425/home" class="mr-2">Trans Wave</a>
+		<a href="/team/425/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		1:00 PM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/421/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/421/home" class="ml-2">Sylvia's Storm</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4252/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4252" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>39</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Trans Wave"><a href="/team/425/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		1:00 PM<br><a href="/arena/67" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Smartsheet">SMART</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Sylvia's Storm"><a href="/team/421/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4252/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4252" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 40</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/417/home" class="mr-2">Harvey''s Heroes</a>
+		<a href="/team/417/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		1:40 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/419/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/419/home" class="ml-2">Laverne''s Legends</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4256/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4256" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>40</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Harvey''s Heroes"><a href="/team/417/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		1:40 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Laverne''s Legends"><a href="/team/419/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4256/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4256" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/9/2024<br>Game 41</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/456/home" class="mr-2">New Heights</a>
+		<a href="/team/456/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		3:00 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/455/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/455/home" class="ml-2">Flying Together</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4257/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4257" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;">GM<br>41</td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="New Heights"><a href="/team/456/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		3:00 PM<br><a href="/arena/66" class="tt" data-toggle="tooltip" data-placement="top" title="Kraken Community Iceplex - Starbucks">STAR</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="Flying Together"><a href="/team/455/home"><img src="../assets/9737/team_logo.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4257/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4257" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+	
+	</table>
+	</div>
+	</div>
+	
+	<div class="row mb-2">
+	<div class="col border-all-light shadow-sm py-1 my-1 rounded appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+	<h1 class="text-primary text-6 p2 text-uppercase mb-2 mt-2">Saturday, Jun 15</h1>
+	<table class="table text-muted mb-0">
+	
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/15/2024</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/411/home" class="mr-2">SPHL Heart</a>
+		<a href="/team/411/home"><img src="../hockey/images/teamlogos100/Heart icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		6:45 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/412/home"><img src="../hockey/images/teamlogos100/Speed icon(1).png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/412/home" class="ml-2">SPHL Speed</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4198/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4198" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;"></td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Heart"><a href="/team/411/home"><img src="../hockey/images/teamlogos100/Heart icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		6:45 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Speed"><a href="/team/412/home"><img src="../hockey/images/teamlogos100/Speed icon(1).png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4198/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4198" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/15/2024</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/413/home" class="mr-2">SPHL Passion</a>
+		<a href="/team/413/home"><img src="../hockey/images/teamlogos100/Passion icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		8:00 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/410/home"><img src="../hockey/images/teamlogos100/Hustle icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/410/home" class="ml-2">SPHL Hustle</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4199/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4199" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;"></td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Passion"><a href="/team/413/home"><img src="../hockey/images/teamlogos100/Passion icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		8:00 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Hustle"><a href="/team/410/home"><img src="../hockey/images/teamlogos100/Hustle icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4199/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4199" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+	
+	</table>
+	</div>
+	</div>
+	
+	<div class="row mb-2">
+	<div class="col border-all-light shadow-sm py-1 my-1 rounded appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+	<h1 class="text-primary text-6 p2 text-uppercase mb-2 mt-2">Saturday, Jun 22</h1>
+	<table class="table text-muted mb-0">
+	
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/22/2024</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/410/home" class="mr-2">SPHL Hustle</a>
+		<a href="/team/410/home"><img src="../hockey/images/teamlogos100/Hustle icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		6:45 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/411/home"><img src="../hockey/images/teamlogos100/Heart icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/411/home" class="ml-2">SPHL Heart</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4200/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4200" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;"></td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Hustle"><a href="/team/410/home"><img src="../hockey/images/teamlogos100/Hustle icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		6:45 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Heart"><a href="/team/411/home"><img src="../hockey/images/teamlogos100/Heart icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4200/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4200" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	
+
+	<tr class="d-none d-lg-block">
+	
+		<td style="line-height: normal; vertical-align:middle;">6/22/2024</td>
+		<td class="align-middle text-right" style="width:35%;">
+		
+		<a href="/team/412/home" class="mr-2">SPHL Speed</a>
+		<a href="/team/412/home"><img src="../hockey/images/teamlogos100/Speed icon(1).png" style="height:40px; width:40px; object-fit:contain;"></img></a>		
+		
+		</td>
+
+		
+		<td nowrap="nowrap" class="align-middle text-center" style="line-height: normal; width:10%;">
+		8:00 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+		
+		<td class="align-middle" style="width:35%;">
+		
+		<a href="/team/413/home"><img src="../hockey/images/teamlogos100/Passion icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a>
+		<a href="/team/413/home" class="ml-2">SPHL Passion</a>	
+		
+		</td>			
+		
+		<td class="align-middle text-center" style="width:10%;" nowrap="nowrap">
+		<a href="/game/4201/preview">Preview <i class="fas fa-angle-right ml-2"></i></a>
+		</td>
+		<td class="align-middle text-right" style="width:10%;"><a href="/scoresheet/4201" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+			
+	 </tr> 
+	 
+	 
+
+	 
+	<tr class="d-lg-none">
+	
+	    <td class="text-center" style="line-height: normal; vertical-align:middle; width:5px;"></td>
+	
+		<td style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Speed"><a href="/team/412/home"><img src="../hockey/images/teamlogos100/Speed icon(1).png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>
+		
+		
+		<td nowrap="nowrap" class="text-center" style="line-height: normal; width:25px;">
+		8:00 PM<br><a href="/arena/65" class="tt" data-toggle="tooltip" data-placement="top" title="Sno-King Ice Arenas - Kirkland">KIRK</a>
+		
+		</td>
+
+        <td  style="width:50px; vertical-align:middle;"><div class="tt" data-toggle="tooltip" data-placement="top" title="SPHL Passion"><a href="/team/413/home"><img src="../hockey/images/teamlogos100/Passion icon.png" style="height:40px; width:40px; object-fit:contain;"></img></a></div></td>	
+			
+		
+		<td class="align-middle text-center" nowrap="nowrap"><a href="/game/4201/preview">Preview <i class="fas fa-angle-right"></i></a></td>	
+		
+		<td class="align-middle text-right"><a href="/scoresheet/4201" class="tt" data-toggle="tooltip" data-placement="top" data-bg-color="secondary" title="Game Sheet" target="_blank"><i class="far fa-file-alt text-4"></i></a></td>
+		
+	 </tr> 	 
+	 
+	 
+
+	 
+	 
+
+
+	</table>
+  	</div>
+	</div>                                  
+	</div>		
+
+
+<div class="mt-2">15 Games from Jun 9, 2024 to Jun 23, 2024</div>				
+			</div>
+
+<script>document.title = "Schedule | All Divisions - Jun 9, 2024 to Jun 23, 2024 | SPHL";</script>
+<footer class="bg-color-primary border-top-0" id="footer">
+<div class="container">
+<div class="row py-5 my-4">
+<div class="col-md-4 col-lg-3 mb-3"><a class="logo pr-0 pr-lg-3" href="https://stats.seattlepridehockey.org" target="_blank"><img alt="Seattle Pride Hockey League" height="87" src="/uploads/9737/images/SeattlePrideHockeyAssoc_LightWide-300x109.png" width="240" /> </a></div>
+
+<div class="col-md-6 col-lg-5 mb-2 mb-md-0">
+<div class="contact-details">
+<h5 class="text-8 mb-3 p2 text-light">Seattle Pride Hockey Association</h5>
+
+<ul class="list list-icons list-icons-lg">
+	<li class="mb-1"><i class="fas fa-external-link-alt text-color-light"></i>
+	<p class="m-0"><a class="text-light" href="https://seattleridehockey.org" target="_blank">Seattle Pride Hockey Association</a></p>
+	</li>
+	<li class="mb-1"><i class="fas fa-external-link-alt text-color-light"></i>
+	<p class="m-0"><a class="text-light" href="https://my.seattlepridehockey.org/" target="_blank">mySPHA</a></p>
+	</li>
+	<li class="mb-1"><i class="fa fa-address-card text-color-light"></i>
+	<p class="m-0 text-light">PO Box 98256 | Seattle, Washington</p>
+	</li>
+	<li class="mb-1"><i class="far fa-envelope text-color-light"></i>
+	<p class="m-0"><a class="text-light" href="/cdn-cgi/l/email-protection#733f16121406163320161207071f1623011a17163b1c1018160a5d1c01144c000611191610074e20161207071f1656414323011a17165641433b1c1018160a5641433f1612140616"><span class="__cf_email__" data-cfemail="4c00292d2b39290c1f292d383820291c3e25282904232f27293562233e2b">[email&#160;protected]</span></a></p>
+	</li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-2 mb-2 mb-md-0 col_1">
+<div class="contact-details">
+<ul class="list list-icons list-icons-lg">
+	<li class="mb-1"><i class="fas fa-arrow-circle-right text-light"></i>
+	<p class="m-0"><a class="text-color-light" href="/schedule">Schedule</a></p>
+	</li>
+	<li class="mb-1"><i class="fas fa-arrow-circle-right text-light"></i>
+	<p class="m-0"><a class="text-color-light" href="/teams">Teams</a></p>
+	</li>
+	<li class="mb-1"><i class="fas fa-arrow-circle-right text-light"></i>
+	<p class="m-0"><a class="text-color-light" href="/scoreboard">Scoreboard</a></p>
+	</li>
+	<li class="mb-1"><i class="fas fa-arrow-circle-right text-light"></i>
+	<p class="m-0"><a class="text-color-light" href="/standings">Standings</a></p>
+	</li>
+	<li class="mb-1"><i class="fas fa-arrow-circle-right text-light"></i>
+	<p class="m-0"><a class="text-color-light" href="/leaders">Leaders</a></p>
+	</li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-2">
+<h5 class="text-8 mb-2 p2 text-light">FOLLOW US</h5>
+<style type="text/css">.social-icon {
+  margin: 0 3px; /* Adjust the spacing between icons */
+  color: #ffffff; /* Icon color */
+}
+
+/* Example of increasing the icon size and margin in a mobile-responsive way */
+@media (max-width: 768px) {
+  .social-icon {
+    font-size: 1.5em; /* Larger icons on smaller screens */
+    margin: 0 3px; /* Smaller margin on smaller screens */
+  }
+}
+</style>
+<div><a class="social-icon" href="https://twitter.com/SEAPrideHockey" target="_blank"><i class="fa-brands fa-x-twitter fa-2x text-light text-hover-secondary"></i></a> <a class="social-icon" href="https://www.facebook.com/SEAPrideHockey/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-light text-hover-secondary"></i></a> <a class="social-icon" href="https://www.instagram.com/SEAPrideHockey/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-light text-hover-secondary"></i></a> <a class="social-icon" href="https://www.youtube.com/@SEAPrideHockey/" target="_blank"><i class="fa-brands fa-youtube fa-2x text-light text-hover-secondary"></i></a></div>
+</div>
+</div>
+</div>
+
+
+<div class="footer-copyright text-color-light">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+								<a href="https://stats.seattlepridehockey.org" class="logo pr-0 pr-lg-3">
+									<img alt="Seattle Pride Hockey League" src="https://stats.seattlepridehockey.org/assets/9737/sphl_main_logo.png" class="opacity-5" height="33">
+								</a>
+							</div>
+							<div class="col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p>© Copyright 2024. All Rights Reserved.</p>						
+														
+							</div>
+							<div class="col-lg-8 d-flex align-items-center justify-content-center justify-content-lg-end">
+								<nav id="sub-menu">
+									<ul>
+									   
+									  	<li><i class="fas fa-angle-right"></i><a href="/admin" target="_blank" class="ml-1 text-decoration-none"> Admin Login</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="/zone/admin" target="_blank" class="ml-1 text-decoration-none"> Stats Admin Login</a></li>
+										 <li><i class="fas fa-angle-right"></i><a href="/live" target="_blank" class="ml-1 text-decoration-none"> Sportzone Live</a></li>
+										<li><a href="https://sportzone.ca"><img title="Powered By Sportzone Internet Services" src="img/sz_new.png"></a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll > 50) {
+        $(".header-row").addClass("scrolled");
+    } else {
+        $(".header-row").removeClass("scrolled");
+    }
+});
+</script>
+		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+		<script src="vendor/popper/umd/popper.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/common/common.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="vendor/vide/jquery.vide.min.js"></script>
+		<script src="vendor/vivus/vivus.min.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/theme.init.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/examples/examples.lightboxes.js"></script>
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'891257a5cd559b6b',t:'MTcxNzk0ODkwOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
