@@ -52,15 +52,10 @@ def createPrideTourneyGame(cols, team):
     location = cols[2].a['title']
     degen_team = team['name']
     home_team = cols[1].find_all('a')[0].getText()
-    print(home_team)
     away_team = cols[3].find('a', attrs={'class':'ml-2'}).getText()
-    print(away_team)
-    print(degen_team)
 
     if home_team != degen_team and away_team != degen_team:
-        print('skip')
         return None
-    print('continue')
 
     side = "HOME" if home_team == team['name'] else "AWAY"
     is_degen_home = (side == "HOME")
@@ -68,23 +63,17 @@ def createPrideTourneyGame(cols, team):
     # Find game time
     dateText = cols[0].getText().split(" ")[0]
     timeText = cols[2].getText().strip()
-    print(dateText)
-    print(timeText)
-    #print('hi')
 
     ## Get day
     day_ret = int(dateText.split("/")[1])
-    print(day_ret)
 
     ## Get month
     month_ret = int(dateText.split("/")[0])
-    print(month_ret)
         
     ## Get time
     hour = timeText.split(":")[0]
     minute = timeText.split(":")[1].split(" ")[0]
     meridiem = timeText.split(":")[1].split(" ")[1][0:2]
-    print(meridiem)
 
     hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
     minute_ret = int(minute)
