@@ -21,13 +21,18 @@ def createBasicBot(teams):
 
     @bot.before_invoke
     async def before_command(ctx):
-        ctx.before_time = datetime.now()
+        """So there is now way to store extra information in a context like
+        there is with a command, so I have to create it myself. If at some
+        point in the future this is added, I log this error so that I won't
+        be messing something up
+        """
+        if hasattr(ctx, 'extras'):
+            print("ERROR: extras found in Context")
+        ctx.extras = {'before_time': datetime.now()}
 
     @bot.after_invoke
     async def after_command(ctx):
-        time_created = ctx.before_time
-        now = datetime.now()
-        print("time to respond is: " + str(now - time_created))
+        print("time to respond is: " + str(datetime.now() - ctx.extras['before_time']))
 
     @bot.command(
         help=bot.command_prefix + "schedule <name> - Shows all games"
