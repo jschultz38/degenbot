@@ -159,7 +159,7 @@ def createBasicBot(teams):
 
         ctx.command.extras['pat'] += 1
 
-        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
+        await ctx.send('<@252142967643439106> has been missed ' + str(ctx.command.extras['pat']) +
                         ' times since this bot was started')
     
     return bot
