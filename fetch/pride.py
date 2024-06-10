@@ -13,18 +13,18 @@ def fetchPrideGames(team):
     games = []
 
     if 'cache' in team:
-        content_cache = team['cache']
+        games = team['cache']
         print('found cache')
-        soup = BeautifulSoup(content_cache, "html.parser")
-    else:
-        URL = 'https://stats.seattlepridehockey.org/team/' + team['id'] + '/schedule'
-        print(URL)
-        page = requests.get(URL)
-        if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
-            return games
-        team['cache'] = page.content
-        soup = BeautifulSoup(page.content, "html.parser")
+        return games
+
+    URL = 'https://stats.seattlepridehockey.org/team/' + team['id'] + '/schedule'
+    print(URL)
+    page = requests.get(URL)
+    if page.status_code != 200:
+        print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+        return games
+    team['cache'] = page.content
+    soup = BeautifulSoup(page.content, "html.parser")
 
     tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
 
@@ -38,5 +38,7 @@ def fetchPrideGames(team):
             # pride league uses sz backed website
             game = createSportZoneGame(cols, team)
             games.append(game)
+
+    team['cache'] = games
 
     return games

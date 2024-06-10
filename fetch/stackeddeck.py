@@ -16,16 +16,15 @@ def fetchSDGames(team):
     if 'cache' in team:
         content_cache = team['cache']
         print('found cache')
-        soup = BeautifulSoup(content_cache, "html.parser")
-    else:
-        URL = 'https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/schedule.aspx?IDLeague=64338'
-        print(URL)
-        page = requests.get(URL)
-        if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
-            return
-        team['cache'] = page.content
-        soup = BeautifulSoup(page.content, "html.parser")
+        return team['cache']
+
+    URL = 'https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/schedule.aspx?IDLeague=64338'
+    print(URL)
+    page = requests.get(URL)
+    if page.status_code != 200:
+        print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
+        return
+    soup = BeautifulSoup(page.content, "html.parser")
     
     table = soup.find('table', attrs={'id':'maincontent_gvGameList'})
     table_body = table.find('tbody')
@@ -71,6 +70,8 @@ def fetchSDGames(team):
             games.append(game)
 
         x += 1
+
+    team['cache'] = games
 
     return games
 
