@@ -99,10 +99,25 @@ def createBasicBot(teams):
         await sendGames(ctx, games, True)
 
     @bot.command(
+        help=bot.command_prefix + "tomorrow - Shows all games happening tomorrow"
+        )
+    async def tomorrow(ctx):
+        games = retrieveAllGames(teams, None)
+
+        # Filter out games
+        time_now = datetime.now()
+        today = datetime(time_now.year, time_now.month, time_now.day)
+        tomorrow = today + timedelta(days=1)
+        games = [game for game in games \
+                    if game.gametime >= today and (game.gametime - today) >= timedelta(days=1) \
+                    and (game.gametime - today) < timedelta(days=2)]
+
+        await sendGames(ctx, games, True)
+
+    @bot.command(
         help=bot.command_prefix + "fuck <?name?>",
         extras= {'meme': True}
         )
-
     async def fuck(ctx, *things):
         person = ' '.join(things)
         fuckEmbed = DegenEmbed( title=None, description= None, color=discord.Color.red())
