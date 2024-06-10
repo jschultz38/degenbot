@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from fetch.SportZone import createSportZoneGame
+from fetch.common.SportZone import createSportZoneGame
 from globals import RATE_LIMITED
 
 def fetchKHLGames(team):

@@ -1,6 +1,6 @@
 import requests
 
-from fetch.SportZone import createSportZoneGame
+from fetch.common.SportZone import createSportZoneGame
 from globals import RATE_LIMITED
 from bs4 import BeautifulSoup
 
