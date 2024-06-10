@@ -86,7 +86,7 @@ def createBasicBot(teams):
         await sendGames(ctx, games, (player == None))
 
     @bot.command(
-        help=bot.command_prefix + "today - Shows all games happening today"
+        help=bot.command_prefix + "today <?name?> - Shows all games happening today"
         )
     async def today(ctx, player=None):
         games = retrieveAllGames(teams, player)
@@ -99,7 +99,7 @@ def createBasicBot(teams):
         await sendGames(ctx, games, player==None)
 
     @bot.command(
-        help=bot.command_prefix + "tomorrow - Shows all games happening tomorrow"
+        help=bot.command_prefix + "tomorrow <?name?> - Shows all games happening tomorrow"
         )
     async def tomorrow(ctx, player=None):
         games = retrieveAllGames(teams, None)
