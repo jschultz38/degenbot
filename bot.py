@@ -88,20 +88,20 @@ def createBasicBot(teams):
     @bot.command(
         help=bot.command_prefix + "today - Shows all games happening today"
         )
-    async def today(ctx):
-        games = retrieveAllGames(teams, None)
+    async def today(ctx, player=None):
+        games = retrieveAllGames(teams, player)
 
         # Filter out games
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) < timedelta(days=1)]
 
-        await sendGames(ctx, games, True)
+        await sendGames(ctx, games, player==None)
 
     @bot.command(
         help=bot.command_prefix + "tomorrow - Shows all games happening tomorrow"
         )
-    async def tomorrow(ctx):
+    async def tomorrow(ctx, player=None):
         games = retrieveAllGames(teams, None)
 
         # Filter out games
@@ -112,7 +112,7 @@ def createBasicBot(teams):
                     if game.gametime >= today and (game.gametime - today) >= timedelta(days=1) \
                     and (game.gametime - today) < timedelta(days=2)]
 
-        await sendGames(ctx, games, True)
+        await sendGames(ctx, games, player==None)
 
     @bot.command(
         help=bot.command_prefix + "fuck <?name?>",
