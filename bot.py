@@ -176,7 +176,14 @@ def createBasicBot(teams):
 
         await ctx.send('<@252142967643439106> has been missed ' + str(ctx.command.extras['pat']) +
                         ' times since this bot was started')
-    
+
+    @bot.command(
+        extras={'meme': True}
+    )
+    async def goon(ctx):
+        await ctx.send('https://i.imgflip.com/8teknw.jpg')
+
+
     return bot
 
 async def sendGames(ctx, games, showPlayers):
