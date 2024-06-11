@@ -218,13 +218,14 @@ class MyHelpCommand(commands.HelpCommand):
         for cog, cmds in mappings.items():
             cmds = await self.filter_commands(cmds, sort=True)
             for cmd in cmds:
+                if not cmd.help:
+                    continue
+
                 if cmd.name == 'help':
                     print_str_help += '!help - ' + cmd.help + "\n"
                 elif 'meme' in cmd.extras and cmd.extras['meme']:
-                    if cmd.help:
-                        print_str_meme += cmd.help + "\n"
+                    print_str_meme += cmd.help + "\n"
                 else:
-                    if cmd.help:
-                        print_str_real += cmd.help + "\n"
+                    print_str_real += cmd.help + "\n"
 
         await self.context.send(preamble + "\n\n" + print_str_real + print_str_help + "\n" + print_str_meme)
