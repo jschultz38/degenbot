@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class Livebarn(Enum):
     KENT = 1276
     AOTW = 1686
