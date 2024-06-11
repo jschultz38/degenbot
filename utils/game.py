@@ -1,3 +1,6 @@
+import calendar
+import datetime
+
 class HockeyGame:
     """Structure to hold hockey games.
 
@@ -32,9 +35,8 @@ class HockeyGame:
         is_degen_home = (self.degen_team == self.DEGEN_HOME)
         side = 'HOME' if is_degen_home else 'AWAY'
 
-        string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p") + ", " + \
-                        self.location + ", " + \
-                        side + ", "
+        string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p").replace(' 0', ' ') + ", " + \
+                        self.location + ", " + side + ", "
 
         # Add in result if there is one
         if self.home_score != None:
@@ -59,7 +61,95 @@ class HockeyGame:
         else:
             string_repr += "^" + self.away_team + " vs " + self.home_team
 
-        return string_repr
+
+
+        # alt
+        alstr = None
+        if self.home_score != None:
+            result = None
+            if self.home_score == self.away_score:
+                result = 'T'
+            elif (is_degen_home and self.home_score > self.away_score) or (not is_degen_home and self.home_score < self.away_score):
+                result = 'W'
+            else:
+                result = 'L'
+
+            if is_degen_home:
+
+                #altstr = self.gametime.strftime("%A, %B %d, %I:%M %p").replace(' 0', ' ') + ", " + \
+                        #self.location + ", " + side + ", " + result + ", " + \
+                        #str(self.home_score) + " - " + str(self.away_score) + ", " + \
+                        #"^" + self.home_team + " vs " + self.away_team
+                altstr = "{dayofweek:<10} {month:3} {day:>2},{time:>9}, {location:>15}" \
+                        ", {side:>4}, {result:>1}, {home_score} - {away_score}, ^{home_team} vs {away_team}".format(
+                        dayofweek=calendar.day_name[self.gametime.weekday()] + ",",
+                        month=self.gametime.strftime("%B")[:3],
+                        day=str(self.gametime.day),
+                        time=self.gametime.strftime(" %I:%M %p").replace(" 0", " "),
+                        location=self.location,
+                        side=side,
+                        result=result,
+                        home_score=self.home_score,
+                        away_score=self.away_score,
+                        home_team=self.home_team,
+                        away_team=self.away_team
+                        )
+            else:
+                #altstr = self.gametime.strftime("%A, %B %d, %I:%M %p").replace(' 0', ' ') + ", " + \
+                        #self.location + ", " + side + ", " + result + ", " + \
+                        #str(self.away_score) + " - " + str(self.home_score) + ", " + \
+                        #"^" + self.away_team + " vs " + self.home_team
+
+                altstr = "{dayofweek:<10} {month:3} {day:>2},{time:>9}, {location:>15}" \
+                        ", {side:>4}, {result:>1}, {away_score} - {home_score}, ^{away_team} vs {home_team}".format(
+                        dayofweek=calendar.day_name[self.gametime.weekday()] + ",",
+                        month=self.gametime.strftime("%B")[:3],
+                        day=str(self.gametime.day),
+                        time=self.gametime.strftime(" %I:%M %p").replace(" 0", " "),
+                        location=self.location,
+                        side=side,
+                        result=result,
+                        home_score=self.home_score,
+                        away_score=self.away_score,
+                        home_team=self.home_team,
+                        away_team=self.away_team
+                        )
+        else:
+            if is_degen_home:
+                #altstr = self.gametime.strftime("%A, %B %d, %I:%M %p").replace(' 0', ' ') + ", " + \
+                        #self.location + ", " + side + ", " + "^" + self.home_team + " vs " + \
+                        #self.away_team
+
+                altstr = "{dayofweek:<10} {month:<3} {day:>2},{time:>9}, {location:>15}" \
+                        ", {side:>4},           ^{home_team} vs {away_team}".format(
+                        dayofweek=calendar.day_name[self.gametime.weekday()] + ",",
+                        month=self.gametime.strftime("%B")[:3],
+                        day=str(self.gametime.day),
+                        time=self.gametime.strftime(" %I:%M %p").replace(" 0", " "),
+                        location=self.location,
+                        side=side,
+                        home_team=self.home_team,
+                        away_team=self.away_team
+                        )
+            else:
+                #altstr = self.gametime.strftime("%A, %B %d, %I:%M %p").replace(' 0', ' ') + ", " + \
+                        #self.location + ", " + side + ", " + "^" + self.away_team + " vs " + \
+                        #self.home_team
+
+                altstr = "{dayofweek:<10} {month:<3} {day:>2},{time:>9}, {location:>15}" \
+                        ", {side:>4},           ^{home_team} vs {away_team}".format(
+                        dayofweek=calendar.day_name[self.gametime.weekday()] + ",",
+                        month=self.gametime.strftime("%B")[:3],
+                        day=str(self.gametime.day),
+                        time=self.gametime.strftime(" %I:%M %p").replace(" 0", " "),
+                        location=self.location,
+                        side=side,
+                        home_team=self.home_team,
+                        away_team=self.away_team
+                        )
+
+        print(altstr)
+        return altstr
 
     def __str__(self):
         return self.to_string()
