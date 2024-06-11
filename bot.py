@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import discord
 from discord.ext import commands
 import random
+import requests
 
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
@@ -155,6 +156,18 @@ def createBasicBot(teams):
     )
     async def stepcaptain(ctx):
         await ctx.send('https://imgur.com/VJyQs2L')
+
+    @bot.command(
+        help = bot.command_prefix + "@User",
+        extras = {'meme': True}
+    )
+    async def chirp(ctx, user=None):
+        if user is None or bot.get_user(user) is None:
+            await ctx.send("You must select a valid user!")
+        else:
+            base_string = requests.get("https://evilinsult.com/generate_insult.php/bitch")
+            chirp = f'{user}, {base_string.text}'
+            await ctx.send(chirp)
 
     @bot.command(
         help=bot.command_prefix + "ruf :|",
