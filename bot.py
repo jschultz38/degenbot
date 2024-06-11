@@ -109,8 +109,7 @@ def createBasicBot(teams):
         today = datetime(time_now.year, time_now.month, time_now.day)
         tomorrow = today + timedelta(days=1)
         games = [game for game in games \
-                    if game.gametime >= today and (game.gametime - today) >= timedelta(days=1) \
-                    and (game.gametime - today) < timedelta(days=2)]
+                 if game.gametime >= today and timedelta(days=1) <= (game.gametime - today) < timedelta(days=2)]
 
         await sendGames(ctx, games, player==None)
 
@@ -222,8 +221,10 @@ class MyHelpCommand(commands.HelpCommand):
                 if cmd.name == 'help':
                     print_str_help += '!help - ' + cmd.help + "\n"
                 elif 'meme' in cmd.extras and cmd.extras['meme']:
-                    print_str_meme += cmd.help + "\n"
+                    if cmd.help:
+                        print_str_meme += cmd.help + "\n"
                 else:
-                    print_str_real += cmd.help + "\n"
+                    if cmd.help:
+                        print_str_real += cmd.help + "\n"
 
         await self.context.send(preamble + "\n\n" + print_str_real + print_str_help + "\n" + print_str_meme)
