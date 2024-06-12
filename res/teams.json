@@ -2,6 +2,7 @@
 	"teams": [
 		{
 			"name": "BSOD",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/BSOD%20Logo%20small(1).png",
 			"id": "9938",
 			"players": [
 				"Jarrett"
@@ -10,6 +11,7 @@
 		},
 		{
 			"name": "RHC",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/roughnecks-logo(2).png",
 			"id": "14166",
 			"players": [
 				"Malikai"
@@ -18,6 +20,7 @@
 		},
 		{
 			"name": "Real Bacon",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/real_bacon.png",
 			"id": "3877",
 			"players": [
 				"JP"
@@ -26,6 +29,7 @@
 		},
 		{
 			"name": "Cyber Puck",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/CYBERPUK_PNG.png",
 			"id": "14170",
 			"players": [
 				"Marty",
@@ -35,6 +39,7 @@
 		},
 		{
 			"name": "Rainier Reindeers HC-9",
+			"logo_url" : "https://krakenhockeyleague.com/hockey/images/teamlogos100/rainier%20reindeer%20badge(1).jpg",
 			"id": "11256",
 			"players": [
 				"Kirsten",
@@ -44,6 +49,7 @@
 		},
 		{
 			"name": "Flying Monkeys",
+			"logo_url" : "https://krakenhockeyleague.com/hockey/images/teamlogos100/flying_monkeys.png",
 			"id": "4674",
 			"players": [
 				"Andy"
@@ -52,6 +58,7 @@
 		},
 		{
 			"name": "Coyotes",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/coyotes_1.png",
 			"id": "8116",
 			"players": [
 				"Blair"
@@ -60,6 +67,7 @@
 		},
 		{
 			"name": "Toe Dragons",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Toe%20Dragons%202.jpg",
 			"id": "11801",
 			"players": [
 				"Pat"
@@ -68,6 +76,7 @@
 		},
 		{
 			"name": "Rainier Reindeers HC-5D",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/rainier%20reindeer%20badge.jpg",
 			"id": "10159",
 			"players": [
 				"Jazz"
@@ -76,6 +85,7 @@
 		},
 		{
 			"name": "Not Sure 6D",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/not_sure_ico_s23-o_home.png",
 			"id": "13343",
 			"players": [
 				"Phantasia"
@@ -84,6 +94,7 @@
 		},
 		{
 			"name": "Pussycats",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/winkingPussy(1).jpg",
 			"id": "1357",
 			"players": [
 				"Phantasia"
@@ -92,6 +103,7 @@
 		},
 		{
 			"name": "Black Sheesh",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Black%20Sheesh.png",
 			"id": "15302",
 			"players": [
 				"Phantasia"
@@ -100,6 +112,7 @@
 		},
 		{
 			"name": "Hooligans Classic",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/hooligans-logo-512-bg.png",
 			"id": "10190",
 			"players": [
 				"Robee"
@@ -108,6 +121,7 @@
 		},
 		{
 			"name": "LKI 7",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/LKI7.png",
 			"id": "5119",
 			"players": [
 				"David"
@@ -116,6 +130,7 @@
 		},
 		{
 			"name": "Seattle Supernova",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Supernova%20Logo%20With%20Background.png",
 			"id": "13345",
 			"players": [
 				"Frankie"
@@ -124,6 +139,7 @@
 		},
 		{
 			"name": "Wolves",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/wolves.png",
 			"id": "495",
 			"players": [
 				"Robee"
@@ -132,6 +148,7 @@
 		},
 		{
 			"name": "Midnight Twist",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Image%20from%20iOS.jpg",
 			"id": "9573",
 			"players": [
 				"Robee"
@@ -140,6 +157,7 @@
 		},
 		{
 			"name": "SD Spades",
+			"logo_url": "https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg",
 			"id": "Spades",
 			"players": [
 				"JP",
@@ -149,6 +167,7 @@
 		},
 		{
 			"name": "SPHL Hustle",
+			"logo_url": "https://stats.seattlepridehockey.org/hockey/images/teamlogos100/Hustle%20icon.png",
 			"id": "410",
 			"players": [
 				"Malikai",
@@ -158,6 +177,7 @@
 		},
 		{
 			"name": "SPHL Heart",
+			"logo_url": "https://stats.seattlepridehockey.org/hockey/images/teamlogos100/Heart%20icon.png",
 			"id": "411",
 			"players": [
 				"Blair"

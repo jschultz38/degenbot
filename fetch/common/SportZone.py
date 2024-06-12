@@ -5,6 +5,7 @@ def createSportZoneGame(cols, team):
     # Get the easy stuff
     location = cols[3].getText()
     degen_team = team['name']
+    logo = team['logo_url']
     side = cols[4].getText()
     is_degen_home = (side == "HOME")
 
@@ -77,6 +78,7 @@ def createSportZoneGame(cols, team):
     # Create the game
     game = HockeyGame(
                 team,
+                logo,
                 gametime,
                 location,
                 home_team,
