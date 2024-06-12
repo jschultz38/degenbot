@@ -184,11 +184,11 @@ def createBasicBot(teams):
     )
     async def pat(ctx):
         if not 'pat' in ctx.command.extras:
-            ctx.command.extras['pat'] = 0
+            ctx.command.extras['pat'] = random.randint(100,500)
 
         ctx.command.extras['pat'] += 1
 
-        await ctx.send('<@252142967643439106> has been missed ' + str(ctx.command.extras['pat']) +
+        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
                         ' times since this bot was started')
 
     @bot.command(
