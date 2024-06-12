@@ -93,11 +93,9 @@ def createBasicBot(teams):
         games = retrieveAllGames(teams, player)
         nextEmbed = DegenEmbed(title=f"Next Game for {player}", description=None, color=discord.Color.red())
         nextEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
-
         time_now = datetime.now()
         for game in games:
             if game.gametime >= time_now:
-                next_game = [game]
                 nextEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
                 break
         await ctx.send(embed=nextEmbed)
