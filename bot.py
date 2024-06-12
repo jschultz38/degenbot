@@ -197,6 +197,12 @@ def createBasicBot(teams):
     async def goon(ctx):
         await ctx.send('https://i.imgflip.com/8teknw.jpg')
 
+    @bot.command(
+        help=bot.command_prefix + "no",
+        extras= {'meme': True}
+    )
+    async def no(ctx):
+        await ctx.send('https://private-user-images.githubusercontent.com/2738715/338701955-9f01d50d-8d02-465a-bd3c-653f411bcbc6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxNzI1MjMsIm5iZiI6MTcxODE3MjIyMywicGF0aCI6Ii8yNzM4NzE1LzMzODcwMTk1NS05ZjAxZDUwZC04ZDAyLTQ2NWEtYmQzYy02NTNmNDExYmNiYzYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MTJUMDYwMzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGE2OTYwZTg1MjMxYTE2ZWFlYzAyNDI0ZjVkYzI1Y2ZjZmUxYTE1NDUxMDZmNzk4M2M4MWI1MDg3YzY3MDE0NCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.IKy_QIfaKipaxEfXK8I0F-2pDRFGZX-wl2OFdSySz5s')
 
     return bot
 
