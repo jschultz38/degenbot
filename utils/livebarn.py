@@ -18,22 +18,24 @@ class Livebarn(Enum):
 
 def construct_gameurl(rink):
     baseurl = 'https://livebarn.com/en/video/'
-    gameurl = ''
+    gameurl = None
 
-    rink_mapping = {
-        'KVIC': Livebarn.KENT,
-        'KCI Smrt': Livebarn.SMART,
-        'KCI VMFH': Livebarn.VMFH,
-        'KCI Star': Livebarn.STAR,
-        'OVA': Livebarn.OVA,
-        'EVT COMM': Livebarn.EVCOMM,
-        'Everett Community Ice': Livebarn.EVCOMM,
-        'LIC': Livebarn.LIC
-    }
+    try:
+        rink_mapping = {
+            'KVIC': Livebarn.KENT,
+            'KCI Smrt': Livebarn.SMART,
+            'KCI VMFH': Livebarn.VMFH,
+            'KCI Star': Livebarn.STAR,
+            'OVA': Livebarn.OVA,
+            'EVT COMM': Livebarn.EVCOMM,
+            'Everett Community Ice': Livebarn.EVCOMM,
+            'LIC': Livebarn.LIC
+        }
 
-    if rink in rink_mapping:
-        gameurl = f'{baseurl}{rink_mapping[rink].value}'
-    else:
-        print(f'ERROR: Could not find the rink: {rink}')
-
+        if rink in rink_mapping:
+            gameurl = f'{baseurl}{rink_mapping[rink].value}/live'
+        else:
+            print(f'ERROR: Could not find the rink: {rink}')
+    except Exception as e:
+        print(e)
     return gameurl
