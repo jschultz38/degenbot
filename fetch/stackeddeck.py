@@ -109,7 +109,8 @@ def createSDGame(team, row, cur_month, cur_day):
         home_score = int(cols[4].getText())
 
     game = HockeyGame(
-                    team, 
+                    team,
+                    team['logo_url'],
                     gametime,
                     location,
                     home_team,
