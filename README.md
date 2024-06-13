@@ -5,17 +5,67 @@ Fetch game times for select degenz
 !help
 
 # Setup
+Follow these to get your own discord bot running.
 
-To install required modules: 
-```
-pip install -r requirements.txt
-```
+## Clone
+Clone the repo
+`I hope you can figure this out`
+
+## Create a virtual environment
+`python -m venv .venv`
+
+## Install modules
+`pip install -r requirements.txt`
+
+## Create bots
+1. Go to https://discord.com/developers/applications and create a 'New Application'.
+2. After including the basic information, head to the 'Bot' tab and enable the
+'MESSAGE CONTENT INTENT'. 
+3. Still in 'Bot', hit the big button labeled 'Reset Token' and take note of the token
+4. If you are planning to use both a prod and test bot, follow the above steps again.
+If you don't really know what I'm talking about, it should be good enough to make a
+single bot.
+
+## Create credentials.py
 It's good practice to avoid uploading credentials to github, so I've included
-them in a file called credentials.py and added it to the gitignore. If you
+them in a file called credentials.py and added it to .gitignore. If you
 would like to get this running on your machine, create a file that looks like
-this:
+this with the token from step 3 above:
 
 ```
 prod_token = 'prod_token_here'
 test_token = 'test_token_here'
 ```
+
+If you only have a single bot, you only need to create the prod_token field:
+```
+prod_token = 'prod_token_here'
+```
+
+## Add the bot to your test server
+1. Return to https://discord.com/developers/applications and open your app
+2. Go to the 'OAuth2' tab
+3. Under 'OAuth2 URL Generator' enable the 'bot' scope
+4. Clicking bot should open up a new field box labeled 'Bot Permissions'. In that,
+enable 'Read Messages/View Channels' and 'Send Messages'
+5. Copy the generated URL, paste it into a browser, and then invite it to your server of
+choice
+
+## Start 'er up
+```
+source .venv/bin/activate
+python main.py
+```
+
+On startup, your bot should come online on your discord server and you should see some
+prints similar to:
+```
+2024-06-13 10:27:03 INFO     discord.client logging in using static token
+2024-06-13 10:27:04 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: d7687f87s6d876876df87).
+```
+
+## Try it out
+`!help`
+
+# Questions
+If you have any questions, feel free to message jschzultz38
