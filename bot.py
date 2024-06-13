@@ -91,7 +91,10 @@ def createBasicBot(teams):
     )
     async def next(ctx, player=None):
         games = retrieveAllGames(teams, player)
-        nextEmbed = DegenEmbed(title=f"Next Game for {player}", description=None, color=discord.Color.red())
+        if player:
+            nextEmbed = DegenEmbed(title=f"Next Game for {player}", description=None, color=discord.Color.red())
+        else:
+            nextEmbed = DegenEmbed(title=f"Next Game", description=None, color=discord.Color.red())
         nextEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
         time_now = datetime.now()
         for game in games:
