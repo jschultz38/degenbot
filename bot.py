@@ -35,6 +35,14 @@ def createBasicBot(teams):
     async def after_command(ctx):
         print("time to respond is: " + str(datetime.now() - ctx.extras['before_time']))
 
+    async def on_error(ctx, error):
+        if isinstance(error, commands.UserInputError):
+            await ctx.send("I cant understand you when you use ' or \"")
+            print("handled error: " + str(error))
+            return
+        raise error
+    bot.on_command_error = on_error
+
     @bot.command(
         help=bot.command_prefix + "schedule <name> - Shows all games"
         )
