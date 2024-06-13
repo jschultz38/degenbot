@@ -1,9 +1,6 @@
 # Description
 Fetch game times for select degenz
 
-# Commands
-!help
-
 # Setup
 Follow these to get your own discord bot running.
 
@@ -66,6 +63,15 @@ prints similar to:
 
 ## Try it out
 `!help`
+
+# Commands
+!help
+
+# Testing
+Currently, this bot makes quite a few requests to websites with a big list of teams, so sometimes it gets rate limited.
+In order to make testing smoother, there is a TEST_MODE which doesn't make any requests to websites. Instead, I have
+saved a sample KHL HTML txt in samples/ that I read from. To use this, set `TEST_MODE=True` in globals.py and test
+with `!schedule jarrett` (or your favorite command).
 
 # Questions
 If you have any questions, feel free to message jschzultz38
