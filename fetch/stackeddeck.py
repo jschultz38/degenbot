@@ -3,10 +3,10 @@ import datetime
 from bs4 import BeautifulSoup
 
 from utils.game import HockeyGame
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 
 def fetchSDGames(team):
-    if RATE_LIMITED:
+    if TEST_MODE:
         return []
 
     page = None

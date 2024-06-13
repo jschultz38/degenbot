@@ -14,7 +14,7 @@ def main():
 
     # Set up bot
     bot = createBasicBot(TEAMS)
-    bot.run(test_token if TEST_MODE else prod_token)
+    bot.run(test_token if USE_TEST_TOKEN else prod_token)
 
 if __name__ == '__main__':
     main()

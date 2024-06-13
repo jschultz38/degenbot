@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 from utils.game import HockeyGame
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 
 import requests
 from fetch.SportZone import createSportZoneGame
 
 def fetchPrideTourneyGames(team):
-    if RATE_LIMITED:
+    if TEST_MODE:
         return []
 
     page = None

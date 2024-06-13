@@ -1,2 +1,2 @@
+USE_TEST_TOKEN = False
 TEST_MODE = False
-RATE_LIMITED = False

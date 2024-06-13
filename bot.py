@@ -5,7 +5,7 @@ import random
 import requests
 
 from fetch.retrieve import retrieveAllGames
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 
 from utils.DegenEmbed import *
 
@@ -233,8 +233,8 @@ def createBasicBot(teams):
 
 async def sendGames(ctx, games, showPlayers):
     print_str = ''
-    if RATE_LIMITED:
-        print_str += "Note: I've been rate limited :(\n"
+    if TEST_MODE:
+        print_str += "Note: Testing mode\n"
 
     if len(games) == 0:
         print_str += 'No games found'
