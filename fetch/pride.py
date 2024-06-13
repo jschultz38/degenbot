@@ -1,11 +1,11 @@
 import requests
 
 from fetch.common.SportZone import createSportZoneGame
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 from bs4 import BeautifulSoup
 
 def fetchPrideGames(team):
-    if RATE_LIMITED:
+    if TEST_MODE:
         return []
 
     page = None

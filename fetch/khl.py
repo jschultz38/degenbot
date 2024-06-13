@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from fetch.common.SportZone import createSportZoneGame
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 
 def fetchKHLGames(team):
     page = None
@@ -14,7 +14,7 @@ def fetchKHLGames(team):
         print('found cache')
         return team['cache']
 
-    if not RATE_LIMITED:
+    if not TEST_MODE:
         URL = 'https://krakenhockeyleague.com/team/' + team['id'] + '/schedule'
         print(URL)
         page = requests.get(URL)

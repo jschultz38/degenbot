@@ -3,13 +3,13 @@ import datetime
 from fetch.khl import fetchKHLGames
 from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
-from globals import RATE_LIMITED
+from globals import TEST_MODE
 
 def retrieveAllGames(teams, player, sort=True):
     games = []
 
     # Obtain games
-    if RATE_LIMITED:
+    if TEST_MODE:
         #TODO: Make this better
         addTeamGames(games, teams[0])
     elif player == None:
