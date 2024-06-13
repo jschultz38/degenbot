@@ -87,6 +87,20 @@ def createBasicBot(teams):
         await sendGames(ctx, games, (player == None))
 
     @bot.command(
+        help=bot.command_prefix + "next <?name?> - Shows next game for the person requested"
+    )
+    async def next(ctx, player=None):
+        games = retrieveAllGames(teams, player)
+        nextEmbed = DegenEmbed(title=f"Next Game for {player}", description=None, color=discord.Color.red())
+        nextEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
+        time_now = datetime.now()
+        for game in games:
+            if game.gametime >= time_now:
+                nextEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
+                break
+        await ctx.send(embed=nextEmbed)
+
+    @bot.command(
         help=bot.command_prefix + "today <?name?> - Shows all games happening today"
         )
     async def today(ctx, player=None):
@@ -166,7 +180,7 @@ def createBasicBot(teams):
             await ctx.send("Give me someone to chirp!")
             return
 
-        base_string = requests.get("https://evilinsult.com/generate_insult.php/bitch")
+        base_string = requests.get("https://evilinsult.com/generate_insult.php/")
         chirp = f'{user}, {base_string.text}'
 
         await ctx.send(chirp)
