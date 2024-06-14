@@ -1,5 +1,6 @@
 import datetime
 from utils.game import HockeyGame
+from utils.common import translateMonth
 
 def createSportZoneGame(cols, team):
     # Get the easy stuff
@@ -44,25 +45,7 @@ def createSportZoneGame(cols, team):
     day_ret = int(dateText.split(" ")[2])
 
     ## Get month
-    month_text = dateText.split(" ")[1]
-    month_ret = None
-
-    match month_text:
-        case 'Apr':
-            month_ret = 4
-        case 'May':
-            month_ret = 5
-        case 'Jun':
-            month_ret = 6
-        case 'Jul':
-            month_ret = 7
-        case 'Aug':
-            month_ret = 8
-        case 'Sep':
-            month_ret = 9
-        case _:
-            print("ERROR: Could not decode: " + month_text)
-            month_ret = 1
+    month_ret = translateMonth(dateText.split(" ")[1])
         
     ## Get time
     hour = timeText.split(":")[0]

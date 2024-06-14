@@ -2,8 +2,9 @@ import requests
 import datetime
 from bs4 import BeautifulSoup
 
-from utils.game import HockeyGame
 from globals import TEST_MODE
+from utils.game import HockeyGame
+from utils.common import translateMonth
 
 def fetchSDGames(team):
     if TEST_MODE:
@@ -46,19 +47,7 @@ def fetchSDGames(team):
         if row.has_attr('class') and row['class'][0] == "tableScheduleSeparator":
             dateText = row.td.span.getText().split(" ")
 
-            match dateText[1]:
-                case 'April':
-                    cur_month = 4
-                case 'May':
-                    cur_month = 5
-                case 'June':
-                    cur_month = 6
-                case 'July':
-                    cur_month = 7
-                case 'August':
-                    cur_month = 8
-                case _:
-                    print("ERROR: Could not translate month in SD")
+            cur_month = translateMonth(dateText[1])
             cur_day = int(dateText[2].split(",")[0])
 
             x += 1

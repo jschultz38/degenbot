@@ -1,8 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
+import datetime
 
-from fetch.common.SportZone import createSportZoneGame
 from globals import TEST_MODE
+from fetch.common.SportZone import createSportZoneGame
+from utils.player import Suspension
 
 def fetchKHLGames(team):
     page = None
@@ -43,3 +45,36 @@ def fetchKHLGames(team):
     team['cache'] = games
 
     return games
+
+def fetchKHLSuspensions():
+    if TEST_MODE:
+        return []
+
+    suss = []
+    URL = 'https://krakenhockeyleague.com/suspensions'
+    print(URL)
+    page = requests.get(URL)
+    if page.status_code != 200:
+        print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
+        return
+    soup = BeautifulSoup(page.content, "html.parser")
+
+    tables = soup.find_all('table', attrs={'class':'table border-bottom table-striped text-muted order-column table-responsive-md'})
+    for table in tables:
+        rows = table.find('tbody').find_all('tr')
+
+        for row in rows:
+            cols = row.find_all('td')
+
+            sus_date = datetime.datetime.strptime(cols[0].getText(), "%b %d, %Y")
+            sus_name = cols[1].a.getText()
+            sus_team = cols[2].a.getText()
+            sus_div = cols[3].getText()
+            sus_games = int(cols[4].getText())
+            sus_id = cols[5].a.get('href').split('/')[2]
+            sus_link = 'https://krakenhockeyleague.com/suspension-details/' + sus_id
+
+            sus = Suspension(sus_date, sus_name, sus_team, sus_div, sus_games, sus_id)
+            suss.append(sus)
+
+    return suss

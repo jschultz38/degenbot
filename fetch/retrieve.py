@@ -1,6 +1,6 @@
 import datetime
 
-from fetch.khl import fetchKHLGames
+from fetch.khl import fetchKHLGames, fetchKHLSuspensions
 from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from globals import TEST_MODE
@@ -49,3 +49,6 @@ def addTeamGames(games, team):
             print("ERROR: Could not find league <" + team['league'] + ">")
 
     games += found_games
+
+def retrieveSuspensions():
+    return fetchKHLSuspensions()

@@ -4,8 +4,8 @@ from discord.ext import commands
 import random
 import requests
 
-from fetch.retrieve import retrieveAllGames
 from globals import TEST_MODE
+from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 
 from utils.DegenEmbed import *
 
@@ -143,6 +143,13 @@ def createBasicBot(teams):
                  if game.gametime >= today and timedelta(days=1) <= (game.gametime - today) < timedelta(days=2)]
 
         await sendGames(ctx, games, player==None)
+
+    @bot.command(
+        help=bot.command_prefix + "sus - Shows all current suspensions"
+        )
+    async def sus(ctx):
+        suss = retrieveSuspensions()
+        await ctx.send("\n".join(map(str, suss)))
 
     @bot.command(
         help=bot.command_prefix + "fuck <?name?>",
