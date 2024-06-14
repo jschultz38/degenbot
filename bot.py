@@ -53,10 +53,14 @@ def createBasicBot(json_list):
         if player == None:
             await ctx.send("Please input a player name after your command")
             return
+        else:
+            games = retrieveAllGames(teams, player)
+            if len(games) <= 20:
+                embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"{player}'s schedule", color=discord.Color.green())
+                await ctx.send(embed=embed)
+            else:
+                await sendGames(ctx, games, showPlayers=False)
 
-        games = retrieveAllGames(teams, player)
-
-        await sendGames(ctx, games, False)
 
     @bot.command(
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
@@ -67,27 +71,14 @@ def createBasicBot(json_list):
             return
 
         games = retrieveAllGames(teams, player)
-  
         # Filter out games
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
-        upcomingEmbed = DegenEmbed(title=f"Upcoming Games for {player}", description=None, color=discord.Color.red())
-        # will pick the logo for the nearest game. Only works if games are present. We should make sure every team has a logo.
-        try:
-            upcomingEmbed.create(games[0].team['logo_url'])
-        except Exception:
-            print('No logo found')
-            upcomingEmbed.create("https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
-            pass
-        for game in games:
-            timediff = time_now - game.gametime
-            #if timedelta(seconds=0) < timediff < timedelta(hours=1):
-               # upcomingEmbed.add_field(f"{game.away_team} vs {game.home_team}", f"[{game.gametime} @ {game.location} (Watch Live)](https://livebarn.com/en/video/{game.rinkid}/live)")
-            #else:
-            upcomingEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
 
-        await ctx.send(embed=upcomingEmbed)
+        embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"Upcoming Games for {player}", color=discord.Color.green() )
+
+        await ctx.send(embed=embed)
 
     @bot.command(
         help=bot.command_prefix + "soon <?name?> - Shows all games for the next week"
@@ -99,25 +90,30 @@ def createBasicBot(json_list):
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
-
-        await sendGames(ctx, games, (player == None))
+        if len(games) <= 20:
+            embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"Upcoming Games for {player}",
+                                                    color=discord.Color.green())
+            await ctx.send(embed=embed)
+        else:
+            await sendGames(ctx, games, (player == None))
 
     @bot.command(
         help=bot.command_prefix + "next <?name?> - Shows next game for the person requested"
     )
     async def next(ctx, player=None):
         games = retrieveAllGames(teams, player)
-        if player:
-            nextEmbed = DegenEmbed(title=f"Next Game for {player}", description=None, color=discord.Color.red())
-        else:
-            nextEmbed = DegenEmbed(title=f"Next Game", description=None, color=discord.Color.red())
-        nextEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
         time_now = datetime.now()
         for game in games:
             if game.gametime >= time_now:
-                nextEmbed.add_field(f'{game.away_team} vs {game.home_team}', f'{game.gametime} @ {game.location}')
+                next_game = [game]
+                if player:
+                    embed = DegenEmbed.construct_full_embed(DegenEmbed, next_game, title=f"Next Game for {player}",
+                                                            color=discord.Color.green())
+                else:
+                    embed = DegenEmbed.construct_full_embed(DegenEmbed, next_game, title=f"Next Game",
+                                                            color=discord.Color.green())
                 break
-        await ctx.send(embed=nextEmbed)
+        await ctx.send(embed=embed)
 
     @bot.command(
         help=bot.command_prefix + "today <?name?> - Shows all games happening today"
@@ -130,7 +126,15 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) < timedelta(days=1)]
 
-        await sendGames(ctx, games, player==None)
+        if len(games) <= 20:
+            if player is None:
+                title = f"Games today"
+            else:
+                title = "Today's Games"
+            embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=title, color=discord.Color.green())
+            await ctx.send(embed=embed)
+        else:
+            await sendGames(ctx, games, (player == None))
 
     @bot.command(
         help=bot.command_prefix + "tomorrow <?name?> - Shows all games happening tomorrow"
