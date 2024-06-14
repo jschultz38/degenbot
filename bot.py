@@ -9,7 +9,10 @@ from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 
 from utils.DegenEmbed import *
 
-def createBasicBot(teams):
+def createBasicBot(json_list):
+    teams = json_list[0]
+    seasons = json_list[1]
+
     intents = discord.Intents.default()
     intents.message_content = True
 
@@ -147,9 +150,21 @@ def createBasicBot(teams):
     @bot.command(
         help=bot.command_prefix + "sus - Shows all current suspensions"
         )
-    async def sus(ctx):
-        suss = retrieveSuspensions()
-        await ctx.send("\n".join(map(str, suss)))
+    async def sus(ctx, player=None):
+        if not player or len(player) < 3:
+            await ctx.send("Please input a name with at least 3 characters")
+            return
+
+        suss = retrieveSuspensions(seasons, player)
+        if len(suss) > 0:
+            message = "\n".join(map(str, suss))
+            place = 2000
+            while place < len(message):
+                await ctx.send(message[place-2000:place])
+                place += 2000
+            await ctx.send(message[place-2000:place])
+        else:
+            await ctx.send('No suspensions found for ' + player)
 
     @bot.command(
         help=bot.command_prefix + "fuck <?name?>",

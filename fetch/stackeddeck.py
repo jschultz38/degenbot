@@ -23,7 +23,7 @@ def fetchSDGames(team):
     print(URL)
     page = requests.get(URL)
     if page.status_code != 200:
-        print('ERROR: Could not retrieve website: ' + page.reason + ", " + page.status_code)
+        print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
         return
     soup = BeautifulSoup(page.content, "html.parser")
     
