@@ -69,9 +69,14 @@ def createBasicBot(teams):
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
-
         upcomingEmbed = DegenEmbed(title=f"Upcoming Games for {player}", description=None, color=discord.Color.red())
-        upcomingEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
+        # will pick the logo for the nearest game. Only works if games are present. We should make sure every team has a logo.
+        try:
+            upcomingEmbed.create(games[0].team['logo_url'])
+        except Exception:
+            print('No logo found')
+            upcomingEmbed.create("https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
+            pass
         for game in games:
             timediff = time_now - game.gametime
             #if timedelta(seconds=0) < timediff < timedelta(hours=1):
