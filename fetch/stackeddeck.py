@@ -110,7 +110,6 @@ def createSDGame(team, row, cur_month, cur_day):
 
     game = HockeyGame(
                     team,
-                    team['logo_url'],
                     gametime,
                     location,
                     home_team,

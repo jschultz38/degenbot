@@ -16,10 +16,9 @@ class HockeyGame:
     DEGEN_HOME = 0
     DEGEN_AWAY = 1
 
-    def __init__(self, team, logo, datetime_obj, location, home_team, away_team, degen_team, home_score=None, away_score=None):
+    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_team, home_score=None, away_score=None):
         # this is the json object of the team - should look the same as in res/teams.json
         self.team = team
-        self.logo = logo
         self.gametime = datetime_obj
         self.location = location
         self.home_team = home_team
