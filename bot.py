@@ -133,7 +133,7 @@ def createBasicBot(teams):
         help=bot.command_prefix + "tomorrow <?name?> - Shows all games happening tomorrow"
         )
     async def tomorrow(ctx, player=None):
-        games = retrieveAllGames(teams, None)
+        games = retrieveAllGames(teams, player)
 
         # Filter out games
         time_now = datetime.now()
