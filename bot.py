@@ -148,7 +148,7 @@ def createBasicBot(json_list):
         await sendGames(ctx, games, player==None)
 
     @bot.command(
-        help=bot.command_prefix + "sus - Shows all current suspensions"
+        help=bot.command_prefix + "sus <name> - Shows all current suspensions"
         )
     async def sus(ctx, player=None):
         if not player or len(player) < 3:
