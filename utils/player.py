@@ -28,5 +28,5 @@ class Suspension:
         improvise with the replace(...) method you see below.
 
         Note 2: The triple quotes are because of course some of the names have quotes in them... ?!?'''
-        return f'Suspension({self.date.strftime('datetime.datetime(year=int(%Y), month=int(%m), day=int(%d))').replace('(0', '(')}, "{self.name}",' \
+        return f'Suspension({self.date.strftime("datetime.datetime(year=int(%Y), month=int(%m), day=int(%d))").replace("(0", "(")}, "{self.name}",' \
                 f' "{self.team}", "{self.div}", "{self.games}", "{self.sus_id}")'
