@@ -1,13 +1,13 @@
 import datetime
-from utils.game import HockeyGame
 from utils.common import translateMonth
+from utils.HockeyGame import HockeyGame
 
 def createSportZoneGame(cols, team):
-    # Get the easy stuff
+    # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
     degen_team = team['name']
     side = cols[4].getText()
-    is_degen_home = (side == "HOME")
+    DEGEN_HOME = True if side == 'HOME' else False
 
     # Add result-dependant variables
     cols_text = None
@@ -27,7 +27,7 @@ def createSportZoneGame(cols, team):
             degen_score = int(score_text[2])
             opponent_score = int(score_text[0])
 
-        if is_degen_home:
+        if DEGEN_HOME:
             home_score = degen_score
             away_score = opponent_score
         else:
@@ -35,7 +35,7 @@ def createSportZoneGame(cols, team):
             away_score = degen_score
 
     # Place teams on home/away
-    if is_degen_home:
+    if DEGEN_HOME:
         home_team = degen_team
         away_team = opponent_team
     else:
@@ -69,7 +69,7 @@ def createSportZoneGame(cols, team):
                 location,
                 home_team,
                 away_team,
-                HockeyGame.DEGEN_HOME if is_degen_home else HockeyGame.DEGEN_AWAY,
+                DEGEN_HOME,
                 home_score=home_score,
                 away_score=away_score
                 )

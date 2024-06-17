@@ -56,7 +56,7 @@ def createBasicBot(json_list):
         else:
             games = retrieveAllGames(teams, player)
             if len(games) <= 20:
-                embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"{player}'s schedule", color=discord.Color.green())
+                embed = DegenEmbed.construct_full_embed(games, title=f"{player}'s schedule", color=discord.Color.green())
                 await ctx.send(embed=embed)
             else:
                 await sendGames(ctx, games, showPlayers=False)
@@ -76,7 +76,7 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
 
-        embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"Upcoming Games for {player}", color=discord.Color.green() )
+        embed = DegenEmbed.construct_full_embed(games, title=f"Upcoming Games for {player}", color=discord.Color.green())
 
         await ctx.send(embed=embed)
 
@@ -91,7 +91,7 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
         if len(games) <= 20:
-            embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=f"Upcoming Games for {player}",
+            embed = DegenEmbed.construct_full_embed(games, title=f"Upcoming Games for {player}",
                                                     color=discord.Color.green())
             await ctx.send(embed=embed)
         else:
@@ -107,10 +107,10 @@ def createBasicBot(json_list):
             if game.gametime >= time_now:
                 next_game = [game]
                 if player:
-                    embed = DegenEmbed.construct_full_embed(DegenEmbed, next_game, title=f"Next Game for {player}",
+                    embed = DegenEmbed.construct_full_embed(next_game, title=f"Next Game for {player}",
                                                             color=discord.Color.green())
                 else:
-                    embed = DegenEmbed.construct_full_embed(DegenEmbed, next_game, title=f"Next Game",
+                    embed = DegenEmbed.construct_full_embed(next_game, title=f"Next Game",
                                                             color=discord.Color.green())
                 break
         await ctx.send(embed=embed)
@@ -131,7 +131,7 @@ def createBasicBot(json_list):
                 title = f"Games today"
             else:
                 title = "Today's Games"
-            embed = DegenEmbed.construct_full_embed(DegenEmbed, games, title=title, color=discord.Color.green())
+            embed = DegenEmbed.construct_full_embed(games, title=title, color=discord.Color.green())
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))
