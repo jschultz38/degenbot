@@ -12,11 +12,7 @@ class HockeyGame:
         away_score (int): Score of the away team, if any (default None)
     """
 
-    """DEGEN_MACRO: Macros used for dictating which team the degen is on."""
-    DEGEN_HOME = 0
-    DEGEN_AWAY = 1
-
-    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_team, home_score=None, away_score=None):
+    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None):
         # this is the json object of the team - should look the same as in res/teams.json
         self.team = team
         self.gametime = datetime_obj
@@ -24,29 +20,33 @@ class HockeyGame:
         self.home_team = home_team
         self.away_team = away_team
         # This value should be one of the above macros
-        self.degen_team = degen_team
+        self.degen_home = degen_home
         self.home_score = home_score
         self.away_score = away_score
+        self.result = None
 
     def to_string(self):
-        is_degen_home = (self.degen_team == self.DEGEN_HOME)
-        side = 'HOME' if is_degen_home else 'AWAY'
+        side = 'HOME' if self.degen_home else 'AWAY'
 
         string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p") + ", " + \
                         self.location + ", " + \
                         side + ", "
 
         # Add in result if there is one
-        if self.home_score != None:
+        if self.home_score is not None:
             result = None
             if self.home_score == self.away_score:
+                self.result = 'Tie'
                 result = 'T'
-            elif (is_degen_home and self.home_score > self.away_score) or (not is_degen_home and self.home_score < self.away_score):
+            elif (self.degen_home and self.home_score > self.away_score) or (not self.degen_home and self.home_score < self.away_score):
+                self.result = 'Victory'
                 result = 'W'
             else:
+                self.result = 'Defeat'
                 result = 'L'
 
-            if is_degen_home:
+            # Formatting the score line depending on if degen is home or away, putting Degen first.
+            if self.degen_home:
                 string_repr += result + ", " + \
                                 str(self.home_score) + " - " + str(self.away_score) + ", "
             else:
@@ -54,10 +54,10 @@ class HockeyGame:
                                 str(self.away_score) + " - " + str(self.home_score) + ", "
 
         # Add team names, with ^ marking the degen team
-        if is_degen_home:
-            string_repr += "^" + self.home_team + " vs " + self.away_team
+        if self.degen_home:
+            string_repr += "**" + self.home_team + "** vs " + self.away_team
         else:
-            string_repr += "^" + self.away_team + " vs " + self.home_team
+            string_repr += "**" + self.away_team + "** vs " + self.home_team
 
         return string_repr
 

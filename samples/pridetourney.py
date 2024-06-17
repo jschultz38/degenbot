@@ -3,7 +3,7 @@ import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-from utils.game import HockeyGame
+from utils.HockeyGame import HockeyGame
 from globals import TEST_MODE
 
 import requests
