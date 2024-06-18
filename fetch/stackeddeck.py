@@ -3,7 +3,6 @@ import datetime
 from bs4 import BeautifulSoup
 
 from globals import TEST_MODE
-from utils.game import HockeyGame
 from utils.common import translateMonth
 from utils.HockeyGame import HockeyGame
 
