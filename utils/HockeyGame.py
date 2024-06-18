@@ -7,7 +7,7 @@ class HockeyGame:
         location (string): Name of the rink.
         home_team (string): Name of the home team.
         away_team (string): Name of the away team.
-        degen_team (DEGEN_MACRO): Whether the degen is away or home.
+        degen_team (bool): Whether the degen is away or home.
         home_score (int): Score of the home team, if any (default None)
         away_score (int): Score of the away team, if any (default None)
     """

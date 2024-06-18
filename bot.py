@@ -56,7 +56,7 @@ def createBasicBot(json_list):
         else:
             games = retrieveAllGames(teams, player)
             if len(games) <= 20:
-                embed = DegenEmbed.construct_full_embed(games, title=f"{player}'s schedule", color=discord.Color.green())
+                embed = construct_game_embed(games, title=f"{player}'s schedule")
                 await ctx.send(embed=embed)
             else:
                 await sendGames(ctx, games, showPlayers=False)
@@ -76,7 +76,7 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today]
 
-        embed = DegenEmbed.construct_full_embed(games, title=f"Upcoming Games for {player}", color=discord.Color.green())
+        embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
 
         await ctx.send(embed=embed)
 
@@ -91,8 +91,7 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
         if len(games) <= 20:
-            embed = DegenEmbed.construct_full_embed(games, title=f"Upcoming Games for {player}",
-                                                    color=discord.Color.green())
+            embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))
@@ -107,11 +106,9 @@ def createBasicBot(json_list):
             if game.gametime >= time_now:
                 next_game = [game]
                 if player:
-                    embed = DegenEmbed.construct_full_embed(next_game, title=f"Next Game for {player}",
-                                                            color=discord.Color.green())
+                    embed = construct_game_embed(next_game, title=f"Next Game for {player}")
                 else:
-                    embed = DegenEmbed.construct_full_embed(next_game, title=f"Next Game",
-                                                            color=discord.Color.green())
+                    embed = construct_game_embed(next_game, title=f"Next Game with {', '.join(game.team['players'])}")
                 break
         await ctx.send(embed=embed)
 
@@ -131,7 +128,7 @@ def createBasicBot(json_list):
                 title = f"Games today"
             else:
                 title = "Today's Games"
-            embed = DegenEmbed.construct_full_embed(games, title=title, color=discord.Color.green())
+            embed = construct_game_embed(games, title=title)
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))
@@ -176,9 +173,9 @@ def createBasicBot(json_list):
         )
     async def fuck(ctx, *things):
         person = ' '.join(things)
-        fuckEmbed = DegenEmbed( title=None, description= None, color=discord.Color.red())
-        fuckEmbed.create("https://avatars.githubusercontent.com/u/1737241?v=4")
-        fuckEmbed.add_field(f'Fuck {person}', f'Get Fucked {person}')
+        fuckEmbed = create_default_embed(color=discord.Color.red())
+        fuckEmbed.set_thumbnail(url="https://avatars.githubusercontent.com/u/1737241?v=4")
+        fuckEmbed.add_field(name=f'Fuck {person}', value=f'Get Fucked {person}')
         await ctx.send(embed = fuckEmbed)
 
     @bot.command(
@@ -198,11 +195,11 @@ def createBasicBot(json_list):
             return
         people = [person1, person2, person3]
         random.shuffle(people)
-        fmkEmbed = DegenEmbed(title=None, description=None, color=discord.Color.pink())
-        fmkEmbed.create("https://pngimg.com/d/kim_jong_un_PNG37.png")
-        fmkEmbed.add_field(f"Fuck {people[0]} \U0001F346", f"Get Fucked, {people[0]} ")
-        fmkEmbed.add_field(f"Marry {people[1]} \U0001F48D", f"How sweet, {people[1]}")
-        fmkEmbed.add_field(f"Kill {people[2]} \U0001F52A", f"I guess you'll just die, {people[2]}")
+        fmkEmbed = create_default_embed(color=discord.Color.pink())
+        fmkEmbed.set_thumbnail(url="https://pngimg.com/d/kim_jong_un_PNG37.png")
+        fmkEmbed.add_field(name=f"Fuck {people[0]} \U0001F346", value=f"Get Fucked, {people[0]} ")
+        fmkEmbed.add_field(name=f"Marry {people[1]} \U0001F48D", value=f"How sweet, {people[1]}")
+        fmkEmbed.add_field(name=f"Kill {people[2]} \U0001F52A", value=f"I guess you'll just die, {people[2]}")
 
         await ctx.send(embed = fmkEmbed)
  
