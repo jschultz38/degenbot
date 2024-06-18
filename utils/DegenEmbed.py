@@ -10,7 +10,7 @@ def create_default_embed(title=None, color=discord.Color.green()):
 def construct_game_embed(games: object, title: object, color: object = discord.Color.green(), showPlayers: bool = False) -> object:
     newembed = create_default_embed(title=title, color=color)
     try:
-        newmbed.set_thumbnail(url=games[0].team['logo_url'])
+        newembed.set_thumbnail(url=games[0].team['logo_url'])
     except Exception:
         newembed.set_thumbnail(url="https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
 
