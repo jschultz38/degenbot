@@ -19,8 +19,13 @@ def createSportZoneGame(cols, team):
     else:
         opponent_team = cols[5].getText()
         score_text = cols[7].getText().split(" ")
-        degen_score = int(score_text[0])
-        opponent_score = int(score_text[2])
+        result = cols[6].span.getText().strip()
+        if result == 'W':
+            degen_score = int(score_text[0])
+            opponent_score = int(score_text[2])
+        else:
+            degen_score = int(score_text[2])
+            opponent_score = int(score_text[0])
 
         if is_degen_home:
             home_score = degen_score
