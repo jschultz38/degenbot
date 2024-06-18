@@ -104,7 +104,7 @@ def createSDGame(team, row, cur_month, cur_day):
                     location,
                     home_team,
                     away_team,
-                    HockeyGame.DEGEN_HOME if side == "HOME" else HockeyGame.DEGEN_AWAY,
+                    side == 'HOME',
                     home_score=home_score,
                     away_score=away_score
                 )

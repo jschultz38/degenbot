@@ -1,6 +1,6 @@
 import requests
 import datetime
-from utils.game import HockeyGame
+from utils.HockeyGame import HockeyGame
 
 from fetch.common.SportZone import createSportZoneGame
 from globals import TEST_MODE
@@ -119,7 +119,7 @@ def createPrideGameBySchedule(cols, team):
                 location,
                 home_team,
                 away_team,
-                HockeyGame.DEGEN_HOME if is_degen_home else HockeyGame.DEGEN_AWAY,
+                side == 'HOME',
                 home_score=home_score,
                 away_score=away_score
                 )
