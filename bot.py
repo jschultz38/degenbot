@@ -127,8 +127,8 @@ def createBasicBot(json_list):
             if player is None:
                 title = f"Games today"
             else:
-                title = "Today's Games"
-            embed = construct_game_embed(games, title=title)
+                title = "Today's Games for {player}"
+            embed = construct_game_embed(games, title=title, showPlayers=player is None)
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))

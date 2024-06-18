@@ -7,7 +7,7 @@ def create_default_embed(title=None, color=discord.Color.green()):
     em.set_footer(text="Made by xDDYx's darkest thoughts.")
     return em
 
-def construct_game_embed(games: object, title: object, color: object = discord.Color.green()) -> object:
+def construct_game_embed(games: object, title: object, color: object = discord.Color.green(), showPlayers: bool = False) -> object:
     newembed = create_default_embed(title=title, color=color)
     try:
         newmbed.set_thumbnail(url=games[0].team['logo_url'])
@@ -40,6 +40,9 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
             else:
                 title = f'{game.away_team} @ {game.home_team}'
             score = f'{game.gametime.strftime("%B %d %I:%M %p")} @ {game.location}'
+
+        if showPlayers:
+            title += " - " + ", ".join(game.team['players'])
 
         newembed.add_field(name=title, value=score, inline=False)
 
