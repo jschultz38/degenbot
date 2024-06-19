@@ -1,10 +1,11 @@
 import requests
 import datetime
+from bs4 import BeautifulSoup
+
+from globals import TEST_MODE
+from fetch.common.SportZone import createSportZoneGame
 from utils.HockeyGame import HockeyGame
 
-from fetch.common.SportZone import createSportZoneGame
-from globals import TEST_MODE
-from bs4 import BeautifulSoup
 
 def fetchPrideGames(team):
     if TEST_MODE:
@@ -48,7 +49,6 @@ def fetchPrideGames(team):
     if page.status_code != 200:
         print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
         return games
-    team['cache'] = page.content
     soup = BeautifulSoup(page.content, "html.parser")
 
     tables = soup.find_all('table', attrs={'class':'table text-muted mb-0'})
