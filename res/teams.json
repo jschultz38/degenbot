@@ -183,6 +183,34 @@
 				"Blair"
 			],
 			"league": "Pride"
+		},
+		{
+			"name": "Degens",
+			"logo_url": "https://lh3.googleusercontent.com/pw/AP1GczOHkBF1OR6_2bhI-UJ6zP3mbrry-TiklNmwaKuDfNMrYQjfYEQWNxB-DmI3Ed-6n7eKQBYaKrUITu2R8vPinpKrdUwct6N-nnTsIe595rRi9uW_KTxc5RXGEZlWNGHUjtt9kmROE2DLreAWt05kpkm_=w300-h203-s-no-gm?authuser=0",
+			"id": "3320",
+			"players": [
+				"John",
+				"Jarrett",
+				"Blair",
+				"Nikolai",
+				"Kristen",
+				"Malikai",
+				"Andy",
+				"Phantasia",
+				"Marty",
+				"Emily"
+
+			],
+			"league": "SKAHL Pond"
+		},
+		{
+			"name": "Screaming Firehawks",
+			"logo_url": "https://lh3.googleusercontent.com/pw/AP1GczOHkBF1OR6_2bhI-UJ6zP3mbrry-TiklNmwaKuDfNMrYQjfYEQWNxB-DmI3Ed-6n7eKQBYaKrUITu2R8vPinpKrdUwct6N-nnTsIe595rRi9uW_KTxc5RXGEZlWNGHUjtt9kmROE2DLreAWt05kpkm_=w300-h203-s-no-gm?authuser=0",
+			"id": "3068",
+			"players": [
+				"Jeremy"
+			],
+			"league": "SKAHL Pond"
 		}
 	]
 }
