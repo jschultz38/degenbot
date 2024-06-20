@@ -25,7 +25,7 @@ def createBasicBot(json_list):
 
     @bot.before_invoke
     async def before_command(ctx):
-        """So there is now way to store extra information in a context like
+        """So there is no way to store extra information in a context like
         there is with a command, so I have to create it myself. If at some
         point in the future this is added, I log this error so that I won't
         be messing something up

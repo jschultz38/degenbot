@@ -2,6 +2,10 @@ import datetime
 from utils.common import translateMonth
 from utils.hockey_game import HockeyGame
 
+'''Sportzone is a backend that apparently multiple organization use.
+This file should work for any website that uses sportszone on the
+webpage
+'''
 def createSportZoneGame(cols, team):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
