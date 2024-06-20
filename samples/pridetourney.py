@@ -3,11 +3,11 @@ import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-from utils.HockeyGame import HockeyGame
+from utils.hockey_game import HockeyGame
 from globals import TEST_MODE
 
 import requests
-from fetch.SportZone import createSportZoneGame
+from fetch.sportzone import createSportZoneGame
 
 def fetchPrideTourneyGames(team):
     if TEST_MODE:

@@ -2,7 +2,7 @@ import requests
 import datetime
 from bs4 import BeautifulSoup
 
-from utils.HockeyGame import HockeyGame
+from utils.hockey_game import HockeyGame
 from globals import TEST_MODE
 
 

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import datetime
 
 from globals import TEST_MODE
-from fetch.common.SportZone import createSportZoneGame
+from fetch.common.sportzone import createSportZoneGame
 from utils.player import Suspension
 
 def fetchKHLGames(team):

@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 from globals import TEST_MODE
 from utils.common import translateMonth
-from utils.HockeyGame import HockeyGame
+from utils.hockey_game import HockeyGame
 
 def fetchSDGames(team):
     if TEST_MODE:

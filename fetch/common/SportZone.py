@@ -1,6 +1,6 @@
 import datetime
 from utils.common import translateMonth
-from utils.HockeyGame import HockeyGame
+from utils.hockey_game import HockeyGame
 
 def createSportZoneGame(cols, team):
     # Get the easy stuff - using the teams schedule page

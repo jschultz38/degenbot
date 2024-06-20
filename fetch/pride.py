@@ -3,8 +3,8 @@ import datetime
 from bs4 import BeautifulSoup
 
 from globals import TEST_MODE
-from fetch.common.SportZone import createSportZoneGame
-from utils.HockeyGame import HockeyGame
+from fetch.common.sportzone import createSportZoneGame
+from utils.hockey_game import HockeyGame
 
 
 def fetchPrideGames(team):

@@ -7,7 +7,7 @@ import requests
 from globals import TEST_MODE
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 
-from utils.DegenEmbed import *
+from utils.degen_embed import *
 
 def createBasicBot(json_list):
     teams = json_list[0]
