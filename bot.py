@@ -255,7 +255,7 @@ def createBasicBot(json_list):
         extras= {'meme': True}
     )
     async def no(ctx):
-        await ctx.send('https://private-user-images.githubusercontent.com/2738715/338701955-9f01d50d-8d02-465a-bd3c-653f411bcbc6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyNTg0MzAsIm5iZiI6MTcxODI1ODEzMCwicGF0aCI6Ii8yNzM4NzE1LzMzODcwMTk1NS05ZjAxZDUwZC04ZDAyLTQ2NWEtYmQzYy02NTNmNDExYmNiYzYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYxMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MTNUMDU1NTMwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODQ3NGMzMDlkMmNiOTBlOWQyY2FjNWUwMTZiNGQzZTVkMGU5ODlmZjhjZWYxMzIzNTYxNWVhNDNlMDQwMjdlOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.cgV09ggpWbI_HMqqRHLVwmzc7LmDlI9ZuIg1D9gQ0RQ')
+        await ctx.send('https://media.licdn.com/dms/image/C5122AQHczYfkHyIxvA/feedshare-shrink_800/0/1575066060091?e=1721865600&v=beta&t=lUmAgl4dQLQDYIBstbbUIKTDqiAJmEhPWVwy91Fsjks')
 
     return bot
 
