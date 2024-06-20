@@ -15,7 +15,7 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
         newembed.set_thumbnail(url="https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
 
     for game in games:
-        if game.gametime <= datetime.now():
+        if game.home_score:
             if game.degen_home:
                 if game.home_score > game.away_score:
                     result = "Victory"
@@ -39,7 +39,7 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
                 title = f'{game.home_team} Vs. {game.away_team}'
             else:
                 title = f'{game.away_team} @ {game.home_team}'
-            score = f'{game.gametime.strftime("%B %d %I:%M %p")} @ {game.location}'
+            score = f'{game.gametime.strftime("%a, %B %d %I:%M %p").replace(" 0", " ")} @ {game.location} - {"Home" if game.degen_home else "Away"}'
 
         if showPlayers:
             title += " - " + ", ".join(game.team['players'])
