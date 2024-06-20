@@ -18,18 +18,19 @@ def fetchKHLGames(team):
 
     if not TEST_MODE:
         URL = 'https://krakenhockeyleague.com/team/' + team['id'] + '/schedule'
+        #URL = f'https://krakenhockeyleague.com/ical/{team["id"]}'
         print(URL)
         page = requests.get(URL)
         if page.status_code != 200:
             print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
-            return
-        soup = BeautifulSoup(page.content, "html.parser")        
+            return games
+        soup = BeautifulSoup(page.content, "html.parser")
     else:
         print("rate limited, opening sample file")
         with open("samples/sampleKHLHTML.txt", 'rb') as sample_file:
             content = sample_file.read()
             soup = BeautifulSoup(content, "html.parser")
-    
+
     tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
     for table in tables:
         table_body = table.find('tbody')
