@@ -55,9 +55,9 @@ class HockeyGame:
 
         # Add team names, with ^ marking the degen team
         if self.degen_home:
-            string_repr += "**" + self.home_team + "** vs " + self.away_team
+            string_repr += "^" + self.home_team + " vs " + self.away_team
         else:
-            string_repr += "**" + self.away_team + "** vs " + self.home_team
+            string_repr += "^" + self.away_team + " vs " + self.home_team
 
         return string_repr
 
