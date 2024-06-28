@@ -4,6 +4,7 @@ from discord.ext import commands
 import random
 import requests
 
+import utils.chatgpt
 from fetch.retrieve import retrieveAllGames
 from globals import RATE_LIMITED
 
@@ -177,6 +178,18 @@ def createBasicBot(teams):
     )
     async def ruf(ctx):
         await ctx.send('https://imgur.com/q4OWXNs')
+
+    @bot.command(
+        extras={'meme' : True}
+    )
+    async def chirp(ctx, user=None):
+        if user is None:
+            await ctx.send("You must select a valid user!")
+        else:
+            chirp = utils.chatgpt.ai_chirp(user)
+            # base_string = requests.get("https://evilinsult.com/generate_insult.php/bitch")
+            # chirp = f'{user}, {base_string.text}'
+            await ctx.send(chirp)
 
     @bot.command(
         help=bot.command_prefix + "pat - god i miss that man",
