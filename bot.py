@@ -220,8 +220,7 @@ def createBasicBot(json_list):
             await ctx.send("Give me someone to chirp!")
             return
 
-        base_string = requests.get("https://evilinsult.com/generate_insult.php/")
-        chirp = f'{user}, {base_string.text}'
+        chirp = utils.chatgpt.ai_chirp(user, teams)
 
         await ctx.send(chirp)
 

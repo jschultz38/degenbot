@@ -3,3 +3,5 @@ bs4~=0.0.2
 beautifulsoup4~=4.12.3
 discord~=2.3.2
 lxml==5.2.2
+selenium~=4.21.0
+openai==1.35.7
