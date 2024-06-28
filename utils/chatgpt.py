@@ -1,18 +1,49 @@
 from openai import OpenAI
+import random
 
 import credentials
 
 
-def ai_chirp(user):
+def ai_chirp(user, teams):
     client = OpenAI(api_key=credentials.open_ai_key)
+    player_teams = []
+    for team in teams:
+        if user in team['players']:
+            player_teams.append(team['name'])
+        else:
+            print("fuck off")
 
-    completion = client.chat.completions.create(
-      model="gpt-3.5-turbo",
-      messages=[
-        {"role": "system", "content": "You're a drunk, foul mouthed hockey player who is a jerk, talking to someone who thinks they are good but they aren't try to keep all of your chirps unique"},
-        {"role": "user", "content": f"Chirp {user}, who is a low skill beer league player, and include the name I give you"}
-      ]
-    )
-    chirp = completion.choices[0].message.content
-    print(completion.choices[0].message)
-    return chirp
+    chirp = build(client, user, player_teams)
+
+    print(chirp.choices[0].message)
+    return chirp.choices[0].message.content
+
+
+def build(client, user,  players_teams):
+    if not players_teams:
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system",
+                 "content": "You're a drunk, foul mouthed hockey player who is a jerk, talking to someone who thinks they are good but they aren't try to keep all of your chirps unique"},
+                {"role": "user",
+                 "content": f"Chirp {user}, you don't necessarily have to talk about hockey, you can insult them on their hygiene, looks, intelligence, or general skills too. Do not be racist, sexist, or make jokes about suicide. Try to use their name in the chirp as well."}
+            ]
+        )
+    else:
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system",
+                 "content": "You're a drunk, foul mouthed hockey player who is a jerk, talking to someone who thinks they are good but they aren't try to keep all of your chirps unique"},
+                {"role": "user",
+                 "content": f"Chirp {user}, who is a low skill rec league hockey player playing for {random.choice(player_teams)},"
+                            f" include the name I give you in the chirp. Also try to remain topical using the players team if possible to insult them. "
+                            f"You can talk about how they are the reason their team is bad, or loses games, or how they do great without them around"
+                            f"Don't be too mean and encourage people to quit though."}
+            ]
+        )
+
+    return completion
+
+
