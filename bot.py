@@ -6,6 +6,7 @@ import requests
 
 from globals import TEST_MODE
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
+import utils.chatgpt
 
 from utils.degen_embed import *
 
@@ -230,6 +231,18 @@ def createBasicBot(json_list):
     )
     async def ruf(ctx):
         await ctx.send('https://imgur.com/q4OWXNs')
+
+    @bot.command(
+        extras={'meme' : True}
+    )
+    async def chirp(ctx, user=None):
+        if user is None:
+            await ctx.send("You must select a valid user!")
+        else:
+            chirp = utils.chatgpt.ai_chirp(user)
+            # base_string = requests.get("https://evilinsult.com/generate_insult.php/bitch")
+            # chirp = f'{user}, {base_string.text}'
+            await ctx.send(chirp)
 
     @bot.command(
         help=bot.command_prefix + "pat - god i miss that man",
