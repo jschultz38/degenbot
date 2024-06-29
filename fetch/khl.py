@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import urllib.parse as urlparse
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
@@ -17,7 +18,8 @@ def fetchKHLGames(team):
         return team['cache']
 
     if not TEST_MODE:
-        URL = 'https://krakenhockeyleague.com/team/' + team['id'] + '/schedule'
+        KHL_BASE_URL = "https://krakenhockeyleague.com/"
+        URL = f'{KHL_BASE_URL}team/{team['id']}/schedule'
         #URL = f'https://krakenhockeyleague.com/ical/{team["id"]}'
         print(URL)
         page = requests.get(URL)
@@ -30,6 +32,10 @@ def fetchKHLGames(team):
         with open("samples/sampleKHLHTML.txt", 'rb') as sample_file:
             content = sample_file.read()
             soup = BeautifulSoup(content, "html.parser")
+    #find the image in the KHL site, then parse the url and encode any odd characters, then replace the placeholder image in the teams object.
+    image = soup.find('img', attrs={'class': 'float-left'})
+    image_url = urlparse.quote(image['src'])
+    team['logo_url'] = f"{KHL_BASE_URL}{image_url}"
 
     tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
     for table in tables:
