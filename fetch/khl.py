@@ -19,7 +19,7 @@ def fetchKHLGames(team):
 
     if not TEST_MODE:
         KHL_BASE_URL = "https://krakenhockeyleague.com/"
-        URL = f'{KHL_BASE_URL}team/{team['id']}/schedule'
+        URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule'
         #URL = f'https://krakenhockeyleague.com/ical/{team["id"]}'
         print(URL)
         page = requests.get(URL)
