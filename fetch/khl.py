@@ -27,15 +27,21 @@ def fetchKHLGames(team):
             print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
             return games
         soup = BeautifulSoup(page.content, "html.parser")
+
+        '''Update the logo_url
+
+        - find the image in the KHL site
+        - parse the url and encode any odd characters
+        - replace the placeholder image in the teams object.'''
+        image = soup.find('img', attrs={'class': 'float-left'})
+        image_url = urlparse.quote(image['src'])
+        team['logo_url'] = f"{KHL_BASE_URL}{image_url}"
+        print(f"Updated logo_url to <{team['logo_url']}>")
     else:
         print("rate limited, opening sample file")
         with open("samples/sampleKHLHTML.txt", 'rb') as sample_file:
             content = sample_file.read()
             soup = BeautifulSoup(content, "html.parser")
-    #find the image in the KHL site, then parse the url and encode any odd characters, then replace the placeholder image in the teams object.
-    image = soup.find('img', attrs={'class': 'float-left'})
-    image_url = urlparse.quote(image['src'])
-    team['logo_url'] = f"{KHL_BASE_URL}{image_url}"
 
     tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
     for table in tables:
