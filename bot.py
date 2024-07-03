@@ -255,7 +255,7 @@ def createBasicBot(json_list):
         extras= {'meme': True}
     )
     async def no(ctx):
-        await ctx.send('https://media.licdn.com/dms/image/C5122AQHczYfkHyIxvA/feedshare-shrink_800/0/1575066060091?e=1721865600&v=beta&t=lUmAgl4dQLQDYIBstbbUIKTDqiAJmEhPWVwy91Fsjks')
+        await ctx.send(file=discord.File('res/images/no.png'))
 
     @bot.command(
         help=bot.command_prefix + "male",
