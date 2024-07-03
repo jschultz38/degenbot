@@ -10,8 +10,6 @@ def ai_chirp(user, teams):
     for team in teams:
         if user in team['players']:
             player_teams.append(team['name'])
-        else:
-            print("fuck off")
 
     chirp = build(client, user, player_teams)
 

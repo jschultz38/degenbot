@@ -31,13 +31,15 @@ this with the token from step 3 above:
 
 ```
 prod_token = 'prod_token_here'
-test_token = 'test_token_here'
+test_token = 'prod_token_here'
+open_ai_key = 'open_ai_key_here'
 ```
 
-If you only have a single bot, you only need to create the prod_token field:
-```
-prod_token = 'prod_token_here'
-```
+- For the prod_token, you will find that in the discord developer dashboard
+under the bot that you create to test for this project.
+- You should be able to just copy the prod_token into test_token, because
+nobody but the hoster should need to be running to instances at the same time.
+- For the open_ai_key, we are using Fountai2 chatgpt token, so message him for it.
 
 ## Add the bot to your test server
 1. Return to https://discord.com/developers/applications and open your app
