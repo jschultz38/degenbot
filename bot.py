@@ -229,7 +229,7 @@ def createBasicBot(json_list):
         extras= {'meme': True}
     )
     async def ruf(ctx):
-        await ctx.send('https://imgur.com/q4OWXNs')
+        await ctx.send(file=discord.File('res/images/ruf.jpeg'))
 
     @bot.command(
         help=bot.command_prefix + "pat - god i miss that man",
