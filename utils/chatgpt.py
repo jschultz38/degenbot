@@ -17,8 +17,8 @@ def ai_chirp(user, teams):
     return chirp.choices[0].message.content
 
 
-def build(client, user,  players_teams):
-    if not players_teams:
+def build(client, user,  player_teams):
+    if not player_teams:
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
