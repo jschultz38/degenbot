@@ -278,6 +278,13 @@ def createBasicBot(json_list):
     async def love(ctx):
         await ctx.send(file=discord.File('res/images/love.png'))
 
+    @bot.command(
+        help=bot.command_prefix + "love",
+        extras= {'meme': True}
+    )
+    async def eepy(ctx):
+        await ctx.send(file=discord.File('res/images/sleepy.jpg'))
+
     return bot
 
 async def sendGames(ctx, games, showPlayers):
