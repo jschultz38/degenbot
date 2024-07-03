@@ -264,6 +264,13 @@ def createBasicBot(json_list):
     async def male(ctx):
         await ctx.send(file=discord.File('res/images/male.jpg'))
 
+    @bot.command(
+        help=bot.command_prefix + "jamesriley",
+        extras= {'meme': True}
+    )
+    async def jamesriley(ctx):
+        await ctx.send(file=discord.File('res/images/jamesriley.png'))
+
     return bot
 
 async def sendGames(ctx, games, showPlayers):
