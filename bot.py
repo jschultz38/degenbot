@@ -248,7 +248,7 @@ def createBasicBot(json_list):
         extras={'meme': True}
     )
     async def goon(ctx):
-        await ctx.send('https://i.imgflip.com/8teknw.jpg')
+        await ctx.send(file=discord.File('res/images/goon.jpg'))
 
     @bot.command(
         help=bot.command_prefix + "no",
