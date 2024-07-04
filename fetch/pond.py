@@ -1,6 +1,8 @@
 import requests
 import datetime
 from bs4 import BeautifulSoup
+import re
+import json
 
 from utils.hockey_game import HockeyGame
 from globals import TEST_MODE
@@ -21,9 +23,9 @@ def fetchPondGames(team):
     1. Get website version - maybe don't care?
 
     "https://snokinghockeyleague.com/"
-    match /meta name=\"version\"\s+content=\"(\d+)\"/
+    match /meta name=\"version\"\\s+content=\"(\\d+)\"/
 
-    2. BROKEN Get current season
+    2. Get current season
 
     version = 1132170
     https://snokingpondhockey.com/api/season/all/0?v=<version>
@@ -43,7 +45,20 @@ def fetchPondGames(team):
     https://snokinghockeyleague.com/api/game/list/1097/0/3320
 
     '''
-    season = "1097"
+    #1
+    URL = 'https://snokinghockeyleague.com/'
+    page = requests.get(URL)
+    text = page.content.decode('utf-8')
+    version = re.search('meta name="version" content="(\\d+)"', text).groups()[0]
+
+    #2
+    URL = f'https://snokingpondhockey.com/api/season/all/0?v={version}'
+    page = requests.get(URL)
+    json_str = page.content.decode('utf8')
+    j = json.loads(json_str)
+    season = str(j['seasons'][0]['id'])
+
+    #3
     URL = f'https://snokinghockeyleague.com/api/game/list/{season}/0/{team["id"]}'
     print(URL)
     page = requests.get(URL)
