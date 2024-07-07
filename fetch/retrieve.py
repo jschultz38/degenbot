@@ -4,6 +4,7 @@ from fetch.khl import fetchKHLGames, fetchKHLSuspensions
 from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from fetch.pond import fetchPondGames
+from fetch.aahl import fetchAAHLGames
 from globals import TEST_MODE
 
 def retrieveAllGames(teams, player, sort=True):
@@ -49,6 +50,9 @@ def addTeamGames(games, team):
         case 'SKAHL Pond':
             print("SKAHL Pond")
             found_games = fetchPondGames(team)
+        case 'AAHL':
+            print("AAHL")
+            found_games = fetchAAHLGames(team)
         case _:
             print("ERROR: Could not find league <" + team['league'] + ">")
 

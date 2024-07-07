@@ -66,15 +66,6 @@
 			"league": "KHL"
 		},
 		{
-			"name": "Toe Dragons",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Toe%20Dragons%202.jpg",
-			"id": "11801",
-			"players": [
-				"Pat"
-			],
-			"league": "KHL"
-		},
-		{
 			"name": "Rainier Reindeers HC-5D",
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/rainier%20reindeer%20badge.jpg",
 			"id": "10159",
@@ -211,6 +202,15 @@
 				"Jeremy"
 			],
 			"league": "SKAHL Pond"
+		},
+		{
+			"name": "Ice Beavers",
+			"logo_url": "https://se-team-service-production.s3.amazonaws.com/uploads/team/logo/11eeff3a-a1e5-1a3e-a44c-e643b0754f50/large_square_icebeaverslogo.jpg",
+			"id": "9677362",
+			"players": [
+				"Pat"
+			],
+			"league": "AAHL"
 		}
 	]
 }
