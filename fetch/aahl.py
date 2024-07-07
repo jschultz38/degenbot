@@ -19,7 +19,7 @@ def fetchAAHLGames(team):
         print('found cache')
         return team['cache']
 
-    URL = f'https://www.atlantahockey.org/schedule/team_instance/{team['id']}'
+    URL = f'https://www.atlantahockey.org/schedule/team_instance/{team["id"]}'
     print(URL)
     page = requests.get(URL)
     if page.status_code != 200:
