@@ -5,6 +5,7 @@ from threading import Thread
 from bot import createBasicBot
 from globals import *
 from credentials import prod_token, test_token
+from utils.player import Suspension
 from cache.cache import main_caching
 
 def main():
