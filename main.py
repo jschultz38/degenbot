@@ -1,10 +1,11 @@
 import json
 import datetime
-from utils.player import Suspension
+from threading import Thread
 
 from bot import createBasicBot
 from globals import *
 from credentials import prod_token, test_token
+from cache.cache import main_caching
 
 def main():
     # Read in teams
@@ -32,7 +33,15 @@ def main():
 
     print('done')
 
+    # Start caching
+    if USE_CACHING:
+        print("Caching enabled, spinning up the thread...")
+
+        t = Thread(target=main_caching, args=(CACHING_LOCK, teams), daemon=True)
+        t.start()
+
     # Set up bot
+    print("starting bot thread...")
     bot = createBasicBot([teams, seasons])
     bot.run(test_token if USE_TEST_TOKEN else prod_token)
 
