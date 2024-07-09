@@ -5,9 +5,12 @@ from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from fetch.pond import fetchPondGames
 from fetch.aahl import fetchAAHLGames
-from globals import TEST_MODE
+from globals import TEST_MODE, CACHING_LOCK
 
 def retrieveAllGames(teams, player, sort=True):
+    '''Just acquire the lock at the beginning since we don't
+    need cache.py mucking around while we are trying to answer a request'''
+    CACHING_LOCK.acquire()
     games = []
 
     # Obtain games
@@ -25,6 +28,8 @@ def retrieveAllGames(teams, player, sort=True):
     if sort:
         games.sort(key=lambda e: e.gametime)
 
+    CACHING_LOCK.release()
+
     return games
 
 def playerInList(target, players):
@@ -33,6 +38,7 @@ def playerInList(target, players):
             return True
     return False
 
+'''MUST aqcuire CACHING_LOCK before calling this method'''
 def addTeamGames(games, team):
     found_games = []
 
