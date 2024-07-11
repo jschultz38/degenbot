@@ -212,6 +212,15 @@
 				"Pat"
 			],
 			"league": "AAHL"
+		},
+		{
+			"name": "Falcons",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/falcons%20F%20logo%20(1).png",
+			"id": "13346",
+			"players": [
+				"Terran"
+			],
+			"league": "KHL"
 		}
 	]
 }
