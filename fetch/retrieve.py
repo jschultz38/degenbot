@@ -42,25 +42,30 @@ def playerInList(target, players):
 def addTeamGames(games, team):
     found_games = []
 
-    # Fetch games
-    match team['league']:
-        case 'KHL':
-            print("KHL")
-            found_games = fetchKHLGames(team)
-        case 'SD':
-            print("SD")
-            found_games = fetchSDGames(team)
-        case 'Pride':
-            print("Pride")
-            found_games = fetchPrideGames(team)
-        case 'SKAHL Pond':
-            print("SKAHL Pond")
-            found_games = fetchPondGames(team)
-        case 'AAHL':
-            print("AAHL")
-            found_games = fetchAAHLGames(team)
-        case _:
-            print("ERROR: Could not find league <" + team['league'] + ">")
+    try:
+        match team['league']:
+            case 'KHL':
+                print("KHL")
+                found_games = fetchKHLGames(team)
+            case 'SD':
+                print("SD")
+                found_games = fetchSDGames(team)
+            case 'Pride':
+                print("Pride")
+                found_games = fetchPrideGames(team)
+            case 'SKAHL Pond':
+                print("SKAHL Pond")
+                found_games = fetchPondGames(team)
+            case 'AAHL':
+                print("AAHL")
+                found_games = fetchAAHLGames(team)
+            case _:
+                raise Exception("ERROR: Could not find league <" + team['league'] + ">")
+                print("ERROR: Could not find league <" + team['league'] + ">")
+    except Exception as e:
+        print("ERROR: Exception while retrieving games: " + str(e))
+        raise e
+        return
 
     games += found_games
 
