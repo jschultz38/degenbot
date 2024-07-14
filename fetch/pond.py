@@ -83,8 +83,8 @@ def createPondGame(game_item, team):
     home_team = game_item['teamHomeName']
     away_team = game_item['teamAwayName']
     is_home = home_team == team['name']
-    home_score = None if game_item['scoreHome'] == 'null' else int(game_item[9])
-    away_score = None if game_item['scoreAway'] == 'null' else int(game_item[10])
+    home_score = None if game_item['scoreHome'] == 'null' else int(game_item['scoreHome'])
+    away_score = None if game_item['scoreAway'] == 'null' else int(game_item['scoreAway'])
 
     # Create the game
     game = HockeyGame(
