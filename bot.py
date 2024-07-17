@@ -54,14 +54,13 @@ def createBasicBot(json_list):
         if player == None:
             await ctx.send("Please input a player name after your command")
             return
-        else:
-            games = retrieveAllGames(teams, player)
-            if len(games) <= 20:
-                embed = construct_game_embed(games, title=f"{player}'s schedule")
-                await ctx.send(embed=embed)
-            else:
-                await sendGames(ctx, games, showPlayers=False)
 
+        games = retrieveAllGames(teams, player)
+        embed = construct_game_embed(games, title=f"{player}'s schedule")
+        if embed:
+            await ctx.send(embed=embed)
+        else:
+            await sendGames(ctx, games, showPlayers=False)
 
     @bot.command(
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
@@ -78,8 +77,10 @@ def createBasicBot(json_list):
         games = [game for game in games if game.gametime >= today]
 
         embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
-
-        await ctx.send(embed=embed)
+        if embed:
+            await ctx.send(embed=embed)
+        else:
+            await sendGames(ctx, games, showPlayers=False)
 
     @bot.command(
         help=bot.command_prefix + "soon <?name?> - Shows all games for the next week"
@@ -91,8 +92,8 @@ def createBasicBot(json_list):
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
-        if len(games) <= 20:
-            embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
+        embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
+        if embed:
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))
@@ -111,7 +112,10 @@ def createBasicBot(json_list):
                 else:
                     embed = construct_game_embed(next_game, title=f"Next Game with {', '.join(game.team['players'])}")
                 break
-        await ctx.send(embed=embed)
+        if embed:
+            await ctx.send(embed=embed)
+        else:
+            await sendGames(ctx, games, (player == None))
 
     @bot.command(
         help=bot.command_prefix + "today <?name?> - Shows all games happening today"
@@ -124,12 +128,12 @@ def createBasicBot(json_list):
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) < timedelta(days=1)]
 
-        if len(games) <= 20:
-            if player is None:
-                title = f"Games today"
-            else:
-                title = f"Today's Games for {player}"
-            embed = construct_game_embed(games, title=title, showPlayers=player is None)
+        if player is None:
+            title = f"Games today"
+        else:
+            title = f"Today's Games for {player}"
+        embed = construct_game_embed(games, title=title, showPlayers=player is None)
+        if embed:
             await ctx.send(embed=embed)
         else:
             await sendGames(ctx, games, (player == None))

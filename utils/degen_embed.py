@@ -14,6 +14,10 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
     except Exception:
         newembed.set_thumbnail(url="https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
 
+    if len(games) > 25:
+        print("Embed too long, returning None")
+        return None
+
     for game in games:
         if game.home_score:
             if game.degen_home:
