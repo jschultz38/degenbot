@@ -221,6 +221,27 @@
 				"Terran"
 			],
 			"league": "KHL"
+		},
+		{
+			"name": "Degens",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png",
+			"id": "16462",
+			"players": [
+				"Phantasia",
+				"Jeremy",
+				"James Riley",
+				"Andy",
+				"Pat",
+				"John",
+				"Kirsten",
+				"Malikai",
+				"Jazz",
+				"David",
+				"Marty",
+				"Robee"
+			],
+			"league": "KHL",
+			"season": "2119"
 		}
 	]
 }

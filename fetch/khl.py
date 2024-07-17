@@ -20,7 +20,8 @@ def fetchKHLGames(team):
     if not TEST_MODE:
         KHL_BASE_URL = "https://krakenhockeyleague.com/"
         URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule'
-        #URL = f'https://krakenhockeyleague.com/ical/{team["id"]}'
+        if 'season' in team:
+            URL += '/?season=' + team['season']
         print(URL)
         page = requests.get(URL)
         if page.status_code != 200:
