@@ -80,12 +80,12 @@ def createPrideGameBySchedule(cols, team):
     away_score = None
     home_score = None
     if (cols[-2].a is None):
-        # This is a listing for playoff games
+        # This is a listing for playoff games that don't have actual teams yet
         home_team = cols[3].find('span').getText()
         away_team = cols[1].find('span').getText()
     elif ("Preview" in cols[-2].a.getText()):
-        home_team = cols[1].find('a', attrs={'class':'mr-2'}).getText()
-        away_team = cols[3].find('a', attrs={'class':'ml-2'}).getText()
+        home_team = cols[3].find('a', attrs={'class':'ml-2'}).getText()
+        away_team = cols[1].find('a', attrs={'class':'mr-2'}).getText()
     else:
         # Looks like at the moment, the way I'm grabbing games does not show previous games
         print('ERROR: havent seen a scored game yet')
