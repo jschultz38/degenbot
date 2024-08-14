@@ -63,8 +63,11 @@ def addTeamGames(games, team):
                 raise Exception("ERROR: Could not find league <" + team['league'] + ">")
                 print("ERROR: Could not find league <" + team['league'] + ">")
     except Exception as e:
-        print("ERROR: Exception while retrieving games: " + str(e))
-        raise e
+        error_message = "ERROR: Exception while retrieving games in " + team['league'] + ": " + str(e)
+        print(error_message)
+        with open("logs/error.log", "a") as errorfile:
+            errorfile.write(str(datetime.date.today()) + ": " + error_message + "\n")
+
         return
 
     games += found_games
