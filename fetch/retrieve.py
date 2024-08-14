@@ -61,7 +61,6 @@ def addTeamGames(games, team):
                 found_games = fetchAAHLGames(team)
             case _:
                 raise Exception("ERROR: Could not find league <" + team['league'] + ">")
-                print("ERROR: Could not find league <" + team['league'] + ">")
     except Exception as e:
         error_message = "ERROR: Exception while retrieving games in " + team['league'] + ": " + str(e)
         print(error_message)
