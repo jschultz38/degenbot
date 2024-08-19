@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import datetime
 import urllib.parse as urlparse
 
-from globals import TEST_MODE
+from globals import TEST_MODE, SEASONS
 from fetch.common.sportzone import createSportZoneGame
 from utils.player import Suspension
 
@@ -18,23 +18,35 @@ def fetchKHLGames(team):
         return team['cache']
 
     if not TEST_MODE:
-        KHL_BASE_URL = "https://krakenhockeyleague.com/"
-        URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule'
+        soups = []
+
+        '''Handle one off tournament teams'''
         if 'season' in team:
-            URL += '/?season=' + team['season']
-        print(URL)
-        page = requests.get(URL)
-        if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
-            return games
-        soup = BeautifulSoup(page.content, "html.parser")
+            KHL_BASE_URL = "https://krakenhockeyleague.com/"
+            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + team['season']
+            print(URL)
+            page = requests.get(URL)
+            if page.status_code != 200:
+                print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+                return games
+            soups.append(BeautifulSoup(page.content, "html.parser"))
+        else:
+            for season in SEASONS[0]['khl']['current_seasons']:
+                KHL_BASE_URL = "https://krakenhockeyleague.com/"
+                URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(season)
+                print(URL)
+                page = requests.get(URL)
+                if page.status_code != 200:
+                    print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+                    return games
+                soups.append(BeautifulSoup(page.content, "html.parser"))
 
         '''Update the logo_url
 
         - find the image in the KHL site
         - parse the url and encode any odd characters
         - replace the placeholder image in the teams object.'''
-        image = soup.find('img', attrs={'class': 'float-left'})
+        image = soups[0].find('img', attrs={'class': 'float-left'})
         image_url = urlparse.quote(image['src'])
         team['logo_url'] = f"{KHL_BASE_URL}{image_url}"
         print(f"Updated logo_url to <{team['logo_url']}>")
@@ -44,19 +56,20 @@ def fetchKHLGames(team):
             content = sample_file.read()
             soup = BeautifulSoup(content, "html.parser")
 
-    tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
-    for table in tables:
-        table_body = table.find('tbody')
-        rows = table_body.find_all('tr')
-        
-        for row in rows:
-            cols = row.find_all('td')
+    for soup in soups:
+        tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
+        for table in tables:
+            table_body = table.find('tbody')
+            rows = table_body.find_all('tr')
 
-            # khl uses sz backed website
-            game = createSportZoneGame(cols, team)
-            games.append(game)
+            for row in rows:
+                cols = row.find_all('td')
 
-    team['cache'] = games
+                # khl uses sz backed website
+                game = createSportZoneGame(cols, team)
+                games.append(game)
+
+        team['cache'] = games
 
     return games
 

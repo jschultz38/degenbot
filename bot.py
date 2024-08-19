@@ -4,16 +4,13 @@ from discord.ext import commands
 import random
 import requests
 
-from globals import TEST_MODE
+from globals import TEST_MODE, SEASONS
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 import utils.chatgpt
 
 from utils.degen_embed import *
 
-def createBasicBot(json_list):
-    teams = json_list[0]
-    seasons = json_list[1]
-
+def createBasicBot(teams):
     intents = discord.Intents.default()
     intents.message_content = True
 
@@ -167,7 +164,7 @@ def createBasicBot(json_list):
             await ctx.send("Please input a name with at least 3 characters")
             return
 
-        suss = retrieveSuspensions(seasons, player)
+        suss = retrieveSuspensions(SEASONS[0], player)
         if len(suss) > 0:
             message = "\n".join(map(str, suss))
             place = 2000

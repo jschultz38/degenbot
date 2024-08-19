@@ -31,6 +31,7 @@ def main():
         for line in f:
             suss.append(eval(line))
     seasons['khl']['past_seasons_cache'] = suss
+    SEASONS.append(seasons)
 
     print('done')
 
@@ -43,7 +44,7 @@ def main():
 
     # Set up bot
     print("starting bot thread...")
-    bot = createBasicBot([teams, seasons])
+    bot = createBasicBot(teams)
     bot.run(test_token if USE_TEST_TOKEN else prod_token)
 
 if __name__ == '__main__':
