@@ -286,11 +286,18 @@ def createBasicBot(teams):
         await ctx.send(file=discord.File('res/images/love.png'))
 
     @bot.command(
-        help=bot.command_prefix + "love",
+        help=bot.command_prefix + "eepy",
         extras= {'meme': True}
     )
     async def eepy(ctx):
         await ctx.send(file=discord.File('res/images/sleepy.jpg'))
+
+    @bot.command(
+        help=bot.command_prefix + "squats",
+        extras= {'meme': True}
+    )
+    async def squats(ctx):
+        await ctx.send(file=discord.File('res/images/squats.png'))
 
     return bot
 
