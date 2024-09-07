@@ -147,12 +147,14 @@
 			"league": "KHL"
 		},
 		{
-			"name": "SD Spades",
+			"name": "SD Aces",
 			"logo_url": "https://www.mystatsonline.com/pictures/teamlogo/64338/185520.jpg",
-			"id": "Spades",
+			"id": "Aces",
 			"players": [
 				"JP",
-				"Jazz"
+				"Jazz",
+				"Blair",
+				"Andy"
 			],
 			"league": "SD"
 		},
@@ -181,17 +183,17 @@
 			"id": "3320",
 			"players": [
 				"Pond",
-				"John",
-				"Jarrett",
-				"Blair",
-				"Nikolai",
 				"Kirsten",
+				"John",
+				"Phantasia",
+				"Emily",
+				"Blair",
 				"Malikai",
 				"Andy",
-				"Phantasia",
+				"Robee",
 				"Marty",
-				"Emily"
-			],
+				"Jen",
+				"Samantha"			],
 			"league": "SKAHL Pond"
 		},
 		{
