@@ -4,7 +4,7 @@ from discord.ext import commands
 import random
 import requests
 
-from globals import TEST_MODE, SEASONS
+from globals import TEST_MODE, SEASONS, ENABLE_SUSPENSIONS
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 import utils.chatgpt
 
@@ -160,6 +160,10 @@ def createBasicBot(teams):
         help=bot.command_prefix + "sus <name> - Shows all current suspensions"
         )
     async def sus(ctx, *args):
+        if not ENABLE_SUSPENSIONS:
+            await ctx.send("!sus is currently disabled, send me a message to enable")
+            return
+
         player_name = ' '.join(args)
         if not player_name or len(player_name) < 3:
             await ctx.send("Please input a name with at least 3 characters")
