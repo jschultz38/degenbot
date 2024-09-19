@@ -14,7 +14,8 @@
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/roughnecks-logo(2).png",
 			"id": "14166",
 			"players": [
-				"Malikai"
+				"Malikai",
+				"John"
 			],
 			"league": "KHL"
 		},
@@ -57,15 +58,6 @@
 			"league": "KHL"
 		},
 		{
-			"name": "Coyotes",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/coyotes_1.png",
-			"id": "8116",
-			"players": [
-				"Blair"
-			],
-			"league": "KHL"
-		},
-		{
 			"name": "Rainier Reindeers HC-5D",
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/rainier%20reindeer%20badge.jpg",
 			"id": "10159",
@@ -79,7 +71,8 @@
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/not_sure_ico_s23-o_home.png",
 			"id": "13343",
 			"players": [
-				"Phantasia"
+				"Phantasia",
+				"Blair"
 			],
 			"league": "KHL"
 		},
@@ -98,15 +91,6 @@
 			"id": "15302",
 			"players": [
 				"Phantasia"
-			],
-			"league": "KHL"
-		},
-		{
-			"name": "Hooligans Classic",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/hooligans-logo-512-bg.png",
-			"id": "10190",
-			"players": [
-				"Robee"
 			],
 			"league": "KHL"
 		},
@@ -243,6 +227,24 @@
 			],
 			"league": "KHL",
 			"season": "2119"
+		},
+		{
+			"name": "Scrooge McPuck",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/punks.jpg",
+			"id": "9939",
+			"players": [
+				"Andy"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Night Owls",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/owls.png",
+			"id": "2378",
+			"players": [
+				"Robee"
+			],
+			"league": "KHL"
 		}
 	]
 }
