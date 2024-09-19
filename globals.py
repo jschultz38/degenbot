@@ -6,6 +6,9 @@ USE_TEST_TOKEN = False
 '''True to spin up caching thread'''
 USE_CACHING = True
 
+'''True to enable !sus'''
+ENABLE_SUSPENSIONS = False
+
 '''Puts bot in test mode, which doesn't make any http requests and only uses a
 saved .html file for a single team for player Jarrett. Only really useful if you
 are doing an overhaul to the bot infrastructure and need to iterate quickly
