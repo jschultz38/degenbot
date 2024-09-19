@@ -6,7 +6,7 @@ from globals import CACHING_LOCK
 
 seconds_between_updates = 5 * 60
 
-def main_caching(thing, teams):
+def main_caching(teams):
 	# Delay a bit so that the bot gets started up properly
 	sleep(5)
 
