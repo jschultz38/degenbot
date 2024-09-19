@@ -89,7 +89,7 @@ def createBasicBot(teams):
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
         games = [game for game in games if game.gametime >= today and (game.gametime - today) <= timedelta(days=8)]
-        embed = construct_game_embed(games, title=f"Upcoming Games for {player}")
+        embed = construct_game_embed(games, title=f"Upcoming Games for {player}" if player else "Upcoming Games")
         if embed:
             await ctx.send(embed=embed)
         else:
@@ -248,8 +248,9 @@ def createBasicBot(teams):
         extras= {'meme': True}
     )
     async def pat(ctx):
+        pat_base_miss_score = 500
         if not 'pat' in ctx.command.extras:
-            ctx.command.extras['pat'] = random.randint(100,500)
+            ctx.command.extras['pat'] = random.randint(pat_base_miss_score, pat_base_miss_score+500)
 
         ctx.command.extras['pat'] += 1
 
