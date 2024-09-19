@@ -6,18 +6,18 @@ from globals import CACHING_LOCK
 
 seconds_between_updates = 5 * 60
 
-def main_caching(lock, teams):
+def main_caching(teams):
 	# Delay a bit so that the bot gets started up properly
 	sleep(5)
 
-	# Populate the cache
-	print("populating the cache...")
+	# Populate the game cache
+	print("populating the game cache...")
 	for team in teams:
 		if 'cache' not in team:
 			update_team(team)
 			sleep(1)
 
-	print("cache fully populated")
+	print("game cache fully populated")
 
 	# Update entries over time
 	while True:

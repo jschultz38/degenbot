@@ -39,7 +39,7 @@ def main():
     if USE_CACHING:
         print("Caching enabled, spinning up the thread...")
 
-        t = Thread(target=main_caching, args=(CACHING_LOCK, teams), daemon=True)
+        t = Thread(target=main_caching, args=(teams), daemon=True)
         t.start()
 
     # Set up bot
