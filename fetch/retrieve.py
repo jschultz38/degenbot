@@ -1,4 +1,5 @@
 import datetime
+import traceback
 
 from fetch.khl import fetchKHLGames, fetchKHLSuspensions
 from fetch.stackeddeck import fetchSDGames
@@ -62,10 +63,10 @@ def addTeamGames(games, team):
             case _:
                 raise Exception("ERROR: Could not find league <" + team['league'] + ">")
     except Exception as e:
-        error_message = "ERROR: Exception while retrieving games in " + team['league'] + ": " + str(e)
+        error_message = "ERROR: Exception while retrieving games in " + team['league'] + "\n" + traceback.format_exc()
         print(error_message)
         with open("logs/error.log", "a") as errorfile:
-            errorfile.write(str(datetime.date.today()) + ": " + error_message + "\n")
+            errorfile.write(str(datetime.date.today()) + ": " + error_message + "\n\n")
 
         return
 
