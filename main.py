@@ -46,7 +46,10 @@ def main():
 
     # Set up bot
     print("starting bot thread...")
-    bot = createBasicBot(team_data, restart_caching_event)
+    extras = {
+            'suspensions_enabled': ENABLE_SUSPENSIONS
+        }
+    bot = createBasicBot(team_data, restart_caching_event, extras)
     bot.run(test_token if USE_TEST_TOKEN else prod_token)
 
 if __name__ == '__main__':

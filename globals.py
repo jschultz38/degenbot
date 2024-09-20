@@ -7,7 +7,7 @@ USE_TEST_TOKEN = False
 USE_CACHING = True
 
 '''True to enable !sus'''
-ENABLE_SUSPENSIONS = False
+ENABLE_SUSPENSIONS = True
 
 '''Puts bot in test mode, which doesn't make any http requests and only uses a
 saved .html file for a single team for player Jarrett. Only really useful if you

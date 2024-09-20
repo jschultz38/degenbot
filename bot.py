@@ -10,7 +10,7 @@ import utils.chatgpt
 
 from utils.degen_embed import *
 
-def createBasicBot(team_data, restart_caching_event):
+def createBasicBot(team_data, restart_caching_event, extras):
     intents = discord.Intents.default()
     intents.message_content = True
 
@@ -24,7 +24,10 @@ def createBasicBot(team_data, restart_caching_event):
     # Include team data as context
     if hasattr(bot, 'extras'):
         print("ERROR: bot has extras")
-    bot.extras = {'team_data': team_data}
+    bot.extras = {
+                    'team_data': team_data,
+                    'extras': extras
+                }
 
     @bot.before_invoke
     async def before_command(ctx):
@@ -174,8 +177,8 @@ def createBasicBot(team_data, restart_caching_event):
         help=bot.command_prefix + "sus <name> - Shows all current suspensions"
         )
     async def sus(ctx, *args):
-        if not ENABLE_SUSPENSIONS:
-            await ctx.send("!sus is currently disabled, send me a message to enable")
+        if not ctx.bot.extras['extras']['suspensions_enabled']:
+            await ctx.send("!sus is currently disabled, send my creator a message to enable")
             return
 
         player_name = ' '.join(args)
