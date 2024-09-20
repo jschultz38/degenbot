@@ -24,16 +24,19 @@ def main():
     print('done')
 
     # Load seasons cache into memory
-    print('loading past suspensions...', end ="")
+    if ENABLE_SUSPENSIONS:
+        print('loading past suspensions...', end ="")
 
-    suss = []
-    with open("res/past_seasons_cache.txt", "r", encoding="utf-8") as f:
-        for line in f:
-            suss.append(eval(line))
-    seasons['khl']['past_seasons_cache'] = suss
-    SEASONS.append(seasons)
+        suss = []
+        with open("res/past_seasons_cache.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                suss.append(eval(line))
+        seasons['khl']['past_seasons_cache'] = suss
+        SEASONS.append(seasons)
 
-    print('done')
+        print('done')
+    else:
+        print('suspensions disabled')
 
     # Start caching
     if USE_CACHING:
