@@ -1,7 +1,5 @@
 class Suspension:
     def __init__(self, date, name, team, div, games, sus_id):
-        # this is the json object of the team - should look the same as in res/teams.json
-
         # Note: Due to the fact that serialization uses "" for strings, we need to replace them with ''
         self.date = date
         self.name = str(name).replace('"', "'")

@@ -16,30 +16,31 @@ a rotating order (1->2->3->1->etc.). The stages are:
 3. refresh the cache - if we receive ~restart_caching_event~, refresh all entries in the cache
 '''
 
-def main_caching_loop(teams, restart_caching_event):
+def main_caching_loop(team_data, restart_caching_event):
 	# Delay a bit so that the bot gets started up properly
 	sleep(5)
 
 	while True:
 		'''Populate all cache entries that haven't been populated yet'''
-		populate_cache(teams)
+		populate_cache(team_data)
 
 		'''Refresh cache entries every ~seconds_between_updates~'''
-		cache_update_loop(teams, restart_caching_event)
+		cache_update_loop(team_data, restart_caching_event)
 
 		'''When we receive ~restart_caching_event~, the loop returns
 		and this method invalidates all cache entries'''
-		invalidate_cache(teams)
+		invalidate_cache(team_data)
 
-def populate_cache(teams):
+def populate_cache(team_data):
 	print("populating the game cache...")
 
-	for team in teams:
-		update_entry_if_needed(team)
+	for team in team_data['teams']:
+		update_entry_if_needed(team, team_data['seasons'])
 
 	print("game cache fully populated")
 
-def cache_update_loop(teams, restart_caching_event):
+def cache_update_loop(team_data, restart_caching_event):
+	teams = team_data['teams']
 	next_index_to_update = 0
 
 	while True:
@@ -52,7 +53,7 @@ def cache_update_loop(teams, restart_caching_event):
 		team_to_update = teams[next_index_to_update]
 
 		invalidate_cache_entry(team_to_update)
-		update_entry_if_needed(team_to_update)
+		update_entry_if_needed(team_to_update, team_data['seasons'])
 
 		next_index_to_update = (next_index_to_update + 1) % len(teams)
 
@@ -64,13 +65,13 @@ def invalidate_cache(teams):
 
 	print("game cache fully invalidated")
 
-def update_entry_if_needed(team):
+def update_entry_if_needed(team, seasons):
 	CACHING_LOCK.acquire()
 
 	if 'cache' not in team:
 		print("START_UPDATE " + team['name'])
 
-		addTeamGames([], team)
+		addTeamGames([], team, seasons)
 
 		print("FINISH_UPDATE " + team['name'])
 	else:

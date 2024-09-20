@@ -237,5 +237,13 @@
 			],
 			"league": "KHL"
 		}
-	]
+	],
+
+	"seasons": {
+		"khl": {
+			"current_seasons": [
+				2121
+			]
+		}
+	}
 }

@@ -13,7 +13,7 @@ class HockeyGame:
     """
 
     def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None):
-        # this is the json object of the team - should look the same as in res/teams.json
+        # this is the json object of the team - should look the same as in res/team_data.json
         self.team = team
         self.gametime = datetime_obj
         self.location = location

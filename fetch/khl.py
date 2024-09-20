@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import datetime
 import urllib.parse as urlparse
 
-from globals import TEST_MODE, SEASONS
+from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
 from utils.player import Suspension
 
-def fetchKHLGames(team):
+def fetchKHLGames(team, seasons):
     page = None
     soup = None
     games = []
@@ -31,7 +31,7 @@ def fetchKHLGames(team):
                 return games
             soups.append(BeautifulSoup(page.content, "html.parser"))
         else:
-            for season in SEASONS[0]['khl']['current_seasons']:
+            for season in seasons['khl']['current_seasons']:
                 KHL_BASE_URL = "https://krakenhockeyleague.com/"
                 URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(season)
                 print(URL)

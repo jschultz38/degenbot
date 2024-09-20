@@ -8,7 +8,8 @@ from fetch.pond import fetchPondGames
 from fetch.aahl import fetchAAHLGames
 from globals import TEST_MODE, CACHING_LOCK
 
-def retrieveAllGames(teams, player, sort=True):
+def retrieveAllGames(team_data, player, sort=True):
+    teams = team_data['teams']
     '''Just acquire the lock at the beginning since we don't
     need cache.py mucking around while we are trying to answer a request'''
     CACHING_LOCK.acquire()
@@ -17,14 +18,14 @@ def retrieveAllGames(teams, player, sort=True):
     # Obtain games
     if TEST_MODE:
         #TODO: Make this better
-        addTeamGames(games, teams[0])
+        addTeamGames(games, teams[0], team_data['seasons'])
     elif player == None:
         for team in teams:
-            addTeamGames(games, team)
+            addTeamGames(games, team, team_data['seasons'])
     else:
         for team in teams:
             if playerInList(player, team['players']):
-                addTeamGames(games, team)
+                addTeamGames(games, team, team_data['seasons'])
 
     if sort:
         games.sort(key=lambda e: e.gametime)
@@ -40,14 +41,14 @@ def playerInList(target, players):
     return False
 
 '''MUST aqcuire CACHING_LOCK before calling this method'''
-def addTeamGames(games, team):
+def addTeamGames(games, team, seasons):
     found_games = []
 
     try:
         match team['league']:
             case 'KHL':
                 print("KHL")
-                found_games = fetchKHLGames(team)
+                found_games = fetchKHLGames(team, seasons)
             case 'SD':
                 print("SD")
                 found_games = fetchSDGames(team)

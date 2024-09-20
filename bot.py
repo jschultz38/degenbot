@@ -4,13 +4,13 @@ from discord.ext import commands
 import random
 import requests
 
-from globals import TEST_MODE, SEASONS, ENABLE_SUSPENSIONS
+from globals import TEST_MODE, ENABLE_SUSPENSIONS
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 import utils.chatgpt
 
 from utils.degen_embed import *
 
-def createBasicBot(teams, restart_caching_event):
+def createBasicBot(team_data, restart_caching_event):
     intents = discord.Intents.default()
     intents.message_content = True
 
@@ -20,6 +20,11 @@ def createBasicBot(teams, restart_caching_event):
         help_command=MyHelpCommand(),
         case_insensitive=True
         )
+
+    # Include team data as context
+    if hasattr(bot, 'extras'):
+        print("ERROR: bot has extras")
+    bot.extras = {'team_data': team_data}
 
     @bot.before_invoke
     async def before_command(ctx):
@@ -61,7 +66,7 @@ def createBasicBot(teams, restart_caching_event):
             await ctx.send("Please input a player name after your command")
             return
 
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
         embed = construct_game_embed(games, title=f"{player}'s schedule")
         if embed:
             await ctx.send(embed=embed)
@@ -76,7 +81,7 @@ def createBasicBot(teams, restart_caching_event):
             await ctx.send("Please input a player name after your command")
             return
 
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
         # Filter out games
         time_now = datetime.now()
         today = datetime(time_now.year, time_now.month, time_now.day)
@@ -92,7 +97,7 @@ def createBasicBot(teams, restart_caching_event):
         help=bot.command_prefix + "soon <?name?> - Shows all games for the next week"
         )
     async def soon(ctx, player=None):
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games
         time_now = datetime.now()
@@ -108,7 +113,7 @@ def createBasicBot(teams, restart_caching_event):
         help=bot.command_prefix + "next <?name?> - Shows next game for the person requested"
     )
     async def next(ctx, player=None):
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
         time_now = datetime.now()
         for game in games:
             if game.gametime >= time_now:
@@ -127,7 +132,7 @@ def createBasicBot(teams, restart_caching_event):
         help=bot.command_prefix + "today <?name?> - Shows all games happening today"
         )
     async def today(ctx, player=None):
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games
         time_now = datetime.now()
@@ -148,7 +153,7 @@ def createBasicBot(teams, restart_caching_event):
         help=bot.command_prefix + "tomorrow <?name?> - Shows all games happening tomorrow"
         )
     async def tomorrow(ctx, player=None):
-        games = retrieveAllGames(teams, player)
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games
         time_now = datetime.now()
@@ -178,7 +183,7 @@ def createBasicBot(teams, restart_caching_event):
             await ctx.send("Please input a name with at least 3 characters")
             return
 
-        suss = retrieveSuspensions(SEASONS[0], player_name)
+        suss = retrieveSuspensions(ctx.bot.extras['team_data']['seasons'], player_name)
         if len(suss) > 0:
             message = "\n".join(map(str, suss))
             place = 2000
@@ -192,11 +197,19 @@ def createBasicBot(teams, restart_caching_event):
     @bot.command()
     async def cmd(ctx, c):
         if ctx.author.id != 126913511061192704:
-            print("Access denied")
+            message = "Access denied"
+            await ctx.send(message)
+            print(message)
             return
 
         match c:
             case 'refresh':
+                if not restart_caching_event:
+                    message = "No caching thread"
+                    await ctx.send("No caching thread")
+                    print(message)
+                    return
+
                 restart_caching_event.set()
                 await ctx.send("restarting cache thread")
                 return
@@ -253,7 +266,7 @@ def createBasicBot(teams, restart_caching_event):
             await ctx.send("Give me someone to chirp!")
             return
 
-        chirp = utils.chatgpt.ai_chirp(user, teams)
+        chirp = utils.chatgpt.ai_chirp(user, ctx.bot.extras['team_data']['teams'])
 
         await ctx.send(chirp)
 

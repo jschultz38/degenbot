@@ -19,4 +19,3 @@ TEST_MODE = False
 
 '''Don't touch these'''
 CACHING_LOCK = Lock()
-SEASONS = []
