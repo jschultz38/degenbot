@@ -10,7 +10,7 @@ import utils.chatgpt
 
 from utils.degen_embed import *
 
-def createBasicBot(teams):
+def createBasicBot(teams, restart_caching_event):
     intents = discord.Intents.default()
     intents.message_content = True
 
@@ -188,6 +188,18 @@ def createBasicBot(teams):
             await ctx.send(message[place-2000:place])
         else:
             await ctx.send('No suspensions found for ' + player_name)
+
+    @bot.command()
+    async def cmd(ctx, c):
+        if ctx.author.id != 126913511061192704:
+            print("Access denied")
+            return
+
+        match c:
+            case 'refresh':
+                restart_caching_event.set()
+                await ctx.send("restarting cache thread")
+                return
 
     @bot.command(
         help=bot.command_prefix + "fuck <?name?>",
