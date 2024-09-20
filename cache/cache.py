@@ -40,24 +40,21 @@ def populate_cache(teams):
 	print("game cache fully populated")
 
 def cache_update_loop(teams, restart_caching_event):
+	next_index_to_update = 0
+
 	while True:
-		non_updated_entries = list(range(len(teams)))
+		sleep(seconds_between_updates)
 
-		while non_updated_entries:
-			sleep(seconds_between_updates)
+		if restart_caching_event.is_set():
+			restart_caching_event.clear()
+			return
 
-			if restart_caching_event.is_set():
-				restart_caching_event.clear()
-				return
+		team_to_update = teams[next_index_to_update]
 
-			non_updated_entries_index_to_update = random.randrange(len(non_updated_entries))
-			teams_index_to_update = non_updated_entries[non_updated_entries_index_to_update]
-			entry_to_update = teams[teams_index_to_update]
+		invalidate_cache_entry(team_to_update)
+		update_entry_if_needed(team_to_update)
 
-			invalidate_cache_entry(entry_to_update)
-			update_entry_if_needed(entry_to_update)
-
-			del non_updated_entries[non_updated_entries_index_to_update]
+		next_index_to_update = (next_index_to_update + 1) % len(teams)
 
 def invalidate_cache(teams):
 	print("invalidating the game cache...")
