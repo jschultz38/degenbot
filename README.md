@@ -1,8 +1,5 @@
-# Description
-Fetch game times for select degenz
-
-# Setup
-Follow these to get your own discord bot running.
+## What is this
+This is a discord bot to scrape games from hockey league websites in the PNW.
 
 ## Clone
 Clone the repo
@@ -67,7 +64,7 @@ prints similar to:
 `!help`
 
 # Commands
-!help
+[See commands](https://github.com/jschultz38/degenbot/blob/master/bot.py)
 
 # Testing
 Currently, this bot makes quite a few requests to websites with a big list of teams, so sometimes it gets rate limited.
