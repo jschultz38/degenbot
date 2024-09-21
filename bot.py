@@ -186,7 +186,11 @@ def createBasicBot(team_data, restart_caching_event, extras):
             await ctx.send("Please input a name with at least 3 characters")
             return
 
-        suss = retrieveSuspensions(ctx.bot.extras['team_data']['seasons'], player_name)
+        first_khl_season = ctx.bot.extras['team_data']['suspensions']['khl'][list(ctx.bot.extras['team_data']['suspensions']['khl'].keys())[0]]
+        if 'cache' not in first_khl_season:
+            await ctx.send("First time calling? This might take a while...")
+
+        suss = retrieveSuspensions(ctx.bot.extras['team_data'], player_name)
         if len(suss) > 0:
             message = "\n".join(map(str, suss))
             place = 2000

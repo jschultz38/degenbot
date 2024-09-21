@@ -73,9 +73,9 @@ def addTeamGames(games, team, seasons):
 
     games += found_games
 
-def retrieveSuspensions(seasons, player):
+def retrieveSuspensions(team_data, player):
     print("KHL sus")
-    suss = fetchKHLSuspensions(seasons['khl'])
+    suss = fetchKHLSuspensions(team_data)
     if player:
         return [s for s in suss if str(player.lower()) in str(s.name.lower())]
     else:

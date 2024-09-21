@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import urllib.parse as urlparse
+import time
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
@@ -73,19 +74,25 @@ def fetchKHLGames(team, seasons):
 
     return games
 
-def fetchKHLSuspensions(khl_seasons):
+def fetchKHLSuspensions(team_data):
     if TEST_MODE:
         return []
 
-    if 'current_seasons_cache' in khl_seasons:
-        print('found current seasons in cache')
-        return khl_seasons['current_seasons_cache'] + khl_seasons['past_seasons_cache']
+    suspensions = team_data['suspensions']['khl']
 
-    suss = []
+    all_suspensions = []
     base_URL = 'https://krakenhockeyleague.com/suspensions/?season='
-    for season in khl_seasons['current_seasons']:
+    cache_found = False
+    for season, value in suspensions.items():
+        if 'cache' in value:
+            all_suspensions += value['cache']
+            cache_found = True
+            continue
+
+        season_suspensions = []
         URL = base_URL + str(season)
         print(URL)
+
         page = requests.get(URL)
         if page.status_code != 200:
             print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
@@ -108,7 +115,14 @@ def fetchKHLSuspensions(khl_seasons):
                 sus_link = 'https://krakenhockeyleague.com/suspension-details/' + sus_id
 
                 sus = Suspension(sus_date, sus_name, sus_team, sus_div, sus_games, sus_id)
-                suss.append(sus)
+                season_suspensions.append(sus)
+        suspensions[season]['cache'] = season_suspensions
+        all_suspensions += season_suspensions
 
-    khl_seasons['current_seasons_cache'] = suss
-    return suss + khl_seasons['past_seasons_cache']
+        # In case we are loading a lot, don't want to overload
+        time.sleep(1)
+
+    if cache_found:
+        print("cache found")
+
+    return all_suspensions

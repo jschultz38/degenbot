@@ -6,10 +6,11 @@ from bot import createBasicBot
 from globals import *
 from credentials import prod_token, test_token
 from utils.player import Suspension
+from utils.common import findAllKHLSeasons
 from cache.cache import main_caching_loop
 
 def main():
-    # Read in teams
+    # Read in team data
     print("reading in json...", end ="")
 
     team_data = None
@@ -18,21 +19,23 @@ def main():
 
     print('done')
 
-    # Load seasons cache into memory
+    # Handle suspensions
     if ENABLE_SUSPENSIONS:
         print('loading past suspensions...', end ="")
 
-        suss = []
-        with open("res/past_seasons_cache.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                suss.append(eval(line))
-        team_data['seasons']['khl']['past_seasons_cache'] = suss
+        ## Init all seasons
+        all_seasons = findAllKHLSeasons()
+        team_data['suspensions'] = {
+            'khl': {}
+        }
+        for season in all_seasons:
+            team_data['suspensions']['khl'][season] = {}
 
         print('done')
     else:
         print('suspensions disabled')
 
-    # Start caching
+    # Handle caching
     cache_thread = None
     restart_caching_event = None
     if USE_CACHING:

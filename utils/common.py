@@ -1,3 +1,6 @@
+import requests
+from bs4 import BeautifulSoup
+
 def translateMonth(month_text):
 	month_ret = None
 	match month_text:
@@ -30,3 +33,15 @@ def translateMonth(month_text):
 			month_ret = 1
 
 	return month_ret
+
+def findAllKHLSeasons():
+	seasons = []
+	URL = 'https://krakenhockeyleague.com/suspensions'
+	page = requests.get(URL)
+	soup = BeautifulSoup(page.content, "html.parser")
+	results = soup.css.select('a[href*="/suspensions/?season="]')
+	for result in results:
+		season = result['href'].split("=")[-1]
+		if season not in seasons: seasons.append(season)
+
+	return seasons
