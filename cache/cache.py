@@ -36,6 +36,7 @@ def populate_cache(team_data):
 
 	for team in team_data['teams']:
 		update_entry_if_needed(team, team_data['seasons'])
+		sleep(1)
 
 	print("game cache fully populated")
 
