@@ -239,6 +239,15 @@
 				"Robee"
 			],
 			"league": "KHL"
+		},
+		{
+			"name": "Roughnecks",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/roughnecks-logo.png",
+			"id": "11531",
+			"players": [
+				"Jarrett"
+			],
+			"league": "KHL"
 		}
 	],
 
