@@ -43,7 +43,8 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
                 title = f'{game.home_team} Vs. {game.away_team}'
             else:
                 title = f'{game.away_team} @ {game.home_team}'
-            score = f'{game.gametime.strftime("%a, %B %d %I:%M %p").replace(" 0", " ")} @ {game.location} - {"Home" if game.degen_home else "Away"}'
+            time_zone = ' PST' if game.team['league'] == 'AAHL' else ''
+            score = f'{game.gametime.strftime("%a, %B %d %I:%M %p").replace(" 0", " ") + time_zone} @ {game.location} - {"Home" if game.degen_home else "Away"}'
 
         if showPlayers:
             title += " - " + ", ".join(game.team['players'])

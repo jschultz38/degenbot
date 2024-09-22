@@ -28,9 +28,10 @@ class HockeyGame:
     def to_string(self):
         side = 'HOME' if self.degen_home else 'AWAY'
 
-        string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p") + ", " + \
-                        self.location + ", " + \
-                        side + ", "
+        # Display the time zone if games are local to a different zone
+        time_zone = ' PST' if self.team['league'] == 'AAHL' else ''
+        string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p") + time_zone +\
+                         ", " + self.location + ", " +  side + ", "
 
         # Add in result if there is one
         if self.home_score is not None:

@@ -69,6 +69,9 @@ def createAAHLGame(team, row):
                                     day,
                                     hour=hour if meridiem == "AM" else hour+12,
                                     minute=minute)
+
+        # Adjust to Pacific time zone
+        gametime -= datetime.timedelta(hours=3)
     else:
         '''For some reason, the website does not list the time of the game if it has already
         happened, so I don't want to bother trying to find it.'''
