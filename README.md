@@ -32,11 +32,10 @@ test_token = 'prod_token_here'
 open_ai_key = 'open_ai_key_here'
 ```
 
-- For the prod_token, you will find that in the discord developer dashboard
-under the bot that you create to test for this project.
-- You should be able to just copy the prod_token into test_token, because
-nobody but the hoster should need to be running to instances at the same time.
-- For the open_ai_key, we are using Fountai2 chatgpt token, so message him for it.
+- For the prod_token, paste the token that you took note of in step 3 above
+- If you created a test_bot, paste the token from that that bot
+- For the open_ai_key, we are using a Fountai2 chatgpt token, so message
+  him for it.
 
 ## Add the bot to your test server
 1. Return to https://discord.com/developers/applications and open your app
@@ -68,9 +67,9 @@ prints similar to:
 
 # Testing
 Currently, this bot makes quite a few requests to websites with a big list of teams, so sometimes it gets rate limited.
-In order to make testing smoother, there is a TEST_MODE which doesn't make any requests to websites. Instead, I have
-saved a sample KHL HTML txt in samples/ that I read from. To use this, set `TEST_MODE=True` in globals.py and test
-with `!schedule jarrett` (or your favorite command).
+In order to make testing smoother, there is a TEST_MODE which doesn't make any requests to websites and instead reads
+from a sample KHL HTML txt in samples/. To use this, set `TEST_MODE=True` in globals.py and test with 
+`!schedule jarrett` (or your favorite command).
 
 # Questions
-If you have any questions, feel free to message jschzultz38
+If you have any questions, feel free to message jschultz38
