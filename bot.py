@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 import random
 import requests
+import json
 
 from globals import TEST_MODE, ENABLE_SUSPENSIONS
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
@@ -289,14 +290,12 @@ def createBasicBot(team_data, restart_caching_event, extras):
         extras= {'meme': True}
     )
     async def pat(ctx):
-        pat_base_miss_score = 500
-        if not 'pat' in ctx.command.extras:
-            ctx.command.extras['pat'] = random.randint(pat_base_miss_score, pat_base_miss_score+500)
+        #would be cool to get the command name and pass it in magically so I could track all commands and get a use count
+        love_pat = requests.post('https://degen-api.onrender.com/bot', json={'name': "Pat"})
+        data = json.loads(love_pat.text)
+        pat_missed_count = data['count']
 
-        ctx.command.extras['pat'] += 1
-
-        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
-                        ' times since this bot was started')
+        await ctx.send(f'Pat has been missed {pat_missed_count} times.')
 
     @bot.command(
         extras={'meme': True}
