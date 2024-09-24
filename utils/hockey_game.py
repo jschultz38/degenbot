@@ -31,7 +31,7 @@ class HockeyGame:
         # Display the time zone if games are local to a different zone
         time_zone = ' PST' if self.team['league'] == 'AAHL' else ''
         string_repr = self.gametime.strftime("%A, %B %d, %I:%M %p") + time_zone +\
-                         ", " + self.location + ", " +  side + ", "
+            ", " + self.location + ", " + side + ", "
 
         # Add in result if there is one
         if self.home_score is not None:
@@ -49,10 +49,10 @@ class HockeyGame:
             # Formatting the score line depending on if degen is home or away, putting Degen first.
             if self.degen_home:
                 string_repr += result + ", " + \
-                                str(self.home_score) + " - " + str(self.away_score) + ", "
+                    str(self.home_score) + " - " + str(self.away_score) + ", "
             else:
                 string_repr += result + ", " + \
-                                str(self.away_score) + " - " + str(self.home_score) + ", "
+                    str(self.away_score) + " - " + str(self.home_score) + ", "
 
         # Add team names, with ^ marking the degen team
         if self.degen_home:

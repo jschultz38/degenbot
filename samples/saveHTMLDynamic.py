@@ -1,3 +1,4 @@
+import time
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -10,7 +11,6 @@ options = Options()
 options.add_argument('--headless=new')
 driver = webdriver.Chrome(options=options)
 driver.get(URL)
-import time
 time.sleep(5)
 
 html = driver.page_source
@@ -18,11 +18,11 @@ soup = BeautifulSoup(html, "html.parser")
 
 
 with open("sampleHTMLPond.txt", "w") as f:
-	f.write(soup.prettify())
+    f.write(soup.prettify())
 print('done')
 
-#with open("sampleHTML.txt", "rb") as f:
-#	content = f.read()
-#	soup = BeautifulSoup(content, "html.parser")
-#	print(soup)
-#print('done')
+# with open("sampleHTML.txt", "rb") as f:
+# content = f.read()
+# soup = BeautifulSoup(content, "html.parser")
+# print(soup)
+# print('done')

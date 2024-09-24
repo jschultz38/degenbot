@@ -7,12 +7,14 @@ def create_default_embed(title=None, color=discord.Color.green()):
     em.set_footer(text="Made by xDDYx's darkest thoughts.")
     return em
 
+
 def construct_game_embed(games: object, title: object, color: object = discord.Color.green(), showPlayers: bool = False) -> object:
     newembed = create_default_embed(title=title, color=color)
     try:
         newembed.set_thumbnail(url=games[0].team['logo_url'])
     except Exception:
-        newembed.set_thumbnail(url="https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
+        newembed.set_thumbnail(
+            url="https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png")
 
     if len(games) > 25:
         print("Embed too long, returning None")
@@ -50,6 +52,5 @@ def construct_game_embed(games: object, title: object, color: object = discord.C
             title += " - " + ", ".join(game.team['players'])
 
         newembed.add_field(name=title, value=score, inline=False)
-
 
     return newembed

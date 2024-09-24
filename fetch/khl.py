@@ -8,6 +8,7 @@ from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
 from utils.player import Suspension
 
+
 def fetchKHLGames(team, seasons):
     page = None
     soup = None
@@ -24,21 +25,25 @@ def fetchKHLGames(team, seasons):
         '''Handle one off tournament teams'''
         if 'season' in team:
             KHL_BASE_URL = "https://krakenhockeyleague.com/"
-            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + team['season']
+            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + \
+                team['season']
             print(URL)
             page = requests.get(URL)
             if page.status_code != 200:
-                print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+                print('ERROR: Could not retrieve website: ' +
+                      str(page.reason) + ", " + str(page.status_code))
                 return games
             soups.append(BeautifulSoup(page.content, "html.parser"))
         else:
             for season in seasons['khl']['current_seasons']:
                 KHL_BASE_URL = "https://krakenhockeyleague.com/"
-                URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(season)
+                URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(
+                    season)
                 print(URL)
                 page = requests.get(URL)
                 if page.status_code != 200:
-                    print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+                    print('ERROR: Could not retrieve website: ' +
+                          str(page.reason) + ", " + str(page.status_code))
                     return games
                 soups.append(BeautifulSoup(page.content, "html.parser"))
 
@@ -58,7 +63,8 @@ def fetchKHLGames(team, seasons):
             soup = BeautifulSoup(content, "html.parser")
 
     for soup in soups:
-        tables = soup.find_all('table', attrs={'class':'display table table-striped border-bottom text-muted table-fixed'})
+        tables = soup.find_all('table', attrs={
+                               'class': 'display table table-striped border-bottom text-muted table-fixed'})
         for table in tables:
             table_body = table.find('tbody')
             rows = table_body.find_all('tr')
@@ -73,6 +79,7 @@ def fetchKHLGames(team, seasons):
         team['cache'] = games
 
     return games
+
 
 def fetchKHLSuspensions(team_data):
     if TEST_MODE:
@@ -95,18 +102,21 @@ def fetchKHLSuspensions(team_data):
 
         page = requests.get(URL)
         if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+            print('ERROR: Could not retrieve website: ' +
+                  str(page.reason) + ", " + str(page.status_code))
             continue
         soup = BeautifulSoup(page.content, "html.parser")
 
-        tables = soup.find_all('table', attrs={'class':'table border-bottom table-striped text-muted order-column table-responsive-md'})
+        tables = soup.find_all('table', attrs={
+                               'class': 'table border-bottom table-striped text-muted order-column table-responsive-md'})
         for table in tables:
             rows = table.find('tbody').find_all('tr')
 
             for row in rows:
                 cols = row.find_all('td')
 
-                sus_date = datetime.datetime.strptime(cols[0].getText(), "%b %d, %Y")
+                sus_date = datetime.datetime.strptime(
+                    cols[0].getText(), "%b %d, %Y")
                 sus_name = cols[1].a.getText()
                 sus_team = cols[2].a.getText()
                 sus_div = cols[3].getText()
@@ -114,7 +124,8 @@ def fetchKHLSuspensions(team_data):
                 sus_id = cols[5].a.get('href').split('/')[2]
                 sus_link = 'https://krakenhockeyleague.com/suspension-details/' + sus_id
 
-                sus = Suspension(sus_date, sus_name, sus_team, sus_div, sus_games, sus_id)
+                sus = Suspension(sus_date, sus_name, sus_team,
+                                 sus_div, sus_games, sus_id)
                 season_suspensions.append(sus)
         suspensions[season]['cache'] = season_suspensions
         all_suspensions += season_suspensions

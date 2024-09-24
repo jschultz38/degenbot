@@ -9,17 +9,16 @@ soup = BeautifulSoup(page.content, "html.parser")
 
 results = soup.find(id="calendar")
 
-#print(results)
+# print(results)
 
-#f = open("page.txt", "w")
-#f.write(str(soup))
-#f.close()
+# f = open("page.txt", "w")
+# f.write(str(soup))
+# f.close()
 
 results = soup.find_all("tr")
 
 
 results = soup.find_all("h1", string="June 2024")
-
 
 
 results = soup.getText()

@@ -8,6 +8,7 @@ from fetch.pond import fetchPondGames
 from fetch.aahl import fetchAAHLGames
 from globals import TEST_MODE, CACHING_LOCK
 
+
 def retrieveAllGames(team_data, player, sort=True):
     teams = team_data['teams']
     '''Just acquire the lock at the beginning since we don't
@@ -17,9 +18,9 @@ def retrieveAllGames(team_data, player, sort=True):
 
     # Obtain games
     if TEST_MODE:
-        #TODO: Make this better
+        # TODO: Make this better
         addTeamGames(games, teams[0], team_data['seasons'])
-    elif player == None:
+    elif player is None:
         for team in teams:
             addTeamGames(games, team, team_data['seasons'])
     else:
@@ -34,13 +35,17 @@ def retrieveAllGames(team_data, player, sort=True):
 
     return games
 
+
 def playerInList(target, players):
     for player in players:
         if target.lower() in player.lower():
             return True
     return False
 
+
 '''MUST aqcuire CACHING_LOCK before calling this method'''
+
+
 def addTeamGames(games, team, seasons):
     found_games = []
 
@@ -62,16 +67,20 @@ def addTeamGames(games, team, seasons):
                 print("AAHL")
                 found_games = fetchAAHLGames(team)
             case _:
-                raise Exception("ERROR: Could not find league <" + team['league'] + ">")
+                raise Exception(
+                    "ERROR: Could not find league <" + team['league'] + ">")
     except Exception as e:
-        error_message = "ERROR: Exception while retrieving games in " + team['league'] + "\n" + traceback.format_exc()
+        error_message = "ERROR: Exception while retrieving games in " + \
+            team['league'] + "\n" + traceback.format_exc()
         print(error_message)
         with open("logs/error.log", "a") as errorfile:
-            errorfile.write(str(datetime.date.today()) + ": " + error_message + "\n\n")
+            errorfile.write(str(datetime.date.today()) +
+                            ": " + error_message + "\n\n")
 
         return
 
     games += found_games
+
 
 def retrieveSuspensions(team_data, player):
     print("KHL sus")
