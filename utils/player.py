@@ -10,7 +10,7 @@ class Suspension:
 
     def to_string(self):
         string_repr = f'{self.name}, {self.games} games, {self.date.strftime("%m/%d/%Y")}, {self.team}, ' \
-                    f'{self.div}, [Details](<https://krakenhockeyleague.com/suspension-details/{self.sus_id}>)'
+            f'{self.div}, [Details](<https://krakenhockeyleague.com/suspension-details/{self.sus_id}>)'
 
         return string_repr
 
@@ -22,9 +22,9 @@ class Suspension:
         which is a datetime object. I've decided that in suspensions, we only care about {year, month,
         day} so that's exactly how we serialize it.
 
-        Note: eval() disallows zero-padded integers and since %-m does not exist on windows, I had to 
+        Note: eval() disallows zero-padded integers and since %-m does not exist on windows, I had to
         improvise with the replace(...) method you see below.
 
         Note 2: The triple quotes are because of course some of the names have quotes in them... ?!?'''
         return f'Suspension({self.date.strftime("datetime.datetime(year=int(%Y), month=int(%m), day=int(%d))").replace("(0", "(")}, "{self.name}",' \
-                f' "{self.team}", "{self.div}", "{self.games}", "{self.sus_id}")'
+            f' "{self.team}", "{self.div}", "{self.games}", "{self.sus_id}")'

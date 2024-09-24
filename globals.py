@@ -1,10 +1,10 @@
 from threading import Lock
 
 '''Uses alternate token named 'test_token' in credentials.py'''
-USE_TEST_TOKEN = False
+USE_TEST_TOKEN = True
 
 '''True to spin up caching thread'''
-USE_CACHING = True
+USE_CACHING = False
 
 '''True to enable !sus'''
 ENABLE_SUSPENSIONS = True

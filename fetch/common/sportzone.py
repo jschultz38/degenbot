@@ -6,6 +6,8 @@ from utils.hockey_game import HockeyGame
 This file should work for any website that uses sportszone on the
 webpage
 '''
+
+
 def createSportZoneGame(cols, team):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
@@ -50,13 +52,13 @@ def createSportZoneGame(cols, team):
     dateText = cols[1].getText()
     timeText = cols[2].getText()
 
-    ## Get day
+    # Get day
     day_ret = int(dateText.split(" ")[2])
 
-    ## Get month
+    # Get month
     month_ret = translateMonth(dateText.split(" ")[1])
-        
-    ## Get time
+
+    # Get time
     hour = timeText.split(":")[0]
     minute = timeText.split(":")[1].split(" ")[0]
     meridiem = timeText.split(":")[1].split(" ")[1]
@@ -64,18 +66,19 @@ def createSportZoneGame(cols, team):
     hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
     minute_ret = int(minute)
 
-    gametime = datetime.datetime(2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
-    
+    gametime = datetime.datetime(
+        2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
+
     # Create the game
     game = HockeyGame(
-                team,
-                gametime,
-                location,
-                home_team,
-                away_team,
-                DEGEN_HOME,
-                home_score=home_score,
-                away_score=away_score
-                )
+        team,
+        gametime,
+        location,
+        home_team,
+        away_team,
+        DEGEN_HOME,
+        home_score=home_score,
+        away_score=away_score
+    )
 
     return game

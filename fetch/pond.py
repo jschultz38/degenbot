@@ -45,29 +45,32 @@ def fetchPondGames(team):
     https://snokinghockeyleague.com/api/game/list/1097/0/3320
 
     '''
-    #1
+    # 1
     URL = 'https://snokinghockeyleague.com/'
     page = requests.get(URL)
     text = page.content.decode('utf-8')
-    version = re.search('meta name="version" content="(\\d+)"', text).groups()[0]
+    version = re.search(
+        'meta name="version" content="(\\d+)"', text).groups()[0]
 
-    #2
+    # 2
     URL = f'https://snokingpondhockey.com/api/season/all/0?v={version}'
     page = requests.get(URL)
     json_str = page.content.decode('utf8')
     j = json.loads(json_str)
     season = str(j['seasons'][0]['id'])
 
-    #3
+    # 3
     URL = f'https://snokinghockeyleague.com/api/game/list/{season}/0/{team["id"]}'
     print(URL)
     page = requests.get(URL)
     if page.status_code != 200:
-        print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+        print('ERROR: Could not retrieve website: ' +
+              str(page.reason) + ", " + str(page.status_code))
         return games
     soup = BeautifulSoup(page.content, "lxml")
 
-    listed_games = eval(soup.body.p.getText().replace("null", "\"null\"").replace("false", "False"))
+    listed_games = eval(soup.body.p.getText().replace(
+        "null", "\"null\"").replace("false", "False"))
 
     for g in listed_games:
         game = createPondGame(g, team)
@@ -77,25 +80,29 @@ def fetchPondGames(team):
 
     return games
 
+
 def createPondGame(game_item, team):
-    gametime = datetime.datetime.strptime(game_item['dateTime'], '%Y-%m-%dT%H:%M:%S')
+    gametime = datetime.datetime.strptime(
+        game_item['dateTime'], '%Y-%m-%dT%H:%M:%S')
     location = game_item['rinkName']
     home_team = game_item['teamHomeName']
     away_team = game_item['teamAwayName']
     is_home = home_team == team['name']
-    home_score = None if game_item['scoreHome'] == 'null' else int(game_item['scoreHome'])
-    away_score = None if game_item['scoreAway'] == 'null' else int(game_item['scoreAway'])
+    home_score = None if game_item['scoreHome'] == 'null' else int(
+        game_item['scoreHome'])
+    away_score = None if game_item['scoreAway'] == 'null' else int(
+        game_item['scoreAway'])
 
     # Create the game
     game = HockeyGame(
-                team,
-                gametime,
-                location,
-                home_team,
-                away_team,
-                is_home,
-                home_score=home_score,
-                away_score=away_score
-                )
+        team,
+        gametime,
+        location,
+        home_team,
+        away_team,
+        is_home,
+        home_score=home_score,
+        away_score=away_score
+    )
 
     return game

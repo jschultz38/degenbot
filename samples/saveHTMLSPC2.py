@@ -24,7 +24,8 @@ for team in teams:
 
         team['cache'] = page_html
 
-        file_name = "saveHTMLSPC" + team['name'].replace(' ', '').replace('\'', '') + ".txt"
+        file_name = "saveHTMLSPC" + \
+            team['name'].replace(' ', '').replace('\'', '') + ".txt"
         with open(file_name, "w") as f:
             f.write(page_html)
         print('done')

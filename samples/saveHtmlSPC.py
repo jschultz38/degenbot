@@ -9,7 +9,8 @@ teams = json_data["teams"]
 
 for team in teams:
     if team['league'] == "SPC":
-        URL = 'https://my.seattlepridehockey.org/leagues/' + team['div'] + '/teams/' + team['id']
+        URL = 'https://my.seattlepridehockey.org/leagues/' + \
+            team['div'] + '/teams/' + team['id']
         print(URL)
 
         # use selenium driver because this site happens to be dynamically generated
@@ -37,7 +38,8 @@ for team in teams:
 
         team['cache'] = page_html
 
-        file_name = "saveHTMLSPC" + team['name'].replace(' ', '').replace('\'', '') + ".txt"
+        file_name = "saveHTMLSPC" + \
+            team['name'].replace(' ', '').replace('\'', '') + ".txt"
         with open(file_name, "w") as f:
             f.write(page_html)
         print('done')

@@ -9,9 +9,10 @@ from utils.player import Suspension
 from utils.common import findAllKHLSeasons
 from cache.cache import main_caching_loop
 
+
 def main():
     # Read in team data
-    print("reading in json...", end ="")
+    print("reading in json...", end="")
 
     team_data = None
     with open("res/team_data.json") as teams_file:
@@ -21,9 +22,9 @@ def main():
 
     # Handle suspensions
     if ENABLE_SUSPENSIONS:
-        print('loading past suspensions...', end ="")
+        print('loading past suspensions...', end="")
 
-        ## Init all seasons
+        # Init all seasons
         all_seasons = findAllKHLSeasons()
         team_data['suspensions'] = {
             'khl': {}
@@ -42,7 +43,8 @@ def main():
         print("caching enabled, spinning up the thread...")
 
         restart_caching_event = threading.Event()
-        cache_thread = threading.Thread(target=main_caching_loop, args=(team_data, restart_caching_event), daemon=True)
+        cache_thread = threading.Thread(target=main_caching_loop, args=(
+            team_data, restart_caching_event), daemon=True)
         cache_thread.start()
     else:
         print("caching disabled")
@@ -50,10 +52,11 @@ def main():
     # Set up bot
     print("starting bot thread...")
     extras = {
-            'suspensions_enabled': ENABLE_SUSPENSIONS
-        }
+        'suspensions_enabled': ENABLE_SUSPENSIONS
+    }
     bot = createBasicBot(team_data, restart_caching_event, extras)
     bot.run(test_token if USE_TEST_TOKEN else prod_token)
+
 
 if __name__ == '__main__':
     main()

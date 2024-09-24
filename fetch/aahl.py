@@ -6,6 +6,7 @@ from globals import TEST_MODE
 from utils.common import translateMonth
 from utils.hockey_game import HockeyGame
 
+
 def fetchAAHLGames(team):
     if TEST_MODE:
         return []
@@ -23,11 +24,13 @@ def fetchAAHLGames(team):
     print(URL)
     page = requests.get(URL)
     if page.status_code != 200:
-        print('ERROR: Could not retrieve website: ' + str(page.reason) + ", " + str(page.status_code))
+        print('ERROR: Could not retrieve website: ' +
+              str(page.reason) + ", " + str(page.status_code))
         return
     soup = BeautifulSoup(page.content, "html.parser")
-    
-    table = soup.find('table', attrs={'class':'statTable sortable noSortImages'})
+
+    table = soup.find(
+        'table', attrs={'class': 'statTable sortable noSortImages'})
     table_body = table.find('tbody')
     rows = table_body.find_all('tr')
 
@@ -40,10 +43,11 @@ def fetchAAHLGames(team):
 
     return games
 
+
 def createAAHLGame(team, row):
     cols = row.find_all('td')
 
-    ## Get teams
+    # Get teams
     if cols[3].getText().strip()[0] == '@':
         home_team = cols[3].getText().strip()[1:].strip()
         away_team = team['name']
@@ -53,7 +57,7 @@ def createAAHLGame(team, row):
         home_team = team['name']
         side = "HOME"
 
-    ## Get game time
+    # Get game time
     date_text = cols[1].getText().strip().split(" ")
     month = translateMonth(date_text[1])
     day = int(date_text[-1])
@@ -65,10 +69,10 @@ def createAAHLGame(team, row):
         meridiem = time_text[1]
 
         gametime = datetime.datetime(2024,
-                                    month,
-                                    day,
-                                    hour=hour if meridiem == "AM" else hour+12,
-                                    minute=minute)
+                                     month,
+                                     day,
+                                     hour=hour if meridiem == "AM" else hour + 12,
+                                     minute=minute)
 
         # Adjust to Pacific time zone
         gametime -= datetime.timedelta(hours=3)
@@ -77,10 +81,10 @@ def createAAHLGame(team, row):
         happened, so I don't want to bother trying to find it.'''
         gametime = datetime.datetime(2024, month, day)
 
-    ## Get location
+    # Get location
     location = cols[4].getText().strip()
 
-    ## Check if results have been posted for the game
+    # Check if results have been posted for the game
     if cols[2].getText().strip() != '-':
         score_text = cols[2].getText().strip().split(" ")[-1].split("-")
         pat_score = score_text[0]
@@ -92,14 +96,14 @@ def createAAHLGame(team, row):
         away_score = None
 
     game = HockeyGame(
-                    team,
-                    gametime,
-                    location,
-                    home_team,
-                    away_team,
-                    side == 'HOME',
-                    home_score=home_score,
-                    away_score=away_score
-                )
+        team,
+        gametime,
+        location,
+        home_team,
+        away_team,
+        side == 'HOME',
+        home_score=home_score,
+        away_score=away_score
+    )
 
     return game

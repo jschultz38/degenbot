@@ -17,7 +17,7 @@ def ai_chirp(user, teams):
     return chirp.choices[0].message.content
 
 
-def build(client, user,  player_teams):
+def build(client, user, player_teams):
     if not player_teams:
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -36,12 +36,10 @@ def build(client, user,  player_teams):
                  "content": "You're a drunk, foul mouthed hockey player who is a jerk, talking to someone who thinks they are good but they aren't try to keep all of your chirps unique"},
                 {"role": "user",
                  "content": f"Chirp {user}, who is a low skill rec league hockey player playing for {random.choice(player_teams)},"
-                            f" include the name I give you in the chirp. Also try to remain topical using the players team if possible to insult them. "
-                            f"You can talk about how they are the reason their team is bad, or loses games, or how they do great without them around"
-                            f"Don't be too mean and encourage people to quit though."}
+                 f" include the name I give you in the chirp. Also try to remain topical using the players team if possible to insult them. "
+                 f"You can talk about how they are the reason their team is bad, or loses games, or how they do great without them around"
+                 f"Don't be too mean and encourage people to quit though."}
             ]
         )
 
     return completion
-
-
