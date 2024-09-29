@@ -66,8 +66,9 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "schedule <name> - Shows all games"
     )
-    async def schedule(ctx, player=None):
-        if player is None:
+    async def schedule(ctx, *args):
+        player = " ".join(args)
+        if len(player) == 0:
             await ctx.send("Please input a player name after your command")
             return
 
@@ -81,8 +82,9 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
     )
-    async def upcoming(ctx, player=None):
-        if player is None:
+    async def upcoming(ctx, *args):
+        player = " ".join(args)
+        if len(player) == 0:
             await ctx.send("Please input a player name after your command")
             return
 
@@ -102,7 +104,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "soon <?name?> - Shows all games for the next week"
     )
-    async def soon(ctx, player=None):
+    async def soon(ctx, *args):
+        player = " ".join(args)
         games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games
@@ -120,7 +123,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "next <?name?> - Shows next game for the person requested"
     )
-    async def next(ctx, player=None):
+    async def next(ctx, *args):
+        player = " ".join(args)
         games = retrieveAllGames(ctx.bot.extras['team_data'], player)
         time_now = datetime.now()
         for game in games:
@@ -141,7 +145,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "today <?name?> - Shows all games happening today"
     )
-    async def today(ctx, player=None):
+    async def today(ctx, *args):
+        player = " ".join(args)
         games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games
@@ -164,7 +169,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help=bot.command_prefix + "tomorrow <?name?> - Shows all games happening tomorrow"
     )
-    async def tomorrow(ctx, player=None):
+    async def tomorrow(ctx, *args):
+        player = " ".join(args)
         games = retrieveAllGames(ctx.bot.extras['team_data'], player)
 
         # Filter out games

@@ -21,7 +21,7 @@ def retrieveAllGames(team_data, player, sort=True):
     if TEST_MODE:
         # TODO: Make this better
         addTeamGames(games, teams[0], team_data['seasons'])
-    elif player is None:
+    elif player is None or len(player) == 0:
         for team in teams:
             addTeamGames(games, team, team_data['seasons'])
     else:
