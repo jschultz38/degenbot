@@ -4,19 +4,16 @@ from pymongo.collection import ReturnDocument
 import credentials
 
 #TODO: will move database names around later instead of 'test'
-
 uri = f"mongodb+srv://degen-bot:{credentials.mongo_password}@cluster0.e2siu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
 database = client['test']
 # Send a ping to confirm a successful connection
-
 try:
     client.admin.command('ping')
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-
 
 '''
 Calls mongodb to update the pat missed count and return an int
@@ -30,8 +27,3 @@ def miss_pat():
         return_document = ReturnDocument.AFTER
     )
     return updated_document["count"]
-
-
-
-
-
