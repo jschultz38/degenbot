@@ -52,12 +52,9 @@ def fetchSJHAGames(team):
 
 
 def createSJHAGame(team, row):
-    print('==============')
-    print(row.prettify())
     cols = row.find_all('td')
 
     # Get teams
-    print(cols[2].getText().strip())
     if cols[2].getText().strip()[0] == '@':
         home_team = cols[3].getText().strip()[1:].strip()
         away_team = team['name']
