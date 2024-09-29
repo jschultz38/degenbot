@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import discord
 from discord.ext import commands
 import random
+from utils import data
 import requests
 
 from globals import TEST_MODE, ENABLE_SUSPENSIONS
@@ -306,15 +307,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
         extras={'meme': True}
     )
     async def pat(ctx):
-        pat_base_miss_score = 500
-        if 'pat' not in ctx.command.extras:
-            ctx.command.extras['pat'] = random.randint(
-                pat_base_miss_score, pat_base_miss_score + 500)
-
-        ctx.command.extras['pat'] += 1
-
-        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
-                       ' times since this bot was started')
+        count = data.miss_pat()
+        await ctx.send(f'Pat has been missed {count} times since this bot was started')
 
     @bot.command(
         extras={'meme': True}
