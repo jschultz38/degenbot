@@ -6,6 +6,7 @@ from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from fetch.pond import fetchPondGames
 from fetch.aahl import fetchAAHLGames
+from fetch.sjha import fetchSJHAGames
 from globals import TEST_MODE, CACHING_LOCK
 
 
@@ -66,6 +67,9 @@ def addTeamGames(games, team, seasons):
             case 'AAHL':
                 print("AAHL")
                 found_games = fetchAAHLGames(team)
+            case 'SJHA':
+                print("SJHA")
+                found_games = fetchSJHAGames(team)
             case _:
                 raise Exception(
                     "ERROR: Could not find league <" + team['league'] + ">")
