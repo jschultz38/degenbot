@@ -2,9 +2,10 @@ from datetime import datetime, timedelta, timezone
 import discord
 from discord.ext import commands
 import random
+from utils import data
 import requests
 
-from globals import TEST_MODE, ENABLE_SUSPENSIONS
+from globals import TEST_MODE, ENABLE_SUSPENSIONS, ENABLE_REMOTE_STORAGE
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 import utils.chatgpt
 
@@ -312,15 +313,19 @@ def createBasicBot(team_data, restart_caching_event, extras):
         extras={'meme': True}
     )
     async def pat(ctx):
-        pat_base_miss_score = 500
-        if 'pat' not in ctx.command.extras:
-            ctx.command.extras['pat'] = random.randint(
-                pat_base_miss_score, pat_base_miss_score + 500)
+        count = None
+        if ENABLE_REMOTE_STORAGE:
+            count = extras['remote_storage_connection'].miss_pat()
+        else:
+            if 'pat' not in ctx.command.extras:
+                pat_base_miss_score = 700
+                ctx.command.extras['pat'] = random.randint(
+                    pat_base_miss_score, pat_base_miss_score + 500)
 
-        ctx.command.extras['pat'] += 1
+            ctx.command.extras['pat'] += 1
+            count = ctx.command.extras['pat']
 
-        await ctx.send('Pat has been missed ' + str(ctx.command.extras['pat']) +
-                       ' times since this bot was started')
+        await ctx.send(f'Pat has been missed {count} times since this bot was started')
 
     @bot.command(
         extras={'meme': True}
