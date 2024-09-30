@@ -7,6 +7,7 @@ from globals import *
 from credentials import prod_token, test_token
 from utils.player import Suspension
 from utils.common import findAllKHLSeasons
+from utils.data import RemoteStorageConnection
 from cache.cache import main_caching_loop
 
 
@@ -49,10 +50,20 @@ def main():
     else:
         print("caching disabled")
 
+    # Handle remote storage
+    remote_storage_connection = None
+    if ENABLE_REMOTE_STORAGE:
+        print("remote storage enabled, initiating connection")
+
+        remote_storage_connection = RemoteStorageConnection()
+    else:
+        print("remote storage disabled")
+
     # Set up bot
     print("starting bot thread...")
     extras = {
-        'suspensions_enabled': ENABLE_SUSPENSIONS
+        'suspensions_enabled': ENABLE_SUSPENSIONS,
+        'remote_storage_connection': remote_storage_connection
     }
     bot = createBasicBot(team_data, restart_caching_event, extras)
     bot.run(test_token if USE_TEST_TOKEN else prod_token)
