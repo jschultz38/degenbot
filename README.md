@@ -30,12 +30,12 @@ this with the token from step 3 above:
 prod_token = 'prod_token_here'
 test_token = 'prod_token_here'
 open_ai_key = 'open_ai_key_here'
+mongo_password = 'mongo_password_here'
 ```
 
 - For the prod_token, paste the token that you took note of in step 3 above
 - If you created a test_bot, paste the token from that that bot
-- For the open_ai_key, we are using a Fountai2 chatgpt token, so message
-  him for it.
+- For the open_ai_key and mongo_password, message Fountai2
 
 ## Add the bot to your test server
 1. Return to https://discord.com/developers/applications and open your app
