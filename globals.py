@@ -4,7 +4,7 @@ from threading import Lock
 USE_TEST_TOKEN = False
 
 '''True to spin up caching thread'''
-ENABLE_CACHING = False
+ENABLE_CACHING = True
 
 '''True to enable !sus'''
 ENABLE_SUSPENSIONS = True
