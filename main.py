@@ -39,7 +39,7 @@ def main():
     # Handle caching
     cache_thread = None
     restart_caching_event = None
-    if USE_CACHING:
+    if ENABLE_CACHING:
         print("caching enabled, spinning up the thread...")
 
         restart_caching_event = threading.Event()
