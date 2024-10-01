@@ -1,6 +1,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from pymongo.collection import ReturnDocument
+from datetime import datetime
 import credentials
 
 class RemoteStorageConnection():
@@ -29,3 +30,15 @@ class RemoteStorageConnection():
             return_document = ReturnDocument.AFTER
         )
         return updated_document["count"]
+
+    def write_command(self, command):
+        collection = self.client['degendb']['commands']
+        collection.update_one(
+            {command: command},
+            {
+                "$inc": {'count': 1},
+                "$setOnInsert": {"createdAt": datetime.now()},
+                "$set": {"updatedAt": datetime.now()}
+            },
+            upsert= True
+        )

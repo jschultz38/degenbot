@@ -44,6 +44,10 @@ def createBasicBot(team_data, restart_caching_event, extras):
 
     @bot.after_invoke
     async def after_command(ctx):
+        try:
+            extras['remote_storage_connection'].write_command(ctx.command.name)
+        except Exception as e:
+            print(f"Failed to write to mongodb, error:{e}")
         print("time to respond is: " +
               str(datetime.now() - ctx.extras['before_time']))
 
@@ -84,6 +88,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
     )
     async def upcoming(ctx, *args):
+        data.w
         player = " ".join(args)
         if len(player) == 0:
             await ctx.send("Please input a player name after your command")
@@ -325,7 +330,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
             ctx.command.extras['pat'] += 1
             count = ctx.command.extras['pat']
 
-        await ctx.send(f'Pat has been missed {count} times since this bot was started')
+        await ctx.send(f'Pat has been missed {count} times. We love you Pat!')
 
     @bot.command(
         extras={'meme': True}
