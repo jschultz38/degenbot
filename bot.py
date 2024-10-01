@@ -88,7 +88,6 @@ def createBasicBot(team_data, restart_caching_event, extras):
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
     )
     async def upcoming(ctx, *args):
-        data.w
         player = " ".join(args)
         if len(player) == 0:
             await ctx.send("Please input a player name after your command")
