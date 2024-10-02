@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import discord
 from discord.ext import commands
 import random
+import credentials
 from utils import data
 import requests
 
@@ -220,7 +221,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
 
     @bot.command()
     async def cmd(ctx, c):
-        if ctx.author.id != 126913511061192704:
+        if ctx.author.name not in credentials.admin:
             message = "Access denied"
             await ctx.send(message)
             print(message)
