@@ -226,10 +226,6 @@ def createBasicBot(team_data, restart_caching_event, extras):
             await bot.invoke(ctx)
             print(f"{ctx.author.name} tried to execute an unauthorized command")
             return
-            # message = "Access denied"
-            # await ctx.send(message)
-            # print(message)
-            # return
 
         match c:
             case 'refresh':
