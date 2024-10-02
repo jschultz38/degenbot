@@ -218,6 +218,62 @@ def createBasicBot(team_data, restart_caching_event, extras):
         else:
             await ctx.send('No suspensions found for ' + player_name)
 
+    @bot.command(
+        help = bot.command_prefix + "tldr <channel name> <yesterday or today> - Summarizes what you missed in a thread"
+)
+    async def tldr(ctx, channel_name: str = None, *, time_frame: str = "today"):
+        """
+
+        Args:
+            ctx: bot client
+            channel_name: discord channel name verbatim
+            time_frame: a string provided by the user either in a number of hours; "5 hours" or "yesterday" or "today"
+
+        Sends a request to chatgpt to summarize all messages found within a certain timeframe
+
+        Returns: A summary object from chatGPT that it will send in a thread.
+
+        """
+        if not channel_name:
+            channel = ctx.channel
+        else:
+            # Try to get the channel by name
+            channel = discord.utils.get(ctx.guild.text_channels, name=channel_name)
+            if not channel:
+                await ctx.send(f"No channel found with the name '{channel_name}'. Try again.")
+                return
+
+        now = datetime.now()
+
+        if time_frame.lower() == 'today':
+            start_time = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        elif time_frame.lower() == "yesterday":
+            start_time = (now - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+        elif "hour" in time_frame.lower():
+            try:
+                num_hours = int(time_frame.split()[0])
+                start_time=now - timedelta(hours=num_hours)
+            except ValueError:
+                await ctx.send("Invalid time frame. Please specify a valid number of hours.")
+                return
+        else:
+            await ctx.send("Invalid time frame. Use 'today', 'yesterday', or specify hours (e.g., '5 hours').")
+            return
+        messages = []
+
+        async for message in channel.history(after=start_time, limit=1000):
+            #let's ignore bot messages
+            if not message.author.bot:
+                messages.append(message.content)
+        if len(messages) <= 0:
+            await ctx.send(f"There's nothing to summarize from {channel_name} within the timeframe you requested.")
+            return
+        else:
+            summary = utils.chatgpt.summarize(messages)
+
+        thread = await ctx.channel.create_thread(name=f"TLDR; for {channel.name} ", type=discord.ChannelType.public_thread)
+        await thread.send(summary)
+
     @bot.command()
     async def cmd(ctx, c):
         if ctx.author.id != 126913511061192704:
