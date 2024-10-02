@@ -31,11 +31,14 @@ prod_token = 'prod_token_here'
 test_token = 'prod_token_here'
 open_ai_key = 'open_ai_key_here'
 mongo_password = 'mongo_password_here'
+admin = ["discord_name1", "discord_name2"]
 ```
 
 - For the prod_token, paste the token that you took note of in step 3 above
 - If you created a test_bot, paste the token from that that bot
 - For the open_ai_key and mongo_password, message Fountai2
+- For admin, write the discord names that should be given admin access to 
+  exectute !cmd commands. Should be your discord name, not server name.
 
 ## Add the bot to your test server
 1. Return to https://discord.com/developers/applications and open your app
