@@ -222,10 +222,14 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command()
     async def cmd(ctx, c):
         if ctx.author.name not in credentials.admin:
-            message = "Access denied"
-            await ctx.send(message)
-            print(message)
+            ctx.command = bot.get_command("no")
+            await bot.invoke(ctx)
+            print(f"{ctx.author.name} tried to execute an unauthorized command")
             return
+            # message = "Access denied"
+            # await ctx.send(message)
+            # print(message)
+            # return
 
         match c:
             case 'refresh':
