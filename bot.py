@@ -6,7 +6,7 @@ import credentials
 from utils import data
 import requests
 
-from globals import TEST_MODE, ENABLE_SUSPENSIONS, ENABLE_REMOTE_STORAGE
+from globals import TEST_MODE, ENABLE_SUSPENSIONS, ENABLE_REMOTE_STORAGE, USE_TEST_TOKEN
 from fetch.retrieve import retrieveAllGames, retrieveSuspensions
 import utils.chatgpt
 
@@ -46,9 +46,11 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.after_invoke
     async def after_command(ctx):
         try:
-            extras['remote_storage_connection'].write_command(ctx.command.name)
+            if ENABLE_REMOTE_STORAGE and not USE_TEST_TOKEN:
+                extras['remote_storage_connection'].write_command(ctx.command.name)
         except Exception as e:
             print(f"Failed to write to mongodb, error:{e}")
+
         print("time to respond is: " +
               str(datetime.now() - ctx.extras['before_time']))
 
