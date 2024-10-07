@@ -221,7 +221,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
     @bot.command(
         help = bot.command_prefix + "tldr <channel name> <yesterday or today> - Summarizes what you missed in a thread"
 )
-    async def tldr(ctx, channel_name: str = None, *, time_frame: str = "today"):
+    async def tldr(ctx, *, time_frame: str = "today"):
         """
 
         Args:
@@ -234,15 +234,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
         Returns: A summary object from chatGPT that it will send in a thread.
 
         """
-        if not channel_name:
-            channel = ctx.channel
-        else:
-            # Try to get the channel by name
-            channel = discord.utils.get(ctx.guild.text_channels, name=channel_name)
-            if not channel:
-                await ctx.send(f"No channel found with the name '{channel_name}'. Try again.")
-                return
-
+        channel = ctx.channel
         now = datetime.now()
 
         if time_frame.lower() == 'today':
@@ -266,7 +258,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
             if not message.author.bot:
                 messages.append(message.content)
         if len(messages) <= 0:
-            await ctx.send(f"There's nothing to summarize from {channel_name} within the timeframe you requested.")
+            await ctx.send(f"There's nothing to summarize from {channel.name} within the timeframe you requested.")
             return
         else:
             summary = utils.chatgpt.summarize(messages)
