@@ -225,6 +225,54 @@ def createBasicBot(team_data, restart_caching_event, extras):
         else:
             await ctx.send('No suspensions found for ' + player_name)
 
+    @bot.command(
+        help = bot.command_prefix + "tldr <yesterday, today, or X hours> - Summarizes what you missed in a thread"
+)
+    async def tldr(ctx, *, time_frame: str = "today"):
+        """
+
+        Args:
+            ctx: bot client
+            time_frame: a string provided by the user either in a number of hours; "5 hours" or "yesterday" or "today"
+
+        Sends a request to chatgpt to summarize all messages found within a certain timeframe
+
+        Returns: A summary object from chatGPT that it will send in a thread.
+
+        """
+        channel = ctx.channel
+        now = datetime.now()
+
+        if time_frame.lower() == 'today':
+            start_time = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        elif time_frame.lower() == "yesterday":
+            start_time = (now - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+        elif "hour" in time_frame.lower():
+            try:
+                num_hours = int(time_frame.split()[0])
+                start_time=now - timedelta(hours=num_hours)
+            except ValueError:
+                await ctx.send("Invalid time frame. Please specify a valid number of hours (e.g., '5 hours').")
+                return
+        else:
+            await ctx.send("Invalid time frame. Use 'today', 'yesterday', or specify hours (e.g., '5 hours').")
+            return
+        messages = []
+
+        async for message in channel.history(after=start_time, limit=1000):
+            #let's ignore bot messages
+            if not message.author.bot:
+                messages.append(message.content)
+
+        if len(messages) <= 1: # 1 because it counts the !tldr message
+            await ctx.send(f"There's nothing to summarize from #{channel.name} within the timeframe you requested.")
+            return
+        else:
+            summary = utils.chatgpt.summarize(messages)
+
+        thread = await ctx.channel.create_thread(name=f"TLDR; for #{channel.name} ({time_frame})", type=discord.ChannelType.public_thread)
+        await thread.send(summary)
+
     @bot.command()
     async def cmd(ctx, c):
         if ctx.author.name not in credentials.admin:
