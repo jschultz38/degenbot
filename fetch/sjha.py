@@ -71,6 +71,7 @@ def createSJHAGame(team, row):
 
     if cols[4].getText().strip() != 'TBD' and cols[1].getText().strip() == '-':
         time_text = cols[4].getText().strip().split(" ")
+        print(time_text)
         hour = int(time_text[0].split(":")[0])
         minute = int(time_text[0].split(":")[1])
         meridiem = time_text[1]
@@ -91,7 +92,7 @@ def createSJHAGame(team, row):
 
     # Check if results have been posted for the game
     if cols[1].getText().strip() != '-':
-        score_text = cols[2].getText().strip().split(" ")[-1].split("-")
+        score_text = cols[1].getText().strip().split(" ")[-1].split("-")
         pat_score = score_text[0]
         opp_score = score_text[1]
         home_score = pat_score if side == "HOME" else opp_score
