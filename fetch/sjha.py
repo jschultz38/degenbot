@@ -56,11 +56,11 @@ def createSJHAGame(team, row):
 
     # Get teams
     if cols[2].getText().strip()[0] == '@':
-        home_team = cols[3].getText().strip()[1:].strip()
+        home_team = cols[2].getText().strip()[1:].strip()
         away_team = team['name']
         side = "AWAY"
     else:
-        away_team = cols[3].getText().strip()
+        away_team = cols[2].getText().strip()
         home_team = team['name']
         side = "HOME"
 
@@ -71,7 +71,6 @@ def createSJHAGame(team, row):
 
     if cols[4].getText().strip() != 'TBD' and cols[1].getText().strip() == '-':
         time_text = cols[4].getText().strip().split(" ")
-        print(time_text)
         hour = int(time_text[0].split(":")[0])
         minute = int(time_text[0].split(":")[1])
         meridiem = time_text[1]
