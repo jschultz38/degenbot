@@ -14,7 +14,7 @@ def ai_chirp(user, teams):
         if user in team['players']:
             player_teams.append(team['name'])
 
-    chirp = build_chirp(client, user, player_teams)
+    chirp = build_chirp(user, player_teams)
 
     print(chirp.choices[0].message)
     return chirp.choices[0].message.content
