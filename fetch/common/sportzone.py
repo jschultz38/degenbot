@@ -11,6 +11,15 @@ webpage
 def createSportZoneGame(cols, team):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
+    game_id=None
+    score_sheet = None
+    try:
+        game_id = cols[8].contents[0].attrs['href'].split('/')[2]
+        score_sheet = f"https://krakenhockeyleague.com/scoresheet-complete/{game_id}"
+    except IndexError:
+        print("could not get game ID")
+        pass
+
     degen_team = team['name']
     side = cols[4].getText()
     DEGEN_HOME = True if side == 'HOME' else False
@@ -78,7 +87,9 @@ def createSportZoneGame(cols, team):
         away_team,
         DEGEN_HOME,
         home_score=home_score,
-        away_score=away_score
+        away_score=away_score,
+        game_id = game_id,
+        score_sheet = score_sheet
     )
 
     return game
