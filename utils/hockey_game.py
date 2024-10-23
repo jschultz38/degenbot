@@ -10,9 +10,11 @@ class HockeyGame:
         degen_team (bool): Whether the degen is away or home.
         home_score (int): Score of the home team, if any (default None)
         away_score (int): Score of the away team, if any (default None)
+        game_id (str): proprietaty game id from each site (default None)
+        score_sheet (str): URL to access game scoresheets
     """
 
-    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None):
+    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None, game_id=None, score_sheet=None):
         # this is the json object of the team - should look the same as in res/team_data.json
         self.team = team
         self.gametime = datetime_obj
@@ -24,6 +26,8 @@ class HockeyGame:
         self.home_score = home_score
         self.away_score = away_score
         self.result = None
+        self.game_id = game_id
+        self.score_sheet = score_sheet
 
     def to_string(self):
         side = 'HOME' if self.degen_home else 'AWAY'

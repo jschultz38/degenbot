@@ -88,6 +88,40 @@ def createBasicBot(team_data, restart_caching_event, extras):
             await sendGames(ctx, games, showPlayers=False)
 
     @bot.command(
+        help = bot.command_prefix + "show result of last game"
+                 )
+    async def lastgame(ctx, *args):
+        player = " ".join(args)
+        if len(player) == 0:
+            await ctx.send("Please input a player name after your command")
+            return
+
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
+        today = datetime(datetime.now().year, datetime.now().month, datetime.now().day)
+        games = [game for game in games if game.gametime <= today]
+        last_game = games[len(games)-1]
+
+        degen_team = (
+            last_game.away_team
+            if last_game.away_team == last_game.team['name']
+            else last_game.home_team
+        )
+        degen_score, opp_score = (
+            (last_game.away_score, last_game.home_score)
+            if degen_team ==last_game.away_team
+            else (last_game.home_score, last_game.away_score)
+        )
+        #I need to figure out why the game result returns none without this print statement.
+        print(last_game)
+        last_game_message = \
+            f"[{last_game.team['name']} {last_game.result} {degen_score} - {opp_score}]({last_game.score_sheet})" \
+            if last_game.score_sheet \
+            else f"{last_game.team['name']} {last_game.result} {degen_score} - {opp_score}"
+
+        await ctx.send(last_game_message)
+
+
+    @bot.command(
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
     )
     async def upcoming(ctx, *args):
