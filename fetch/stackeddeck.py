@@ -70,7 +70,7 @@ def fetchSDGames(team):
 def createSDGame(team, row, cur_month, cur_day):
     cols = row.find_all('td')
 
-    #Get Game ID
+    # Get the game ID for the game and use it to build the scoresheet URL if game ID exists
     game_id=None
     score_sheet=None
     try:

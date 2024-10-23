@@ -11,6 +11,8 @@ webpage
 def createSportZoneGame(cols, team):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
+
+    #Get the game ID for the game and use it to build the scoresheet URL if game ID exists
     game_id=None
     score_sheet = None
     try:
