@@ -8,7 +8,7 @@ webpage
 '''
 
 
-def createSportZoneGame(cols, team):
+def createSportZoneGame(cols, team, season):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
 
@@ -90,6 +90,9 @@ def createSportZoneGame(cols, team):
         DEGEN_HOME,
         home_score=home_score,
         away_score=away_score,
+        game_id = game_id,
+        season_id = season,
+        score_sheet = score_sheet
         game_id=game_id,
         score_sheet_url=score_sheet_url
     )
