@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import random
 import credentials
-from utils import data
+from fetch.khl import parse_score_sheet
 import requests
 
 from globals import TEST_MODE, ENABLE_SUSPENSIONS, ENABLE_REMOTE_STORAGE, USE_TEST_TOKEN
@@ -92,6 +92,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
                  )
     async def lastgame(ctx, *args):
         player = " ".join(args)
+        most_recent = True
         if len(player) == 0:
             await ctx.send("Please input a player name after your command")
             return
@@ -99,8 +100,15 @@ def createBasicBot(team_data, restart_caching_event, extras):
         games = retrieveAllGames(ctx.bot.extras['team_data'], player)
         today = datetime(datetime.now().year, datetime.now().month, datetime.now().day)
         games = [game for game in games if game.gametime <= today]
-        last_game = games[len(games)-1]
+        last_game = None  # Initialize to None
+        for game in reversed(games):  # Iterate through games in reverse order
+            if game.result is not None:
+                last_game = game
+                break  # Exit the loop once we find a game with a result
+            else:
+                most_recent = False
 
+        parse_score_sheet(last_game)
         degen_team = (
             last_game.away_team
             if last_game.away_team == last_game.team['name']
@@ -117,6 +125,8 @@ def createBasicBot(team_data, restart_caching_event, extras):
             f"[{last_game.team['name']} {last_game.result} {degen_score} - {opp_score}]({last_game.score_sheet})" \
             if last_game.score_sheet \
             else f"{last_game.team['name']} {last_game.result} {degen_score} - {opp_score}"
+        if not most_recent:
+            last_game_message = f"Most recent game score has not been updated, here's the last game with a score: \n {last_game_message}"
 
         await ctx.send(last_game_message)
 
