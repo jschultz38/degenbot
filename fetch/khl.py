@@ -5,12 +5,12 @@ import urllib.parse as urlparse
 import time
 import utils.data as record
 import pandas as pd
-
-
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
-from utils.data import RemoteStorageConnection
+from utils.data import RemoteStorageConnection, PlayerGameStats
 from utils.player import Suspension
+
+dbconn = RemoteStorageConnection()
 
 
 def fetchKHLGames(team, seasons):
@@ -78,19 +78,15 @@ def fetchKHLGames(team, seasons):
 
                 # khl uses sz backed website
                 game = createSportZoneGame(cols, team, season)
+
+                # Store Scoresheet Data
+                try:
+                    parse_score_sheet(game)
+                except Exception as e:
+                    print(f"Failed to write game stats to DB: {e}")
                 games.append(game)
 
         team['cache'] = games
-#   While we are fetching all of the games, let's update player stats
-    print(games)
-    try:
-        print("Entering Try")
-        for game in games:
-            if game.result:
-                print(f"Processing score sheet for game ID: {game.game_id}")
-                parse_score_sheet(game)
-    except Exception as e:
-        print(f"Failed to write game stats to DB: {e}")
     return games
 
 def fetchKHLSuspensions(team_data):
@@ -190,61 +186,56 @@ def organize_data(tables):
 
     return rosters, scoring, penalties
 
-def write_game_stats(degens, scoresheet, home, game):
-    for degen in degens:
-        game_data = {}
-        game_data['season_id'] = game.season_id
-        game_data['id'] = game.game_id
-        game_data['Team'] = game.team['name']
-        game_data['Player'] = degen
-        goals = 0
-        goals += scoresheet[home]['Player Number'].eq(degens[degen]).sum()
-        game_data['Goals'] = goals
-        assists = 0
-        assists += scoresheet[home]['Assist'].eq(degens[degen]).sum()
-        game_data['Assists'] = assists
-        secondassists = 0
-        secondassists += scoresheet[home]['Second Assist'].eq(degens[degen]).sum()
-        game_data['Secondary Assists'] = secondassists
-        db_conn = RemoteStorageConnection()
-        db_conn.write_player_game_stats(game_data)
-
 def parse_score_sheet(game):
-    games = []
-    scoring = []
-    if not TEST_MODE:
-        soups = []
-        rosters = []
-        URL = game.score_sheet
-        page = requests.get(URL)
-        if page.status_code != 200:
-            print('ERROR: Could not retrieve website: ' +
-                  str(page.reason) + ", " + str(page.status_code))
-            return games
-        soups.append(BeautifulSoup(page.content, "html.parser"))
-        #Get all of the tables from the KHL ScoreSheet
-        for soup in soups:
-            tables = soup.find_all('table', attrs={'cellspacing': 0})
-            #placeholder for dataframes down the road
-            rosters, scoring, penalties = organize_data(tables)
+    try:
+        # Fetch the score sheet page
+        response = requests.get(game.score_sheet)
+        response.raise_for_status()  # Raise an error for non-200 status codes
+    except requests.RequestException as e:
+        print(f"ERROR: Could not retrieve website: {e}")
+        return []
+
+    soup = BeautifulSoup(response.content, "html.parser")
+    tables = soup.find_all('table', attrs={'cellspacing': 0})
+
+    # Extract dataframes from the tables
+    rosters, scoring, penalties = organize_data(tables)
+
+    # Match players (degens) with their jersey numbers from the roster
+    degens, is_home_team = match_degens_to_roster(game.team['players'], rosters)
+
+    for player_name, jersey_number in degens.items():
+        team_index = 0 if is_home_team else 1
+
+        # Convert all numpy types to Python's int to avoid encoding errors
+        goals = int(scoring[team_index]['Player Number'].eq(jersey_number).sum())
+        assists = int(scoring[team_index]['Assist'].eq(jersey_number).sum())
+        secondaries = int(scoring[team_index]['Second Assist'].eq(jersey_number).sum())
+
+        stats = PlayerGameStats(
+            player=player_name,
+            team=game.team['name'],
+            season_id=game.season_id,
+            game_id=game.game_id,
+            goals=goals,
+            assists=assists,
+            secondaries=secondaries
+        )
+        dbconn.write_player_game_stats(stats)
+
+def match_degens_to_roster(players, rosters):
+    """Match players with their jersey numbers and determine the home team index."""
     degens = {}
-    home = 0
-    for degen in game.team['players']:
+    is_home_team = True
+
+    for player_name in players:
         for i, roster in enumerate(rosters):
-            matches = roster[roster['Name'].str.contains(degen, case=False)]
+            matches = roster[roster['Name'].str.contains(player_name, case=False)]
             if not matches.empty:
-                for _, row in matches.iterrows():
-                    jersey_number = row['Jersey Number']
-                    degens[degen] = jersey_number
+                jersey_number = matches.iloc[0]['Jersey Number']  # Use the first match
+                degens[player_name] = jersey_number
                 if i != 0:
-                    home = 1
-    print(f"Writing game {game.score_sheet} NOW")
-    write_game_stats(degens, scoring, home, game)
+                    is_home_team = False  # Not the first roster, so it's the away team
+                break  # Stop searching once a match is found
 
-    print(degens)
-
-
-
-
-    return games
-
+    return degens, is_home_team
