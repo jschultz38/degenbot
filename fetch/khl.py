@@ -17,6 +17,7 @@ def fetchKHLGames(team, seasons):
     page = None
     soup = None
     games = []
+    season = 0
 
     if 'cache' in team:
         content_cache = team['cache']
