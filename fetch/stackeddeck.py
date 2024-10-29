@@ -72,10 +72,10 @@ def createSDGame(team, row, cur_month, cur_day):
 
     # Get the game ID for the game and use it to build the scoresheet URL if game ID exists
     game_id=None
-    score_sheet=None
+    score_sheet_url=None
     try:
         game_id = cols[0].contents[1].next.attrs['href'].split('(')[1].split(')')[0]
-        score_sheet = f"https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/game_score_hockey.aspx?IDLeague=64338&IDGame={game_id}"
+        score_sheet_url = f"https://www.mystatsonline.com/hockey/visitor/league/schedule_scores/game_score_hockey.aspx?IDLeague=64338&IDGame={game_id}"
     except Exception:
         print("Failed to get a game ID")
         pass
@@ -121,7 +121,7 @@ def createSDGame(team, row, cur_month, cur_day):
         home_score=home_score,
         away_score=away_score,
         game_id=game_id,
-        score_sheet = score_sheet
+        score_sheet_url=score_sheet_url
     )
 
     return game
