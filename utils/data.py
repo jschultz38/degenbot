@@ -4,6 +4,29 @@ from pymongo.collection import ReturnDocument
 from datetime import datetime
 import credentials
 import threading
+from dataclasses import dataclass
+
+@dataclass
+class PlayerGameStats:
+    player: str
+    team: str
+    season_id: str
+    game_id: str
+    goals: int = 0
+    assists: int = 0
+    secondaries: int = 0
+
+    def to_dict(self):
+        """Convert the data class to a dictionary for MongoDB insertion."""
+        return {
+            'Player': self.player,
+            'Team': self.team,
+            'season_id': self.season_id,
+            'id': self.game_id,
+            'Goals': self.goals,
+            'Assists': self.assists,
+            'Secondary Assists': self.secondaries,
+        }
 
 class RemoteStorageConnection():
     _instance = None
@@ -51,93 +74,41 @@ class RemoteStorageConnection():
             upsert= True
         )
 
-    def write_player_game_stats(self, data):
+
+
+    def write_player_game_stats(self, stats: PlayerGameStats):
         # Data should include: 'Player', 'Team', 'season_id', 'id', 'Goals', 'Assists', 'Secondary Assists'
         collection = self.client['degendb']['players']
-        player = collection.find_one({"name": data['Player']})
+        player = collection.find_one({"name": stats.player})
 
-        # Convert the season_id to string
-        season_id_str = str(data['season_id'])
-        game_id_str = str(data['id'])  # Convert game ID to string
+        season_id_str = stats.season_id
+        game_id_str = stats.game_id
 
         if player:
-            # Check if the season already exists
-            season = player.get("seasons", {}).get(season_id_str, None)
-            if data['Team'] not in player['teams']:
-                print(f"Adding new team '{data['Team']}' to player {data['Player']}")
+            if stats.team not in player.get('teams', []):
+                print(f"Adding new team '{stats.team}' to player {stats.player}")
                 collection.update_one(
-                    {"name": data['Player']},
-                    {"$addToSet": {"teams": data['Team']}}
+                    {"name": stats.player},
+                    {"$addToSet": {"teams": stats.team}}
                 )
 
-            if season:
-                # Check if the game already exists within the season
-                game = season.get("games", {}).get(game_id_str, None)
-
-                if game:
-                    # Update the existing game's stats
-                    collection.update_one(
-                        {"name": data['Player'], f"seasons.{season_id_str}.games.{game_id_str}": {"$exists": True}},
-                        {
-                            "$set": {
-                                f"seasons.{season_id_str}.games.{game_id_str}.goals": int(data['Goals']),
-                                f"seasons.{season_id_str}.games.{game_id_str}.assists": int(data['Assists']),
-                                f"seasons.{season_id_str}.games.{game_id_str}.secondaries": int(
-                                    data['Secondary Assists']),
-                                f"seasons.{season_id_str}.games.{game_id_str}.team": data['Team']
-                                # Update the team if necessary
-                            }
-                        }
-                    )
-                else:
-                    # Add a new game entry to the existing season
-                    collection.update_one(
-                        {"name": data['Player'], f"seasons.{season_id_str}": {"$exists": True}},
-                        {
-                            "$set": {
-                                f"seasons.{season_id_str}.games.{game_id_str}": {
-                                    "team": data['Team'],  # Include team for the new game
-                                    "goals": int(data['Goals']),
-                                    "assists": int(data['Assists']),
-                                    "secondaries": int(data['Secondary Assists']),
-                                }
-                            }
-                        }
-                    )
-            else:
-                # Add a new season with the game entry
-                collection.update_one(
-                    {"name": data['Player']},
-                    {
-                        "$set": {
-                            f"seasons.{season_id_str}": {
-                                "games": {
-                                    game_id_str: {
-                                        "team": data['Team'],  # Include team for the new game
-                                        "goals": int(data['Goals']),
-                                        "assists": int(data['Assists']),
-                                        "secondaries": int(data['Secondary Assists']),
-                                    }
-                                }
-                            }
-                        }
+            collection.update_one(
+                {"name": stats.player},
+                {
+                    "$set": {
+                        f"seasons.{season_id_str}.games.{game_id_str}": stats.to_dict()
                     }
-                )
+                },
+                upsert=True
+            )
         else:
-            # Insert a new player with the season and game data
+            # New player entry
             collection.insert_one({
-                "name": data['Player'],
-                "teams": [data['Team']],
+                "name": stats.player,
+                "teams": [stats.team],
                 "seasons": {
-                    season_id_str: {  # Ensure season_id is a string
-                        "games": {
-                            game_id_str: {  # Each game is keyed by its unique ID
-                                "team": data['Team'],  # Include team for the new game
-                                "goals": int(data['Goals']),
-                                "assists": int(data['Assists']),
-                                "secondaries": int(data['Secondary Assists']),
-                            }
-                        }
+                    season_id_str: {
+                        "games": {game_id_str: stats.to_dict()}
                     }
                 }
             })
