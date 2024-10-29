@@ -10,9 +10,13 @@ class HockeyGame:
         degen_team (bool): Whether the degen is away or home.
         home_score (int): Score of the home team, if any (default None)
         away_score (int): Score of the away team, if any (default None)
+        game_id (str): proprietaty game id from each site (default None)
+        score_sheet_url (str): URL to access game scoresheets
     """
 
-    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None):
+    def __init__(self, team, datetime_obj, location, home_team, away_team, 
+                degen_home, home_score=None, away_score=None, result=None,
+                game_id=None, score_sheet_url=None):
         # this is the json object of the team - should look the same as in res/team_data.json
         self.team = team
         self.gametime = datetime_obj
@@ -23,7 +27,23 @@ class HockeyGame:
         self.degen_home = degen_home
         self.home_score = home_score
         self.away_score = away_score
-        self.result = None
+        self.game_id = game_id
+        self.score_sheet_url = score_sheet_url
+
+        if result:
+            self.result = result
+        else:
+            try:
+                if (self.degen_home and self.home_score > self.away_score) \
+                    or (not self.degen_home and self.away_score > self.home_score):
+                    self.result = 'Win'
+                if (self.degen_home and self.home_score < self.away_score) \
+                    or (not self.degen_home and self.away_score < self.home_score):
+                    self.result = 'Loss'
+                else:
+                    self.result = 'Tie'
+            except:
+                self.result = None
 
     def to_string(self):
         side = 'HOME' if self.degen_home else 'AWAY'

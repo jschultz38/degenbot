@@ -88,6 +88,43 @@ def createBasicBot(team_data, restart_caching_event, extras):
             await sendGames(ctx, games, showPlayers=False)
 
     @bot.command(
+        help = bot.command_prefix + "lastgame <name> - Shows result of last game"
+                 )
+    async def lastgame(ctx, *args):
+        player = " ".join(args)
+        if len(player) == 0:
+            await ctx.send("Please input a player name after your command")
+            return
+
+        games = retrieveAllGames(ctx.bot.extras['team_data'], player)
+        today = datetime(datetime.now().year, datetime.now().month, datetime.now().day)
+        games = [game for game in games if game.gametime <= today]
+        last_game = games[len(games)-1]
+
+        degen_team, other_team = (
+            (last_game.away_team, last_game.home_team)
+            if last_game.away_team == last_game.team['name']
+            else (last_game.home_team, last_game.away_team)
+        )
+        degen_score, opp_score = (
+            (last_game.away_score, last_game.home_score)
+            if degen_team == last_game.away_team
+            else (last_game.home_score, last_game.away_score)
+        )
+
+        result_text = last_game.result if last_game.result else ''
+
+        if last_game.result and last_game.score_sheet_url:
+            last_game_message = f"[{last_game.team['name']} {result_text} {degen_score} - {opp_score}]({last_game.score_sheet_url})"
+        elif last_game.result:
+            last_game_message = f"{last_game.team['name']} {result_text} {degen_score} - {opp_score}"
+        else:
+            last_game_message = f"{degen_team} vs {other_team} not posted yet"
+
+        await ctx.send(last_game_message)
+
+
+    @bot.command(
         help=bot.command_prefix + "upcoming <name> - Shows all upcoming games"
     )
     async def upcoming(ctx, *args):
