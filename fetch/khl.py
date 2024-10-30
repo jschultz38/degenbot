@@ -12,7 +12,6 @@ from utils.player import Suspension
 
 dbconn = RemoteStorageConnection()
 
-
 def fetchKHLGames(team, seasons):
     page = None
     soup = None
@@ -184,7 +183,6 @@ def organize_data(tables):
             penalty_scores['Period'].notna() & (penalty_scores['Period'] != '')]  # Filter out empty periods
         penalty_scores = penalty_scores[penalty_scores['Period'] != '.']  # Remove rows with just a period
         penalties[i] = penalty_scores  # Update the penalties list with cleaned DataFrames
-
     return rosters, scoring, penalties
 
 def parse_score_sheet(game):

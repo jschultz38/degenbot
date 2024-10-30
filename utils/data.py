@@ -74,8 +74,6 @@ class RemoteStorageConnection():
             upsert= True
         )
 
-
-
     def write_player_game_stats(self, stats: PlayerGameStats):
         # Data should include: 'Player', 'Team', 'season_id', 'id', 'Goals', 'Assists', 'Secondary Assists'
         collection = self.client['degendb']['players']
@@ -112,5 +110,3 @@ class RemoteStorageConnection():
                     }
                 }
             })
-
-
