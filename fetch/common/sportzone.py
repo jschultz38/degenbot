@@ -90,11 +90,9 @@ def createSportZoneGame(cols, team, season):
         DEGEN_HOME,
         home_score=home_score,
         away_score=away_score,
-        game_id = game_id,
         season_id = season,
-        score_sheet = score_sheet
         game_id=game_id,
-        score_sheet_url=score_sheet_url
+        score_sheet_url = score_sheet_url
     )
 
     return game

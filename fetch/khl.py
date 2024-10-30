@@ -190,7 +190,7 @@ def organize_data(tables):
 def parse_score_sheet(game):
     try:
         # Fetch the score sheet page
-        response = requests.get(game.score_sheet)
+        response = requests.get(game.score_sheet_url)
         response.raise_for_status()  # Raise an error for non-200 status codes
     except requests.RequestException as e:
         print(f"ERROR: Could not retrieve website: {e}")

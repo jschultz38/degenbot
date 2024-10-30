@@ -14,7 +14,7 @@ class HockeyGame:
         score_sheet (str): URL to access game scoresheets
     """
 
-    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None, game_id=None, score_sheet=None):
+    def __init__(self, team, datetime_obj, location, home_team, away_team, degen_home, home_score=None, away_score=None, season_id = None, game_id=None, score_sheet_url = None):
         # this is the json object of the team - should look the same as in res/team_data.json
         self.team = team
         self.gametime = datetime_obj
@@ -25,9 +25,10 @@ class HockeyGame:
         self.degen_home = degen_home
         self.home_score = home_score
         self.away_score = away_score
+        self.season_id = season_id
         self.result = None
         self.game_id = game_id
-        self.score_sheet = score_sheet
+        self.score_sheet_url = score_sheet_url
 
     def to_string(self):
         side = 'HOME' if self.degen_home else 'AWAY'
