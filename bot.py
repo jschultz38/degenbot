@@ -231,7 +231,7 @@ def createBasicBot(team_data, restart_caching_event, extras):
         help=bot.command_prefix + "pond <?name?> - Shows all upcoming pond games"
     )
     async def pond(ctx):
-        await upcoming(ctx, player="pond")
+        await upcoming(ctx, "pond")
 
     @bot.command(
         help=bot.command_prefix + "sus <name> - Shows all current suspensions"
