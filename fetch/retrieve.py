@@ -1,7 +1,7 @@
 import datetime
 import traceback
 
-from fetch.khl import fetchKHLGames, fetchKHLSuspensions
+from fetch.khl import fetchKHLGames, fetchKHLSuspensions, parse_score_sheet
 from fetch.stackeddeck import fetchSDGames
 from fetch.pride import fetchPrideGames
 from fetch.pond import fetchPondGames

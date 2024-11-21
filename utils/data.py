@@ -3,15 +3,46 @@ from pymongo.server_api import ServerApi
 from pymongo.collection import ReturnDocument
 from datetime import datetime
 import credentials
+import threading
+from dataclasses import dataclass
+
+@dataclass
+class PlayerGameStats:
+    player: str
+    team: str
+    season_id: str
+    game_id: str
+    goals: int = 0
+    assists: int = 0
+    secondaries: int = 0
+
+    def to_dict(self):
+        """Convert the data class to a dictionary for MongoDB insertion."""
+        return {
+            'Player': self.player,
+            'Team': self.team,
+            'season_id': self.season_id,
+            'id': self.game_id,
+            'Goals': self.goals,
+            'Assists': self.assists,
+            'Secondary Assists': self.secondaries,
+        }
 
 class RemoteStorageConnection():
-    def __init__(self):
-        #TODO: will move database names around later instead of 'test'
-        uri = f"mongodb+srv://degen-bot:{credentials.mongo_password}@cluster0.e2siu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-        # Create a new client and connect to the server
-        self.client = MongoClient(uri, server_api=ServerApi('1'))
+    _instance = None
+    _lock = threading.Lock()
 
-        # Send a ping to confirm a successful connection
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            with cls._lock:
+                if not cls._instance:
+                    cls._instance = super(RemoteStorageConnection, cls).__new__(cls)
+                    cls._instance._initialize()
+        return cls._instance
+
+    def _initialize(self):
+        uri = f"mongodb+srv://degen-bot:{credentials.mongo_password}@cluster0.e2siu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        self.client = MongoClient(uri, server_api=ServerApi('1'))
         try:
             self.client.admin.command('ping')
             print("Pinged your deployment. You successfully connected to MongoDB!")
@@ -42,3 +73,40 @@ class RemoteStorageConnection():
             },
             upsert= True
         )
+
+    def write_player_game_stats(self, stats: PlayerGameStats):
+        # Data should include: 'Player', 'Team', 'season_id', 'id', 'Goals', 'Assists', 'Secondary Assists'
+        collection = self.client['degendb']['players']
+        player = collection.find_one({"name": stats.player})
+
+        season_id_str = stats.season_id
+        game_id_str = stats.game_id
+
+        if player:
+            if stats.team not in player.get('teams', []):
+                print(f"Adding new team '{stats.team}' to player {stats.player}")
+                collection.update_one(
+                    {"name": stats.player},
+                    {"$addToSet": {"teams": stats.team}}
+                )
+
+            collection.update_one(
+                {"name": stats.player},
+                {
+                    "$set": {
+                        f"seasons.{season_id_str}.games.{game_id_str}": stats.to_dict()
+                    }
+                },
+                upsert=True
+            )
+        else:
+            # New player entry
+            collection.insert_one({
+                "name": stats.player,
+                "teams": [stats.team],
+                "seasons": {
+                    season_id_str: {
+                        "games": {game_id_str: stats.to_dict()}
+                    }
+                }
+            })
