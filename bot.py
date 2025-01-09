@@ -72,6 +72,13 @@ def createBasicBot(team_data, restart_caching_event, extras):
     bot.on_command_error = on_error
 
     @bot.command(
+        help=bot.command_prefix + "bad - Document error"
+    )
+    async def bad(ctx, *args):
+        await ctx.send("<@126913511061192704> The bot fucked up")
+        await ctx.send("<@" + str(ctx.author.id) + "> Please respond to this message with a description of the issue")
+
+    @bot.command(
         help=bot.command_prefix + "schedule <name> - Shows all games"
     )
     async def schedule(ctx, *args):
