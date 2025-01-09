@@ -48,3 +48,12 @@ def findAllKHLSeasons():
             seasons.append(season)
 
     return seasons
+
+def realToMilitaryTime(time_int, meridiem):
+    if time_int == 12 and meridiem == "AM":
+        return 0;
+
+    if time_int == 12 and meridiem == "PM":
+        return 12;
+
+    return time_int if meridiem == "AM" else time_int + 12

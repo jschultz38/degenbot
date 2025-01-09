@@ -3,7 +3,7 @@ import datetime
 from bs4 import BeautifulSoup
 
 from globals import TEST_MODE
-from utils.common import translateMonth
+from utils.common import *
 from utils.hockey_game import HockeyGame
 
 def fetchSJHAGames(team):
@@ -33,17 +33,9 @@ def fetchSJHAGames(team):
     table_body = table.find('tbody')
     rows = table_body.find_all('tr')
 
-    current_year = datetime.datetime.now().year
-    latest_month = datetime.datetime.now().month
     for row in rows:
         game = createSJHAGame(team, row)
         if game:
-            # Handle year of the game
-            if game.gametime.month < latest_month:
-                current_year += 1
-                latest_month = game.gametime.month
-            game.gametime = game.gametime.replace(year=current_year)
-
             games.append(game)        
 
     team['cache'] = games
@@ -75,16 +67,16 @@ def createSJHAGame(team, row):
         minute = int(time_text[0].split(":")[1])
         meridiem = time_text[1]
 
-        gametime = datetime.datetime(2024,
+        gametime = datetime.datetime(datetime.datetime.now().year,
                                      month,
                                      day,
-                                     hour=hour if meridiem == "AM" else hour + 12,
+                                     hour=realToMilitaryTime(hour, meridiem),
                                      minute=minute)
     else:
         '''For some reason, the website does not list the time of the game if it has already
         happened, so I don't want to bother trying to find it. Or, the game time could
         be TDB.'''
-        gametime = datetime.datetime(2024, month, day)
+        gametime = datetime.datetime(datetime.datetime.now().year, month, day)
 
     # Get location
     location = cols[3].getText().strip()
