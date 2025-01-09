@@ -63,9 +63,11 @@ def fetchKHLGames(team, seasons):
             soup = BeautifulSoup(content, "html.parser")
 
     for soup in soups:
+        headers = soup.find_all('h1', attrs={
+                               'class': 'text-primary p2 text-uppercase mb-3 mt-4'})
         tables = soup.find_all('table', attrs={
                                'class': 'display table table-striped border-bottom text-muted table-fixed'})
-        for table in tables:
+        for header, table in zip(headers, tables):
             table_body = table.find('tbody')
             rows = table_body.find_all('tr')
 
@@ -73,7 +75,7 @@ def fetchKHLGames(team, seasons):
                 cols = row.find_all('td')
 
                 # khl uses sz backed website
-                game = createSportZoneGame(cols, team)
+                game = createSportZoneGame(cols, team, header=header)
                 games.append(game)
 
         team['cache'] = games

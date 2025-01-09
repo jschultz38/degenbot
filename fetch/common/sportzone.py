@@ -8,7 +8,7 @@ webpage
 '''
 
 
-def createSportZoneGame(cols, team):
+def createSportZoneGame(cols, team, header=None):
     # Get the easy stuff - using the teams schedule page
     location = cols[3].getText()
 
@@ -77,8 +77,11 @@ def createSportZoneGame(cols, team):
     hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
     minute_ret = int(minute)
 
+    # Get year
+    year = int(header.getText().split(" ")[1]) if header else 2024
+
     gametime = datetime.datetime(
-        2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
+        year, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
 
     # Create the game
     game = HockeyGame(
