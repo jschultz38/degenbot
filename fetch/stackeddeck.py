@@ -37,6 +37,7 @@ def fetchSDGames(team):
     dateText = None
     cur_month = None
     cur_day = None
+    cur_year = None
     while x < len(rows):
         row = rows[x]
 
@@ -51,12 +52,13 @@ def fetchSDGames(team):
 
             cur_month = translateMonth(dateText[1])
             cur_day = int(dateText[2].split(",")[0])
+            cur_year = int(dateText[-1])
 
             x += 1
             continue
 
         # Case 3: Row is a game
-        game = createSDGame(team, row, cur_month, cur_day)
+        game = createSDGame(team, row, cur_month, cur_day, cur_year)
         if game:
             games.append(game)
 
@@ -67,7 +69,7 @@ def fetchSDGames(team):
     return games
 
 
-def createSDGame(team, row, cur_month, cur_day):
+def createSDGame(team, row, cur_month, cur_day, cur_year):
     cols = row.find_all('td')
 
     # Get the game ID for the game and use it to build the scoresheet URL if game ID exists
@@ -95,7 +97,7 @@ def createSDGame(team, row, cur_month, cur_day):
     hour = int(cols[0].span.a.getText().split(":")[0])
     minute_text = cols[0].span.a.getText().split(":")[1].split(" ")[0]
     meridiem = cols[0].span.a.getText().split(":")[1].split(" ")[1][:2]
-    gametime = datetime.datetime(2024,
+    gametime = datetime.datetime(cur_year,
                                  cur_month,
                                  cur_day,
                                  hour=hour if meridiem == "AM" else hour + 12,
