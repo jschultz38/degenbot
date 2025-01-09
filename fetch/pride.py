@@ -97,7 +97,7 @@ def createPrideGameBySchedule(cols, team):
     minute_ret = int(minute)
 
     gametime = datetime.datetime(
-        2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
+        datetime.datetime.now().year, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
 
     # Create the game
     game = HockeyGame(

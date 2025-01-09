@@ -68,7 +68,7 @@ def createAAHLGame(team, row):
         minute = int(time_text[0].split(":")[1])
         meridiem = time_text[1]
 
-        gametime = datetime.datetime(2024,
+        gametime = datetime.datetime(datetime.datetime.now().year,
                                      month,
                                      day,
                                      hour=hour if meridiem == "AM" else hour + 12,
@@ -79,7 +79,7 @@ def createAAHLGame(team, row):
     else:
         '''For some reason, the website does not list the time of the game if it has already
         happened, so I don't want to bother trying to find it.'''
-        gametime = datetime.datetime(2024, month, day)
+        gametime = datetime.datetime(datetime.datetime.now().year, month, day)
 
     # Get location
     location = cols[4].getText().strip()
