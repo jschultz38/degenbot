@@ -19,7 +19,7 @@ def createSportZoneGame(cols, team, header=None):
         game_id = cols[8].contents[0].attrs['href'].split('/')[2]
         score_sheet_url = f"https://krakenhockeyleague.com/scoresheet-complete/{game_id}"
     except IndexError:
-        print("could not get game ID")
+        print("ERROR: Could not get game ID; score sheet build FAILED")
         pass
 
     degen_team = team['name']
