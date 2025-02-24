@@ -250,6 +250,15 @@
 				"Bodega"
 			],
 			"league": "SJHA"
+		},
+		{
+			"name": "Midnight Twist",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Image%20from%20iOS.jpg",
+			"id": "9573",
+			"players": [
+				"Nelson"
+			],
+			"league": "KHL"
 		}
 	],
 
