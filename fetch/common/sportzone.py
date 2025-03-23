@@ -78,7 +78,8 @@ def createSportZoneGame(cols, team, season):
     minute_ret = int(minute)
 
     gametime = datetime.datetime(
-        2024, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
+        #TODO: This need to be updated to be easier to maintain.
+        2025, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
 
     # Create the game
     game = HockeyGame(
