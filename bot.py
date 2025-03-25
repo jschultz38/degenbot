@@ -318,6 +318,26 @@ def createBasicBot(team_data, restart_caching_event, extras):
         await thread.send(summary)
 
     @bot.command()
+    async def update(ctx, *args):
+
+        if ctx.author.name not in credentials.admin:
+            ctx.command = bot.get_command("no")
+            await bot.invoke(ctx)
+            print(f"{ctx.author.name} tried to execute an unauthorized command")
+            return
+
+        if args[0] == "season" and len(args) >= 2:
+            league = args[1]
+            season_id = args[2]
+            extras['remote_storage_connection'].update_seasons(league, season_id)
+            return
+        else:
+            await ctx.send(f"Invalid request, Example: '!update season khl 0000'")
+            return
+
+
+
+    @bot.command()
     async def cmd(ctx, c):
         if ctx.author.name not in credentials.admin:
             ctx.command = bot.get_command("no")
