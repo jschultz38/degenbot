@@ -59,26 +59,22 @@ def createSportZoneGame(cols, team, header=None):
         home_team = opponent_team
         away_team = degen_team
 
-    # Find game time
+    # Find game time & date
     dateText = cols[1].getText()
     timeText = cols[2].getText()
 
-    # Get day
+    ## Get date
     day_ret = int(dateText.split(" ")[2])
-
-    # Get month
     month_ret = translateMonth(dateText.split(" ")[1])
+    year = int(header.getText().split(" ")[1]) if header else 2024
 
-    # Get time
+    ## Get time
     hour = timeText.split(":")[0]
     minute = timeText.split(":")[1].split(" ")[0]
     meridiem = timeText.split(":")[1].split(" ")[1]
 
     hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
     minute_ret = int(minute)
-
-    # Get year
-    year = int(header.getText().split(" ")[1]) if header else 2024
 
     gametime = datetime.datetime(
         year, month_ret, day_ret, hour=hour_ret, minute=minute_ret)
