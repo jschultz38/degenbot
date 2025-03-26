@@ -31,7 +31,7 @@ def createSportZoneGame(cols, team, header=None):
     opponent_team = None
     away_score = None
     home_score = None
-    if ("Preview" in cols[-1].getText()):
+    if ("Final" not in cols[-1].getText()):
         opponent_team = cols[-4].getText()
     else:
         opponent_team = cols[5].getText()
