@@ -77,14 +77,6 @@ class RemoteStorageConnection():
         }
         return data
 
-    # def import_team_data(self):
-    #     return
-    #
-    # def update_team_data(self):
-    #     #add team
-    #     #remove team
-    #     #add or remove player from a team
-
     def update_seasons(self, league, new_season):
         collection = self.client['degendb']['seasons']
         collection.update_one(

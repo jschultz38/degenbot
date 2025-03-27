@@ -12,18 +12,16 @@ from cache.cache import main_caching_loop
 
 
 def main():
-    #TODO Close the connection
-    db = RemoteStorageConnection()
     # Read in team data
-    print("reading in json...", end="")
-
+    print("reading in team data...")
     team_data = None
-    #Delete this with statement
-    with open("res/team_data.json") as teams_file:
-        team_data = json.load(teams_file)
-    #TODO: Swap this to team_data
-    # team_data = db.get_team_data()
-    # db.client.close()
+    if ENABLE_REMOTE_JSON:
+        db = RemoteStorageConnection()
+        team_data = db.get_team_data()
+        db.client.close()
+    else:
+        with open("res/team_data.json") as teams_file:
+            team_data = json.load(teams_file)
 
     print('done')
 
