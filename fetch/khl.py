@@ -6,6 +6,7 @@ import time
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
+from utils.common import selenium_retrieve_website_data
 from utils.player import Suspension
 
 
@@ -27,25 +28,18 @@ def fetchKHLGames(team, seasons):
             KHL_BASE_URL = "https://krakenhockeyleague.com/"
             URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + \
                 team['season']
-            print(URL)
-            page = requests.get(URL)
-            if page.status_code != 200:
-                print('ERROR: Could not retrieve website: ' +
-                      str(page.reason) + ", " + str(page.status_code))
-                return games
-            soups.append(BeautifulSoup(page.content, "html.parser"))
+            print(f"Finding Game data for {URL}")
+            # Set up firefox webdriver
+            page_content = selenium_retrieve_website_data(URL)
+            soups.append(BeautifulSoup(page_content, "html.parser"))
         else:
             for season in seasons['khl']['current_seasons']:
                 KHL_BASE_URL = "https://krakenhockeyleague.com/"
                 URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(
                     season)
-                print(URL)
-                page = requests.get(URL)
-                if page.status_code != 200:
-                    print('ERROR: Could not retrieve website: ' +
-                          str(page.reason) + ", " + str(page.status_code))
-                    return games
-                soups.append(BeautifulSoup(page.content, "html.parser"))
+                print(f"Finding Game data for {URL}")
+                page_content = selenium_retrieve_website_data(URL)
+                soups.append(BeautifulSoup(page_content, "html.parser"))
 
         '''Update the logo_url
 
@@ -63,22 +57,29 @@ def fetchKHLGames(team, seasons):
             soup = BeautifulSoup(content, "html.parser")
 
     for soup in soups:
-        headers = soup.find_all('h1', attrs={
-                               'class': 'text-primary p2 text-uppercase mb-3 mt-4'})
-        tables = soup.find_all('table', attrs={
-                               'class': 'display table table-striped border-bottom text-muted table-fixed'})
-        for header, table in zip(headers, tables):
-            table_body = table.find('tbody')
-            rows = table_body.find_all('tr')
+        #Finds the Months to be able to identify each table of games
+        try:
+            headings = soup.find_all('h1', attrs={
+                                   'class': 'text-primary p2 text-uppercase mb-3 mt-4'})
+            #For Sportzone game schedules are broken into tables under each month
+            tables = soup.find_all('table',
+                                   class_="display table table-striped border-bottom text-muted table-fixed dataTable no-footer")
+            # Extract and print table data, fails more gracefully
+            for table in tables:
+                table_body = table.find("tbody")
+                if not table_body:
+                    continue
 
-            for row in rows:
-                cols = row.find_all('td')
+                rows = table_body.find_all("tr")
 
-                # khl uses sz backed website
-                game = createSportZoneGame(cols, team, header=header)
-                games.append(game)
-
-        team['cache'] = games
+                #iterates through the schedule table by row and pulls each column into a list
+                for heading, row in zip(headings, rows):
+                    cols = row.find_all("td")
+                    game = createSportZoneGame(cols, team, heading=heading)
+                    games.append(game)
+            team['cache'] = games
+        except Exception as e:
+            print(f"There was an issue getting game data: {e}")
 
     return games
 

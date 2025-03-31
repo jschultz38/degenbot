@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 
 def translateMonth(month_text):
@@ -57,3 +59,17 @@ def realToMilitaryTime(time_int, meridiem):
         return 12;
 
     return time_int if meridiem == "AM" else time_int + 12
+
+def selenium_retrieve_website_data(url):
+    try:
+        options = Options()
+        options.add_argument("-headless")
+        driver = webdriver.Firefox(options=options)
+        driver.get(url)
+        driver.implicitly_wait(5)
+        page_content = driver.page_source
+        driver.close()
+        return page_content
+    except Exception as e:
+        print (f"Error getting site data using selenium: {e}")
+        return
