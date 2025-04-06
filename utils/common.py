@@ -63,12 +63,12 @@ def realToMilitaryTime(time_int, meridiem):
 def selenium_retrieve_website_data(url):
     try:
         options = Options()
-        options.add_argument("-headless")
+        options.add_argument("--headless")
         driver = webdriver.Firefox(options=options)
         driver.get(url)
         driver.implicitly_wait(5)
         page_content = driver.page_source
-        driver.close()
+        driver.quit()
         return page_content
     except Exception as e:
         print (f"Error getting site data using selenium: {e}")

@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
+from utils.common import selenium_retrieve_website_data
 from utils.hockey_game import HockeyGame
 
 
@@ -30,7 +31,7 @@ def fetchPrideGamesBySchedule(team):
     if page.status_code != 200:
         print('ERROR: Could not retrieve website: ' +
               str(page.reason) + ", " + str(page.status_code))
-        return games
+        page = selenium_retrieve_website_data(URL)
     soup = BeautifulSoup(page.content, "html.parser")
 
     tables = soup.find_all('table', attrs={'class': 'table text-muted mb-0'})
