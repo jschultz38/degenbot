@@ -66,7 +66,7 @@ def selenium_retrieve_website_data(url):
         options.add_argument("--headless")
         driver = webdriver.Firefox(options=options)
         driver.get(url)
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(2)
         page_content = driver.page_source
         driver.quit()
         return page_content

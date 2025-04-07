@@ -27,13 +27,19 @@ def fetchPrideGamesBySchedule(team):
     games = []
     URL = 'https://stats.seattlepridehockey.org/schedule'
     print(URL)
-    page = requests.get(URL)
-    if page.status_code != 200:
-        print('ERROR: Could not retrieve website: ' +
-              str(page.reason) + ", " + str(page.status_code))
-        page = selenium_retrieve_website_data(URL)
-    soup = BeautifulSoup(page.content, "html.parser")
+    try:
+        page = requests.get(URL)
+        page.raise_for_status()
+    except requests.exceptions.RequestException as e:
+        print(f'ERROR: Could not retrieve website: {e}')
+        try:
+            print("Attempting with Selenium...")
+            page = selenium_retrieve_website_data(URL)
+        except Exception as selenium_error:
+            print(f'Selenium also failed: {selenium_error}')
+            return
 
+    soup = BeautifulSoup(page.content, "html.parser")
     tables = soup.find_all('table', attrs={'class': 'table text-muted mb-0'})
 
     for table in tables:
