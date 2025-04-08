@@ -30,16 +30,6 @@
 			"league": "KHL"
 		},
 		{
-			"name": "Cyber Puck",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/CYBERPUK_PNG.png",
-			"id": "14170",
-			"players": [
-				"Marty",
-				"Malikai"
-			],
-			"league": "KHL"
-		},
-		{
 			"name": "Rainier Reindeers HC-9",
 			"logo_url" : "https://krakenhockeyleague.com/hockey/images/teamlogos100/rainier%20reindeer%20badge(1).jpg",
 			"id": "11256",
@@ -122,27 +112,26 @@
 			"players": [
 				"JP",
 				"Jazz",
-				"Blair",
 				"Andy"
-			],
-			"league": "SD"
-		},
-		{
-			"name": "SPHL Hustle",
-			"logo_url": "https://stats.seattlepridehockey.org/hockey/images/teamlogos100/Hustle%20icon.png",
-			"id": "410",
-			"players": [
-				"Malikai",
-				"Jazz"
 			],
 			"league": "Pride"
 		},
 		{
-			"name": "SPHL Heart",
-			"logo_url": "https://stats.seattlepridehockey.org/hockey/images/teamlogos100/Heart%20icon.png",
-			"id": "411",
+			"name": "Team Speed",
+			"logo_url": "https://imagedelivery.net/ErrQpIaCOWR-Tz51PhN1zA/2f9fdf90-c1f9-44b5-aa6c-b8ab7461d700/256",
+			"id": "354539",
 			"players": [
-				"Blair"
+				"Jeremy"
+			],
+			"league": "Pride"
+		},
+		{
+			"name": "Team Passion",
+			"logo_url": "https://stats.seattlepridehockey.org/hockey/images/teamlogos100/Heart%20icon.png",
+			"id": "354540",
+			"players": [
+				"Blair",
+				"Nelson"
 			],
 			"league": "Pride"
 		},
@@ -161,14 +150,13 @@
 				"Andy",
 				"Robee",
 				"Marty",
-				"Jen",
 				"Samantha"			],
 			"league": "SKAHL Pond"
 		},
 		{
-			"name": "Screaming Firehawks",
-			"logo_url": "https://lh3.googleusercontent.com/pw/AP1GczOHkBF1OR6_2bhI-UJ6zP3mbrry-TiklNmwaKuDfNMrYQjfYEQWNxB-DmI3Ed-6n7eKQBYaKrUITu2R8vPinpKrdUwct6N-nnTsIe595rRi9uW_KTxc5RXGEZlWNGHUjtt9kmROE2DLreAWt05kpkm_=w300-h203-s-no-gm?authuser=0",
-			"id": "3068",
+			"name": "Trash Pondas",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/final_bandit.png",
+			"id": "2501",
 			"players": [
 				"Jeremy"
 			],

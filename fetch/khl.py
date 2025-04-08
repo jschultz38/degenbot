@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import datetime
 import urllib.parse as urlparse
 import time
+from requests_html import HTMLSession
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
@@ -22,24 +23,24 @@ def fetchKHLGames(team, seasons):
 
     if not TEST_MODE:
         soups = []
-
-        '''Handle one off tournament teams'''
-        if 'season' in team:
+        for season in seasons['khl']['current_seasons']:
             KHL_BASE_URL = "https://krakenhockeyleague.com/"
-            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + \
-                team['season']
+            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(
+                season)
             print(f"Finding Game data for {URL}")
-            # Set up firefox webdriver
-            page_content = selenium_retrieve_website_data(URL)
+            try:
+                page = requests.get(URL)
+                page_content = page.content
+                page.raise_for_status()
+            except requests.exceptions.RequestException as e:
+                print(f'ERROR: Could not retrieve website: {e}')
+                try:
+                    print("Attempting with Selenium...")
+                    page_content = selenium_retrieve_website_data(URL)
+                except Exception as selenium_error:
+                    print(f'Selenium also failed: {selenium_error}')
+                    return
             soups.append(BeautifulSoup(page_content, "html.parser"))
-        else:
-            for season in seasons['khl']['current_seasons']:
-                KHL_BASE_URL = "https://krakenhockeyleague.com/"
-                URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(
-                    season)
-                print(f"Finding Game data for {URL}")
-                page_content = selenium_retrieve_website_data(URL)
-                soups.append(BeautifulSoup(page_content, "html.parser"))
 
         '''Update the logo_url
 
