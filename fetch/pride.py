@@ -70,9 +70,8 @@ def createPrideGameBySchedule(game_data, team):
         # This is a completed game with scores
         parts = game_data['details'].split()
         result = parts[0]  # 'W' or 'L'
-        score_parts = parts[1].split('-')
-        away_score = int(score_parts[0])
-        home_score = int(score_parts[1])
+        away_score = int(parts[1])
+        home_score = int(parts[3])
     else:
         result = None
         home_score = None
