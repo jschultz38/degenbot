@@ -88,7 +88,7 @@ def createPrideGameBySchedule(game_data, team):
         location,
         home_team,
         away_team,
-        side == 'HOME',
+        side,
         home_score=home_score,
         away_score=away_score,
         result = result
