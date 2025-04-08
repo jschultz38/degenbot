@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import datetime
 import urllib.parse as urlparse
 import time
-from requests_html import HTMLSession
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
