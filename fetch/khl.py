@@ -61,23 +61,19 @@ def fetchKHLGames(team, seasons):
         try:
             headings = soup.find_all('h1', attrs={
                                    'class': 'text-primary p2 text-uppercase mb-3 mt-4'})
-            #For Sportzone game schedules are broken into tables under each month
-            tables = soup.find_all('table',
-                                   class_="display table table-striped border-bottom text-muted table-fixed dataTable no-footer")
-            # Extract and print table data, fails more gracefully
-            for table in tables:
-                table_body = table.find("tbody")
-                if not table_body:
-                    continue
-
-                rows = table_body.find_all("tr")
-
-                #iterates through the schedule table by row and pulls each column into a list
-                for heading, row in zip(headings, rows):
-                    cols = row.find_all("td")
-                    game = createSportZoneGame(cols, team, heading=heading)
-                    games.append(game)
+            #For Sportzone game schedules are broken into tables under each month, the tables with games all have ids, starting at 0
+            for i, heading in enumerate(headings):
+                game_table = soup.select_one(f'#DataTables_Table_{i}')
+                if game_table:
+                    tbody = game_table.find('tbody')
+                    if tbody:
+                        game_rows = tbody.find_all('tr')
+                        for row in game_rows:
+                            cols = row.find_all("td")
+                            game = createSportZoneGame(cols, team, heading=heading)
+                            games.append(game)
             team['cache'] = games
+
         except Exception as e:
             print(f"There was an issue getting game data: {e}")
 
