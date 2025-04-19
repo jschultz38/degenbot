@@ -114,7 +114,7 @@
 				"Jazz",
 				"Andy"
 			],
-			"league": "Pride"
+			"league": "SDHL"
 		},
 		{
 			"name": "Team Speed",
@@ -122,6 +122,17 @@
 			"id": "354539",
 			"players": [
 				"Jeremy"
+			],
+			"league": "Pride"
+		},
+		{
+			"name": "Team Hustle",
+			"logo_url": "https://imagedelivery.net/ErrQpIaCOWR-Tz51PhN1zA/2f9fdf90-c1f9-44b5-aa6c-b8ab7461d700/256",
+			"id": "354538",
+			"players": [
+				"Malikai",
+				"Andy",
+				"Jazz"
 			],
 			"league": "Pride"
 		},
