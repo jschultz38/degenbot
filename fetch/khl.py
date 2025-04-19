@@ -22,15 +22,15 @@ def fetchKHLGames(team, seasons):
 
     if not TEST_MODE:
         soups = []
-        for season in seasons['khl']['current_seasons']:
-            KHL_BASE_URL = "https://krakenhockeyleague.com/"
-            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season=' + str(
-                season)
-            print(f"Finding Game data for {URL}")
+        seasons_to_check = [team['season']] if 'season' in team else seasons['khl']['current_seasons']
+        KHL_BASE_URL = "https://krakenhockeyleague.com/"
+        for season in seasons_to_check:
+            URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season={season}'
+            print(f"Finding Game data for {URL}" if len(seasons_to_check) > 1 else URL)
             try:
                 page = requests.get(URL)
-                page_content = page.content
                 page.raise_for_status()
+                page_content = page.content
             except requests.exceptions.RequestException as e:
                 print(f'ERROR: Could not retrieve website: {e}')
                 try:
