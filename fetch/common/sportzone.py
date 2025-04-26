@@ -66,7 +66,7 @@ def createSportZoneGame(cols, team, heading=None):
     ## Get date
     day_ret = int(dateText.split(" ")[2])
     month_ret = translateMonth(dateText.split(" ")[1])
-    #Using the heading from the schedule to figure out the year.
+    # Using the heading from the schedule to figure out the year.
     year = int(heading.getText().split(" ")[1]) if heading else 2024
 
     ## Get time

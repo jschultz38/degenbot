@@ -12,7 +12,8 @@ ENABLE_SUSPENSIONS = True
 '''True to use remote db'''
 ENABLE_REMOTE_STORAGE = True
 
-ENABLE_REMOTE_JSON = False
+'''Use selenium as a backup for when requests are blocked'''
+ENABLE_SELENIUM = True
 
 '''Puts bot in test mode, which doesn't make any http requests and only uses a
 saved .html file for a single team for player Jarrett. Only really useful if you

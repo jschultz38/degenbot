@@ -15,7 +15,7 @@ def main():
     # Read in team data
     print("reading in team data...")
     team_data = None
-    if ENABLE_REMOTE_JSON:
+    if ENABLE_REMOTE_STORAGE:
         db = RemoteStorageConnection()
         team_data = db.get_team_data()
         db.client.close()

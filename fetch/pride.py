@@ -63,7 +63,6 @@ def createPrideGameBySchedule(game_data, team):
     if home_team != team['name'] and away_team != team['name']:
         return None
     is_degen_home = home_team == team['name']
-    side = 'HOME' if is_degen_home else 'AWAY'
 
     # Check for a game score
     if any(c.isdigit() for c in game_data['details']) and '-' in game_data['details']:
@@ -87,7 +86,7 @@ def createPrideGameBySchedule(game_data, team):
         location,
         home_team,
         away_team,
-        side,
+        is_degen_home,
         home_score=home_score,
         away_score=away_score,
         result = result

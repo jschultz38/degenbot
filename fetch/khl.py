@@ -6,7 +6,7 @@ import time
 
 from globals import TEST_MODE
 from fetch.common.sportzone import createSportZoneGame
-from utils.common import selenium_retrieve_website_data
+from utils.common import selenium_retrieve_website_data, fetch_url_content
 from utils.player import Suspension
 
 
@@ -22,23 +22,12 @@ def fetchKHLGames(team, seasons):
 
     if not TEST_MODE:
         soups = []
+        # Check for one-off tournament teams that are unique from the current khl season
         seasons_to_check = [team['season']] if 'season' in team else seasons['khl']['current_seasons']
         KHL_BASE_URL = "https://krakenhockeyleague.com/"
         for season in seasons_to_check:
             URL = f'{KHL_BASE_URL}team/{team["id"]}/schedule/?season={season}'
-            print(f"Finding Game data for {URL}" if len(seasons_to_check) > 1 else URL)
-            try:
-                page = requests.get(URL)
-                page.raise_for_status()
-                page_content = page.content
-            except requests.exceptions.RequestException as e:
-                print(f'ERROR: Could not retrieve website: {e}')
-                try:
-                    print("Attempting with Selenium...")
-                    page_content = selenium_retrieve_website_data(URL)
-                except Exception as selenium_error:
-                    print(f'Selenium also failed: {selenium_error}')
-                    return
+            page_content = fetch_url_content(URL)
             soups.append(BeautifulSoup(page_content, "html.parser"))
 
         '''Update the logo_url
@@ -57,11 +46,11 @@ def fetchKHLGames(team, seasons):
             soup = BeautifulSoup(content, "html.parser")
 
     for soup in soups:
-        #Finds the Months to be able to identify each table of games
+        # Finds the Months to be able to identify each table of games
         try:
             headings = soup.find_all('h1', attrs={
                                    'class': 'text-primary p2 text-uppercase mb-3 mt-4'})
-            #For Sportzone game schedules are broken into tables under each month, the tables with games all have ids, starting at 0
+            # For Sportzone game schedules are broken into tables under each month, the tables with games all have ids, starting at 0
             for i, heading in enumerate(headings):
                 game_table = soup.select_one(f'#DataTables_Table_{i}')
                 if game_table:
