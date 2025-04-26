@@ -16,7 +16,7 @@ a rotating order (1->2->3->1->etc.). The stages are:
 3. refresh the cache - if we receive ~restart_caching_event~, refresh all entries in the cache
 '''
 
-
+# This is where the initial crawl happens
 def main_caching_loop(team_data, restart_caching_event):
     # Delay a bit so that the bot gets started up properly
     sleep(5)

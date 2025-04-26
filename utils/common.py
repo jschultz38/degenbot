@@ -1,5 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from globals import ENABLE_SELENIUM
 
 
 def translateMonth(month_text):
@@ -57,3 +60,41 @@ def realToMilitaryTime(time_int, meridiem):
         return 12;
 
     return time_int if meridiem == "AM" else time_int + 12
+
+def fetch_url_content(url):
+    print(f"Finding Game data for {url} via requests")
+    page_content = requests_retrieve_website_data(url)
+
+    if (ENABLE_SELENIUM and page_content == None):
+        print("Failure")
+        print("Trying selenium")
+        page_content = selenium_retrieve_website_data(url)
+
+    print("Success")
+
+    return page_content
+
+def requests_retrieve_website_data(url):
+    try:
+        page = requests.get(url)
+        page.raise_for_status()
+        page_content = page.content
+        return page_content
+    except requests.exceptions.RequestException as e:
+        print(f'ERROR: Could not retrieve website via requests: {e}')
+        return None
+
+def selenium_retrieve_website_data(url):
+    options = Options()
+    options.add_argument("--headless")
+    driver = webdriver.Firefox(options=options)
+    try:
+        driver.get(url)
+        driver.implicitly_wait(2)
+        page_content = driver.page_source
+        return page_content
+    except Exception as e:
+        print (f"ERROR: Could not retrieve website via selenium: {e}")
+        return None
+    finally:
+        driver.quit()
