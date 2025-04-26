@@ -192,14 +192,12 @@
 			"league": "KHL"
 		},
 		{
-			"name": "Degens",
+			"name": "Degens Tournament Team",
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Degens.png",
 			"id": "16462",
 			"players": [
 				"Phantasia",
-				"Jeremy",
 				"James Riley",
-				"Andy",
 				"Pat",
 				"John",
 				"Kirsten",
@@ -207,10 +205,31 @@
 				"Jazz",
 				"David",
 				"Marty",
-				"Robee"
+				"Robee",
+				"Oreo"
 			],
 			"league": "KHL",
-			"season": "2119"
+			"season": "2128"
+		},
+		{
+			"name": "Chirpy AF",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Stickers_For_Chirpy_AF(1).png",
+			"id": "16462",
+			"players": [
+				"Jeremy"
+			],
+			"league": "KHL",
+			"season": "2128"
+		},
+		{
+			"name": "Ice Loongs",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Ice%20Loons(1).jpg",
+			"id": "16462",
+			"players": [
+				"Andy"
+			],
+			"league": "KHL",
+			"season": "2128"
 		},
 		{
 			"name": "Scrooge McPuck",
