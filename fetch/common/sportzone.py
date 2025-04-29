@@ -74,7 +74,11 @@ def createSportZoneGame(cols, team, heading=None):
     minute = timeText.split(":")[1].split(" ")[0]
     meridiem = timeText.split(":")[1].split(" ")[1]
 
-    hour_ret = int(hour) if meridiem == "AM" else int(hour) + 12
+#handle 12pm games
+    hour_ret = (
+        int(hour) % 12 if meridiem == "AM" else
+        int(hour) % 12 + 12
+    )
     minute_ret = int(minute)
 
     gametime = datetime.datetime(
