@@ -15,7 +15,6 @@
 			"id": "14166",
 			"players": [
 				"Malikai",
-				"John",
 				"Marty"
 			],
 			"league": "KHL"
@@ -79,29 +78,11 @@
 			"league": "KHL"
 		},
 		{
-			"name": "LKI 7",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/LKI7.png",
-			"id": "5119",
-			"players": [
-				"David"
-			],
-			"league": "KHL"
-		},
-		{
 			"name": "Seattle Supernova",
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Supernova%20Logo%20With%20Background.png",
 			"id": "13345",
 			"players": [
 				"Frankie"
-			],
-			"league": "KHL"
-		},
-		{
-			"name": "Wolves",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/wolves.png",
-			"id": "495",
-			"players": [
-				"Robee"
 			],
 			"league": "KHL"
 		},
@@ -159,9 +140,12 @@
 				"Blair",
 				"Malikai",
 				"Andy",
-				"Robee",
 				"Marty",
-				"Samantha"			],
+				"Jazz",
+				"Kyle",
+				"Nelson",
+				"James"
+			],
 			"league": "SKAHL Pond"
 		},
 		{
@@ -241,15 +225,6 @@
 			"league": "KHL"
 		},
 		{
-			"name": "Night Owls",
-			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/owls.png",
-			"id": "2378",
-			"players": [
-				"Robee"
-			],
-			"league": "KHL"
-		},
-		{
 			"name": "Roughnecks",
 			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/roughnecks-logo.png",
 			"id": "11531",
@@ -275,6 +250,51 @@
 			"id": "9573",
 			"players": [
 				"Nelson"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "MMHC",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/MMHC%20logo.jpg",
+			"id": "474",
+			"players": [
+				"Terran"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Pheasants",
+			"logo_url": "https://krakenhockeyleague.com/assets/9941/team_logo.png",
+			"id": "10598",
+			"players": [
+				"Terran"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Hungry Hatchlings",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Hungry%20Hatchlings.png",
+			"id": "10601",
+			"players": [
+				"David"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Skateful Dead",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Skeleton-Dude-01.PNG",
+			"id": "11263",
+			"players": [
+				"Robee"
+			],
+			"league": "KHL"
+		},
+		{
+			"name": "Chiefs",
+			"logo_url": "https://krakenhockeyleague.com/hockey/images/teamlogos100/Chiefs(3).png",
+			"id": "9275",
+			"players": [
+				"Robee"
 			],
 			"league": "KHL"
 		}
